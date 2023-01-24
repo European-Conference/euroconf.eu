@@ -6,7 +6,3 @@
 
 [build.environment]
   HUGO_VERSION = "0.101.0"
-
-[[plugins]]
-  [plugins.inputs]
-    enable = false
