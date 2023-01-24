@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+body {
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+}
+
+#content {
+}
+
+.center {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #b7133e;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  margin: 20px auto;
+}
+
+img#logo {
+  height: 80px;
+  width: auto;
+  padding-right: 50px;
+}
+
+h1 span.subtitle {
+  padding-left: 20px;
+  font-size: 60%;
+}
+
+footer {
+  background: #b7133e;
+  color: white;
+  min-height: 400px;
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 80%;
+  padding-top: 20px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.speaker {
+  float: left;
+  background-size: cover;
+  min-height: 300px;
+  position: relative;
+  border-left: 10px solid white;
+  box-sizing: border-box;
+}
+
+.speaker-description {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  padding-top: 40px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(183, 19, 62, 0.1) 0%,
+    rgba(183, 19, 62, 0.8) 33%,
+    rgba(183, 19, 62, 1) 100%
+  );
+  font-size: 110%;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.speaker-description a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.speaker-description a:hover {
+  text-decoration: underline;
+}
+
+.speaker-bio {
+  font-size: 70%;
+}
