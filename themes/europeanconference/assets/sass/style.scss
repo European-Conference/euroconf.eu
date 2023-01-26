@@ -13,7 +13,9 @@ body {
   margin: 0 auto;
 }
 
-$header-height: 140px;
+$header-height: 200px;
+$responsive-medium: 900px;
+$responsive-small: 600px;
 
 header {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)),
@@ -34,6 +36,9 @@ header {
     display: flex;
     align-items: center;
     #logo {
+      height: 80px;
+      width: auto;
+      padding-right: 50px;
       padding: 0 20px;
     }
 
@@ -55,6 +60,17 @@ header {
   }
 }
 
+@media (max-width: $responsive-medium) {
+  header h1 {
+    font-size: 160%;
+  }
+
+  img#logo {
+    height: 60px !important;
+    width: auto !important;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -65,8 +81,10 @@ body {
 }
 
 .nav {
-  height: 50px;
+  height: 100%;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .nav > .nav-btn {
@@ -94,12 +112,12 @@ body {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: $responsive-small) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 80px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
@@ -158,12 +176,6 @@ nav a:hover {
 
 nav {
   margin: 20px auto;
-}
-
-img#logo {
-  height: 80px;
-  width: auto;
-  padding-right: 50px;
 }
 
 footer {
