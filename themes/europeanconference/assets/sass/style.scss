@@ -3,9 +3,6 @@ body {
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
 }
 
-#content {
-}
-
 .center {
   justify-content: center;
   margin: 0 auto;
@@ -80,16 +77,16 @@ footer p {
   font-size: 110%;
   text-align: center;
   padding-left: 5px;
-}
 
-.speaker-description a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 
-.speaker-description a:hover {
-  text-decoration: underline;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .speaker-bio {

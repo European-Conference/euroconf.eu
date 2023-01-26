@@ -12,6 +12,14 @@
     href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
   />
 
+  {{ $sass := resources.Get "/sass/style.scss" }} {{ $style := $sass |
+  resources.ToCSS | resources.Fingerprint }}
+  <link
+    rel="stylesheet"
+    href="{{ $style.Permalink }}"
+    integrity="{{ $style.Data.Integrity }}"
+  />
+
   <link rel="stylesheet" type="text/css" href="/css/style.css" />
 
   {{ $title := print .Site.Title " | " .Title }} {{ if .IsHome }}{{ $title =
