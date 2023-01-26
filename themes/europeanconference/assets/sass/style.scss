@@ -82,7 +82,6 @@ body {
 
 .nav {
   height: 100%;
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -136,10 +135,10 @@ body {
     border-top: 2px solid #b7133e;
   }
   .nav > .nav-links {
-    position: fixed;
+    position: absolute;
     display: block;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.85);
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -155,7 +154,7 @@ body {
     height: 0px;
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
+    height: auto;
     overflow-y: auto;
   }
 }
