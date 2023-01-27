@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:wght@300&display=swap");
 
-body {
-  font-family: "Merriweather", "Ubuntu", Helvetica, Arial, sans-serif;
+html {
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  background: #b7133e;
 }
 
 ::selection {
@@ -13,7 +14,7 @@ body {
   margin: 0 auto;
 }
 
-$header-height: 200px;
+$header-height: 160px;
 $responsive-medium: 900px;
 $responsive-small: 600px;
 
@@ -77,7 +78,6 @@ header {
 
 body {
   margin: 0px;
-  font-family: "segoe ui";
 }
 
 .nav {
@@ -178,10 +178,8 @@ nav {
 }
 
 footer {
-  background: #b7133e;
   color: white;
-  min-height: 400px;
-  margin-top: 50px;
+  padding: 20px;
 }
 
 footer p {
@@ -191,16 +189,16 @@ footer p {
   margin: 0 auto;
 }
 
-.speaker {
+.person {
   float: left;
   background-size: cover;
   min-height: 300px;
   position: relative;
-  border-left: 10px solid white;
+  border: 5px solid white;
   box-sizing: border-box;
 }
 
-.speaker-description {
+.person-description {
   position: absolute;
   color: white;
   bottom: 0;
@@ -209,9 +207,9 @@ footer p {
   right: 0;
   background: linear-gradient(
     180deg,
-    rgba(183, 19, 62, 0.1) 0%,
-    rgba(183, 19, 62, 0.8) 33%,
-    rgba(183, 19, 62, 1) 100%
+    rgba(183, 19, 62, 0) 0%,
+    rgba(183, 19, 62, 0.4) 20%,
+    rgba(183, 19, 62, 0.8) 100%
   );
   font-size: 110%;
   text-align: center;
@@ -228,6 +226,151 @@ footer p {
   }
 }
 
-.speaker-bio {
+.person:hover .person-name {
+  text-decoration: underline;
+}
+
+.person-bio {
   font-size: 70%;
+}
+
+.person-keynote {
+  display: block;
+  margin-top: 2px;
+  font-style: italic;
+  font-size: 60%;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 140%;
+}
+
+h3,
+h4 {
+  font-size: 140%;
+}
+
+h4 {
+  font-style: italic;
+}
+
+a {
+  color: #b7133e;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#tickets-btn {
+  font-weight: bold;
+  font-size: 120%;
+  background-color: #b7133e;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+body > .pure-g {
+  background: linear-gradient(
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 1)
+    ),
+    url("/europe.png");
+  background-size: cover;
+}
+
+#profile {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  #profile-picture {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid white;
+    box-sizing: border-box;
+    flex-basis: auto;
+  }
+
+  #profile-content {
+    flex-grow: 1;
+  }
+
+  #profile-name {
+    text-align: center;
+    font-size: 160%;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  #profile-bio {
+    text-align: center;
+    font-size: 120%;
+    margin-top: 20px;
+  }
+}
+.profile-keynote {
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+  color: #b7133e;
+}
+
+table,
+th,
+td {
+  padding: 5px;
+  margin: 10px auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.student-orgs {
+  text-align: center;
+  margin: 20px auto;
+
+  img {
+    height: 100px;
+    width: auto;
+    margin: 10px;
+  }
+}
+
+footer .student-orgs {
+  background: white;
+  width: auto;
+  max-width: 500px;
+}
+footer .student-orgs img {
+  background: rgba(255, 255, 255, 0.8);
+  height: 60px;
+  width: auto;
+}
+
+.socials {
+  span {
+    display: block;
+    font-weight: bold;
+  }
+  text-align: center;
+  img {
+    vertical-align: middle;
+    height: 20px;
+    width: auto;
+    margin: 10px;
+  }
+}
+
+.disclaimer {
+  text-align: center;
+  font-size: 60%;
 }

@@ -1,0 +1,4 @@
+<div class="pure-g speakers">
+  {{ range (where (where .Site.RegularPages "Section" "speakers")
+  "Params.keynote" true)}} {{partial "person.html" .}} {{end}}
+</div>

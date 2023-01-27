@@ -1,6 +1,14 @@
 {{ define "main" }}
 
 <h2>{{.Params.Name}}</h2>
-{{ $image := index (.Resources.ByType "image") 0 }}
-<img src="{{$image.RelPermalink}}" />
-{{ .Content }} {{ end }}
+<p class="profile-keynote">Keynote Speaker</span>
+<div id="profile">
+  {{ $image := index (.Resources.ByType "image") 0 }}
+  <img id="profile-picture" src="{{$image.RelPermalink}}" />
+  <div id="profile-content">
+    {{ if .Params.Keynote }}
+    {{ end }}
+    <div id="profile-bio">{{ .Content }}</div>
+  </div>
+</div>
+{{ end }}
