@@ -9,4 +9,4 @@ Mr. Joe *Testperson* is the official tester of the eu, blah blah blah.
 
 blah blah blah
 
-blah
+This is the updated bio of Mr. Testperson.
