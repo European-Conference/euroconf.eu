@@ -36,6 +36,10 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
+    &:hover {
+      text-decoration: none;
+    }
+
     #logo {
       height: 80px;
       width: auto;
@@ -145,6 +149,7 @@ body {
     top: $header-height;
     left: 0px;
     text-align: center;
+    z-index: 100;
   }
   .nav > .nav-links > a {
     display: block;
