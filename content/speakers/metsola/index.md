@@ -1,8 +1,12 @@
 ---
-name: "Roberta Metsola"
-role: "President of the European Parliment"
-keynote: true
+name: Joe Testperson
+role: Official Tester of the EU
+keynote: false
 show: true
 ---
 
-Roberta Metsola is the president of the European Parliment, blah blah.
+Mr. Joe *Testperson* is the official tester of the eu, blah blah blah.
+
+blah blah blah
+
+This is the updated bio of Mr. Testperson.
