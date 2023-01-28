@@ -1,6 +1,7 @@
 # <img src="https://europeanconference.netlify.app/ec-logo.png" width="40"> European Conference Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/14db467d-a77e-46e2-a28b-27e538968f34/deploy-status)](https://app.netlify.com/sites/europeanconference/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0032510c-1c3d-4c10-a799-0cb7095c8ba9/deploy-status)](https://app.netlify.com/sites/monumental-licorice-2442d5/deploys)
+
 
 **[euroconf.eu](https://euroconf.eu)**
 
