@@ -109,6 +109,16 @@ body {
   &:hover {
     text-decoration: underline;
   }
+
+  &.is-active {
+    background: #b7133fed;
+    border-radius: 2px;
+    color: white;
+    text-shadow: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
 
 .nav > #nav-check {
@@ -184,13 +194,24 @@ nav {
 footer {
   color: white;
   padding: 20px;
-}
+  p {
+    text-align: center;
+    font-size: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
 
-footer p {
-  text-align: center;
-  font-size: 80%;
-  padding-top: 20px;
-  margin: 0 auto;
+  .footer-menu {
+    font-size: 80%;
+    text-align: center;
+    a {
+      color: white;
+      padding: 0 10px;
+      &:not(:last-child) {
+        border-right: 1px solid white;
+      }
+    }
+  }
 }
 
 .person {
@@ -276,11 +297,22 @@ a {
 #tickets-btn {
   font-weight: bold;
   font-size: 120%;
-  background-color: #b7133e;
   padding-left: 30px;
   padding-right: 30px;
 }
 
+.pure-button-primary {
+  background-color: #b7133e !important;
+}
+
+form.remind-me fieldset {
+  text-align: center;
+}
+
+.disclaimer {
+  font-size: 60%;
+  font-style: italic;
+}
 body > .pure-g {
   background: linear-gradient(
       rgba(255, 255, 255, 1),

@@ -19,11 +19,14 @@
     </div>
 
     <div class="nav-links">
-      <a href="/" class="">Home</a>
-      <a href="/speakers/">Speakers</a>
-      <a href="/schedule/">Schedule</a>
-      <a href="/organizers/">Organizers</a>
-      <a href="/contact/">Contact</a>
+      {{ $currentPage := . }}
+
+      {{ range .Site.Menus.main }}
+
+      <a href="{{ .URL }}"
+      class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}"
+      >{{ .Name }}</a>
+      {{end}}
     </div>
   </div>
 </header>

@@ -23,4 +23,10 @@
     <img src="/hls.png" alt="Harvard Law School European Caucus" />
     <img src="/hks.png" alt="Harvard Kennedy School European Caucus" />
   </div>
+
+  <div class="footer-menu">
+    {{ range .Site.Menus.footer }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{end}}
+  </div>
 </footer>
