@@ -8,7 +8,9 @@
   <div id="profile-content">
     {{ if .Params.Keynote }}
     {{ end }}
-    <div id="profile-bio">{{ .Content }}</div>
+    <div id="profile-bio">
+      <h3>{{ .Params.Role }}</h3>
+      <p>{{ .Content }}</p></div>
   </div>
 </div>
 {{ end }}
