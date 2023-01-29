@@ -1,0 +1,43 @@
+baseURL: http://hugo-quickstart-template.netlify.com
+languageCode: en-us
+title: European Conference
+theme: europeanconference
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+menu:
+  main:
+    - name: Home
+      url: /
+      pageRef: /
+      weight: 10
+    - name: Attend
+      url: /attend/
+      pageRef: attend
+      weight: 15
+    - name: Speakers
+      url: /speakers
+      pageRef: speakers
+      weight: 20
+    - name: Schedule
+      url: /schedule
+      pageRef: schedule
+      weight: 30
+    - name: Organizers
+      url: /organizers
+      pageRef: organizers
+      weight: 40
+  footer:
+    - name: Contact
+      url: /contact
+      weight: 10
+    - name: Privacy
+      url: /privacy
+      weight: 20
+    - name: Terms
+      url: /terms
+      weight: 30
+    - name: Sponsors
+      url: /sponsors
+      weight: 15
