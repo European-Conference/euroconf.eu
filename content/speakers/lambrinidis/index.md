@@ -1,7 +1,7 @@
 ---
 name: H.E. Stavros Lambrinidis
 role: Ambassador of the European Union to the United States
-keynote: false
+keynote: true
 show: true
 ---
 
