@@ -4,22 +4,4 @@ title: "Schedule"
 
 ## Schedule
 
-<table id='schedule'>
-<tbody>
-<th>
-<td>Friday, March 24<sup>th</td>
-<td>Saturday, March 25<sup>th</td>
-</th>
-<tr>
-<td>9:00</td>
-<td>Keynote Speech</td>
-<td>Keynote Speech</td>
-</tr>
-
-<td>10:00</td>
-<td>Panel 1</td>
-<td>Panel 2</td>
-</tr>
-
-</tbody>
-</table>
+The conference will take place in Cambridge, MA on the 24th and 25th of March 2023. A more detailed schedule will be announced soon.
