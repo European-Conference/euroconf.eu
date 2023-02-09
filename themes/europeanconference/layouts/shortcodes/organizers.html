@@ -1,0 +1,4 @@
+<div class="pure-g organizers">
+  {{ range (where .Site.RegularPages "Section" "organizers")}} {{partial
+  "person.html" .}} {{end}}
+</div>
