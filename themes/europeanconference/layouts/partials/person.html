@@ -1,9 +1,10 @@
 {{ $image := index (.Resources.ByType "image") 0 }}
-<a
-  href="{{.RelPermalink}}"
-  class="pure-u-md-1-3 pure-u-1-1 person"
-  style="background-image: url('{{$image.RelPermalink}}')"
->
+<a href="{{.RelPermalink}}" class="pure-u-md-1-3 pure-u-1-1 person">
+  <img
+    class="person-image"
+    src="{{$image.RelPermalink}}"
+    alt="{{.Params.Name}}"
+  />
   <div class="person-description">
     <span class="person-name">{{.Params.Name}}</span>
     {{ if .Params.Keynote }}

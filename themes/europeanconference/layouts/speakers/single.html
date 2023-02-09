@@ -4,10 +4,8 @@
 <p class="profile-keynote">Keynote Speaker</span>
 <div id="profile">
   {{ $image := index (.Resources.ByType "image") 0 }}
-  <img id="profile-picture" src="{{$image.RelPermalink}}" />
+  <div id="profile-picture"> <img src="{{$image.RelPermalink}}" /> </div>
   <div id="profile-content">
-    {{ if .Params.Keynote }}
-    {{ end }}
     <div id="profile-bio">
       <h3>{{ .Params.Role }}</h3>
       <p>{{ .Content }}</p></div>
