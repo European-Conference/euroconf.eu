@@ -1,0 +1,16 @@
+<div class="schedule-event {{ .event.type }}">
+  <div class="event-info">
+    <span class="event-title"> {{.event.content}} </span>
+    <span class="event-speakers">
+      {{ range $i, $s := .event.speakers}} {{if $i}},{{end}} {{ if eq $s "TBA"
+      }} (Speakers TBA) {{ else }}{{ $pages := (where $.root.Site.RegularPages
+      "Section" "speakers") }} {{ $speakers := (where $pages
+      "File.ContentBaseName" $s) }} {{ $speaker := index $speakers 0}} {{$page
+      := index $speakers 0}} {{ if $speaker }}
+      <a href="{{$speaker.RelPermalink}}">{{$speaker.Params.name}}</a> {{end}}
+      {{end}} {{end}}
+    </span>
+  </div>
+
+  <span class="event-location"> {{ .event.location }} </span>
+</div>

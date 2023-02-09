@@ -6,6 +6,176 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+params:
+  schedule:
+    - name: "Friday, March 24 2023"
+      location: "Harvard Law School"
+      slots:
+        - time: "12:00 – 12:45"
+          events:
+            - type: "other"
+              content: "Reception, welcome coffee"
+              location: "Location TBA"
+        - time: "13:00 – 13:30"
+          events:
+            - type: "keynote"
+              content: "Opening Keynote Address"
+              location: "Location TBA"
+              speakers:
+                - "sviatlana"
+        - time: "14:00 – 15:00"
+          events:
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+        - time: "15:30 – 16:30"
+          events:
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+        - time: "17:00 – 18:00"
+          events:
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+        - time: "18:30 – 19:30"
+          events:
+            - type: "keynote"
+              content: "Keynote Address"
+              location: "Location TBA"
+              speakers:
+                - "metsola"
+    - name: "Saturday, March 25 2023"
+      location: "Harvard Kennedy School of Government"
+      slots:
+        - time: "09:00 - 10:00"
+          events:
+            - type: "other"
+              content: "Welcome breakfast"
+              location: "HKS Wintergarden"
+        - time: "10:00 - 10:15"
+          events:
+            - type: "keynote"
+              content: "Opening Kenote Address"
+              location: "Location TBA"
+              speakers:
+                - "lambrinidis"
+        - time: "10:30 - 11:30"
+          events:
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+        - time: "12:00 - 13:00"
+          events:
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+        - time: "13:00 - 14:30"
+          events:
+            - type: "other"
+              content: "Lunch"
+              location: "Location TBA"
+        - time: "14:30 - 15:30"
+          events:
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+        - time: "15:30 - 16:00"
+          events:
+            - type: "other"
+              content: "Coffee break"
+              location: "Location TBA"
+        - time: "16:00 - 17:00"
+          events:
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+            - type: "panel"
+              content: "Panel discussion TBA"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+        - time: "17:00 - 17:30"
+          events:
+            - type: "other"
+              content: "Coffee break"
+              location: "Location TBA"
+        - time: "17:30 - 18:00"
+          events:
+            - type: "keynote"
+              content: "Closing Keynote Address"
+              location: "Location TBA"
+              speakers:
+                - "TBA"
+        - time: "20:00 - 23:00"
+          events:
+            - type: "other"
+              content: "Gala Dinner"
+              location: "Location TBA"
 menu:
   main:
     - name: Home
