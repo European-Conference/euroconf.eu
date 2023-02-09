@@ -51,8 +51,7 @@ header {
       text-align: center;
       white-space: nowrap;
       padding: 0 20px;
-      color: #b7133e;
-      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+      color: black;
 
       .subtitle {
         color: black;
@@ -221,34 +220,26 @@ footer {
   position: relative;
   border: 5px solid white;
   box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+
+  .person-image {
+    height: 300px;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .person-description {
-  position: absolute;
-  color: white;
+  color: black;
   bottom: 0;
-  padding-top: 40px;
   left: 0;
   right: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(183, 19, 62, 0) 0%,
-    rgba(183, 19, 62, 0.4) 20%,
-    rgba(183, 19, 62, 0.8) 100%
-  );
   font-size: 110%;
   text-align: center;
   padding-left: 5px;
-
-  a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }
 
 .person:hover .person-name {
@@ -276,13 +267,13 @@ h2 {
   font-size: 140%;
 }
 
-h3,
-h4 {
+h3 {
   font-size: 140%;
 }
 
 h4 {
   font-style: italic;
+  font-size: 120%;
 }
 
 a {
@@ -314,46 +305,49 @@ form.remind-me fieldset {
   font-style: italic;
 }
 body > .pure-g {
-  background: linear-gradient(
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 1)
-    ),
-    url("/europe.png");
-  background-size: cover;
+  background: white;
 }
 
 #profile {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+
+  @media (max-width: 800px) {
+    & {
+      flex-direction: column;
+    }
+  }
   #profile-picture {
-    flex: 1 1 auto;
-    max-width: 200px;
-    min-width: 60px;
+    flex: 1;
     height: auto;
     border: 5px solid white;
     box-sizing: border-box;
     flex-basis: auto;
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
   }
 
   #profile-content {
-    flex: 3 3 auto;
+    flex: 5;
+    text-align: left;
+    padding-left: 10px;
   }
 
   #profile-name {
-    text-align: center;
     font-size: 160%;
     font-weight: bold;
     margin-top: 20px;
   }
 
   #profile-bio {
-    text-align: center;
     font-size: 100%;
     margin-top: 20px;
     h3 {
+      text-align: left;
       font-size: 120%;
     }
   }
