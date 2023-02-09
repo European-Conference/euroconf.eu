@@ -1,0 +1,4 @@
+<div class="pure-g organizers">
+  {{ range (sort (where .Site.RegularPages "Section" "organizers") "Params.priority" "asc")}} {{partial
+  "person.html" .}} {{end}}
+</div>
