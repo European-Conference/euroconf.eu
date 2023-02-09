@@ -4,14 +4,15 @@ title: "Organizers"
 
 ## Organizers
 
-- Fransessco Castra, Harvard Kenendy School
-- Bianca Urbani, Harard Law School
+- Francesco Castra, Harvard Kenendy School
+- Julien Descamps, Harvard Kennedy School, [twitter](https://twitter.com/Julien_Dcp)
+- Andrew-Sebastien Aschehoug, Harvard Kennedy School
 - Philippe Rival, Harvard Business School
-- Julien Decamps, Harvard Kennedy School, [twitter](https://twitter.com/Julien_Dcp)
+- Bianca Urbani, Harard Law School
+- Christos Porios, Harvard Kennedy School, [twitter](https://twitter.com/ChristosPorios)
 - Louis Guerin, Harvard Kennedy School
 - Alexandre Mayer, Harvard Kennedy School
 - Patrik Gayer, Harvard Kennedy School
-- Christos Porios, Harvard Kennedy School, [twitter](https://twitter.com/ChristosPorios)
 
 <div class='student-orgs' markdown="1">
     <img src='hbs.png' alt="Harvard Business School European Caucus"/>
