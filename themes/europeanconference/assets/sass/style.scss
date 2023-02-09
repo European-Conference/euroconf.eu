@@ -479,11 +479,12 @@ schedule
   }
 }
 
-.content.sponsors {
+#content.sponsors {
   text-align: center;
   img {
-    width: 300px;
+    min-width: 300px;
+    max-width: 500px;
     display: block;
-    margin: 10 auto;
+    margin: 30px auto;
   }
 }
