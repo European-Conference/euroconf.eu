@@ -1,6 +1,6 @@
 ---
 name: Klaus Larres
-role: Richard M Krasno Distinguished Professor of History &amp; International Affairs at the University of North Carolina (UNC)
+role: Richard M Krasno Distinguished Professor of History & International Affairs at the University of North Carolina (UNC)
 keynote: false
 show: true
 ---
