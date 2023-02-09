@@ -4,7 +4,7 @@ title: "Organizers"
 
 ## Organizers
 
-- Fransessco Castra, Harvard Kenendy School
+- Francesco Castra, Harvard Kenendy School
 - Bianca Urbani, Harard Law School
 - Philippe Rival, Harvard Business School
 - Julien Decamps, Harvard Kennedy School, [twitter](https://twitter.com/Julien_Dcp)
