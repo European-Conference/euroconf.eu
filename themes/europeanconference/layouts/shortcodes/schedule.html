@@ -1,0 +1,2 @@
+{{ range .Site.Params.Schedule }} {{ partial "schedule_day" (dict "root" $ "day"
+.) }} {{end}}
