@@ -2,6 +2,7 @@
 name: Kezia Wexøe-Mikkelsen
 role: Head of Operations
 keynote: false
+priority: 40
 show: true
 ---
 
