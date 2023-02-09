@@ -4,7 +4,10 @@
   <body>
     {{- partial "header.html" . -}}
     <div class="pure-g">
-      <div id="content" class="pure-u-md-2-3 pure-u-23-24 center">
+      <div
+        id="content {{.File.ContentBaseName}}"
+        class="pure-u-md-2-3 pure-u-23-24 center"
+      >
         {{- block "main" . }}{{- end }}
       </div>
     </div>
