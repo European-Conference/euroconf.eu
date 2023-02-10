@@ -1,6 +1,6 @@
 ---
 name: Kezia Wexøe-Mikkelsen
-role: Head of Operations
+role: Operations Chair
 keynote: false
 priority: 40
 show: true

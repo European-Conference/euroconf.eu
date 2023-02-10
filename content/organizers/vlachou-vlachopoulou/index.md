@@ -1,6 +1,6 @@
 ---
 name: Magdalini-Christina Vlachou-Vlachopoulou
-role: Academic Events Chair of the Harvard European Law Association (HELA)
+role: Organizing Committee
 keynote: false
 show: true
 priority: 70
