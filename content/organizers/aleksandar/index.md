@@ -2,6 +2,7 @@
 name: Aleksandar Jakovljević
 role: Geopolitics Team
 keynote: false
+priority: 60
 show: true
 ---
 
