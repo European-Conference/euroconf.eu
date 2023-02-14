@@ -2,6 +2,7 @@
 name: Svyatlana Tsikhanouskaya
 role: Democratic Opposition Leader of Belarus
 keynote: true
+priority: 20
 show: true
 ---
 

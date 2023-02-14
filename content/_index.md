@@ -14,7 +14,9 @@ title: "Home"
 
 {{< keynote_speakers >}}
 
-[See the full list of speakers](/speakers/)
+<center>
+<a id='tickets-btn' class="pure-button pure-button-primary" href="/speakers">See the full list of speakers</a>
+</center>
 
 ### Themes
 The conference will feature over 20 panels over two days with distinguised speakers around three main thematic panels:
@@ -23,6 +25,8 @@ The conference will feature over 20 panels over two days with distinguised speak
 2. Identity and Values
 3. Economics and Business
 
-[See the detailed schedule](/schedule/)
+<center>
+<a id='tickets-btn' class="pure-button pure-button-primary" href="/schedule">See the detailed schedule</a>
+</center>
 
 #### We look forward to welcoming you in Cambridge!

@@ -2,6 +2,7 @@
 name: Roberta Metsola
 role: President of the European Parliament
 keynote: true
+priority: 10
 show: true
 ---
 

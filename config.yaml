@@ -15,57 +15,62 @@ params:
           events:
             - type: "other"
               content: "Reception, welcome coffee"
-              location: "Location TBA"
+              location: "Austin Hall"
         - time: "13:00 – 13:30"
           events:
             - type: "keynote"
               content: "Opening Keynote Address"
-              location: "Location TBA"
+              location: "Austin 100"
               speakers:
-                - "sviatlana"
+                - "tsikhanouskaya"
         - time: "14:00 – 15:00"
           events:
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Austin 100"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Austin 111"
               speakers:
                 - "TBA"
         - time: "15:30 – 16:30"
           events:
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Austin 100"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Ames Courtroom"
               speakers:
                 - "TBA"
         - time: "17:00 – 18:00"
           events:
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Austin 100"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Ames Courtroom"
               speakers:
                 - "TBA"
         - time: "18:30 – 19:30"
           events:
             - type: "keynote"
               content: "Keynote Address"
-              location: "Location TBA"
+              location: "Ames Courtroom"
               speakers:
                 - "metsola"
+        - time: "20:00 - 23:00"
+          events:
+            - type: "other"
+              content: "Gala Dinner"
+              location: "Location TBA"
     - name: "Saturday, March 25 2023"
       location: "Harvard Kennedy School of Government"
       slots:
@@ -73,109 +78,99 @@ params:
           events:
             - type: "other"
               content: "Welcome breakfast"
-              location: "HKS Wintergarden"
+              location: "Wintergarden"
         - time: "10:00 - 10:15"
           events:
             - type: "keynote"
               content: "Opening Kenote Address"
-              location: "Location TBA"
+              location: "JFK Forum"
               speakers:
                 - "lambrinidis"
         - time: "10:30 - 11:30"
           events:
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Starr Auditorium"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Littauer L-140"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Wexner W-436"
               speakers:
                 - "TBA"
         - time: "12:00 - 13:00"
           events:
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Starr Auditorium"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Littauer L-140"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Wexner W-436"
               speakers:
                 - "TBA"
         - time: "13:00 - 14:30"
           events:
             - type: "other"
               content: "Lunch"
-              location: "Location TBA"
+              location: "Wintergarden and Malkin Penthouse"
         - time: "14:30 - 15:30"
           events:
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Starr Auditorium"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Littauer L-140"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Wexner W-436"
               speakers:
                 - "TBA"
         - time: "15:30 - 16:00"
           events:
             - type: "other"
               content: "Coffee break"
-              location: "Location TBA"
+              location: "Wintergarden"
         - time: "16:00 - 17:00"
           events:
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Starr Auditorium"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Littauer L-140"
               speakers:
                 - "TBA"
             - type: "panel"
               content: "Panel discussion TBA"
-              location: "Location TBA"
+              location: "Wexner W-436"
               speakers:
                 - "TBA"
         - time: "17:00 - 17:30"
           events:
-            - type: "other"
-              content: "Coffee break"
-              location: "Location TBA"
-        - time: "17:30 - 18:00"
-          events:
             - type: "keynote"
               content: "Closing Keynote Address"
-              location: "Location TBA"
+              location: "JFK Forum"
               speakers:
                 - "TBA"
-        - time: "20:00 - 23:00"
-          events:
-            - type: "other"
-              content: "Gala Dinner"
-              location: "Location TBA"
 menu:
   main:
     - name: Home
