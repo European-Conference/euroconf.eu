@@ -1,7 +1,7 @@
 ---
 name: Enrico Letta
 role: President of the Jacques Delors Institute, Member of Parliament and former Prime Minister ofItaly
-keynote: false
+keynote: true
 show: true
 ---
 
