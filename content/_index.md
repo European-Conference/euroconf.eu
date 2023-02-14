@@ -15,7 +15,7 @@ title: "Home"
 {{< keynote_speakers >}}
 
 <center>
-<a id='tickets-btn' class="pure-button pure-button-secondary" href="/speakers">See the full list of speakers</a>
+<a id='tickets-btn' class="pure-button pure-button-primary" href="/speakers">See the full list of speakers</a>
 </center>
 
 ### Themes
@@ -26,7 +26,7 @@ The conference will feature over 20 panels over two days with distinguised speak
 3. Economics and Business
 
 <center>
-<a id='tickets-btn' class="pure-button pure-button-secondary" href="/schedule">See the detailed schedule</a>
+<a id='tickets-btn' class="pure-button pure-button-primary" href="/schedule">See the detailed schedule</a>
 </center>
 
 #### We look forward to welcoming you in Cambridge!
