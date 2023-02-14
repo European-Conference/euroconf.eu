@@ -22,7 +22,7 @@ params:
               content: "Opening Keynote Address"
               location: "Location TBA"
               speakers:
-                - "sviatlana"
+                - "tsikhanouskaya"
         - time: "14:00 – 15:00"
           events:
             - type: "panel"
