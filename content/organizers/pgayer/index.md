@@ -2,6 +2,7 @@
 name: Patrik Gayer
 role: Conference Theme Chair - HKS
 keynote: false
+priority: 55
 show: true
 ---
 
