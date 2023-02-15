@@ -2,6 +2,7 @@
 name: Philippe Rival
 role: Conference Board Member - HBS
 keynote: false
+priority: 25
 show: true
 ---
 
