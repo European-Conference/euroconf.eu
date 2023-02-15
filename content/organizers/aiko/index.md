@@ -1,6 +1,7 @@
 ---
 name: Aiko Van Denhouwe
-role: Conference board member (I think?)
+role: Conference Theme Chair
+priority: 54
 keynote: false
 show: true
 ---
