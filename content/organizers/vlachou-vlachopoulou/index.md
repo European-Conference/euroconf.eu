@@ -1,9 +1,9 @@
 ---
 name: Magdalini-Christina Vlachou-Vlachopoulou
-role: Organizing Committee
+role: Organizing committee
 keynote: false
 show: true
-priority: 70
+priority: 71
 ---
 
 Magdalini is an LL.M. candidate at Harvard Law School from Greece. She holds a Bachelor of Laws from Aristotle University of Thessaloniki, an LL.M. in Public Law from the University of Athens, whereas she is a PhD candidate at the same University. While at Law School, Magdalini spent a semester at Heidelberg University (Erasmus program).

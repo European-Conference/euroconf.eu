@@ -1,8 +1,8 @@
 ---
 name: Aleksandar Jakovljević
-role: Geopolitics Team
+role: Organizing committee
 keynote: false
-priority: 60
+priority: 70
 show: true
 ---
 

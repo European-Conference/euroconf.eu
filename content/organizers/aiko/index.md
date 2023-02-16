@@ -1,7 +1,7 @@
 ---
 name: Aiko Van Denhouwe
-role: Conference Theme Chair
-priority: 54
+role: Theme chair – Identity and Value
+priority: 35
 keynote: false
 show: true
 ---

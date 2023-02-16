@@ -1,8 +1,8 @@
 ---
 name: Patrik Gayer
-role: Conference Theme Chair - HKS
+role: Theme chair – Business and Regulation
 keynote: false
-priority: 55
+priority: 36
 show: true
 ---
 

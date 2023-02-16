@@ -1,6 +1,6 @@
 ---
 name: Julien Descamps
-role: Conference board member
+role: Board member
 keynote: false
 show: true
 priority: 10
