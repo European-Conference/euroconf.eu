@@ -53,7 +53,7 @@ params:
                 - "adam"
               moderator: "Elaine Papoulias"
             - type: "panel"
-              content: "Inflation Reduction Act"
+              content: "The European Deal & the Inflation Reduction Act"
               location: "Austin 100 (HLS)"
               speakers:
                 - "etienne"
