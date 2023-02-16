@@ -2,6 +2,7 @@
 name: Francesco Castra
 role: Conference Board Member - HKS
 keynote: false
+priority: 1
 show: true
 ---
 
