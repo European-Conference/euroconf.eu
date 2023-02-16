@@ -450,7 +450,7 @@ schedule
         flex-direction: column;
         justify-content: space-evenly;
         .schedule-event {
-          padding: 10px 0;
+          padding: 20px 0;
           flex: 1;
           display: flex;
           .event-info {
@@ -461,7 +461,7 @@ schedule
               font-weight: bold;
             }
 
-            .event-speakers {
+            .event-speakers, .event-moderators {
               padding-top: 3px;
               display: block;
               font-size: 90%;
