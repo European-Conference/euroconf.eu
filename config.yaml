@@ -200,8 +200,8 @@ params:
               content: "Rebuilding Ukraine"
               location: "Starr Auditorium"
               speakers:
-                - "TBA"
-                - "TBA"
+                - "kachur"
+                - "gaudin"
                 - "TBA"
               moderator: "TBA"
             - type: "panel"
