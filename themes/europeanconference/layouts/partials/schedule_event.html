@@ -2,12 +2,14 @@
   <div class="event-info">
     <span class="event-title"> {{.event.content}} </span>
     <span class="event-speakers">
-      {{ range $i, $s := .event.speakers}} {{if $i}},{{end}} {{ if eq $s "TBA"
-      }} (Speakers TBA) {{ else }}{{ $pages := (where $.root.Site.RegularPages
+      {{ range $i, $s := .event.speakers}}
+      {{if $i}},{{end}}
+      {{ if eq $s "TBA" }} TBA {{ else }}
+      {{ $pages := (where $.root.Site.RegularPages
       "Section" "speakers") }} {{ $speakers := (where $pages
       "File.ContentBaseName" $s) }} {{ $speaker := index $speakers 0}} {{$page
       := index $speakers 0}} {{ if $speaker }}
-      <a href="{{$speaker.RelPermalink}}">{{$speaker.Params.name}}</a> {{end}}
+      <a href="{{$speaker.RelPermalink}}">{{$speaker.Params.name}}</a> {{else}} TBA {{end}}
       {{end}} {{end}}
     </span>
   </div>
