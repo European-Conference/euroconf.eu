@@ -1,5 +1,5 @@
 ---
-name: Svyatlana Tsikhanouskaya
+name: Sviatlana Tsikhanouskaya
 role: Democratic Opposition Leader of Belarus
 keynote: true
 priority: 20
