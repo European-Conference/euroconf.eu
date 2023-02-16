@@ -94,7 +94,7 @@ params:
           events:
             - type: "other"
               content: "Official Reception, introduction by Dritan Abazović, Prime Minister of Montenegro"
-              location: "Harvard Museum of Natural History (HLS)"
+              location: "Harvard Museum of Natural History"
     - name: "Saturday, March 25 2023"
       location: "Harvard Kennedy School of Government"
       slots:
