@@ -512,7 +512,10 @@ schedule
 .attend {
   text-align: left;
 }
+
 #shop-btn {
+  display: block;
+  margin: 0 auto;
   text-align: center;
   font-size: 180%;
 }
