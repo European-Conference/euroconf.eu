@@ -1,5 +1,5 @@
 ---
-name: William Valasidis LLM ‘96
+name: William Valasidis
 role: Judge at the General Court of the European Union
 keynote: false
 show: true
