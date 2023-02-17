@@ -2,6 +2,7 @@
 name: Aleksandar Leshev
 role: Organizing committee
 keynote: false
+priority: 75
 show: true
 ---
 
