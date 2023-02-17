@@ -1,7 +1,8 @@
 ---
 name: Aoife O’Malley
-role: Identity, Migration and Human Rights Working Team, Communications Chair Committee of the Harvard European Law Association
+role: Communications Chair
 keynote: false
+priority: 51
 show: true
 ---
 
