@@ -38,8 +38,8 @@ params:
               location: "Austin 111 (HLS)"
               speakers:
                 - "zuber"
-                - "TBA"
-                - "TBA"
+                - "sallet"
+                - "kimmelman"
               moderator: "TBA"
         - time: "14h45 – 15h45"
           events:
@@ -53,7 +53,7 @@ params:
                 - "adam"
               moderator: "Elaine Papoulias"
             - type: "panel"
-              content: "The European Deal & the Inflation Reduction Act"
+              content: "Inflation Reduction Act"
               location: "Austin 100 (HLS)"
               speakers:
                 - "etienne"
@@ -74,7 +74,7 @@ params:
                 - "klarman"
                 - "adam"
                 - "tsikhanouskaya"
-              moderator: "Vincet Pons"
+              moderator: "Vincent Pons"
             - type: "panel"
               content: "Europe's Energy Crunch: Redefining the future of the EU's energy security model"
               location: "Austin 100 (HLS)"
@@ -135,7 +135,7 @@ params:
               content: "Stagnating Growth, Inflation, Rising Energy Prices: Impact for Businesses"
               location: "TBA"
               speakers:
-                - "anasthasios"
+                - "dagoumas"
                 - "lacoue"
                 - "panucci"
               moderator: "TBA"
@@ -182,9 +182,9 @@ params:
               content: "Regulating Big Tech"
               location: "Littauer L-140"
               speakers:
-                - "TBA"
-                - "TBA"
-                - "TBA"
+                - "fiske"
+                - "haigh"
+                - "bradford"
               moderator: "John Haigh"
             - type: "panel"
               content: "Long-term migration strategy in the EU"
@@ -209,16 +209,14 @@ params:
               location: "JFK Forum"
               speakers:
                 - "barnier"
-                - "TBA"
-                - "TBA"
               moderator: "TBA"
             - type: "panel"
               content: "Freedom of Speech and the Digital Services Act"
               location: "Wexner W-436"
               speakers:
-                - "Joe Shear"
-                - "Jacob Mchangama"
-                - "Kate Klonick"
+                - "shear"
+                - "mchangama"
+                - "klonick"
               moderator: "TBA"
 menu:
   main:
