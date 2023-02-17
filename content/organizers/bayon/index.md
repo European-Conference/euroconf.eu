@@ -1,7 +1,8 @@
 ---
 name: Nieves Bayón Fernández
-role: Business, Economy and Trade Panel Working Team, Vice-Chair Academic Events Committee of the Harvard European Law Association
+role: Organizing committee 
 keynote: false
+priority: 74
 show: true
 ---
 
