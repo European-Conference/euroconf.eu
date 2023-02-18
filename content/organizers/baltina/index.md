@@ -3,6 +3,7 @@ name: Dagnija Baltiņa
 role: Organizing committee
 keynote: false
 show: true
+priority: 75
 ---
 
 Dagnija Baltiņa is a Master of Public Administration candidate at Harvard Kennedy School, graduating in May 2023. She holds BA degree in history from the University of Latvia and Master degree in World Heritage Studies from Brandenburg Technical University. She is also a PhD candidate in history at the University of Latvia.
