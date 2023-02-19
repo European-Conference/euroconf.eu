@@ -39,7 +39,6 @@ params:
               speakers:
                 - "zuber"
                 - "sallet"
-                - "kimmelman"
               moderator: "TBA"
         - time: "14h45 – 15h45"
           events:
@@ -48,7 +47,7 @@ params:
               location: "Austin 111 (HLS)"
               speakers:
                 - "mathernova"
-                - "djuric"
+                - "duric"
                 - "popov"
                 - "adam"
               moderator: "Elaine Papoulias"
@@ -70,16 +69,15 @@ params:
               content: "Democratic backsliding in the EU and the US"
               location: "Ames Courtroom (HLS)"
               speakers:
-                - "mecacci"
                 - "klarman"
                 - "adam"
+                - "mecacci"
                 - "tsikhanouskaya"
               moderator: "Vincent Pons"
             - type: "panel"
               content: "Europe's Energy Crunch: Redefining the future of the EU's energy security model"
               location: "Austin 100 (HLS)"
               speakers:
-                - "wittig"
                 - "sdoukou"
                 - "lassen"
               moderator: "TBA"
@@ -183,6 +181,7 @@ params:
               location: "Littauer L-140"
               speakers:
                 - "fiske"
+                - "kimmelman"
                 - "haigh"
                 - "bradford"
               moderator: "John Haigh"
