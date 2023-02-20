@@ -2,6 +2,7 @@
 name: Louis Guerin
 role: Finance Chair
 keynote: false
+priority: 32
 show: true
 ---
 
