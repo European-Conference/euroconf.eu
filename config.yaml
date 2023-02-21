@@ -34,9 +34,9 @@ params:
                 - "wieslander"
               moderator: "Natalie Colbert"
             - type: "panel"
-              content: 
+              content: "Role of courts in civil rights adjudication among diverse states"
               location: "Austin 111 (HLS)"
-              speakers: "Role of courts in civil rights adjudication among diverse states"
+              speakers:
                 - "valasidis"
                 - "bobek"
                 - "sharpston"
