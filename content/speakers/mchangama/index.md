@@ -1,6 +1,6 @@
 ---
 name: Jacob Mchangama
-role: CEO of Copenhagen based think tank Justitia and its Future of Free Speech Project, and the author of “Free Speech: A History From Socrates to Social Media”
+role: CEO of Copenhagen based think tank Justitia
 keynote: false
 show: true
 ---
