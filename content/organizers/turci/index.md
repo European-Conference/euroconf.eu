@@ -2,6 +2,7 @@
 name: Filippo Turci
 role: Organizing committee
 keynote: false
+priority: 72
 show: true
 ---
 
