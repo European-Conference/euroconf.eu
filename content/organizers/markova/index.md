@@ -2,6 +2,7 @@
 name: Maria-Magdalena Markova
 role: Operations Chair
 keynote: false
+priority: 52
 show: true
 ---
 
