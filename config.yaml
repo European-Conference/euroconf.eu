@@ -34,11 +34,12 @@ params:
                 - "wieslander"
               moderator: "Natalie Colbert"
             - type: "panel"
-              content: "The Digital Market Act"
+              content: "Role of courts in civil rights adjudication among diverse states"
               location: "Austin 111 (HLS)"
               speakers:
-                - "zuber"
-                - "sallet"
+                - "valasidis"
+                - "bobek"
+                - "sharpston"
               moderator: "TBA"
         - time: "14h45 – 15h45"
           events:
@@ -52,11 +53,12 @@ params:
                 - "adam"
               moderator: "Elaine Papoulias"
             - type: "panel"
-              content: "Inflation Reduction Act"
+              content: "The European Green Deal vs. the Inflation Reduction Act"
               location: "Austin 100 (HLS)"
               speakers:
                 - "etienne"
-                - "TBA"
+                - "patel"
+                - "sivaram"
               moderator: "TBA"
         - time: "15h45 – 16h15"
           events:
@@ -91,7 +93,7 @@ params:
         - time: "18h30 – 21h00"
           events:
             - type: "other"
-              content: "Official Reception, introduction by Dritan Abazović, Prime Minister of Montenegro"
+              content: "Official Reception"
               location: "Harvard Museum of Natural History"
     - name: "Saturday, March 25 2023"
       location: "Harvard Kennedy School of Government"
@@ -122,12 +124,11 @@ params:
                 - "kyslytsya"
               moderator: "Eric Rosenbach"
             - type: "panel"
-              content: "Role of courts in civil rights adjudication among diverse states"
+              content: "The Digital Market Act"
               location: "TBA"
               speakers:
-                - "valasidis"
-                - "bobek"
-                - "sharpston"
+                - "zuber"
+                - "sallet"
               moderator: "TBA"
             - type: "panel"
               content: "Stagnating Growth, Inflation, Rising Energy Prices: Impact for Businesses"
@@ -152,7 +153,6 @@ params:
               location: "Wexner W-436"
               speakers:
                 - "chahed"
-                - "urpilainen"
               moderator: "Tarek Masoud"
             - type: "panel"
               content: "Europe & Pacific (The role of Europe in the US-China rivalry)"
@@ -172,9 +172,7 @@ params:
               content: "Future of the European Union"
               location: "JFK Forum"
               speakers:
-                - "metsola"
                 - "verhofstadt"
-                - "letta"
               moderator: "Daniela Schwarzer"
             - type: "panel"
               content: "Regulating Big Tech"

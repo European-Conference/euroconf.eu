@@ -1,6 +1,6 @@
 ---
 name: John Fiske
-role: Director of Data Protection at Meta
+role: Sr Fellow, HKS Center for Business and Government
 keynote: false
 show: true
 ---
