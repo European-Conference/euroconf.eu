@@ -213,8 +213,10 @@ params:
               speakers:
                 - "shear"
                 - "mchangama"
+                - "havlik"
+                - "wezenbeek"
                 - "klonick"
-              moderator: "TBA"
+              moderator: "Kate Klonick"
 menu:
   main:
     - name: Home
