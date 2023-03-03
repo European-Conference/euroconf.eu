@@ -124,10 +124,13 @@ params:
                 - "kyslytsya"
               moderator: "Eric Rosenbach"
             - type: "panel"
-              content: "The Digital Market Act"
+              content: "The Digital Markets Act"
               location: "TBA"
               speakers:
                 - "zuber"
+                - "katona"
+                - "kimmelman"
+                - "oeyen"
                 - "sallet"
               moderator: "TBA"
             - type: "panel"
@@ -179,7 +182,6 @@ params:
               location: "Littauer L-140"
               speakers:
                 - "fiske"
-                - "kimmelman"
                 - "haigh"
                 - "bradford"
               moderator: "John Haigh"
