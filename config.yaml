@@ -119,7 +119,6 @@ params:
               speakers:
                 - "letta"
                 - "schwarzer"
-                - "kyslytsya"
             - type: "panel"
               content: "The Digital Markets Act"
               location: "Wexner W-436 (HKS)"
@@ -134,7 +133,6 @@ params:
               speakers:
                 - "dagoumas"
                 - "lacoue"
-                - "panucci"
         - time: "12pm - 1pm"
           events:
             - type: "panel"
@@ -189,7 +187,6 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "dias"
-                - "lucas"
                 - "kosciusko-morizet"
             - type: "panel"
               content: "Rebuilding Ukraine"
@@ -201,7 +198,6 @@ params:
               content: "Freedom of Speech and the Digital Services Act"
               location: "Wexner W-436 (HKS)"
               speakers:
-                - "shear"
                 - "mchangama"
                 - "havlik"
               moderator: "Kate Klonick"
