@@ -8,216 +8,226 @@ markup:
       unsafe: true
 params:
   schedule:
-    - name: "Friday, March 24th, 2023"
-      location: "Center for European Studies (CES) and Harvard Law School (HLS)"
+    - name: "Thursday, March 23th, 2023"
+      location: "Harvard Law School (HLS)"
       slots:
-        - time: "11h30 – 12h15"
+        - time: "6pm - 8pm"
           events:
             - type: "other"
-              content: "Reception, Welcome coffee"
-              location: "Adolphus Busch Hall (CES)"
-        - time: "12h30 – 13h00"
+              content: "Conference kick-off: projection of the movie “A House Made of Splinters” (2023 oscar nominee for best documentary). Includes a Q&A with the film crew."
+              location: "Room TBD (HLS)"
+    - name: "Friday, March 24th, 2023"
+      location: "Harvard Law School (HLS) and Harvard Kennedy School of Government (HKS)"
+      slots:
+        - time: "11:30am – 12:30pm"
           events:
-            - type: "keynote"
-              content: "Opening Keynote Address"
-              location: "Yenching Auditorium (CES)"
-              speakers:
-                - "tsikhanouskaya"
-        - time: "13h30 – 14h30"
+            - type: "other"
+              content: "Registration and Welcome Lunch"
+              location: "Room TBD (HLS)"
+        - time: "12:45pm – 1h45pm"
           events:
             - type: "panel"
-              content: "Stronger together: A revitalized Transatlantic relationship"
+              content: "Democratic backsliding in the EU and the US"
               location: "Austin 100 (HLS)"
               speakers:
-                - "etienne"
-                - "braze"
-                - "wieslander"
-              moderator: "Natalie Colbert"
+                - "letta"
+                - "klarman"
             - type: "panel"
               content: "Role of courts in civil rights adjudication among diverse states"
               location: "Austin 111 (HLS)"
               speakers:
                 - "valasidis"
-                - "bobek"
+                - "kornezov"
                 - "sharpston"
-              moderator: "TBA"
-        - time: "14h45 – 15h45"
+        - time: "2pm – 3pm"
           events:
             - type: "panel"
-              content: "The state and future of EU enlargement: the Balkans as the new frontier?"
+              content: "Negotiating Brexit: a workshop with Michel Barnier"
+              location: "Austin 100 (HLS)"
+              speakers:
+                - "barnier"
+            - type: "panel"
+              content: "Redefining the future of the EU's energy security model"
               location: "Austin 111 (HLS)"
+              speakers:
+                - "sdoukou"
+                - "lassen"
+              moderator: "lee"
+        - time: "3pm – 4pm"
+          events:
+            - type: "other"
+              content: "Transfer to HKS"
+         
+        - time: "4pm – 5pm"
+          events:
+            - type: "keynote"
+              content: "Keynote Address at the John F. Kennedy Jr. Forum"
+              location: "JFK Forum (HKS)"
+              speakers:
+                - "metsola"
+                - "tsikhanouskaya"
+                
+        - time: "5:15pm – 6:15pm"
+          events:
+            - type: "panel"
+              content: "Stronger together: A revitalized Transatlantic relationship"
+              location: "L-140 (HKS)"
+              speakers:
+                - "etienne"
+                - "braze"
+                - "wieslander"
+                - "debski"
+            - type: "panel"
+              content: "The state and future of EU enlargement : the Balkans as the new frontier?"
+              location: "Wexner 436 (HKS)"
               speakers:
                 - "mathernova"
                 - "duric"
                 - "popov"
                 - "adam"
-              moderator: "Elaine Papoulias"
-            - type: "panel"
-              content: "The European Green Deal vs. the Inflation Reduction Act"
-              location: "Austin 100 (HLS)"
-              speakers:
-                - "etienne"
-                - "patel"
-                - "sivaram"
-              moderator: "TBA"
-        - time: "15h45 – 16h15"
+              moderator: "papoulias"
+              
+        - time: "6:45pm – 9pm"
           events:
             - type: "other"
-              content: "Coffee Break"
-              location: "TBA"
-        - time: "16h15 – 17h15"
-          events:
-            - type: "panel"
-              content: "Democratic backsliding in the EU and the US"
-              location: "Ames Courtroom (HLS)"
-              speakers:
-                - "klarman"
-                - "adam"
-                - "mecacci"
-                - "tsikhanouskaya"
-              moderator: "Vincent Pons"
-            - type: "panel"
-              content: "Europe's Energy Crunch: Redefining the future of the EU's energy security model"
-              location: "Austin 100 (HLS)"
-              speakers:
-                - "sdoukou"
-                - "lassen"
-              moderator: "TBA"
-        - time: "17h30 – 18h00"
-          events:
-            - type: "keynote"
-              content: "Keynote Address"
-              location: "Ames Courtroom (HLS)"
-              speakers:
-                - "metsola"
-        - time: "18h30 – 21h00"
-          events:
-            - type: "other"
-              content: "Official Reception"
+              content: "Reception"
               location: "Harvard Museum of Natural History"
+              
+              
+              
     - name: "Saturday, March 25 2023"
       location: "Harvard Kennedy School of Government"
       slots:
-        - time: "09:00 - 10:00"
+        - time: "9am - 10am"
           events:
             - type: "other"
               content: "Breakfast"
-              location: "Wintergarden"
-            - type: "other"
-              content: "VIP Breakfast"
-              location: "Malkin Penthouse"
-        - time: "10:00 - 10:15"
+              location: "Wintergarden (HKS)"
+             
+        - time: "10am - 10:15am"
           events:
             - type: "keynote"
               content: "Opening Keynote Address"
-              location: "JFK Forum"
+              location: "JFK Forum (HKS)"
               speakers:
                 - "lambrinidis"
-        - time: "10:30 - 11:30"
+        - time: "10:30am - 11:30am"
           events:
             - type: "panel"
               content: "One year of War in Ukraine and its impact on Europe (and beyond)"
-              location: "JFK Forum"
+              location: "JFK Forum (HKS)"
               speakers:
                 - "letta"
-                - "honcharuk"
+                - "schwarzer"
                 - "kyslytsya"
-              moderator: "Eric Rosenbach"
             - type: "panel"
               content: "The Digital Markets Act"
-              location: "TBA"
+              location: "Wexner W-436 (HKS)"
               speakers:
                 - "zuber"
                 - "katona"
                 - "kimmelman"
                 - "oeyen"
-              moderator: "TBA"
             - type: "panel"
-              content: "Stagnating Growth, Inflation, Rising Energy Prices: Impact for Businesses"
-              location: "TBA"
+              content: "Rising Strong: Building Resilient Supply Chains in Europe"
+              location: "Starr Auditorium (HKS)"
               speakers:
                 - "dagoumas"
                 - "lacoue"
                 - "panucci"
-              moderator: "TBA"
-        - time: "12:00 - 13:00"
+        - time: "12pm - 1pm"
           events:
             - type: "panel"
-              content: "What’s Next for Investment in Europe?"
-              location: "JFK Forum"
+              content: "European Green Deal vs. the Inflation Reduction Act"
+              location: "JFK Forum (HKS)"
               speakers:
-                - "dias"
-                - "kosusko-morizet"
-                - "lucas"
-              moderator: "TBA"
+                - "etienne"
+                - "patel"
+                - "sivaram"
             - type: "panel"
               content: "Reassessing policy towards Africa in light of the war in Ukraine & Cop 27"
-              location: "Wexner W-436"
+              location: "Wexner W-436 (HKS)"
               speakers:
                 - "chahed"
-              moderator: "Tarek Masoud"
             - type: "panel"
-              content: "Europe & Pacific (The role of Europe in the US-China rivalry)"
-              location: "Starr Auditorium"
+              content: "The role of Europe in the US-China rivalry"
+              location: "Starr Auditorium (HKS)"
               speakers:
                 - "larres"
                 - "berzina-cerenkova"
-              moderator: "Graham Allison"
-        - time: "13:00 - 14:30"
+        - time: "1pm - 2:15pm"
           events:
             - type: "other"
               content: "Lunch"
-              location: "Wintergarden and Malkin Penthouse"
-        - time: "14:30 - 15:30"
+              location: "Wintergarden (HKS)"
+        - time: "2:15pm - 3:15pm"
           events:
             - type: "panel"
               content: "Future of the European Union"
-              location: "JFK Forum"
+              location: "JFK Forum (HKS)"
               speakers:
                 - "verhofstadt"
               moderator: "Daniela Schwarzer"
             - type: "panel"
-              content: "Regulating Big Tech"
-              location: "Littauer L-140"
+              content: "Rivals or Partners? The future of the EU-UK relationship"
+              location: "Littauer L-140 (HKS)"
               speakers:
-                - "fiske"
-                - "haigh"
-                - "bradford"
-              moderator: "John Haigh"
+                - "barnier"
             - type: "panel"
-              content: "Long-term migration strategy in the EU"
-              location: "Starr Auditorium"
-        - time: "15:30 - 16:00"
+              content: "Space policy"
+              location: "Starr Auditorium (HKS)"
+        - time: "3:15pm - 3:45pm"
           events:
             - type: "other"
               content: "Coffee Break"
-              location: "Wintergarden"
-        - time: "16:00 - 17:00"
+              location: "Wintergarden (HKS)"
+              
+        - time: "3:45pm - 4:45pm"
           events:
             - type: "panel"
-              content: "Rebuilding Ukraine"
-              location: "Starr Auditorium"
+              content: "What’s Next for Investment in Europe?"
+              location: "JFK Forum (HKS)"
               speakers:
-                - "kachur"
-                - "gaudin"
-                - "TBA"
-              moderator: "TBA"
+                - "dias"
+                - "lucas"
+                - "kosciusko-morizet"
             - type: "panel"
-              content: "EU/UK relationship"
-              location: "JFK Forum"
+              content: "Rebuilding Ukraine"
+              location: "Starr Auditorium (HKS)"
               speakers:
-                - "barnier"
-              moderator: "TBA"
+                - "koszarny"
+                - "gaudin"
             - type: "panel"
               content: "Freedom of Speech and the Digital Services Act"
-              location: "Wexner W-436"
+              location: "Wexner W-436 (HKS)"
               speakers:
                 - "shear"
                 - "mchangama"
                 - "havlik"
-                - "wezenbeek"
-                - "klonick"
               moderator: "Kate Klonick"
+        - time: "5pm - 6pm"
+          events:
+            - type: "panel"
+              content: "Long-term migration strategy in the EU"
+              location: "JFK Forum (HKS)"
+              speakers:
+                - "makovec"
+            - type: "panel"
+              content: "Finding Europe: a continent’s renewed quest for identity and values"
+              location: "Starr Auditorium (HKS)"
+              speakers:
+                - "buldioski"
+                - "prevedourou"
+
+        - time: "6:15pm - 6:30pm"
+          events:
+            - type: "keynote"
+              content: "Closing Keynote Address"
+              location: "JFK Forum (HKS)"
+              speakers:
+                - "schwartzer"
+
+
 menu:
   main:
     - name: Home
