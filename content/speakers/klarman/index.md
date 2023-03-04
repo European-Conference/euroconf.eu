@@ -1,5 +1,5 @@
 ---
-name: Professor Michael J. Klarman
+name: Michael J. Klarman
 role: The Charles Warren Professor of Legal History at Harvard Law School
 keynote: false
 show: true
