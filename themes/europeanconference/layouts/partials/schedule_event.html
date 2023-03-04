@@ -1,16 +1,24 @@
+{{$speakerLinks := slice}}
+{{ range $i, $s := .event.speakers}}
+{{ if eq $s "TBA" }} TBA {{ else }}
+{{ $pages := (where $.root.Site.RegularPages
+"Section" "speakers") }} {{ $speakers := (where $pages
+"File.ContentBaseName" $s) }} {{ $speaker := index $speakers 0}} {{$page
+:= index $speakers 0}} {{ if $speaker }}
+{{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" $speaker.RelPermalink
+$speaker.Params.name)
+}}
+{{end}}
+{{end}}
+{{end}}
+
 <div class="schedule-event {{ .event.type }}">
   <div class="event-info">
     <span class="event-title"> {{.event.content}} </span>
     <span class="event-speakers">
-      {{ range $i, $s := .event.speakers}}
-      {{if $i}},{{end}}
-      {{ if eq $s "TBA" }} TBA {{ else }}
-      {{ $pages := (where $.root.Site.RegularPages
-      "Section" "speakers") }} {{ $speakers := (where $pages
-      "File.ContentBaseName" $s) }} {{ $speaker := index $speakers 0}} {{$page
-      := index $speakers 0}} {{ if $speaker }}
-      <a href="{{$speaker.RelPermalink}}">{{$speaker.Params.name}}</a> {{else}} TBA {{end}}
-      {{end}} {{end}}
+      {{ range $i, $s := $speakerLinks}}{{if $i}},{{end}}
+      {{safeHTML $s}}
+      {{end}}
     </span>
   </div>
 
