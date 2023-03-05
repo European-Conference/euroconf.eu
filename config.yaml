@@ -118,6 +118,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "letta"
+                - "kyslytsya"
                 - "schwarzer"
             - type: "panel"
               content: "The Digital Markets Act"
