@@ -1,6 +1,6 @@
 ---
 name: Tine Hertz
-role: Theme chair – Identity and Value
+role: Theme chair – Geopolitics
 keynote: false
 show: true
 ---
