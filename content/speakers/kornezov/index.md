@@ -1,6 +1,6 @@
 ---
 name: Alexander Kornezov
-role: President of the Eighth Chamber of the General Court of the European Union.
+role: President of the Eighth Chamber of the General Court of the European Union
 keynote: false
 show: true
 ---
