@@ -217,6 +217,7 @@ params:
               location: "Starr Auditorium (HKS)"
               speakers:
                 - "buldioski"
+                - "novosad"
                 - "prevedourou"
 
         - time: "6:15pm - 6:30pm"
