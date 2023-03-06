@@ -203,7 +203,6 @@ params:
               speakers:
                 - "mchangama"
                 - "havlik"
-                - "wezenbeek"
               moderator: "Kate Klonick"
         - time: "5pm - 6pm"
           events:
@@ -212,6 +211,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "makovec"
+                - "brkljac"
             - type: "panel"
               content: "Finding Europe: a continent’s renewed quest for identity and values"
               location: "Starr Auditorium (HKS)"
