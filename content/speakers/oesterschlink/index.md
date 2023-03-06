@@ -1,11 +1,9 @@
 ---
 name: Manuel Oesterschlink
-role: Head of CEO Office and Institutional
+role: Head of CEO Office and Institutional Relations at Arianespace
 keynote: false
 show: true
 ---
-
-Relations at Arianespace
 
 Manuel Oesterschlink is Arianespace’s Head of CEO Office and Institutional 
 Relations. He joined Arianespace in 2021. 
