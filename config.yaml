@@ -203,6 +203,8 @@ params:
               speakers:
                 - "mchangama"
                 - "havlik"
+                - "shear"
+                - "wezenbeek"
               moderator: "Kate Klonick"
         - time: "5pm - 6pm"
           events:
