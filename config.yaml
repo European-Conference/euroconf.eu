@@ -137,12 +137,13 @@ params:
         - time: "12pm - 1pm"
           events:
             - type: "panel"
-              content: "European Green Deal vs. the Inflation Reduction Act"
+              content: "The European Green Deal and the Inflation Reduction Act: How Europe and the United States are Tackling the Climate Crisis"
               location: "JFK Forum (HKS)"
               speakers:
                 - "etienne"
                 - "patel"
                 - "sivaram"
+              moderator: "Catherine Wolfram"
             - type: "panel"
               content: "EU - Africa: Assessing the Relationship in the Context of War in Ukraine"
               location: "Wexner W-436 (HKS)"
