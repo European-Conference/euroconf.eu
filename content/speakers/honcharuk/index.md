@@ -1,7 +1,8 @@
 ---
 name: Oleksiy Honcharuk
 role: Former Prime Minister of Ukraine
-keynote: false
+keynote: true
+priority: 60
 show: true
 ---
 
