@@ -2,6 +2,7 @@
 name: Andrew-Sebastien Aschehoug
 role: Theme chair – Geopolitics
 keynote: false
+priority: 36
 show: true
 ---
 
