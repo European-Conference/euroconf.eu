@@ -24,7 +24,7 @@ params:
             - type: "other"
               content: "Registration and Welcome Lunch"
               location: "Room TBD (HLS)"
-        - time: "12:45pm – 1h45pm"
+        - time: "12:45pm – 1:45pm"
           events:
             - type: "panel"
               content: "Democratic Backsliding in the EU and the US"
@@ -98,20 +98,27 @@ params:
     - name: "Saturday, March 25 2023"
       location: "Harvard Kennedy School of Government"
       slots:
-        - time: "9am - 10am"
+        - time: "8:30am - 9:15am"
           events:
             - type: "other"
               content: "Breakfast"
               location: "Wintergarden (HKS)"
              
-        - time: "10am - 10:15am"
+        - time: "9:15am - 9:30am"
           events:
             - type: "keynote"
               content: "Opening Keynote Address"
               location: "JFK Forum (HKS)"
               speakers:
                 - "lambrinidis"
-        - time: "10:30am - 11:30am"
+        - time: "9:45am - 10:30am"
+          events:
+            - type: "keynote"
+              content: "A conversation with the ex-Prime Minister of Ukraine"
+              location: "JFK Forum (HKS)"
+              speakers:
+                - "honcharuk"
+        - time: "10:45am - 11:45am"
           events:
             - type: "panel"
               content: "One year of War in Ukraine and its impact on Europe (and beyond)"
