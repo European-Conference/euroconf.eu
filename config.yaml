@@ -52,6 +52,7 @@ params:
               speakers:
                 - "sdoukou"
                 - "lassen"
+                - "kosciusko-morizet"                
               moderator: "lee"
         - time: "3pm – 4pm"
           events:
@@ -198,7 +199,6 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "dias"
-                - "kosciusko-morizet"
             - type: "panel"
               content: "The World’s largest Construction Site: Rebuilding Post-war in Ukraine"
               location: "Starr Auditorium (HKS)"
