@@ -61,7 +61,7 @@ params:
         - time: "4pm – 5pm"
           events:
             - type: "keynote"
-              content: "Keynote Address at the John F. Kennedy Jr. Forum"
+              content: "Keynote Address: Europe’s Struggle for Relevance, Unity and Value: A Conversation with Roberta Metsola and Sviatlana Tsikhanouskaya"
               location: "JFK Forum (HKS)"
               speakers:
                 - "metsola"
