@@ -164,6 +164,7 @@ params:
               speakers:
                 - "larres"
                 - "berzina-cerenkova"
+                - "schwarzer"
         - time: "1pm - 2:15pm"
           events:
             - type: "other"
