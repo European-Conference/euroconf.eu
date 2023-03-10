@@ -199,6 +199,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "dias"
+                - "lucas"
             - type: "panel"
               content: "The World’s largest Construction Site: Rebuilding Post-war in Ukraine"
               location: "Starr Auditorium (HKS)"
