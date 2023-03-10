@@ -187,6 +187,7 @@ params:
               location: "Starr Auditorium (HKS)"
               speakers:
                 - "oesterschlink"
+                - "espinasse"
         - time: "3:15pm - 3:45pm"
           events:
             - type: "other"
