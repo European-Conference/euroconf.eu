@@ -115,7 +115,7 @@ params:
         - time: "9:45am - 10:30am"
           events:
             - type: "keynote"
-              content: "Live from Kiev: a conversation with ex-Prime Minister of Ukraine Oleksiy Honcharuk"
+              content: "Live from Kyiv: a conversation with ex-Prime Minister of Ukraine Oleksiy Honcharuk"
               location: "JFK Forum (HKS)"
               speakers:
                 - "honcharuk"
