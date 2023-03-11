@@ -1,3 +1,15 @@
+{{ $speaker_appears := false}}
+{{ if $.for_speaker }}
+{{ range .event.speakers}}
+{{ if eq . $.for_speaker }}
+{{ $speaker_appears = true }}
+{{ end }}
+{{ end }}
+{{ else }}
+{{ $speaker_appears = true }}
+{{ end }}
+
+{{ if $speaker_appears }}
 {{$speakerLinks := slice}}
 {{ range $i, $s := .event.speakers}}
 {{ if eq $s "TBA" }} TBA {{ else }}
@@ -14,6 +26,12 @@ $speaker.Params.name)
 
 <div class="schedule-event {{ .event.type }}">
   <div class="event-info">
+    {{ if eq .event.type "keynote"}}
+    <span class="event-type-tag">Keynote Address</span><br />
+    {{end}}
+    {{ if eq .event.type "panel"}}
+    <span class="event-type-tag">Panel</span><br />
+    {{end}}
     <span class="event-title"> {{.event.content}} </span>
     <span class="event-speakers">
       {{ range $i, $s := $speakerLinks}}{{if $i}},{{end}}
@@ -24,3 +42,4 @@ $speaker.Params.name)
 
   <span class="event-location"> {{ .event.location }} </span>
 </div>
+{{end}}
