@@ -519,3 +519,21 @@ schedule
   text-align: center;
   font-size: 180%;
 }
+
+.event-type-tag {
+  display: inline-block;
+  color: white;
+  background: #133db7;
+  break-after: always;
+  font-size: 70%;
+  padding: 2px 10px;
+  border-radius: 3px;
+}
+
+.panel .event-type-tag {
+  background: #133db7;
+}
+
+.keynote .event-type-tag {
+  background: #b7133e;
+}

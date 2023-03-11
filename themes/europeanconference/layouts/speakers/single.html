@@ -3,14 +3,37 @@
 <h2>{{.Params.Name}}</h2>
 {{ if .Params.Keynote }}
 <p class="profile-keynote">Keynote Speaker</span>
-{{ end }}
+  {{ end }}
 <div id="profile">
   {{ $image := index (.Resources.ByType "image") 0 }}
   <div id="profile-picture"> <img src="{{$image.RelPermalink}}" /> </div>
   <div id="profile-content">
     <div id="profile-bio">
       <h3>{{ .Params.Role }}</h3>
-      <p>{{ .Content }}</p></div>
+      <p>{{ .Content }}</p>
+    </div>
   </div>
 </div>
+
+<h2>Speaker Schedule</h2>
+{{$id := .File.ContentBaseName}}
+
+{{ range .Site.Params.Schedule }}
+{{ $show_day := false }}
+{{ range .slots }}
+{{ range .events }}
+{{ range .speakers }}
+
+{{ if eq . $id }}
+{{ $show_day = true }}
+{{end}}
+
+{{end}}
+{{end}}
+{{end}}
+{{ if $show_day }}
+{{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id) }}
+{{end}}
+{{end}}
+
 {{ end }}
