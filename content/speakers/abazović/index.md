@@ -1,7 +1,8 @@
 ---
 name: Dritan Abazović
 role: Prime Minister of Montenegro
-keynote: false
+keynote: true
+priority: 100
 show: true
 ---
 
