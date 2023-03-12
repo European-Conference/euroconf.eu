@@ -93,9 +93,6 @@ params:
             - type: "other"
               content: "Reception"
               location: "Harvard Museum of Natural History"
-              
-              
-              
     - name: "Saturday, March 25 2023"
       location: "Harvard Kennedy School of Government"
       slots:
