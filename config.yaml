@@ -221,7 +221,6 @@ params:
               content: "Addressing Europe’s Long-Term Migration Strategy"
               location: "JFK Forum (HKS)"
               speakers:
-                - "makovec"
                 - "brkljac"
             - type: "panel"
               content: "Finding Europe: a continent’s renewed quest for identity and values"
