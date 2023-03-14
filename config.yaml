@@ -222,6 +222,8 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "brkljac"
+                - "kayacik"
+                - "maniatis"
             - type: "panel"
               content: "Finding Europe: a continent’s renewed quest for identity and values"
               location: "Starr Auditorium (HKS)"
