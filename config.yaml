@@ -42,7 +42,7 @@ params:
         - time: "2pm – 3pm"
           events:
             - type: "panel"
-              content: "Negotiating Brexit: a Workshop with Michel Barnier"
+              content: "Negotiating Brexit: a Discussion with Michel Barnier"
               location: "Austin 100 (HLS)"
               speakers:
                 - "barnier"
@@ -236,8 +236,7 @@ params:
               location: "Starr Auditorium (HKS)"
               speakers:
                 - "brkljac"
-            
-
+                - "faber"
         - time: "6:15pm - 6:30pm"
           events:
             - type: "keynote"
