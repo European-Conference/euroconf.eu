@@ -154,7 +154,7 @@ params:
                 - "etienne"
                 - "patel"
                 - "sivaram"
-              moderator: "Catherine Wolfram"
+              moderator: "wolfram"
             - type: "panel"
               content: "EU - Africa: Assessing the Relationship in the Context of War in Ukraine"
               location: "Wexner W-436 (HKS)"
@@ -180,7 +180,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "verhofstadt"
-              moderator: "Daniela Schwarzer"
+              moderator: "schwarzer"
             - type: "panel"
               content: "Rivals or Partners? The future of the EU-UK relationship"
               location: "Littauer L-140 (HKS)"
@@ -220,7 +220,7 @@ params:
                 - "havlik"
                 - "shear"
                 - "wezenbeek"
-              moderator: "Kate Klonick"
+              moderator: "klonick"
         - time: "5pm - 6pm"
           events:
             - type: "panel"
