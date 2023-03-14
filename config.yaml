@@ -231,6 +231,7 @@ params:
                 - "buldioski"
                 - "novosad"
                 - "prevedourou"
+                - "faber"
 
         - time: "6:15pm - 6:30pm"
           events:
