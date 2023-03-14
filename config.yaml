@@ -218,6 +218,13 @@ params:
         - time: "5pm - 6pm"
           events:
             - type: "panel"
+              content: "Addressing Europe’s Long-Term Migration Strategy"
+              location: "JFK Forum (HKS)"
+              speakers:
+                - "brkljac"
+                - "kayacik"
+                - "maniatis"
+            - type: "panel"
               content: "Finding Europe: a continent’s renewed quest for identity and values"
               location: "JFK Forum (HKS)"
               speakers:
