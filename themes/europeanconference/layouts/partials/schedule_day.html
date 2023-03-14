@@ -9,6 +9,9 @@
 
     {{ $speaker_appears := false}}
     {{ range .events }}
+    {{ if eq .moderator $.for_speaker }}
+    {{ $speaker_appears = true }}
+    {{ end }}
     {{ range .speakers }}
     {{ if eq . $.for_speaker }}
     {{ $speaker_appears = true }}

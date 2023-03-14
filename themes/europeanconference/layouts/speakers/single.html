@@ -22,6 +22,9 @@
 {{ $show_day := false }}
 {{ range .slots }}
 {{ range .events }}
+{{ if eq .moderator $id }}
+{{ $show_day = true }}
+{{end}}
 {{ range .speakers }}
 
 {{ if eq . $id }}

@@ -1,5 +1,8 @@
 {{ $speaker_appears := false}}
 {{ if $.for_speaker }}
+{{ if eq .event.moderator $.for_speaker }}
+{{ $speaker_appears = true }}
+{{ end }}
 {{ range .event.speakers}}
 {{ if eq . $.for_speaker }}
 {{ $speaker_appears = true }}
