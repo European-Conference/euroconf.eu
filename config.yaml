@@ -226,13 +226,17 @@ params:
                 - "maniatis"
             - type: "panel"
               content: "Finding Europe: a continent’s renewed quest for identity and values"
-              location: "Starr Auditorium (HKS)"
+              location: "JFK Forum (HKS)"
               speakers:
                 - "buldioski"
                 - "novosad"
                 - "prevedourou"
+            - type: "panel"
+              content: "Addressing Europe’s Long-Term Migration Strategy"
+              location: "Starr Auditorium (HKS)"
+              speakers:
+                - "brkljac"
                 - "faber"
-
         - time: "6:15pm - 6:30pm"
           events:
             - type: "keynote"
