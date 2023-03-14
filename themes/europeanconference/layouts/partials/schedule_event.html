@@ -38,6 +38,19 @@ $speaker.Params.name)
       {{safeHTML $s}}
       {{end}}
     </span>
+    <span class="event-moderators">
+      {{ if in .event.moderator " " }}
+      Moderated by {{.event.moderator}}
+      {{ else }}
+      {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
+      {{ $moderators := (where $pages "File.ContentBaseName" .event.moderator) }}
+      {{ $moderator := index $moderators 0}}
+      {{ if $moderator }}
+      {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name }}
+      Moderated by {{ safeHTML $moderatorLink }}
+      {{ end }}
+      {{ end }}
+    </span>
   </div>
 
   <div class="event-location"> {{ .event.location }} </div>
