@@ -50,7 +50,11 @@ $speaker.Params.name)
       {{ $moderator := index $moderators 0}}
       {{ if $moderator }}
       {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name }}
-      Moderated by {{ safeHTML $moderatorLink }}
+      {{ $moderatorText := "Moderated by "}}
+      {{ if .event.moderatorText }}
+      {{ $moderatorText = .event.moderatorText }}
+      {{ end }}
+      {{$moderatorText}}{{ safeHTML $moderatorLink }}
       {{ end }}
       {{ end }}
     </span>
