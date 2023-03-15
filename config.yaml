@@ -2,10 +2,19 @@ baseURL: http://hugo-quickstart-template.netlify.com
 languageCode: en-us
 title: European Conference
 theme: europeanconference
+staticDir:
+  - static
 markup:
   goldmark:
     renderer:
       unsafe: true
+security:
+  exec:
+    allow:
+    - '^go$'
+    - '^npx$'
+    - '^postcss$'
+    - '^babel$'
 params:
   schedule:
     - name: "Thursday, March 23th, 2023"
