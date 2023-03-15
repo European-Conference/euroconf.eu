@@ -239,6 +239,7 @@ params:
                 - "novosad"
                 - "prevedourou"
                 - "faber"
+              moderator: "Mathias Risse"
             - type: "panel"
               content: "Addressing Europe’s Long-Term Migration Strategy"
               location: "Starr Auditorium (HKS)"
