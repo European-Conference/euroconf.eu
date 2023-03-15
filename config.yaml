@@ -39,6 +39,7 @@ params:
                 - "valasidis"
                 - "kornezov"
                 - "sharpston"
+              moderator: "William Phelan"
         - time: "2pm – 3pm"
           events:
             - type: "panel"
@@ -46,6 +47,7 @@ params:
               location: "Austin 100 (HLS)"
               speakers:
                 - "barnier"
+              moderator: "Hugh O'Doherty"
             - type: "panel"
               content: "Energy Security in Today’s World"
               location: "Austin 111 (HLS)"
@@ -67,6 +69,7 @@ params:
               speakers:
                 - "metsola"
                 - "tsikhanouskaya"
+              moderator: "Grzegorz Ekiert"
                 
         - time: "5:15pm – 6:15pm"
           events:
@@ -78,6 +81,7 @@ params:
                 - "braze"
                 - "wieslander"
                 - "debski"
+              moderator: "Stephen Walt"
             - type: "panel"
               content: "The State and Future of EU Enlargement : the Balkans as the New Frontier?"
               location: "Wexner 436 (HKS)"
@@ -90,11 +94,11 @@ params:
         - time: "7:15pm - 7:30pm"
           events:
             - type: "keynote"
-              content: "Reception Opening Remarks by Dritan Abazović, Prime Minister of Montenegro"
+              content: "Reception Keynote Speech"
               location: "Harvard Museum of Natural History"
               speakers:
                 - "abazovic"
-        - time: "6:45pm – 9pm"
+        - time: "7:30pm – 9pm"
           events:
             - type: "other"
               content: "Reception"
@@ -111,7 +115,7 @@ params:
         - time: "9:30am - 9:45am"
           events:
             - type: "keynote"
-              content: "Opening Address: Stavros Lambrinidis, Ambassador of the European Union to the United States"
+              content: "Opening Address"
               location: "JFK Forum (HKS)"
               speakers:
                 - "lambrinidis"
