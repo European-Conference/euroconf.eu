@@ -51,7 +51,7 @@ params:
         - time: "2pm – 3pm"
           events:
             - type: "panel"
-              content: "Negotiating Brexit: a Workshop with Michel Barnier"
+              content: "Negotiating Brexit: a Discussion with Michel Barnier"
               location: "Austin 100 (HLS)"
               speakers:
                 - "barnier"
@@ -96,15 +96,18 @@ params:
                 - "popov"
                 - "adam"
               moderator: "papoulias"
-              
-        - time: "6:45pm – 9pm"
+        - time: "7:15pm - 7:30pm"
+          events:
+            - type: "keynote"
+              content: "Reception Keynote Speech"
+              location: "Harvard Museum of Natural History"
+              speakers:
+                - "abazovic"
+        - time: "7:30pm – 9pm"
           events:
             - type: "other"
               content: "Reception"
               location: "Harvard Museum of Natural History"
-              
-              
-              
     - name: "Saturday, March 25 2023"
       location: "Harvard Kennedy School of Government"
       slots:
@@ -124,7 +127,7 @@ params:
         - time: "9:45am - 10:30am"
           events:
             - type: "keynote"
-              content: "Live from Kiev: a conversation with ex-Prime Minister of Ukraine Oleksiy Honcharuk"
+              content: "Live from Kyiv: a conversation with ex-Prime Minister of Ukraine Oleksiy Honcharuk"
               location: "JFK Forum (HKS)"
               speakers:
                 - "honcharuk"
@@ -160,7 +163,7 @@ params:
                 - "etienne"
                 - "patel"
                 - "sivaram"
-              moderator: "Catherine Wolfram"
+              moderator: "wolfram"
             - type: "panel"
               content: "EU - Africa: Assessing the Relationship in the Context of War in Ukraine"
               location: "Wexner W-436 (HKS)"
@@ -186,7 +189,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "verhofstadt"
-              moderator: "Daniela Schwarzer"
+              moderator: "schwarzer"
             - type: "panel"
               content: "Rivals or Partners? The future of the EU-UK relationship"
               location: "Littauer L-140 (HKS)"
@@ -226,23 +229,29 @@ params:
                 - "havlik"
                 - "shear"
                 - "wezenbeek"
-              moderator: "Kate Klonick"
+              moderator: "klonick"
         - time: "5pm - 6pm"
           events:
             - type: "panel"
               content: "Addressing Europe’s Long-Term Migration Strategy"
               location: "JFK Forum (HKS)"
               speakers:
-                - "makovec"
                 - "brkljac"
+                - "kayacik"
+                - "maniatis"
             - type: "panel"
               content: "Finding Europe: a continent’s renewed quest for identity and values"
-              location: "Starr Auditorium (HKS)"
+              location: "JFK Forum (HKS)"
               speakers:
                 - "buldioski"
                 - "novosad"
                 - "prevedourou"
-
+            - type: "panel"
+              content: "Addressing Europe’s Long-Term Migration Strategy"
+              location: "Starr Auditorium (HKS)"
+              speakers:
+                - "brkljac"
+                - "faber"
         - time: "6:15pm - 6:30pm"
           events:
             - type: "keynote"

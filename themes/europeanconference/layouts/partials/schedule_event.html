@@ -1,5 +1,8 @@
 {{ $speaker_appears := false}}
 {{ if $.for_speaker }}
+{{ if eq .event.moderator $.for_speaker }}
+{{ $speaker_appears = true }}
+{{ end }}
 {{ range .event.speakers}}
 {{ if eq . $.for_speaker }}
 {{ $speaker_appears = true }}
@@ -37,6 +40,19 @@ $speaker.Params.name)
       {{ range $i, $s := $speakerLinks}}{{if $i}},{{end}}
       {{safeHTML $s}}
       {{end}}
+    </span>
+    <span class="event-moderators">
+      {{ if in .event.moderator " " }}
+      Moderated by {{.event.moderator}}
+      {{ else }}
+      {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
+      {{ $moderators := (where $pages "File.ContentBaseName" .event.moderator) }}
+      {{ $moderator := index $moderators 0}}
+      {{ if $moderator }}
+      {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name }}
+      Moderated by {{ safeHTML $moderatorLink }}
+      {{ end }}
+      {{ end }}
     </span>
   </div>
 

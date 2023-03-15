@@ -1,10 +1,10 @@
 ## Attend
 
 
-### Early-bird tickets are now available:
+### Tickets are available:
 
-* Conference only tickets ($20)
-* Conference and reception tickets ($65)
+* Conference only tickets ($30)
+* Conference and reception tickets ($75)
 
 
 <a id='shop-btn' class="pure-button pure-button-primary" href="https://secure.touchnet.net/C20832_ustores/web/store_main.jsp?STOREID=18&SINGLESTORE=true">Purchase tickets!</a>
