@@ -91,17 +91,10 @@ params:
                 - "popov"
                 - "adam"
               moderator: "papoulias"
-        - time: "7:15pm - 7:30pm"
+        - time: "6:45pm – 9pm"
           events:
             - type: "keynote"
-              content: "Reception Keynote Speech"
-              location: "Harvard Museum of Natural History"
-              speakers:
-                - "abazovic"
-        - time: "7:30pm – 9pm"
-          events:
-            - type: "other"
-              content: "Reception"
+              content: "Reception: Openening Address by the Dritan Abazović, Prime Minister of Montenegro"
               location: "Harvard Museum of Natural History"
     - name: "Saturday, March 25 2023"
       location: "Harvard Kennedy School of Government"
