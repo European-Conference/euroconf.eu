@@ -42,11 +42,12 @@ params:
                 - "letta"
                 - "klarman"
             - type: "panel"
-              content: "Role of Courts in Civil Rights Adjudication Among Diverse States"
+              content: "70 years later: the Court of Justice of the EU as Guardian of the Rule of Law"
               location: "Austin 111 (HLS)"
               speakers:
                 - "valasidis"
                 - "kornezov"
+                - "perju"
                 - "sharpston"
               moderator: "William Phelan"
         - time: "2pm – 3pm"
