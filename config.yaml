@@ -41,6 +41,7 @@ params:
               speakers:
                 - "letta"
                 - "klarman"
+              moderator: "Ofrit Liviatan"
             - type: "panel"
               content: "70 years later: the Court of Justice of the EU as Guardian of the Rule of Law"
               location: "Austin 111 (HLS)"
