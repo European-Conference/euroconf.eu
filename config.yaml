@@ -155,6 +155,7 @@ params:
               speakers:
                 - "dagoumas"
                 - "lacoue"
+                - "dellis"
         - time: "12pm - 1pm"
           events:
             - type: "panel"
