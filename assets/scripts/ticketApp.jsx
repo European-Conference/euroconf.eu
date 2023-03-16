@@ -7,6 +7,10 @@ function useQuery() {
   return new URLSearchParams(window.location.search);
 }
 
+function getUnixTime() {
+  return Math.floor(Date.now() / 1000);
+}
+
 function TicketAppRefPicker(props) {
   const [ref, setRef] = useState('');
   const query = useQuery();
@@ -51,13 +55,14 @@ function TicketApp(props) {
   const [isFetching, setIsFetching] = useState(true);
   const [error, setError] = useState(null);
   const [attendee, setAttendee] = useState({});
-  const [panels, setPanels] = useState([]);
+  const [scheduleSlots, setScheduleSlots] = useState([]);
   const [speakers, setSpeakers] = useState([]);
   const [panelSelected, setPanelSelected] = useState([]);
   const [transferOpen, setTransferOpen] = useState(false);
   const [transferName, setTransferName] = useState('');
   const [transferEmail, setTransferEmail] = useState('');
   const [message, setMessage] = useState('');
+  var schedule;
 
   setAttendeeData = (data) => {
     setAttendee({...attendee, ...data});
@@ -71,11 +76,11 @@ function TicketApp(props) {
       speakers[speakerId] = {name: speaker.Params.name, link: permalink};
     });
 
-    let schedule = JSON.parse(SCHEDULE);
-    let panels = schedule.map((day) => day.slots.map((slot) => slot.events.filter((event) => event.type === 'panel'))).flat().flat();
-    panels = shuffleArray(panels);
+    schedule = JSON.parse(SCHEDULE);
+    let slots = schedule.map((day) => day.slots.map((slot) => slot.events.filter((event) => event.type === 'panel'))).flat().filter((slot) => slot.length > 0);
+    let panels = slots.flat();
 
-    setPanels(panels);
+    setScheduleSlots(slots);
     setSpeakers(speakers);
     setPanelSelected(new Array(panels.length).fill(false));
   };
@@ -107,8 +112,19 @@ function TicketApp(props) {
   }, [props.ticketRef]);
 
   const getPreferences = () => {
+    let panelsSelected = [];
+    let panel_counter = 0;
+    for (let i = 0; i < scheduleSlots.length; i++) {
+      for (let j = 0; j < scheduleSlots[i].length; j++, panel_counter++) {
+        if (panelSelected[panel_counter]) {
+          panelsSelected.push(scheduleSlots[i][j].content);
+        }
+      }
+    }
+
     return {
-      panelsSelected: panels.filter((panel, ind) => panelSelected[ind]).map((panel) => panel.content)
+      time: getUnixTime(),
+      panelsSelected
     };
   }
 
@@ -199,8 +215,48 @@ function TicketApp(props) {
       });
     }
 
+    let handlePanelSelected = (e, panel_id) => {
+      let selected = panelSelected.slice();
+      let panel_counter = 0;
+      for (let i = 0; i < scheduleSlots.length; i++) {
+        let slot = scheduleSlots[i];
+        let this_slot = false;
+        for (let j = 0; j < slot.length; j++, panel_counter++) {
+          if (panel_counter === panel_id) {
+            this_slot = true;
+          }
+        }
+        if (this_slot) {
+          panel_counter -= slot.length;
+          for (let j = 0; j < slot.length; j++, panel_counter++) {
+            if (panel_counter !== panel_id) {
+              selected[panel_counter] = false;
+            } else {
+              selected[panel_counter] = e.target.checked;
+            }
+          }
+      }
+    }
+    setPanelSelected(selected);
+  }
+
     let panelCheckboxes = () => {
-      return panels.map((panel, ind) => {
+      let panel_id = 0;
+      return scheduleSlots.map((slot) => {
+        return slot.map((panel, ind) => {
+          let pid = panel_id++;
+          return <div key={pid}>
+            {ind === 0 ? <div className="panel-separator">Select <em>one</em> of the below:</div> : ""}
+            <div  className={`panel-checkbox ${panelSelected[pid] ? "selected" : "not-selected"}`}>
+            <div className="checkbox">
+            <input type="checkbox" id={`panel-${pid}`} checked={panelSelected[pid]} onChange={(e) => handlePanelSelected(e, pid)}/>
+            </div>
+            <label htmlFor={`panel-${pid}`}>{panel.content} <span className="speakers">{speakerListForPanel(panel)}</span></label>
+          </div></div>;
+        });
+    });
+
+        /*
         return <div key={ind} className={`panel-checkbox ${panelSelected[ind] ? "selected" : "not-selected"}`}>
           <div className="checkbox">
           <input type="checkbox" id={`panel-${ind}`} onChange={(e) => setPanelSelected(panelSelected.map((x, i) => i === ind ? e.target.checked : x))}/>
@@ -208,6 +264,7 @@ function TicketApp(props) {
           <label htmlFor={`panel-${ind}`}>{panel.content} <span className="speakers">{speakerListForPanel(panel)}</span></label>
         </div>
       });
+      */
     }
 
     let handleOpenTransfer = (e) => {
@@ -240,6 +297,7 @@ function TicketApp(props) {
 
               <div className='buttons'>
                 <button type="submit" className="pure-button pure-button-primary">Transfer ticket</button> or <a onClick={handleCloseTransfer}>cancel</a>
+                <br/><span className='legendSub'>You can only transfer each ticket once.</span>
               </div>
             </form>
           } else {

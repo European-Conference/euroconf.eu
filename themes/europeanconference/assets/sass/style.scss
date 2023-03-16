@@ -730,3 +730,13 @@ legend {
     cursor: pointer;
   }
 }
+
+input#phone-number {
+  margin: 0 auto;
+}
+
+.panel-separator {
+  border-top: 2px dashed #ccc;
+  margin-top: 30px;
+  padding-top: 10px;
+}
