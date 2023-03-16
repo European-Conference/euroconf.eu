@@ -263,7 +263,7 @@ function TicketApp(props) {
           </legend>
           <div>
             <label htmlFor="phone-number">Phone Number:</label>
-            <input type="tel" id="phone-number" value={attendee.phone_number} onChange={(e) => setAttendeeData({phone_number: e.target.value})}/>
+            <input type="tel" id="phone-number" value={attendee.phone_number} onChange={(e) => setAttendeeData({phone_number: e.target.value})} required/>
           </div>
 
           <legend>
@@ -303,7 +303,7 @@ function TicketApp(props) {
       </div>
 
       <div className="field">
-        <span className={`field-value access ${attendee.accessGala ? 'conf-gala' : 'conf-only'}`}>{attendee.accessGala ? "Conference and Gala" : "Conference only"}</span>
+        <span className={`field-value access ${attendee.accessGala ? 'conf-gala' : 'conf-only'}`}>{attendee.accessGala ? "Conference and Reception" : "Conference only"}</span>
         <span className="explainer">Access</span>
       </div>
 
