@@ -1,0 +1,10 @@
+---
+name: Klaus Scharioth
+role: Professor of Practice at The Fletcher School of Law and Diplomacy and Dean of the Mercator College for International Affairs in Germany
+keynote: false
+show: true
+---
+
+Ambassador Klaus Scharioth is a former German Diplomat, Dean of the Mercator Fellowship on International Affairs and Professor of Practice at the Fletcher School of Law and Diplomacy in Medford, Massachusetts, USA.
+From 2006 to 2011, he served as Germany’s Ambassador to the United States. From 2002 until March 2006, Ambassador Scharioth served as State Secretary, the highest civil service post in the German Foreign Office. During his long career at the Ministry, Scharioth served as Head of the Defense and Security Policy Division, Head of the International Security and North America Directorate, and Political Director and Head of the Political Directorate-General. In 1993, he was appointed Chef de Cabinet (Director of the Private Office) to the NATO Secretary-General in Brussels, working there until 1996 with Secretaries General Wörner, Claes and Solana. Furthermore, he served the German Foreign Service in Quito, Ecuador, was a member of the Policy Planning Staff at the German Foreign Office and served at the German Permanent Mission to the United Nations in New York City.
+Klaus Scharioth holds honorary doctoral degrees from the College of Idaho, Chatham University and Old Dominion University. From 1973 to 1975, he studied International Relations, International Law, and International Finance and Economics at the Fletcher School of Law and Diplomacy, Harvard Law School and the John F. Kennedy School of Government, receiving MA, MALD, and PhD degrees in 1974, 1975 and 1978 respectively from these institutions. From 1968 to 1973, Scharioth studied Law in Bonn, Geneva, and Freiburg.
