@@ -41,7 +41,7 @@ params:
               speakers:
                 - "letta"
                 - "klarman"
-              moderator: "Dr. Ofrit Liviatan"
+              moderator: "Ofrit Liviatan"
             - type: "panel"
               content: "Role of Courts in Civil Rights Adjudication Among Diverse States"
               location: "Austin 111 (HLS)"
