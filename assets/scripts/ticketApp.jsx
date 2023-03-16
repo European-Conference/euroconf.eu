@@ -130,8 +130,8 @@ function TicketApp(props) {
   }
   
   let success = (message) => {
-    setMessage(message + " Reloading in 5 seconds...");
-    setTimeout(() => location.reload(), 5000);
+    setMessage(message + " Reloading in 10 seconds...");
+    setTimeout(() => location.reload(), 10000);
   }
 
   let transferTicket = async (e) => {
@@ -143,7 +143,7 @@ function TicketApp(props) {
         transfer: true
       });
 
-      success("Ticket transfered successfully.");
+      success("Ticket transfered successfully. Send this link to the new attendee: https://euroconf.eu/ticket?ref=" + props.ticketRef + ".");
     } catch (err) {
       setError(err.message);
     }
