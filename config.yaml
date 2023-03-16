@@ -64,7 +64,8 @@ params:
               speakers:
                 - "sdoukou"
                 - "lassen"
-                - "kosciusko-morizet"                
+                - "kosciusko-morizet"
+                - "scharioth"
               moderator: "lee"
         - time: "3pm – 4pm"
           events:
