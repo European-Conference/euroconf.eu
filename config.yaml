@@ -142,6 +142,7 @@ params:
                 - "letta"
                 - "kyslytsya"
                 - "schwarzer"
+              moderator: "Nataliya Bugayova"
             - type: "panel"
               content: "The Digital Markets Act"
               location: "Wexner W-436 (HKS)"
