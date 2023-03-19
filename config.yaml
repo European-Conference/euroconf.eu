@@ -113,27 +113,27 @@ params:
     - name: "Saturday, March 25 2023"
       location: "Harvard Kennedy School of Government"
       slots:
-        - time: "8:30am - 9:15am"
+        - time: "8:00am - 8:30am"
           events:
             - type: "other"
               content: "Breakfast"
               location: "Wintergarden (HKS)"
              
-        - time: "9:30am - 9:45am"
+        - time: "8:45am - 9:00am"
           events:
             - type: "keynote"
               content: "Opening Address"
               location: "JFK Forum (HKS)"
               speakers:
                 - "lambrinidis"
-        - time: "9:45am - 10:30am"
+        - time: "9:00am - 9:45am"
           events:
             - type: "keynote"
               content: "Live from Kyiv: a conversation with ex-Prime Minister of Ukraine Oleksiy Honcharuk"
               location: "JFK Forum (HKS)"
               speakers:
                 - "honcharuk"
-        - time: "10:45am - 11:45am"
+        - time: "10:00am - 11:00am"
           events:
             - type: "panel"
               content: "One year of War in Ukraine and its impact on Europe (and beyond)"
@@ -158,7 +158,7 @@ params:
                 - "dagoumas"
                 - "lacoue"
                 - "dellis"
-        - time: "12pm - 1pm"
+        - time: "11:15am - 12:15pm"
           events:
             - type: "panel"
               content: "The European Green Deal and the Inflation Reduction Act: How Europe and the United States are Tackling the Climate Crisis"
@@ -181,12 +181,19 @@ params:
                 - "larres"
                 - "berzina-cerenkova"
                 - "schwarzer"
-        - time: "1pm - 2:15pm"
+        - time: "12:15pm - 1:00pm"
           events:
             - type: "other"
               content: "Lunch"
               location: "Wintergarden (HKS)"
-        - time: "2:15pm - 3:15pm"
+        - time: "1:00pm - 1:45pm"
+          events:
+            - type: "keynote"
+              content: "A Discussion with Nobel Peace Laureate, Oleksandra Matviichuk"
+              location: "JFK Forum (HKS)"
+              speakers:
+                - "matviichuk"
+        - time: "2:00pm - 3:00pm"
           events:
             - type: "panel"
               content: "The Future of the EU’s Political Union"
@@ -195,30 +202,32 @@ params:
                 - "verhofstadt"
               moderator: "schwarzer"
             - type: "panel"
-              content: "Rivals or Partners? The future of the EU-UK relationship"
+              content: "Addressing Europe’s Long-Term Migration Strategy"
               location: "Littauer L-140 (HKS)"
               speakers:
                 - "barnier"
+                - "brkljac"
             - type: "panel"
               content: "The Final Frontier: Future of Space Policy in Europe and Beyond"
               location: "Starr Auditorium (HKS)"
               speakers:
                 - "oesterschlink"
                 - "espinasse"
-        - time: "3:15pm - 3:45pm"
+        - time: "3:00pm - 3:30pm"
           events:
             - type: "other"
               content: "Coffee Break"
               location: "Wintergarden (HKS)"
               
-        - time: "3:45pm - 4:45pm"
+        - time: "3:30pm - 4:30pm"
           events:
             - type: "panel"
-              content: "What’s Next for Investment in Europe?"
+              content: "The Future of Investment in Europe"
               location: "JFK Forum (HKS)"
               speakers:
                 - "dias"
                 - "lucas"
+              moderator: "pons"
             - type: "panel"
               content: "The World’s largest Construction Site: Rebuilding Post-war in Ukraine"
               location: "Starr Auditorium (HKS)"
@@ -234,7 +243,7 @@ params:
                 - "shear"
                 - "wezenbeek"
               moderator: "klonick"
-        - time: "5pm - 6pm"
+        - time: "4:45pm - 5:45pm"
           events:
             - type: "panel"
               content: "Finding Europe: a continent’s renewed quest for identity and values"
@@ -245,12 +254,8 @@ params:
                 - "prevedourou"
                 - "faber"
               moderator: "Mathias Risse"
-            - type: "panel"
-              content: "Addressing Europe’s Long-Term Migration Strategy"
-              location: "Starr Auditorium (HKS)"
-              speakers:
-                - "brkljac"
-        - time: "6:15pm - 6:30pm"
+         
+        - time: "6:00pm - 6:15pm"
           events:
             - type: "keynote"
               content: "Closing Address"
