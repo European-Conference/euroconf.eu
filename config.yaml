@@ -38,7 +38,8 @@ params:
             - type: "keynote"
               content: "Introductory Remarks - Frontline Europe"
               location: "Austin 100 (HLS)"
-              speakers: "plohkiy"
+              speakers:
+                - "plohkiy"
         - time: "12:45pm – 1:45pm"
           events:
             - type: "panel"
