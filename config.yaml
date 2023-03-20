@@ -32,7 +32,14 @@ params:
           events:
             - type: "other"
               content: "Registration and Welcome Lunch"
-              location: "Room TBD (HLS)"
+              location: "Austin Hall (HLS)"
+        - time: "12:30pm – 12:40pm"
+          events:
+            - type: "keynote"
+              content: "Introductory Remarks - Frontline Europe"
+              location: "Austin 100 (HLS)"
+              speakers:
+                - "plohkiy"
         - time: "12:45pm – 1:45pm"
           events:
             - type: "panel"
@@ -192,7 +199,7 @@ params:
         - time: "1:00pm - 1:45pm"
           events:
             - type: "keynote"
-              content: "A Discussion with Nobel Peace Laureate, Oleksandra Matviichuk"
+              content: "A Discussion with Oleksandra Matviichuk (Center for Civil Liberties, Peace Nobel Prize Laureate 2022)"
               location: "JFK Forum (HKS)"
               speakers:
                 - "matviichuk"
