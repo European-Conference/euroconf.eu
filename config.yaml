@@ -183,6 +183,7 @@ params:
                 - "larres"
                 - "berzina-cerenkova"
                 - "schwarzer"
+                - "gong"
         - time: "12:15pm - 1:00pm"
           events:
             - type: "other"
