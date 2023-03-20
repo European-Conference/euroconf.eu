@@ -233,11 +233,12 @@ params:
                 - "lucas"
               moderator: "pons"
             - type: "panel"
-              content: "The World’s largest Construction Site: Rebuilding Post-war in Ukraine"
+              content: "The World’s largest Construction Site: Rebuilding Post-war Ukraine"
               location: "Starr Auditorium (HKS)"
               speakers:
                 - "koszarny"
                 - "gaudin"
+                - "gazda"
             - type: "panel"
               content: "The Digital Services Act: Regulating Speech in Times of Disinformation and Platform Power"
               location: "Wexner W-436 (HKS)"
