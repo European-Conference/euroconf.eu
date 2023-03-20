@@ -217,13 +217,6 @@ params:
               speakers:
                 - "brkljac"
               moderator: "Chris Murray"
-            - type: "panel"
-              content: "The Final Frontier: Future of Space Policy in Europe and Beyond"
-              location: "Starr Auditorium (HKS)"
-              speakers:
-                - "oesterschlink"
-                - "espinasse"
-              moderator: "paravano"
         - time: "3:00pm - 3:30pm"
           events:
             - type: "other"
@@ -266,7 +259,13 @@ params:
                 - "prevedourou"
                 - "faber"
               moderator: "Mathias Risse"
-         
+            - type: "panel"
+              content: "The Final Frontier: Future of Space Policy in Europe and Beyond"
+              location: "Starr Auditorium (HKS)"
+              speakers:
+                - "oesterschlink"
+                - "espinasse"
+              moderator: "paravano"
         - time: "6:00pm - 6:15pm"
           events:
             - type: "keynote"
