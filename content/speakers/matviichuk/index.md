@@ -1,7 +1,8 @@
 ---
 name: Oleksandra Matviichuk
 role: Chairman of the Center for Civil Liberties, Nobel Peace Prize 2022
-keynote: false
+keynote: true
+priority: 11
 show: true
 ---
 
