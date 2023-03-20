@@ -215,7 +215,6 @@ params:
               content: "Addressing Europe’s Long-Term Migration Strategy"
               location: "Littauer L-140 (HKS)"
               speakers:
-                - "barnier"
                 - "brkljac"
               moderator: "Chris Murray"
             - type: "panel"
