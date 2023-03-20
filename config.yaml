@@ -208,7 +208,7 @@ params:
               speakers:
                 - "barnier"
                 - "brkljac"
-               moderator: "Chris Murray"
+              moderator: "Chris Murray"
             - type: "panel"
               content: "The Final Frontier: Future of Space Policy in Europe and Beyond"
               location: "Starr Auditorium (HKS)"
