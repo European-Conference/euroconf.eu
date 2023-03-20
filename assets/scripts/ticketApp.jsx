@@ -96,6 +96,7 @@ function TicketApp(props) {
     const fetchData = async (ref) => {
       try {
         const response = await axios.get(`https://europa-bot.com/conf-api/attendee/${ref}`);
+        response.data.affiliation = "European Conference Attendee";
         setAttendeeData(response.data);
       } catch (err) {
         if (err.response && err.response.status === 404) {
@@ -175,6 +176,7 @@ function TicketApp(props) {
         name: attendee.name,
         phone_number: attendee.phoneNumber,
         email: attendee.email,
+        affiliation: attendee.affiliation,
         registered: true,
         preferences
       });
@@ -323,6 +325,23 @@ function TicketApp(props) {
             <label htmlFor="phone-number">Phone Number:</label>
             <input type="tel" id="phone-number" value={attendee.phone_number} onChange={(e) => setAttendeeData({phone_number: e.target.value})} required/>
           </div>
+
+          <legend>
+            <span className='legendMain'>Are you affiliated with Harvard?</span><br/>
+            <span className='legendSub'>If you are not a current holder of a Harvard ID, please pick "Not affiliated with Harvard".</span>
+          </legend>
+          <div>
+            <label htmlFor="affiliation">Harvard Affiliation:</label>
+            <select name="affiliation" id="affiliation" value={attendee.affiliation} onChange={(e) => setAttendeeData({affiliation: e.target.value})} required>
+                <option value="Undergraduate Student: Harvard College">Undergraduate Student: Harvard College</option>
+                <option value="Graduate Student: Harvard Kennedy School">Graduate Student: Harvard Kennedy School</option>
+                <option value="Harvard Graduate Student: Non-HKS">Harvard Graduate Student: Non-HKS</option>
+                <option value="Harvard Faculty, Staff, or Fellow">Harvard Faculty, Staff, or Fellow</option>
+                <option value="European Conference Attendee">Not affiliated with Harvard</option>
+                <option value="Media">Media</option>
+            </select>
+          </div>
+
 
           <legend>
             <span className='legendMain'>Please select the panels that interest you from the list below.</span>
