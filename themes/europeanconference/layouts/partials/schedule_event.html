@@ -35,7 +35,7 @@ $speaker.Params.name)
     {{ if eq .event.type "panel"}}
     <span class="event-type-tag">Panel</span><br />
     {{end}}
-    <span class="event-title"> {{.event.content}} </span>
+    <span class="event-title"> {{.event.content | safeHTML}} </span>
     <span class="event-speakers">
       {{ range $i, $s := $speakerLinks}}{{if $i}},{{end}}
       {{safeHTML $s}}
@@ -49,7 +49,7 @@ $speaker.Params.name)
       {{ $moderators := (where $pages "File.ContentBaseName" .event.moderator) }}
       {{ $moderator := index $moderators 0}}
       {{ if $moderator }}
-      {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name }}
+      {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name}}
       {{ $moderatorText := "Moderated by "}}
       {{ if .event.moderatorText }}
       {{ $moderatorText = .event.moderatorText }}

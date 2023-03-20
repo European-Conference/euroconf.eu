@@ -23,7 +23,7 @@ params:
         - time: "6pm - 8pm"
           events:
             - type: "other"
-              content: "Conference kick-off: projection of the movie “A House Made of Splinters” (2023 oscar nominee for best documentary). Includes a Q&A with the film crew."
+              content: "Conference kick-off: projection of the movie <a href='/a-house-made-of-splinters'>“A House Made of Splinters”</a> (2023 oscar nominee for best documentary). Includes a Q&A with the film crew."
               location: "Langdell 225N (HLS)"
     - name: "Friday, March 24th, 2023"
       location: "Harvard Law School (HLS) and Harvard Kennedy School of Government (HKS)"
