@@ -223,6 +223,7 @@ params:
               speakers:
                 - "oesterschlink"
                 - "espinasse"
+              moderator: "paravano"
         - time: "3:00pm - 3:30pm"
           events:
             - type: "other"
