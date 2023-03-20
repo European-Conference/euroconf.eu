@@ -36,7 +36,7 @@ params:
         - time: "12:30pm – 12:40pm"
           events:
             - type: "keynote"
-              content: "Introductory Remarks - Frontline Europe"
+              content: "The Russo-Ukrainian-War and the Future of Europe"
               location: "Austin 100 (HLS)"
               speakers:
                 - "plohkiy"
