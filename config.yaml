@@ -214,11 +214,14 @@ params:
                 - "verhofstadt"
               moderator: "Tine Hertz"
             - type: "panel"
-              content: "Addressing Europe’s Long-Term Migration Strategy"
-              location: "Littauer L-140 (HKS)"
+              content: "The World’s largest Construction Site: Rebuilding Post-war Ukraine"
+              location: "Starr Auditorium (HKS)"
               speakers:
-                - "brkljac"
-              moderator: "Chris Murray"
+                - "koszarny"
+                - "gaudin"
+                - "gazda"
+                
+                
         - time: "3:00pm - 3:30pm"
           events:
             - type: "other"
@@ -234,13 +237,14 @@ params:
                 - "dias"
                 - "lucas"
               moderator: "pons"
+              
             - type: "panel"
-              content: "The World’s largest Construction Site: Rebuilding Post-war Ukraine"
+              content: "Addressing Europe’s Long-Term Migration Strategy"
               location: "Starr Auditorium (HKS)"
               speakers:
-                - "koszarny"
-                - "gaudin"
-                - "gazda"
+                - "brkljac"
+              moderator: "Chris Murray"
+              
             - type: "panel"
               content: "The Digital Services Act: Regulating Speech in Times of Disinformation and Platform Power"
               location: "Wexner W-436 (HKS)"
