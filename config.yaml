@@ -253,7 +253,7 @@ params:
                 - "havlik"
                 - "shear"
                 - "wezenbeek"
-              moderator: "klonick"
+              
         - time: "4:45pm - 5:45pm"
           events:
             - type: "panel"
