@@ -159,6 +159,7 @@ params:
                 - "katona"
                 - "kimmelman"
                 - "oeyen"
+              moderator: "Geme Kemmerman"
             - type: "panel"
               content: "Rising Strong: Building Resilient Supply Chains in Europe"
               location: "Starr Auditorium (HKS)"
