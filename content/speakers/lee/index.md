@@ -1,0 +1,8 @@
+---
+name: Henry Lee
+role: Director of Environmental and Natural Resource Program at Harvard Kennedy School
+keynote: false
+show: true
+---
+
+Henry Lee is the Jassim M. Jaidah Family Director of the Environment and Natural Resources Program within the Belfer Center for Science and International Affairs at Harvard's John F. Kennedy School of Government, Faculty Co-Chair of the Sustainability Science Program, and a Senior Lecturer in Public Policy. He also serves on the Advisory Board of the Harvard Kennedy School's Kuwait Program. Before joining the school, Mr. Lee spent nine years in Massachusetts state government as Director of the State's Energy Office and Special Assistant to the Governor for environmental policy. He has served on numerous state, federal, and private boards, and advisory committees on both energy and environmental issues. Additionally, he has worked with private and public organizations, including the InterAmerican Development Bank, the International Finance Corporation, the State of Sao Paulo, the U.S. Departments of Energy and Interior, the National Research Council, the Intercontinental Energy Corporation, General Electric, the Massachusetts Department of Conservation and Recreation, and the U.S. EPA. His recent research interests focus on energy and transportation, China's energy policy, and public infrastructure projects in developing countries. Mr. Lee is the author of recent papers on both the U.S. and China, the economic viability of electric vehicles, as well as overseeing or writing case studies on Iceland's green energy agenda, Argentina's renewable energy program, the privatization of Rio de Janeiro's airport, climate adaptation in South Florida, and the carbon tax in British Columbia.
