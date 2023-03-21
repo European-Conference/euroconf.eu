@@ -102,6 +102,7 @@ function TicketApp(props) {
         if (err.response && err.response.status === 404) {
           setError('The ticket reference does not exist.');
         } else {
+          console.log(err.response);
           setError(err.message);
         }
       }
@@ -162,7 +163,7 @@ function TicketApp(props) {
 
       success("Ticket transfered successfully. Send this link to the new attendee: https://euroconf.eu/ticket?ref=" + props.ticketRef + ".");
     } catch (err) {
-      setError(err.message);
+      setError(err.message + " " + err.response.data.error);
     }
 
   }
@@ -309,7 +310,7 @@ function TicketApp(props) {
     }
     let registrationHeader = () => {
       return <div className='ticket-transfer'>
-        <p className="ticketInfo">Ticket to be issued to <span className="cant-change">{attendee.name}</span> at <span className="email cant-change">{attendee.email}</span></p>
+        <p className="ticketInfo">{attendee.accessGala ? "Conference and Reception" : "Conference-only"} ticket to be issued to <span className="cant-change">{attendee.name}</span> at <span className="email cant-change">{attendee.email}</span></p>
         {ticketChange()}
       </div>
     }
