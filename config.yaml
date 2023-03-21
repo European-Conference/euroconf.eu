@@ -39,7 +39,7 @@ params:
               content: "The Russo-Ukrainian-War and the Future of Europe"
               location: "Austin 100 (HLS)"
               speakers:
-                - "plohkiy"
+                - "plokhii"
         - time: "12:45pm – 1:45pm"
           events:
             - type: "panel"
@@ -95,7 +95,7 @@ params:
           events:
             - type: "panel"
               content: "Stronger Together: A Revitalized Transatlantic Relationship"
-              location: "L-140 (HKS)"
+              location: "Malkin Penthouse (HKS)"
               speakers:
                 - "etienne"
                 - "braze"
@@ -210,7 +210,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "verhofstadt"
-              moderator: "schwarzer"
+              moderator: "tine"
             - type: "panel"
               content: "Addressing Europe’s Long-Term Migration Strategy"
               location: "Littauer L-140 (HKS)"
