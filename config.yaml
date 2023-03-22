@@ -243,7 +243,9 @@ params:
               location: "Starr Auditorium (HKS)"
               speakers:
                 - "brkljac"
-              moderator: "Chris Murray"
+                - "novosad"
+                - "murray"
+              moderator: "Meghan Garrity"
               
             - type: "panel"
               content: "The Digital Services Act: Regulating Speech in Times of Disinformation and Platform Power"
