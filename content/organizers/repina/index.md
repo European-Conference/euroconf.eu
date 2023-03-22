@@ -1,6 +1,7 @@
 ---
 name: Svitlana Repina
-role: Organizing Committee (HBS)
+role: Organizing Committee
+priority: 200
 keynote: false
 show: true
 ---
