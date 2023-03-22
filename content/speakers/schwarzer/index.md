@@ -1,7 +1,8 @@
 ---
 name: Daniela Schwarzer
 role: Executive Director, Open Society Europe and Central Asia - Special Advisor of the Conference
-keynote: false
+keynote: true
+priority: 100
 show: true
 ---
 
