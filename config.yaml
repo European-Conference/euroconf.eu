@@ -193,6 +193,7 @@ params:
                 - "berzina-cerenkova"
                 - "schwarzer"
                 - "gong"
+              moderator: "Nargis Kassenova"
         - time: "12:15pm - 1:00pm"
           events:
             - type: "other"
