@@ -221,6 +221,7 @@ params:
               speakers:
                 - "verhofstadt"
               moderator: "hertz"
+              
             - type: "panel"
               content: "The World’s largest Construction Site: Rebuilding Post-war Ukraine"
               location: "Starr Auditorium (HKS)"
