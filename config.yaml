@@ -141,7 +141,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "honcharuk"
-              moderator: "aschehoug"
+              moderator: "Andrew-Sebastien Aschehoug"
               
         - time: "10:00am - 11:00am"
           events:
@@ -220,7 +220,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "verhofstadt"
-              moderator: "hertz"
+              moderator: "Tine Hertz"
               
             - type: "panel"
               content: "The World’s largest Construction Site: Rebuilding Post-war Ukraine"
