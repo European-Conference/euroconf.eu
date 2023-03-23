@@ -55,7 +55,6 @@ params:
               location: "Austin 111 (HLS)"
               speakers:
                 - "valasidis"
-                - "kornezov"
                 - "perju"
                 - "sharpston"
               moderator: "William Phelan"
@@ -255,6 +254,7 @@ params:
                 - "brkljac"
                 - "novosad"
                 - "murray"
+                - "kornezov"
               moderator: "Meghan Garrity"
               
             - type: "panel"
