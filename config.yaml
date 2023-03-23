@@ -186,8 +186,9 @@ params:
               location: "Wexner W-436 (HKS)"
               speakers:
                 - "chahed"
-                - "kadayifci-orellana"
                 - "mathernova"
+                - "kadayifci-orellana"
+                - "houenou"
               moderator: "Peace Uwase"
               
             - type: "panel"
