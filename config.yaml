@@ -206,6 +206,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "matviichuk"
+              moderator: "schwarzer"
         - time: "2:00pm - 3:00pm"
           events:
             - type: "panel"
