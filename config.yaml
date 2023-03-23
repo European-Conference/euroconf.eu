@@ -141,6 +141,7 @@ params:
               location: "JFK Forum (HKS)"
               speakers:
                 - "honcharuk"
+               moderator: "Andrew-Sebastien Aschehoug"
         - time: "10:00am - 11:00am"
           events:
             - type: "panel"
