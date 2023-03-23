@@ -20,7 +20,7 @@ params:
     - name: "Thursday, March 23th, 2023"
       location: "Harvard Law School (HLS)"
       slots:
-        - time: "5:45pm - 8pm"
+        - time: "6:00pm - 8pm"
           events:
             - type: "other"
               content: "Conference kick-off: projection of the movie <a href='/a-house-made-of-splinters'>“A House Made of Splinters”</a> (2023 oscar nominee for best documentary). Includes a Q&A with the film crew."
