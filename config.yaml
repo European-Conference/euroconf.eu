@@ -170,7 +170,7 @@ params:
                 - "dagoumas"
                 - "lacoue"
                 - "dellis"
-              moderator: "Philippe Rival"
+              moderator: "<a href='/organizers/prival'>Philippe Rival</a>"
         - time: "11:15am - 12:15pm"
           events:
             - type: "panel"

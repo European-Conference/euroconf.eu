@@ -43,7 +43,7 @@ $speaker.Params.name)
     </span>
     <span class="event-moderators">
       {{ if in .event.moderator " " }}
-      Moderated by {{.event.moderator}}
+      Moderated by {{.event.moderator | safeHTML}}
       {{ else }}
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
       {{ $moderators := (where $pages "File.ContentBaseName" .event.moderator) }}
