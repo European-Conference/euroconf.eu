@@ -152,7 +152,7 @@ params:
                 - "letta"
                 - "kyslytsya"
                 - "schwarzer"
-              moderator: "Nataliya Bugayova"
+              moderator: "bugayova"
               
             - type: "panel"
               content: "Regulating Big Tech: Challenges Ahead in the Implementation of the Digital Markets Act"
@@ -275,7 +275,7 @@ params:
                 - "novosad"
                 - "prevedourou"
                 - "faber"
-              moderator: "Mathias Risse"
+              moderator: "risse"
             - type: "panel"
               content: "The Final Frontier: Future of Space Policy in Europe and Beyond"
               location: "Starr Auditorium (HKS)"
