@@ -263,6 +263,7 @@ params:
                 - "havlik"
                 - "shear"
                 - "wezenbeek"
+              moderator: "Jordi Calvet-Bademunt"
               
         - time: "4:45pm - 5:45pm"
           events:
