@@ -153,6 +153,7 @@ params:
                 - "kyslytsya"
                 - "schwarzer"
               moderator: "bugayova"
+              
             - type: "panel"
               content: "Regulating Big Tech: Challenges Ahead in the Implementation of the Digital Markets Act"
               location: "Wexner W-436 (HKS)"
@@ -186,7 +187,9 @@ params:
               speakers:
                 - "chahed"
                 - "kadayifci-orellana"
+                - "mathernova"
               moderator: "Peace Uwase"
+              
             - type: "panel"
               content: "The role of Europe in the US-China rivalry"
               location: "Starr Auditorium (HKS)"
