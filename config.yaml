@@ -299,9 +299,9 @@ menu:
       url: /
       pageRef: /
       weight: 10
-    - name: Attend
-      url: /attend/
-      pageRef: attend
+    - name: Info
+      url: /info/
+      pageRef: info
       weight: 15
     - name: Speakers
       url: /speakers
