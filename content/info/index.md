@@ -7,7 +7,7 @@
 ### Locations
 
 The European Conference is taking place at two locations:
-* At the Harvard Law School (HLS), on Friday between 11:30am and 3pm. ([Google Maps link](https://goo.gl/maps/htrvHFs7z96YqeYs9)). **The registration desk for regular attendees during these hours will be located at Austin Hall.** For speakers and delegation, the registration on Friday (before 3PM) is at Lewis Hall. ([Google Maps link](https://goo.gl/maps/eQAhmMwQR3CmQ8oY9)).
+* At the Harvard Law School (HLS), on Friday between 11:30am and 3pm. **The registration desk for regular attendees during these hours will be located at Austin Hall.** ([Google Maps link](https://goo.gl/maps/htrvHFs7z96YqeYs9)). For speakers and their delegations, the registration on Friday (before 3PM) is at Lewis Hall. ([Google Maps link](https://goo.gl/maps/eQAhmMwQR3CmQ8oY9)).
 * At the Harvard Kennedy School (HKS), on Friday from 3pm onwards and on Saturday ([Google Maps link](https://www.google.fr/maps/place/42%C2%B022'18.5%22N+71%C2%B007'17.8%22W/@42.371812,-71.121622,17z/data=!3m1!4b1!4m4!3m3!8m2!3d42.371812!4d-71.121622)). The registration desk is located near the main entrance, please see the map below: <div class='hks-map'>![image](hks-map.png)</div>
 
 The reception will take place at the Harvard Natural History Museum (see below).
