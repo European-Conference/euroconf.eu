@@ -387,7 +387,7 @@ function TicketApp(props) {
 
     </div>
   </div>
-  <p className="subtext">Please present the above to the registration desk at the conference to receive your badge. The registration desk is located at TBD. You will need to show a photo ID that matches the name above. Please do not print your ticket.</p>
+  <p className="subtext">Please present the above to the registration desk at the conference to receive your badge. For the locations of the registration desks, see <a href='/info'>the info page</a>. You will need to show a photo ID that matches the name above. Please do not print your ticket.</p>
   <p className="subtext">For any questions, don't hesitate to contact us at <a href='mailto:contact@euroconf.eu'>contact@euroconf.eu</a>. We look forward to welcoming you to the conference.</p>
   </div>
 }
