@@ -8,7 +8,7 @@ Join us in **Cambridge, MA** on the **24<sup>th</sup> and 25<sup>th</sup> of Mar
 
 ## Tickets are no longer available.
 
-## <a href='/info'>Information for attendees</a>
+## <a href='/info' class="pure-button pure-button-primary">Information for attendees</a>
 
 ### Keynote Speakers
 
