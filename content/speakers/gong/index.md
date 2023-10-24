@@ -1,6 +1,6 @@
 ---
 name: Weila Gong
-role: Postdoctoral Research Fellow with the Belfer Center’s Environment and Natural Resources Program and the Science, Technology, and Public Policy Program at Harvard Kennedy School
+role: Research Fellow with the Belfer Center’s Environment and Natural Resources Program and the Science, Technology, and Public Policy Program at Harvard Kennedy School
 keynote: false
 show: true
 ---
