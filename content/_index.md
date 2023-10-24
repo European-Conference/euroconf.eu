@@ -4,7 +4,7 @@ title: "Home"
 
 ## <span class='frontline-europe'>Frontline Europe</span><br>a continent's struggle for relevance, unity and value
 
-Join us in **Cambridge, MA** on the **24<sup>th</sup> and 25<sup>th</sup> of March** for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today. From the **geopolitical challenges** posed by the war in Ukraine to today's **business opportunities** and outlook in Europe, all the way through the evolution of the European Union and the transatlantic relationship, we will delve deep into the issues that are shaping the future of Europe.
+Join us in **Cambridge, MA** on the **24<sup>th</sup> and 25<sup>th</sup> of March** for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today.
 
 ## Tickets are no longer available.
 
