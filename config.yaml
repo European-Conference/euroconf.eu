@@ -315,6 +315,10 @@ menu:
       url: /organizers
       pageRef: organizers
       weight: 40
+    - name: 2023 Conference
+      url: /2023-conference
+      pageRef: 2023-homepage
+      weight: 50
   footer:
     - name: Contact
       url: /contact
