@@ -299,6 +299,10 @@ menu:
       url: /
       pageRef: /
       weight: 10
+    - name: 2023 Conference
+      url: /2023-conference
+      pageRef: 2023-homepage
+      weight: 10
     - name: Info
       url: /info/
       pageRef: info
