@@ -29,4 +29,11 @@ The conference will feature over 20 panels over two days with distinguised speak
 <a id='tickets-btn' class="pure-button pure-button-primary" href="/schedule">See the detailed schedule</a>
 </center>
 
+### Organizers
+The conference is organized by a dedicated team working to make the event a success.
+
+<center>
+<a id='tickets-btn' class="pure-button pure-button-primary" href="/organizers">See the organizers</a>
+</center>
+
 #### We look forward to welcoming you in Cambridge!
