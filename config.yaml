@@ -299,22 +299,6 @@ menu:
       url: /
       pageRef: /
       weight: 10
-    - name: Info
-      url: /info/
-      pageRef: info
-      weight: 15
-    - name: Speakers
-      url: /speakers
-      pageRef: speakers
-      weight: 20
-    - name: Schedule
-      url: /schedule
-      pageRef: schedule
-      weight: 30
-    - name: Organizers
-      url: /organizers
-      pageRef: organizers
-      weight: 40
     - name: 2023 Conference
       url: /2023-conference
       pageRef: 2023-homepage
