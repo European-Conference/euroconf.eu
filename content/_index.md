@@ -2,31 +2,16 @@
 title: "Home"
 ---
 
-## <span class='frontline-europe'>Frontline Europe</span><br>a continent's struggle for relevance, unity and value
+## <span class='european-dream'>The European Dream</span><br>2024: A Continent at the Crossroads
 
-Join us in **Cambridge, MA** on the **24<sup>th</sup> and 25<sup>th</sup> of March** for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today.
+Join us in **Cambridge, MA** on the **9<sup>th</sup> and 10<sup>th</sup> of February** for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today.
 
-## Tickets are no longer available.
+## Tickets will be made available in the near future.
 
 ## <a href='/info' class="pure-button pure-button-primary">Information for attendees</a>
 
-### Keynote Speakers
+### Keynote Speakers and Themese
 
-{{< keynote_speakers >}}
-
-<center>
-<a id='tickets-btn' class="pure-button pure-button-primary" href="/speakers">See the full list of speakers</a>
-</center>
-
-### Themes
-The conference will feature over 20 panels over two days with distinguised speakers around three main thematic panels:
-
-1. Geopolitics - starring the **President of the European Parliament** Roberta Metsola, as well as **3 former Prime Ministers**: Youssef Chahed (Tunisia), Enrico Letta (Italy), Guy Verhofstadt (Belgium), not to mention former Brexit chief negotiator Michel Barnier, who will discuss the EU-UK relationship.
-2. Identity and Values - starring Sviatlana Tsikhanouskaya, **Democratic Opposition Leader of Belarus**, currently in exile.
-3. Economics and Business - including a discussion on "What's Next for Investment in Europe" with **Aragon CEO Anne Dias** (HBS Alumni), panels on the European tech with experts and practicioners from **Google** and **Meta**, and a roundtable relating to "Rebuilding Ukraine" with former **Deputy Minister of Finance of Ukraine Roman Kachur**.
-
-<center>
-<a id='tickets-btn' class="pure-button pure-button-primary" href="/schedule">See the detailed schedule</a>
-</center>
+Keynote speakers and themes will be announced shortly. See our <a href='/2023-homepage' class="2023-homepage">previous speakers and themes</a> for an idea of what to expect.
 
 #### We look forward to welcoming you in Cambridge!
