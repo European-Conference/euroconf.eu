@@ -315,6 +315,10 @@ menu:
       url: /organizers
       pageRef: organizers
       weight: 40
+    - name: 2023 Homepage
+      url: /2023-homepage
+      pageRef: 2023-homepage
+      weight: 40
   footer:
     - name: Contact
       url: /contact
