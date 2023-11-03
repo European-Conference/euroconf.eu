@@ -6,6 +6,8 @@ title: "Home"
 
 Join us in **Cambridge, MA** on the **9<sup>th</sup> and 10<sup>th</sup> of February** for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today.
 
+<img src="europe.png" alt="Greyscale Map of Europe">
+
 ## Information
 
 Tickets will be made available in the near future. Speakers and themes will be announced soon. In the meantime, check out the speakers and themes from our most recent conference <a href='/2023-homepage' class="2023-conferenece">here</a>.
