@@ -8,4 +8,4 @@
 ![images](https://user-images.githubusercontent.com/124108057/215918575-179ee348-13e4-40e3-a0ab-9452b788c846.png)
 
 With the support of the Cultural Services of the French Embassy in the United States:
-![image](https://user-images.githubusercontent.com/807308/218595851-94e9ae0b-ff0c-4fe7-bc99-7a984ac687d4.png)
+<image src="french-embassy-us-logo" alt="Logo of the French Embassy in the US Centers of Excellence">
