@@ -1,4 +1,4 @@
-## Sponsors
+<h2> Sponsors </h2>
 <div class="sponsor-grid">
 <image src="../../themes/europeanconference/static/belfer-center-logo.png" alt="Logo for the Belfer Center" max-width = 100% class="sponsor-grid-item">
 <image src="../../themes/europeanconference/static/davis-center-logo.png" alt="Logo for the Davis Center" max-width = 100% class="sponsor-grid-item">
