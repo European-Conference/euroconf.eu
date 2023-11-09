@@ -485,9 +485,9 @@ schedule
 #content.sponsors {
   text-align: center;
   img {
-    min-width: 300px;
+    width: 500px;
     max-width: 100%;
-    display: block;
+    display: grid;
     margin: 30px auto;
   }
 }
