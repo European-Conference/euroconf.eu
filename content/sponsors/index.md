@@ -1,11 +1,13 @@
 ## Sponsors
-![Belfer](https://user-images.githubusercontent.com/124108057/215917268-74d91b9e-f513-4151-9661-556114f3e076.png)
-![1243-davis-center-russian-and-eurasian-studies (1)](https://user-images.githubusercontent.com/124108057/215918178-29b8ad8f-1fa5-4bc5-8d33-73644b81279c.png)
-![CES](https://user-images.githubusercontent.com/124108057/215918191-c4fbc17a-9d2d-4ca1-8d18-179a316d8ffd.jpg)
-![Carr](https://user-images.githubusercontent.com/124108057/215918432-0f4acbad-6769-4725-bdc9-6cb3f398da2f.jpg)
-![CPL](https://user-images.githubusercontent.com/124108057/215918441-72ac8dee-a79f-4017-8f44-786f1a6bad00.png)
-![mrcbg-logo](https://user-images.githubusercontent.com/124108057/215918446-d5e9db31-a296-4439-b9f6-4c3cdb9e94f0.jpg)
-![images](https://user-images.githubusercontent.com/124108057/215918575-179ee348-13e4-40e3-a0ab-9452b788c846.png)
+<div class="sponsor-grid">
+<image src="/belfer-center-logo.png" alt="Logo for the Belfer Center" max-width = 100% class="sponsor-grid-item">
+<image src="/davis-center-logo.png" alt="Logo for the Davis Center" max-width = 100% class="sponsor-grid-item">
+<image src="/center-for-european-studies-logo.jpg" alt="Logo for the Center for European Studies" max-width = 100% class="sponsor-grid-item">
+<image src="/carr-center-logo.jpg" alt="Logo for the Carr Center" max-width = 100% class="sponsor-grid-item">
+<image src="/center-for-public-leadership-logo.png" alt="Logo for the Center for Public Leadership" max-width = 100% class="sponsor-grid-item">
+<image src="/moassavar-rahmani-center-logo.jpg" alt="Logo for the Mossavar Rahmani Center" max-width = 100% class="sponsor-grid-item">
+<image src="/huri-logo.png" alt="Logo for HURI" max-width = 100% class="sponsor-grid-item">
+</div>
 
 With the support of the Cultural Services of the French Embassy in the United States:
-![image](https://user-images.githubusercontent.com/807308/218595851-94e9ae0b-ff0c-4fe7-bc99-7a984ac687d4.png)
+<image src="/french-embassy-us-logo.png" alt="Logo for the French Embassy in the US Centers of Excellence" max-width = 100%>
