@@ -487,7 +487,8 @@ schedule
   img {
     width: 500px;
     max-width: 100%;
-    display: grid;
+    display: flex;
+      flex-flow: column wrap;
     margin: 30px auto;
   }
 }
