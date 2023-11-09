@@ -7,6 +7,7 @@
 <image src="../../themes/europeanconference/static/center-for-public-leadership-logo.png" alt="Logo for the Center for Public Leadership" max-width = 100% class="sponsor-grid-item">
 <image src="../../themes/europeanconference/static/moassavar-rahmani-center-logo.jpg" alt="Logo for the Mossavar Rahmani Center" max-width = 100% class="sponsor-grid-item">
 <image src="../../themes/europeanconference/static/huri-logo.png" alt="Logo for HURI" max-width = 100% class="sponsor-grid-item">
+</div>
 
 With the support of the Cultural Services of the French Embassy in the United States:
 <image src="../../themes/europeanconference/static/french-embassy-us-logo.png" alt="Logo for the French Embassy in the US Centers of Excellence" max-width = 100%>
