@@ -745,6 +745,8 @@ input#phone-number {
   padding-top: 10px;
 }
 
+/* images */
+
 .hks-map {
   text-align: center;
   img {
@@ -753,5 +755,9 @@ input#phone-number {
 }
 
 .map {
+  max-width: 100%;
+}
+
+.sponsor-grid-item {
   max-width: 100%;
 }
