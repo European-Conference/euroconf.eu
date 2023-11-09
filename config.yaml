@@ -313,6 +313,3 @@ menu:
     - name: Terms
       url: /terms
       weight: 30
-    - name: Sponsors
-      url: /sponsors
-      weight: 15
