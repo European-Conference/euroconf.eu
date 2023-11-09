@@ -485,9 +485,9 @@ schedule
 #content.sponsors {
   text-align: center;
   img {
-    min-width: 300px;
-    max-width: 500px;
-    display: block;
+    width: 500px;
+    max-width: 100%;
+    display: grid;
     margin: 30px auto;
   }
 }
@@ -755,9 +755,5 @@ input#phone-number {
 }
 
 .map {
-  max-width: 100%;
-}
-
-.sponsor-grid-item {
   max-width: 100%;
 }
