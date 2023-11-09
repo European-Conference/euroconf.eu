@@ -6,7 +6,9 @@ title: "Home"
 
 Join us at **Harvard Kennedy School** in Cambridge, Massachusetts, on **February 9 and 10, 2024**, for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today.
 
+<p class="homepage-image">
 <img src="save-the-date-no-logo.png" alt="Grayscale map of Europe with Save the Date written across the image" width="800" class="map">
+</p>
 
 ## Information
 
