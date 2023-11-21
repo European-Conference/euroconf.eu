@@ -33,7 +33,7 @@ params:
             - type: "other"
               content: "Registration and Welcome Lunch"
               location: "Austin Hall (HLS)"
-        - time: "12:30pm – 12:40pm"
+    - time: "12:30pm – 12:40pm"
           events:
             - type: "keynote"
               content: "The Russo-Ukrainian-War and the Future of Europe"
