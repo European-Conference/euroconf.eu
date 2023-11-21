@@ -7,3 +7,4 @@
 This is a static website built with [Hugo](https://gohugo.io/) and deployed via [Netlify](https://netlify.com). It uses a custom Hugo theme, located in `themes/europeanconference`. Content is mostly in [Markdown](https://www.markdownguide.org/), and located under `content/`.
 
 There is slack bot which opens PRs that add/edit speakers on behalf of people in slack.
+
