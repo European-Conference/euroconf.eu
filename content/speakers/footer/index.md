@@ -1,7 +1,7 @@
 ---
 name: Joe Biden
 role: President of the United States
-keynote: false
+keynote: true
 show: true
 ---
 
