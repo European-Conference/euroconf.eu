@@ -6,8 +6,6 @@ title: "Home"
 
 Join us in **Cambridge, MA** on the **24<sup>th</sup> and 25<sup>th</sup> of March** for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today.
 
-## Tickets are no longer available.
-
 ## <a href='/info' class="pure-button pure-button-primary">Information for attendees</a>
 
 ### Keynote Speakers
