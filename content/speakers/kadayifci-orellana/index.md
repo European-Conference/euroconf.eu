@@ -1,8 +1,0 @@
----
-name: Dr. S. Ayse Kadayifci-Orellana
-role: Affiliate researcher at the Georgetown Institute for Women, Peace, and Security.
-keynote: false
-show: true
----
-
-Dr. S. Ayse Kadayifci-Orellana is an affiliate GIWPS Researcher. She previously served as Associate Director and Assistant Professor of the Practice at Georgetown University’s MA Program in Conflict Resolution. Before coming to Georgetown University she served as a consultant for the Religion and Peacebuilding Program at United States Institute of Peace, and as an Assistant Professor in the field of Peace and Conflict Resolution at the School of International Service at American University, Washington D.C. She is also one of the founding members of Salam Institute for Peace and Justice, a non-profit organization for research, education, and practice on issues related to conflict resolution, nonviolence, and development (2005-2012), where she served as the Associate Director. Dr. Kadayifci-Orellana received her PhD from American University’s School of International Service in Washington DC in 2002 with a Master’s degree in Conflict Analysis from University of Kent in Canterbury, England. Dr. Kadayifci-Orellana’s has authored “Standing On an Isthmus: Islamic Narratives of War and Peace in the Palestinian Territories” and co-authored the edited the volume, “Anthology on Islam and Peace and Conflict Resolution in Islam: Precept and Practice.” She has also written various book chapters and journal articles on Muslim women’s peacebuilding initiatives, mediation and peace building, religion and conflict resolution, interfaith dialogue, Islamic approaches to war and peace, and Islam and nonviolence.
