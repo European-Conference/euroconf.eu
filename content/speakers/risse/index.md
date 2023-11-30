@@ -1,9 +1,0 @@
----
-name: Mathias Risse
-role: Director of the Carr Center for Human Rights Policy, Harvard Kennedy School
-keynote: false
-show: true
----
-
-In addition to HKS, Risse also teaches in Harvard College and the Harvard Extension School, and is affiliated with the Philosophy Department. He has also been involved with executive education at Harvard and in collaboration with international organizations. Risse is the author of _On Global Justice_ (Princeton University Press) and _Global Political Philosophy_ (Palgrave Macmillan)_,_ as well as _On Trade Justice: A Philosophical Plea for a New Global Deal_ (Oxford University Press, with Gabriel Wollner) and _On Justice: Philosophy, History, Foundations_ (Cambridge University Press). Risse serves as Co-Director of Graduate Studies at the Edmond J Safra Center for Ethics (jointly with Danielle Allen), as well as Director of the McCloy program, a fellowship program for German students. He is also affiliated with the Weatherhead Center for International Affairs.
-Risse has been the organizer of a number of major international conferences at Harvard and a co-organizer of several more such events in East and South East Asia (Singapore, Seoul and Shanghai), as a way of fostering collaboration among political philosophers and representatives of other fields across cultural divides. He has been a visiting professor at the National University of Singapore, New York University Abu Dhabi and Leuphana University in Germany. Risse grew up in a village in Westphalia, Germany. He studied in Bielefeld, Pittsburgh and Jerusalem, and then received his PhD from Princeton in 2000 and taught in the Department of Philosophy at Yale before coming to Harvard in 2002. He lived in Harvard's Eliot House for six years, and now resides in Somerville with his wife.
