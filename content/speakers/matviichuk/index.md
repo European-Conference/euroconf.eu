@@ -1,0 +1,14 @@
+---
+name: Oleksandra Matviichuk
+role: Chairman of the Center for Civil Liberties, Nobel Peace Prize 2022
+keynote: true
+priority: 11
+show: true
+---
+
+Oleksandra Matviichuk is a human rights defender who works on issues in Ukraine and the OSCE region. At present she heads the human rights organization Center for Civil Liberties, and also coordinates the work of the initiative group Euromaidan SOS. The activities of the Center for Civil Liberties are aimed at protecting human rights and establishing democracy in Ukraine and the OSCE region. The organization is developing legislative changes, exercises public oversight over law enforcement agencies and judiciary, conducts educational activities for young people and implements international solidarity programs.
+
+The Euromaidan SOS initiative group was created in response to the brutal dispersal of a peaceful student rally in Kyiv on November 30, 2013. During three months of mass protests that were called the Revolution of Dignity, several thousand volunteers provided round-the-clock legal and other aid to persecuted people throughout the country. Since the end of the protests and beginning of Russian aggression in Ukraine, the initiative has been monitoring political persecution in occupied Crimea, documenting war crimes and crimes against humanity during the hybrid war in the Donbas and conducting the #LetMyPeopleGo and #SaveOlegSentsov international campaigns to release political prisoners detained by the Russian authorities.
+
+Oleksandra Matviichuk has experience in creating horizontal structures for massive involvement of people in human rights activities against attacks on rights and freedoms, as well as a multi-year practice of documenting violations during armed conflict. She is the author of a number of alternative reports to various UN bodies, the Council of Europe, the European Union, the OSCE
+and the International Criminal Court. After the beginning of new armed aggression in February 2022, Oleksandra Matviichuk together with other partners created the “Tribunal for Putin” initiative in order to document international crimes under the Rome Statute of the International Criminal Court in all regions of Ukraine which became the targets of attacks of the Russian Federation. In 2016 she received the Democracy Defender Award for “Exclusive Contribution to Promoting Democracy and Human Rights” from missions to the OSCE. In 2017 she became the first woman to participate in the Ukrainian Emerging Leaders Program of Stanford University. In 2022 Oleksandra Matviichuk was awarded with the Right Livelihood Award and recognized as one of the 25th influential women in the world by Financial Times. The same year Center for Civil Liberties which Oleksandra Matviichuk head’s for received the Nobel Peace Prize.
