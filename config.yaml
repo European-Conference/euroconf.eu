@@ -300,8 +300,9 @@ menu:
       pageRef: /
       weight: 10
     - name: 2023 Conference
-      url: /2023-conference
-      pageRef: 2023-homepage
+      params:
+        rel: external
+      url: https://y23.euroconf.eu/
       weight: 50
   footer:
     - name: Contact
