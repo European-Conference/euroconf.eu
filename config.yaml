@@ -299,6 +299,10 @@ menu:
       url: /
       pageRef: /
       weight: 10
+    - name: Home
+      url: /speakers
+      pageRef: /Speakers
+      weight: 20
     - name: 2023 Conference
       params:
         rel: external
