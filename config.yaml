@@ -299,7 +299,7 @@ menu:
       url: /
       pageRef: /
       weight: 10
-    - name: Home
+    - name: Speakers
       url: /speakers
       pageRef: /Speakers
       weight: 20
