@@ -11,16 +11,16 @@ Join us at **Harvard Kennedy School** in Cambridge, Massachusetts, on **February
 ## Speakers
 
 <ul>
-<li>Enrico Letta, former Prime Minister of Italy, President of the Jacques Delors Institute</li>
-<li>Paolo Gentiloni, current EU Commissioner for the Economy</li>
-<li>Jelena Begovic, current Minister of Science of Serbia</li>
-<li>Laurence Boone, current French Minister for European Affairs</li>
-<li>Péter Szijjártó, current Foreign Minister of Hungary</li>
-<li>Meredith Whittaker, current President of Signal (the non-for-profit secure messaging app), co-founder of the AI Now Institute</li>
-<li>Wojciech Wiewiorowski, current European Data Protection Supervisor</li>
-<li>Karen Donfried, President Biden's former Assistant Secretary for European Affairs (2021-2023)</li>
-<li>Arancha Gonzalez, former Assistant Secretary-General of the United Nations, former Spain's Minister for Foreign Affairs, European Union and Cooperation, current Dean of Science Po SIPA</li>
-<li>Natalie Jaresko, former Minister of Finance of Ukraine, currently Managing Director at EY-Parthenon</li>
+<li><b>Enrico Letta</b>, former Prime Minister of Italy, President of the Jacques Delors Institute</li>
+<li><b>Paolo Gentiloni</b>, current EU Commissioner for the Economy</li>
+<li><b>Jelena Begovic</b>, current Minister of Science of Serbia</li>
+<li><b>Laurence Boone</b>, current French Minister for European Affairs</li>
+<li><b>Péter Szijjártó</b>, current Foreign Minister of Hungary</li>
+<li><b>Meredith Whittaker</b>, current President of Signal (the non-for-profit secure messaging app), co-founder of the AI Now Institute</li>
+<li><b>Wojciech Wiewiorowski</b>, current European Data Protection Supervisor</li>
+<li><b>Karen Donfried</b>, President Biden's former Assistant Secretary for European Affairs (2021-2023)</li>
+<li><b>Arancha Gonzalez</b>, former Assistant Secretary-General of the United Nations, former Spain's Minister for Foreign Affairs, European Union and Cooperation, current Dean of Science Po SIPA</li>
+<li><b>Natalie Jaresko</b>, former Minister of Finance of Ukraine, currently Managing Director at EY-Parthenon</li>
 </ul>
 
 ...And many speakers to be added soon!
