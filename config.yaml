@@ -303,6 +303,10 @@ menu:
       url: /speakers
       pageRef: /Speakers
       weight: 20
+    - name: About Us
+      url: /about-us
+      pageRef: /About Us
+      weight: 30
     - name: 2023 Conference
       params:
         rel: external
