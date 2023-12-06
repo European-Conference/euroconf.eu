@@ -3,4 +3,4 @@ title: "Speakers"
 ---
 
 ## Speakers
-More speakers to be added!
+More speaker bios to be added shortly! See our <a href="/">homepage</a> for the list of confirmed speakers so far.
