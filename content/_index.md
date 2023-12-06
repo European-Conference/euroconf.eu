@@ -30,7 +30,7 @@ From the **European Parliamentary elections** to **elections at the national lev
 <li><b>Péter Szijjártó</b>, current Foreign Minister of Hungary</li>
 <li><b>Meredith Whittaker</b>, current President of Signal (the not-for-profit secure messaging app), co-founder of the AI Now Institute</li>
 <li><b>Wojciech Wiewiorowski</b>, current European Data Protection Supervisor</li>
-<li><b>Karen Donfried</b>, President Biden's former Assistant Secretary for European Affairs (2021-2023)</li>
+<li><b>Karen Donfried</b>, President Biden's former Assistant Secretary of State for European and Eurasian Affairs (2021-2023)</li>
 <li><b>Arancha Gonzalez</b>, former Assistant Secretary-General of the United Nations; former Spanish Minister for Foreign Affairs, European Union and Cooperation; current Dean of Science Po SIPA</li>
 <li><b>Natalie Jaresko</b>, former Minister of Finance of Ukraine, currently Managing Director at EY-Parthenon</li>
 </ul>
