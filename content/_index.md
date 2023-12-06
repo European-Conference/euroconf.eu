@@ -6,7 +6,15 @@ title: "Home"
 
 Join us at **Harvard Kennedy School** in Cambridge, Massachusetts, on **February 9 and 10, 2024**, for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today. The year 2024 marks the 10th anniversary edition of the Conference, which will aim to share perspectives around The European Dream. 2024: A Continent at the Crossroads. 2024 is indeed a pivotal moment for Europe and the transatlantic relationships. From the European Parliamentary elections to elections at the national level (Austria, Finland, Belgium, Romania) and across the Atlantic, 2024 will be a key moment for democracy and define future European policies around climate change, artificial intelligence, and migration. The European response to the continued war in Ukraine and other major geopolitical challenges will be closely examined. Amid this foreign policy turmoil, the protection of a European way of life is at the heart of heated debates.
 
-<h3>Tickets for the 2024 conference will be available soon!</h3>
+<center>
+<a id='tickets-btn' class="pure-button pure-button-primary" href="https://secure.touchnet.net/C20832_ustores/web/store_main.jsp?STOREID=18&SINGLESTORE=true">Get your ticket now!</a>
+</center>
+
+<p></p>
+
+<p class="homepage-image">
+<img src="save-the-date-no-logo.png" alt="Grayscale map of Europe with Save the Date written across the image" width="800" class="map">
+</p>
 
 ## Speakers
 
@@ -16,32 +24,32 @@ Join us at **Harvard Kennedy School** in Cambridge, Massachusetts, on **February
 <li><b>Jelena Begovic</b>, current Minister of Science of Serbia</li>
 <li><b>Laurence Boone</b>, current French Minister for European Affairs</li>
 <li><b>Péter Szijjártó</b>, current Foreign Minister of Hungary</li>
-<li><b>Meredith Whittaker</b>, current President of Signal (the non-for-profit secure messaging app), co-founder of the AI Now Institute</li>
+<li><b>Meredith Whittaker</b>, current President of Signal (the not-for-profit secure messaging app), co-founder of the AI Now Institute</li>
 <li><b>Wojciech Wiewiorowski</b>, current European Data Protection Supervisor</li>
 <li><b>Karen Donfried</b>, President Biden's former Assistant Secretary for European Affairs (2021-2023)</li>
-<li><b>Arancha Gonzalez</b>, former Assistant Secretary-General of the United Nations, former Spain's Minister for Foreign Affairs, European Union and Cooperation, current Dean of Science Po SIPA</li>
+<li><b>Arancha Gonzalez</b>, former Assistant Secretary-General of the United Nations; former Spanish Minister for Foreign Affairs, European Union and Cooperation; current Dean of Science Po SIPA</li>
 <li><b>Natalie Jaresko</b>, former Minister of Finance of Ukraine, currently Managing Director at EY-Parthenon</li>
 </ul>
 
-...And many speakers to be added soon!
+...And many more speakers to be added soon!
 
 ## Panels
 <ol>
-<li>AI & (E)U: The Regulatory Road to the Future</li>
-<li>What is the Future of Science and Innovation in Europe?</li>
-<li>Europe's Position in a Multipower and Polarized world</li>
-<li>Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad</li>
-<li>Challenge and Opportunity: Building Momentum in Migration Policy</li>
-<li>EU-US Relations: Building Collective Security in a Shifting World?</li>
-<li>Is The European Social Model Future-Proof?</li>
-<li>The European Dream: Pioneering Gender Equality and Minority Rights in Europe and Beyond</li>
-<li>A Unique Perspective on European Culture</li>
-<li>Europe’s Role in Global Climate Action: Leading or Lagging?</li>
-<li>Ensuring European competitiveness in the Green Deal era</li>
-<li>A Greener Way of Life in Europe: The Future of Mobility, Sustainable Food, and Greener Sources of Energy</li>
-<li>2024 European Elections: A Pivotal Moment for the EU's Future</li>
-<li>Challenges to European Democracies: Populism, Democratic Backsliding, and Excluding nationalism</li>
-<li>Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy</li>
+<li><b>AI & (E)U:</b> The Regulatory Road to the Future</li>
+<li>What is the Future of <b>Science and Innovation</b> in Europe?</li>
+<li><b>Europe's Position</b> in a Multipower and Polarized World</li>
+<li><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</li>
+<li><b>Challenge and Opportunity:</b> Building Momentum in Migration Policy</li>
+<li><b>EU-US Relations:</b> Building Collective Security in a Shifting World?</li>
+<li>Is the <b>European Social Model</b> Future-Proof?</li>
+<li><b>The European Dream:</b> Pioneering Gender Equality and Minority Rights in Europe and Beyond</li>
+<li>A Unique Perspective on <b>European Culture</b></li>
+<li><b>Europe’s Role in Global Climate Action:</b> Leading or Lagging?</li>
+<li><b>Ensuring European Competitiveness</b> in the Green Deal Era</li>
+<li><b>A Greener Way of Life in Europe:</b> The Future of Mobility, Sustainable Food, and Greener Sources of Energy</li>
+<li><b>2024 European Elections:</b> A Pivotal Moment for the EU's Future</li>
+<li><b>Challenges to European Democracies:</b> Populism, Democratic Backsliding, and Excluding Nationalism</li>
+<li><b>Integration in Times of Conflict:</b> Prospects and Challenges of Ukraine’s EU Candidacy</li>
 </ol>
 
 ## Questions and Answers
