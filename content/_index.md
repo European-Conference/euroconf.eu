@@ -4,7 +4,11 @@ title: "Home"
 
 ## <span class='frontline-europe'>The European Dream</span><br>2024: A Continent at the Crossroads
 
-Join us at **Harvard Kennedy School** in Cambridge, Massachusetts, on **February 9 and 10, 2024**, for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today. The year 2024 marks the 10th anniversary edition of the Conference, which will aim to share perspectives around The European Dream. 2024: A Continent at the Crossroads. 2024 is indeed a pivotal moment for Europe and the transatlantic relationships. From the European Parliamentary elections to elections at the national level (Austria, Finland, Belgium, Romania) and across the Atlantic, 2024 will be a key moment for democracy and define future European policies around climate change, artificial intelligence, and migration. The European response to the continued war in Ukraine and other major geopolitical challenges will be closely examined. Amid this foreign policy turmoil, the protection of a European way of life is at the heart of heated debates.
+Join us at **Harvard Kennedy School** in Cambridge, Massachusetts, on **February 9 and 10, 2024**, for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today. 
+
+The year 2024 marks the **10th anniversary edition** of the Conference, which will aim to share perspectives around The European Dream. 2024: A Continent at the Crossroads. 2024 is indeed a pivotal moment for Europe and the transatlantic relationships. 
+
+From the **European Parliamentary elections** to **elections at the national level** (Austria, Finland, Belgium, Romania) and across the Atlantic, 2024 will be a key moment for democracy and define future European policies around **climate change**, **artificial intelligence**, and **migration**. The European response to the continued **war in Ukraine** and other major geopolitical challenges will be closely examined. Amid this foreign policy turmoil, the protection of a **European way of life** is at the heart of heated debates.
 
 <center>
 <a id='tickets-btn' class="pure-button pure-button-primary" href="https://secure.touchnet.net/C20832_ustores/web/store_main.jsp?STOREID=18&SINGLESTORE=true">Get your ticket now!</a>
