@@ -28,6 +28,7 @@ From the **European Parliamentary elections** to **elections at the national lev
 <li><b>Jelena Begovic</b>, current Minister of Science of Serbia</li>
 <li><b>Laurence Boone</b>, current French Minister for European Affairs</li>
 <li><b>Péter Szijjártó</b>, current Foreign Minister of Hungary</li>
+<li><b>Daniela Schwarzer</b>,  Member of the Executive Board of the Bertelsmann Stiftung
 <li><b>Meredith Whittaker</b>, current President of Signal (the not-for-profit secure messaging app), co-founder of the AI Now Institute</li>
 <li><b>Wojciech Wiewiorowski</b>, current European Data Protection Supervisor</li>
 <li><b>Karen Donfried</b>, President Biden's former Assistant Secretary of State for European and Eurasian Affairs (2021-2023)</li>
