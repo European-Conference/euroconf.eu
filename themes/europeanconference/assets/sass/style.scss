@@ -218,6 +218,7 @@ footer {
   format: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap: 15px 10px;
   place-items: center;
 }
 
@@ -225,7 +226,6 @@ footer {
   height: 1fr;
   width: 1fr;
   padding: 30px;
-  margin: 30px; 
 }
 
 /* Formatting for the speaker and organizer pages */
@@ -493,7 +493,7 @@ schedule
 .supporter-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  place-items: center
+  place-items: center;
 
   @media (max-width: 800px) {
     & {
