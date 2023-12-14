@@ -1,5 +1,5 @@
 ## Supporters
-<div class="sponsor-grid">
+<div class="supporter-grid">
 <image src="/italian_consulate.jpg" alt="Logo for the Mossavar Rahmani Center" class="supporter-grid-item">
 <image src="/italian_consulate_roma.png" alt="Logo for the Italian Expo 2030" class="supporter-grid-item">
 <image src="/german-consulate.jpg" alt="Logo for the German Consulate" class="supporter-grid-item">
