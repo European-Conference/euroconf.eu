@@ -39,23 +39,23 @@ From the **European Parliamentary elections** to **elections at the national lev
 ...And many more speakers to be added soon!
 
 ## Panels
-<ol>
-<li><b>AI & (E)U:</b> The Regulatory Road to the Future</li>
-<li>What is the Future of <b>Science and Innovation</b> in Europe?</li>
-<li><b>Europe's Position</b> in a Multipower and Polarized World</li>
-<li><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</li>
-<li><b>Challenge and Opportunity:</b> Building Momentum in Migration Policy</li>
-<li><b>EU-US Relations:</b> Building Collective Security in a Shifting World?</li>
-<li>Is the <b>European Social Model</b> Future-Proof?</li>
-<li><b>The European Dream:</b> Pioneering Gender Equality and Minority Rights in Europe and Beyond</li>
-<li>A Unique Perspective on <b>European Culture</b></li>
-<li><b>Europe’s Role in Global Climate Action:</b> Leading or Lagging?</li>
-<li><b>Ensuring European Competitiveness</b> in the Green Deal Era</li>
-<li><b>A Greener Way of Life in Europe:</b> The Future of Mobility, Sustainable Food, and Greener Sources of Energy</li>
-<li><b>2024 European Elections:</b> A Pivotal Moment for the EU's Future</li>
-<li><b>Challenges to European Democracies:</b> Populism, Democratic Backsliding, and Excluding Nationalism</li>
-<li><b>Integration in Times of Conflict:</b> Prospects and Challenges of Ukraine’s EU Candidacy</li>
-</ol>
+<div class = "panel-grid">
+  <div class = "panel-grid-item"><b>AI & (E)U:</b> The Regulatory Road to the Future</div>
+  <div class = "panel-grid-item">What is the Future of <b>Science and Innovation</b> in Europe?</div>
+  <div class = "panel-grid-item"><b>Europe's Position</b> in a Multipower and Polarized World</div>
+  <div class = "panel-grid-item"><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</div>
+  <div class = "panel-grid-item"><b>Challenge and Opportunity:</b> Building Momentum in Migration Policy</div>
+  <div class = "panel-grid-item"><b>EU-US Relations:</b> Building Collective Security in a Shifting World?</div>
+  <div class = "panel-grid-item">Is the <b>European Social Model</b> Future-Proof?</div>
+  <div class = "panel-grid-item"><b>The European Dream:</b> Pioneering Gender Equality and Minority Rights in Europe and Beyond</div>
+  <div class = "panel-grid-item">A Unique Perspective on <b>European Culture</b></div>
+  <div class = "panel-grid-item"><b>Europe’s Role in Global Climate Action:</b> Leading or Lagging?</div>
+  <div class = "panel-grid-item"><b>Ensuring European Competitiveness</b> in the Green Deal Era</div>
+  <div class = "panel-grid-item"><b>A Greener Way of Life in Europe:</b> The Future of Mobility, Sustainable Food, and Greener Sources of Energy</div>
+  <div class = "panel-grid-item"><b>2024 European Elections:</b> A Pivotal Moment for the EU's Future</div>
+  <div class = "panel-grid-item"><b>Challenges to European Democracies:</b> Populism, Democratic Backsliding, and Excluding Nationalism</div>
+  <div class = "panel-grid-item"><b>Integration in Times of Conflict:</b> Prospects and Challenges of Ukraine’s EU Candidacy</div>
+</div>
 
 ## Questions and Answers
 <b>Why should you atttend the European Conference?</b>

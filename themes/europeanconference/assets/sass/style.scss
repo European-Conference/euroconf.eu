@@ -213,6 +213,23 @@ footer {
   }
 }
 
+/* Formatting for list of panels on homepage */
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.panel-grid-item {
+  padding: 8px;
+  margin: 15px 20px;
+  text-align: center;
+  color: white;
+  background-color: #b7133e;
+  border-radius: 20px;
+}
+
+/* Formatting for the speaker and organizer pages */
 .person {
   float: left;
   background-size: cover;
@@ -477,7 +494,13 @@ schedule
 .supporter-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  place-items: center
+  place-items: center;
+
+  @media (max-width: 800px) {
+    & {
+      flex-direction: column;
+    }
+  }
 }
 
 .supporter-grid-item {
@@ -485,6 +508,8 @@ schedule
   width: 400px;
   max-width: 100%;
 }
+
+
 
 #content.a-house-made-of-splinters {
   text-align: center;
