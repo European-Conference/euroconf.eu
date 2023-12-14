@@ -213,6 +213,20 @@ footer {
   }
 }
 
+/* Formatting for list of panels on homepage */
+.panel-grid {
+  format: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
+}
+
+.panel-grid-item {
+  width: 1fr
+  padding: 30px;
+  margin: 30px; 
+}
+
+/* Formatting for the speaker and organizer pages */
 .person {
   float: left;
   background-size: cover;
@@ -478,6 +492,12 @@ schedule
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center
+
+  @media (max-width: 800px) {
+    & {
+      flex-direction: column;
+    }
+  }
 }
 
 .supporter-grid-item {
@@ -485,6 +505,8 @@ schedule
   width: 400px;
   max-width: 100%;
 }
+
+
 
 #content.a-house-made-of-splinters {
   text-align: center;
