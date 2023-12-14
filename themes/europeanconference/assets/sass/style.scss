@@ -327,10 +327,9 @@ body > .pure-g {
 
   #profile-header {
     flex: 1;
-    height: auto;
     border: 5px solid white;
     box-sizing: border-box;
-    flex-basis: auto;
+    flex-basis: 100px;
     text-align: center;
   }
 
@@ -341,9 +340,8 @@ body > .pure-g {
 
   #profile-bio {
     flex: 5;
-    font-size: 100%;
     margin-top: 20px;
-    padding-left: 10px;
+    padding-left: 5%;
   }
 }
 .profile-keynote {
