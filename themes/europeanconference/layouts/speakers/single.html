@@ -1,17 +1,17 @@
 {{ define "main" }}
 
-<h2 id="profile-name">{{.Params.Name}}</h2>
-{{ if .Params.Keynote }}
-<p class="profile-keynote">Keynote Speaker</span>
-  {{ end }}
 <div id="profile">
-  {{ $image := index (.Resources.ByType "image") 0 }}
-  <div id="profile-picture"> <img src="{{$image.RelPermalink}}" /> </div>
-  <div id="profile-content">
-    <div id="profile-bio">
-      <h3>{{ .Params.Role }}</h3>
-      <p>{{ .Content }}</p>
-    </div>
+  <div id="profile-header">
+    <h2 id="profile-name">{{.Params.Name}}</h2>
+    {{ if .Params.Keynote }}
+    <p class="profile-keynote">Keynote Speaker</span>
+     {{ end }}
+    {{ $image := index (.Resources.ByType "image") 0 }}
+    <div id="profile-picture"> <img src="{{$image.RelPermalink}}" /> </div>
+    <h3>{{ .Params.Role }}</h3>
+  </div>
+  <div id="profile-bio">
+    <p>{{ .Content }}</p>
   </div>
 </div>
 
