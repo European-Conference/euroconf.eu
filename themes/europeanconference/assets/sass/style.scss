@@ -217,11 +217,13 @@ footer {
 .panel-grid {
   format: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   place-items: center;
 }
 
 .panel-grid-item {
-  width: 1fr
+  height: 1fr;
+  width: 1fr;
   padding: 30px;
   margin: 30px; 
 }
