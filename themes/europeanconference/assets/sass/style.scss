@@ -215,7 +215,7 @@ footer {
 
 /* Formatting for list of panels on homepage */
 .panel-grid {
-  format: grid;
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 15px 10px;
