@@ -307,6 +307,10 @@ menu:
       url: /about-us
       pageRef: /About Us
       weight: 30
+    - name: Supporters
+      url: /supporters
+      pageRef: /Supporters
+      weight: 30
     - name: 2023 Conference
       params:
         rel: external
