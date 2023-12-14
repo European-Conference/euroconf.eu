@@ -474,14 +474,16 @@ schedule
   }
 }
 
-#content.supporters {
-  text-align: center;
-  img {
-    width: 500px;
-    max-width: 100%;
-    display: grid;
-    margin: 30px auto;
-  }
+.supporter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center
+}
+
+.supporter-grid-item {
+  padding: 30px 30px;
+  width: 400px;
+  max-width: 100%;
 }
 
 #content.a-house-made-of-splinters {
