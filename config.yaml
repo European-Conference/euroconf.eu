@@ -315,6 +315,11 @@ menu:
       url: /organizers
       pageRef: organizers
       weight: 40
+    - name: 2024 Conference
+      params:
+        rel: external
+      url: https://euroconf.eu/
+      weight: 50
   footer:
     - name: Contact
       url: /contact
