@@ -229,6 +229,17 @@ footer {
   border-radius: 20px;
 }
 
+/* Formatting for Q&A on homepage */
+.q-and-a-flex {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+}
+
+.q-and-a-flex-item {
+  padding: 15px;
+}
+
 /* Formatting for the speaker and organizer pages */
 .person {
   float: left;
