@@ -241,7 +241,7 @@ footer {
   flex-direction: row;
   align-items: flex-start;
 
-  @media {
+  @media (max-width: 800px) {
     flex-direction: column;
   }
 }
