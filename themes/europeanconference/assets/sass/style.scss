@@ -233,11 +233,12 @@ footer {
 .q-and-a-flex {
   display: flex;
   flex-direction: row;
-  place-items: center;
+  align-items: flex-start;
 }
 
 .q-and-a-flex-item {
   padding: 15px;
+  flex: 1;
 }
 
 /* Formatting for the speaker and organizer pages */
