@@ -61,8 +61,7 @@ From the **European Parliamentary elections** to **elections at the national lev
 <div class = "q-and-a-flex">
   <div class = "q-and-a-flex-item">
     <b>Why should you atttend the European Conference?</b>
-
-    At the European Conference, you will have the exclusive opportunity to
+    <p>At the European Conference, you will have the exclusive opportunity to</p>
     <ul>
       <li><i>Network with Influential European and American Figures:</i> Connect with high-ranking officials, from government representatives to business leaders, who are shaping the future of Europe. This is your chance to engage with those who make impactful decisions.</li>
       <li><i>Forge Relationships with Your Peers:</i> Meet like-minded students and future stakeholders who are passionate about European affairs. Share ideas, collaborate, and build relationships that can last a lifetime.</li>
