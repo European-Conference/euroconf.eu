@@ -303,10 +303,6 @@ menu:
       url: /speakers
       pageRef: /Speakers
       weight: 20
-    - name: Supporters
-      url: /supporters
-      pageRef: /Supporters
-      weight: 30
     - name: About Us
       url: /about-us
       pageRef: /About Us
@@ -320,9 +316,13 @@ menu:
     - name: Contact
       url: /contact
       weight: 10
+    - name: Supporters
+      url: /supporters
+      pageRef: /Supporters
+      weight: 20
     - name: Privacy
       url: /privacy
-      weight: 20
+      weight: 30
     - name: Terms
       url: /terms
       weight: 30
