@@ -240,6 +240,10 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+
+  @media {
+    flex-direction: column;
+  }
 }
 
 .q-and-a-flex-item {
@@ -518,6 +522,7 @@ schedule
 
   @media (max-width: 800px) {
     & {
+      display: flex;
       flex-direction: column;
     }
   }
