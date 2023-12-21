@@ -9,7 +9,7 @@
       {{end}}
   {{end}}
   
-  {{ $panelDict := dict "1" "AI & (E)U: The Regulatory Road to the Future" "2" "What is the Future of Science and Innovation in Europe?" "3" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad"}}
+  {{ $panelDict := dict "one" "AI & (E)U: The Regulatory Road to the Future" "two" "What is the Future of Science and Innovation in Europe?" "three" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad"}}
   {{ range $key, $value := $panelDict }}
     Panel {{ $key }}: {{ $value }} 
     {{ range $.Pages }}
