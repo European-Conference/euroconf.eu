@@ -1,7 +1,7 @@
 {{ define "main" }} {{ .Content }}
 
 <div class="pure-g speakers">
-  Keynote Speakers
+  <p class="speaker-title">Keynote Speakers</p>
   {{ range .Pages }}
       {{ if .Params.keynote }}
         {{ $image := index (.Resources.ByType "image") 0 }} 
