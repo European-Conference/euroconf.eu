@@ -3,7 +3,7 @@ name: Laurence Boone
 role: French Minister of State for Europe
 keynote: true
 show: true
-panel: false
+panel: none
 ---
 
 Laurence Boone is an economist with a PhD in Applied Econometrics from the London Business School (United Kingdom), an MSc in Econometrics and Macroeconomic Modelling from Reading University (United Kingdom), a Master’s Degree in Economics from Université Paris X Nanterre (France), and a postgraduate diploma (DEA) in Modelling and Quantitative Analysis from University Paris X Nanterre (France).
