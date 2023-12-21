@@ -1,7 +1,9 @@
 {{ define "main" }} {{ .Content }}
 
 <div class="pure-g speakers">
-  {{ range sort (sort .Pages "Params.priority" "asc") "Params.keynote" "desc"}} {{ $image := index
-  (.Resources.ByType "image") 0 }} {{ partial "person.html" .}} {{end}}
+  {{ range sort (sort .Pages "Params.priority" "asc") "Params.keynote" "desc"}} 
+    {{ $image := index (.Resources.ByType "image") 0 }} 
+    {{ partial "person.html" .}} 
+  {{end}}
 </div>
 {{end}}
