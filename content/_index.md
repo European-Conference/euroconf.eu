@@ -20,7 +20,7 @@ From the **European Parliamentary elections** to **elections at the national lev
 <img src="save-the-date-no-logo.png" alt="Grayscale map of Europe with Save the Date written across the image" width="800" class="map">
 </p>
 
-## Speakers
+## Speakers {#speakers-list}
 
 <ul>
 <li><b>Enrico Letta</b>, former Prime Minister of Italy, President of the Jacques Delors Institute</li>
