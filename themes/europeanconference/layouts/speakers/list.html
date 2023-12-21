@@ -12,7 +12,7 @@
   {{ $panelDict := dict "1" "AI & (E)U: The Regulatory Road to the Future" "2" "What is the Future of Science and Innovation in Europe?" "3" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad"}}
   {{ range $key, $value := $panelDict }}
     Panel {{ $key }}: {{ $value }} 
-    {{ range .Pages}}
+    {{ range .Pages }}
       {{ if eq $key .Params.panel }}
         {{ $image := index (.Resources.ByType "image") 0 }} 
         {{ partial "person.html" .}} 
