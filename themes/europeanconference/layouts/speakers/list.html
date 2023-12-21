@@ -3,7 +3,7 @@
 <div class="pure-g speakers">
   Keynote Speakers
   {{ range .Pages}}
-      {{ if {{ Params.keynote }} }}
+      {{ if .Params.keynote }}
         {{ $image := index (.Resources.ByType "image") 0 }} 
         {{ partial "person.html" .}}
       {{end}}
@@ -13,7 +13,7 @@
   {{ range $key, $value := $panelDict }}
     Panel {{ $key }}: {{ $value }} 
     {{ range .Pages}}
-      {{ if eq $key {{ Params.panel }} }}
+      {{ if eq $key .Params.panel }}
         {{ $image := index (.Resources.ByType "image") 0 }} 
         {{ partial "person.html" .}} 
       {{end}}
