@@ -1,8 +1,9 @@
 ---
 name: Paolo Gentiloni
 role: Commissioner for Economy, European Commission
-keynote: false
+keynote: true
 show: true
+panel: none
 ---
 
 Paolo Gentiloni has been European Commissioner for Economy since December 2019.
