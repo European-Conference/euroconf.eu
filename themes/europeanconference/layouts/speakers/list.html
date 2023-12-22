@@ -2,7 +2,7 @@
 
 <div class="speakers">
   <h3 class="speaker-title">Keynote Speakers</h3>
-  <div class="pure-g">
+  <div class="pure-g speaker-tiles">
     {{ range .Pages }}
         {{ if .Params.keynote }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
@@ -15,12 +15,12 @@
   {{ range $key, $value := $panelDict }}
     <h3 class="speaker-title">{{ $value }}</h3>
     {{ range $.Pages }}
-      {{ if eq $key .Params.panel }}
-        <div class="pure-g">
+      <div class="pure-g speaker-tiles">
+        {{ if eq $key .Params.panel }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}} 
-        </div>
-      {{end}}
+        {{end}}
+      </div>
     {{end}}
   {{end}}
 </div>
