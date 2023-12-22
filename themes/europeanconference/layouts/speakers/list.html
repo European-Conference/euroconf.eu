@@ -13,7 +13,7 @@
   
   {{ $panelDict := dict "one" "AI & (E)U: The Regulatory Road to the Future" "two" "What is the Future of Science and Innovation in Europe?" "three" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad"}}
   {{ range $key, $value := $panelDict }}
-    <p class="speaker-title">Panel {{ $key }}: {{ $value }}</p>
+    <p class="speaker-title">{{ $value }}</p>
     {{ range $.Pages }}
       {{ if eq $key .Params.panel }}
         <div class="speaker-tiles">
