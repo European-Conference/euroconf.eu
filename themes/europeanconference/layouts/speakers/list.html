@@ -1,21 +1,25 @@
 {{ define "main" }} {{ .Content }}
 
-<div class="pure-g speakers">
+<div class="speakers">
   <p class="speaker-title">Keynote Speakers</p>
-  {{ range .Pages }}
-      {{ if .Params.keynote }}
-        {{ $image := index (.Resources.ByType "image") 0 }} 
-        {{ partial "person.html" .}}
-      {{end}}
-  {{end}}
+  <div class="speaker-tiles">
+    {{ range .Pages }}
+        {{ if .Params.keynote }}
+          {{ $image := index (.Resources.ByType "image") 0 }} 
+          {{ partial "person.html" .}}
+        {{end}}
+    {{end}}
+  </div>
   
   {{ $panelDict := dict "one" "AI & (E)U: The Regulatory Road to the Future" "two" "What is the Future of Science and Innovation in Europe?" "three" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad"}}
   {{ range $key, $value := $panelDict }}
-    Panel {{ $key }}: {{ $value }} 
+    <p class="speaker-title">Panel {{ $key }}: {{ $value }}</p>
     {{ range $.Pages }}
       {{ if eq $key .Params.panel }}
-        {{ $image := index (.Resources.ByType "image") 0 }} 
-        {{ partial "person.html" .}} 
+        <div class="speaker-tiles">
+          {{ $image := index (.Resources.ByType "image") 0 }} 
+          {{ partial "person.html" .}} 
+        </div>
       {{end}}
     {{end}}
   {{end}}
