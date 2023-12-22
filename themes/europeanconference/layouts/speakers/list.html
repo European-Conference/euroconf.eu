@@ -16,7 +16,7 @@
     <h3 class="speaker-title">{{ $value }}</h3>
     <div class="pure-g speaker-tiles">
       {{ range $.Pages }}
-        {{ if eq $key {{ string .Params.panel }} }}
+        {{ if eq $key (string .Params.panel.) }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}} 
         {{end}}
