@@ -349,6 +349,8 @@ body > .pure-g {
   background: white;
 }
 
+/* Formatting speakers on speaker page */
+
 #profile {
   display: flex;
   align-items: center;
@@ -395,6 +397,12 @@ body > .pure-g {
 .speaker-title {
   text-align: center;
 }
+
+.speaker-tiles {
+  justify-content: center;
+}
+
+/* Formatting table elements */
 
 table,
 th,
@@ -446,9 +454,7 @@ footer .student-orgs img {
   font-size: 60%;
 }
 
-/*
-schedule
-*/
+/* schedule */
 
 .day {
   margin: 10px 0;
