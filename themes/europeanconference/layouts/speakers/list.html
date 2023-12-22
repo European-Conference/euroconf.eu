@@ -11,17 +11,17 @@
     {{end}}
   </div>
   
-  {{ $panelDict := dict "one" "AI & (E)U: The Regulatory Road to the Future" "two" "What is the Future of Science and Innovation in Europe?" "three" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad"}}
+  {{ $panelDict := dict "1" "AI & (E)U: The Regulatory Road to the Future" "2" "What is the Future of Science and Innovation in Europe?" "3" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad"}}
   {{ range $key, $value := $panelDict }}
     <h3 class="speaker-title">{{ $value }}</h3>
-    {{ range $.Pages }}
-      <div class="pure-g speaker-tiles">
-        {{ if eq $key .Params.panel }}
+    <div class="pure-g speaker-tiles">
+      {{ range $.Pages }}
+        {{ if eq $key {{ string .Params.panel }} }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}} 
         {{end}}
-      </div>
-    {{end}}
+      {{end}}
+    </div>
   {{end}}
 </div>
 {{end}}
