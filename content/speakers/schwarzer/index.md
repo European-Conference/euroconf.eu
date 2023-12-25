@@ -3,7 +3,7 @@ name: Daniela Schwarzer
 role: Member of the Executive Board of the Bertelsmann Stiftung
 keynote: false
 show: true
-panel: none
+panel: 15
 ---
 
 Daniela Schwarzer is a leading expert on European and international affairs and has had a 20-year career at renowned think tanks, foundations, and universities.
