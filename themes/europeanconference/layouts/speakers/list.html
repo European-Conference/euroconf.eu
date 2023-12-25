@@ -38,7 +38,7 @@
         {{ if eq $key (string .Params.panel) }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}} 
-          {{ $tileCounter = {{ $tileCounter }} + 1 }}
+          {{ $tileCounter += 1 }}
         {{end}}
       {{end}}
     </div>
