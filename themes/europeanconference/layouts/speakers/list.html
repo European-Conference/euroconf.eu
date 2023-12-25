@@ -30,10 +30,10 @@
 
   <!-- Function that iterates through  matches speakers to panels based on their panel parameter, defined in the individual speaker pages, and puts their picture and title under the correct panel. -->
   {{ range $key, $value := $panelDict }}
+    {{ $tileCounter := 0 }}
     <h3 class="speaker-title">{{ $value }}</h3>
     <div class="pure-g speaker-tiles">
       {{ range $.Pages }}
-        {{ $tileCounter := 0 }}
         {{ if eq $key (string .Params.panel) }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}} 
