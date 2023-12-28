@@ -12,39 +12,42 @@
     {{end}}
   </div>
 
-  <!-- Variable "$panelDict" that defines the panels for the conference. Panels can be updated for future conferences. -->
-  {{ $panelDict := dict "1" "AI & (E)U: The Regulatory Road to the Future" 
-  "2" "What is the Future of Science and Innovation in Europe?" 
-  "3" "Europe's Position in a Multipower and Polarized World" 
-  "4" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad" 
-  "5" "Challenge and Opportunity: Building Momentum in Migration Policy" 
-  "6" "EU-US Relations: Building Collective Security in a Shifting World?" 
-  "7" "Is the European Social Model Future-Proof?" 
-  "8" "The European Dream: Pioneering Gender Equality and Minority Rights in Europe and Beyond" 
-  "9" "A Unique Perspective on European Culture" 
-  "10" "Europe’s Role in Global Climate Action: Leading or Lagging?" 
-  "11" "Ensuring European Competitiveness in the Green Deal Era" 
-  "12" "A Greener Way of Life in Europe: The Future of Mobility, Sustainable Food, and Greener Sources of Energy" 
-  "13" "2024 European Elections: A Pivotal Moment for the EU's Future" 
-  "14" "Challenges to European Democracies: Populism, Democratic Backsliding, and Excluding Nationalism" 
-  "15" "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy" }}
-
   <!-- Iterates through  matches speakers to panels based on their panel parameter, defined in the individual speaker pages, and puts their picture and title under the correct panel. -->
-  {{ range $key, $value := $panelDict }}
-    {{ $tileCounter := 0 }}
-    <h3 class="speaker-title">{{ $value }}</h3>
-    <div class="pure-g speaker-tiles">
-      {{ range $.Pages }}
-        {{ if eq $key (string .Params.panel) }}
-          {{ $image := index (.Resources.ByType "image") 0 }} 
-          {{ partial "person.html" .}} 
-          {{ $tileCounter ++ }} 
+  <script src=“script.js”>
+    var panelDict = {
+      1: "AI & (E)U: The Regulatory Road to the Future",
+      2: "What is the Future of Science and Innovation in Europe?", 
+      3: "Europe's Position in a Multipower and Polarized World", 
+      4: "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad", 
+      5: "Challenge and Opportunity: Building Momentum in Migration Policy", 
+      6: "EU-US Relations: Building Collective Security in a Shifting World?", 
+      7: "Is the European Social Model Future-Proof?", 
+      8: "The European Dream: Pioneering Gender Equality and Minority Rights in Europe and Beyond", 
+      9: "A Unique Perspective on European Culture", 
+      10: "Europe’s Role in Global Climate Action: Leading or Lagging?", 
+      11: "Ensuring European Competitiveness in the Green Deal Era", 
+      12: "A Greener Way of Life in Europe: The Future of Mobility, Sustainable Food, and Greener Sources of Energy", 
+      13: "2024 European Elections: A Pivotal Moment for the EU's Future", 
+      14: "Challenges to European Democracies: Populism, Democratic Backsliding, and Excluding Nationalism", 
+      15: "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy"
+    }
+    
+    for (const [key, value] of panelDict.entries(panelDict)) {
+      var tileCounter = 0
+      <h3 class="speaker-title">{{ $value }}</h3>
+      <div class="pure-g speaker-tiles">
+        {{ range $.Pages }}
+          {{ if eq $key (string .Params.panel) }}
+            {{ $image := index (.Resources.ByType "image") 0 }} 
+            {{ partial "person.html" .}} 
+            {{ $tileCounter ++ }} 
+          {{end}}
         {{end}}
+      </div>
+      {{ if lt $tileCounter 1 }}
+         <p>"Speaker bios to be added shortly!"</p>
       {{end}}
-    </div>
-    {{ if lt $tileCounter 1 }}
-       <p>"Speaker bios to be added shortly!"</p>
-    {{end}}
-  {{end}}
+    }
+  </script>
 </div>
 {{end}}
