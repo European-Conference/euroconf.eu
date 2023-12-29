@@ -49,8 +49,8 @@
     <p id="panel-letter-{{ $key }}"> </p>
     <script>
       var panelLetter = ".panel-letter-";
-      var key = "a";
-      var panelLetterKey = document.querySelector(panelLetter + key);
+      var key = "{{ $key }}";
+      var panelLetterKey = document.querySelector(".panel-letter-a");
       if (2>1) {
         panelLetterKey.innerHTML = "Speaker bios to be added shortly!";
       }
