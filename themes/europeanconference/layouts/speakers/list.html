@@ -38,6 +38,7 @@
         {{ if eq $key (string .Params.panel) }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}} 
+          <p id="to-be-added"> </p>
           <script>
             var tileCounter = "{{ $tileCounter }}"
             tileCounter++
@@ -45,9 +46,11 @@
         {{end}}
       {{end}}
     </div>
-    {{ if lt $tileCounter 1 }}
-       <p>"Speaker bios to be added shortly!"</p>
-    {{end}}
+    <script>
+      if (tileCounter < 1) {
+        document.getElementById("to-be-added").innerHTML = "Speaker bios to be added shortly!"
+      }
+    </script>
   {{end}}
 </div>
 {{end}}
