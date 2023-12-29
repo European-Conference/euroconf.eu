@@ -13,22 +13,22 @@
   </div>
 
   <!-- Variable "$panelDict" that defines the panels for the conference. Panels can be updated for future conferences. -->
-  <!-- Because dictionaries in Hugo only seem to hold strings, and not integers, one-digit numbers must have a zero (0) in front. Otherwise, because Hugo sorts the keys by alphabetical order before iterating over them, the items will be sorted "1", "10", "11", ... "2", "3," ...   -->
-  {{ $panelDict := dict "01" "AI & (E)U: The Regulatory Road to the Future" 
-  "02" "What is the Future of Science and Innovation in Europe?" 
-  "03" "Europe's Position in a Multipower and Polarized World" 
-  "04" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad" 
-  "05" "Challenge and Opportunity: Building Momentum in Migration Policy" 
-  "06" "EU-US Relations: Building Collective Security in a Shifting World?" 
-  "07" "Is the European Social Model Future-Proof?" 
-  "08" "The European Dream: Pioneering Gender Equality and Minority Rights in Europe and Beyond" 
-  "09" "A Unique Perspective on European Culture" 
-  "10" "Europe’s Role in Global Climate Action: Leading or Lagging?" 
-  "11" "Ensuring European Competitiveness in the Green Deal Era" 
-  "12" "A Greener Way of Life in Europe: The Future of Mobility, Sustainable Food, and Greener Sources of Energy" 
-  "13" "2024 European Elections: A Pivotal Moment for the EU's Future" 
-  "14" "Challenges to European Democracies: Populism, Democratic Backsliding, and Excluding Nationalism" 
-  "15" "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy" }}
+  <!-- Because dictionaries in Hugo only seem to hold strings, and not integers, the easiest thing to do is to list panels by letter, not number. If numbers are used, because Hugo seems to sort the keys by alphabetical order before iterating over them, the items will be sorted "1", "10", "11", ... "2", "3," ... You can number items "01", "02", "03", ..., but Hugo interprets all numbers that start with a 0 as octal (base 8) numbers, which leads to problems later on. Why, Hugo???!!! -->
+  {{ $panelDict := dict "a" "AI & (E)U: The Regulatory Road to the Future" 
+  "b" "What is the Future of Science and Innovation in Europe?" 
+  "c" "Europe's Position in a Multipower and Polarized World" 
+  "d" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad" 
+  "e" "Challenge and Opportunity: Building Momentum in Migration Policy" 
+  "f" "EU-US Relations: Building Collective Security in a Shifting World?" 
+  "g" "Is the European Social Model Future-Proof?" 
+  "h" "The European Dream: Pioneering Gender Equality and Minority Rights in Europe and Beyond" 
+  "i" "A Unique Perspective on European Culture" 
+  "j" "Europe’s Role in Global Climate Action: Leading or Lagging?" 
+  "k" "Ensuring European Competitiveness in the Green Deal Era" 
+  "l" "A Greener Way of Life in Europe: The Future of Mobility, Sustainable Food, and Greener Sources of Energy" 
+  "m" "2024 European Elections: A Pivotal Moment for the EU's Future" 
+  "n" "Challenges to European Democracies: Populism, Democratic Backsliding, and Excluding Nationalism" 
+  "o" "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy" }}
 
   <!-- Iterates through  matches speakers to panels based on their panel parameter, defined in the individual speaker pages, and puts their picture and title under the correct panel. -->
   {{ $tileCounter := 0 }}
@@ -36,8 +36,7 @@
     <h3 class="speaker-title">{{ $value }}</h3>
     <div class="pure-g speaker-tiles">
       {{ range $.Pages }}
-        <!-- Because the panel parameters are stored as integers, they must be converted to strings so they match the keys in the dictionary. Converting the keys to integers does not work because Hugo treats numbers with a 0 in front as octal (base 8) numbers, meaning it will not recognize "08" as a valid integer. Why, Hugo?!! -->
-        {{ if eq $key (string .Params.panel) }}
+        {{ if eq $key .Params.panel }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}}
           <script>
