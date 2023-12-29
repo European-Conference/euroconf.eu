@@ -30,15 +30,18 @@
   "15" "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy" }}
 
   <!-- Iterates through  matches speakers to panels based on their panel parameter, defined in the individual speaker pages, and puts their picture and title under the correct panel. -->
+  {{ $tileCounter := 0 }}
   {{ range $key, $value := $panelDict }}
-    {{ $tileCounter := 0 }}
     <h3 class="speaker-title">{{ $value }}</h3>
     <div class="pure-g speaker-tiles">
       {{ range $.Pages }}
         {{ if eq $key (string .Params.panel) }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}} 
-          {{ $tileCounter ++ }} 
+          <script>
+            var tileCounter = "{{ $tileCounter }}"
+            tileCounter++
+          </script>
         {{end}}
       {{end}}
     </div>
