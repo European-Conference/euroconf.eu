@@ -13,6 +13,7 @@
   </div>
 
   <!-- Variable "$panelDict" that defines the panels for the conference. Panels can be updated for future conferences. -->
+  <!-- Because dictionaries in Hugo only seem to hold strings, and not integers, one-digit numbers must have a zero (0) in front. Otherwise, because Hugo sorts the keys by alphabetical order before iterating over them, the items will be sorted "1", "10", "11", ... "2", "3," ...   -->
   {{ $panelDict := dict "01" "AI & (E)U: The Regulatory Road to the Future" 
   "02" "What is the Future of Science and Innovation in Europe?" 
   "03" "Europe's Position in a Multipower and Polarized World" 
@@ -35,7 +36,8 @@
     <h3 class="speaker-title">{{ $value }}</h3>
     <div class="pure-g speaker-tiles">
       {{ range $.Pages }}
-        {{ if eq (int $key) .Params.panel }}
+        <!-- Because the panel parameters are stored as integers, they must be converted to strings so they match the keys in the dictionary. Converting the keys to integers does not work because Hugo treats numbers with a 0 in front as octal (base 8) numbers, meaning it will not recognize "08" as a valid integer. Why, Hugo?!! -->
+        {{ if eq $key (string .Params.panel) }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}}
           <script>
