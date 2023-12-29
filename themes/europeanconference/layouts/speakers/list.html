@@ -13,15 +13,15 @@
   </div>
 
   <!-- Variable "$panelDict" that defines the panels for the conference. Panels can be updated for future conferences. -->
-  {{ $panelDict := dict "1" "AI & (E)U: The Regulatory Road to the Future" 
-  "2" "What is the Future of Science and Innovation in Europe?" 
-  "3" "Europe's Position in a Multipower and Polarized World" 
-  "4" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad" 
-  "5" "Challenge and Opportunity: Building Momentum in Migration Policy" 
-  "6" "EU-US Relations: Building Collective Security in a Shifting World?" 
-  "7" "Is the European Social Model Future-Proof?" 
-  "8" "The European Dream: Pioneering Gender Equality and Minority Rights in Europe and Beyond" 
-  "9" "A Unique Perspective on European Culture" 
+  {{ $panelDict := dict "01" "AI & (E)U: The Regulatory Road to the Future" 
+  "02" "What is the Future of Science and Innovation in Europe?" 
+  "03" "Europe's Position in a Multipower and Polarized World" 
+  "04" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad" 
+  "05" "Challenge and Opportunity: Building Momentum in Migration Policy" 
+  "06" "EU-US Relations: Building Collective Security in a Shifting World?" 
+  "07" "Is the European Social Model Future-Proof?" 
+  "08" "The European Dream: Pioneering Gender Equality and Minority Rights in Europe and Beyond" 
+  "09" "A Unique Perspective on European Culture" 
   "10" "Europe’s Role in Global Climate Action: Leading or Lagging?" 
   "11" "Ensuring European Competitiveness in the Green Deal Era" 
   "12" "A Greener Way of Life in Europe: The Future of Mobility, Sustainable Food, and Greener Sources of Energy" 
@@ -35,7 +35,7 @@
     <h3 class="speaker-title">{{ $value }}</h3>
     <div class="pure-g speaker-tiles">
       {{ range $.Pages }}
-        {{ if eq $key (string .Params.panel) }}
+        {{ if eq (int $key) .Params.panel }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}}
           <script>
@@ -45,10 +45,12 @@
         {{end}}
       {{end}}
     </div>
-    <p id="to-be-added"> </p>
+    <p class="to-be-added"> </p>
     <script>
       if (2 > 1) {
-        document.getElementById("to-be-added").innerHTML = "Speaker bios to be added shortly!"
+        document.querySelector(" .to-be-added").innerHTML = "Speaker bios to be added shortly!"
+      } else {
+        document.querySelector(" .to-be-added").innerHTML = "Sail!"
       }
     </script>
   {{end}}
