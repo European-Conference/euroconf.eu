@@ -51,7 +51,8 @@
       var panelLetter = ".panel-letter-";
       var key = "{{ $key }}";
       var panelLetterKey = document.querySelector(panelLetter + key);
-      if (theLion < 1) {
+      panelLetterKey.innerHTML = tileCounter;
+      if (tileCounter < 1) {
         panelLetterKey.innerHTML = "Speaker bios to be added shortly!";
       }
     </script>
