@@ -45,13 +45,13 @@
         {{end}}
       {{end}}
     </div>
-    <p class="panel-letter-{{ $key }}" text-align="center"> </p>
+    <p class="panel-letter-{{ $key }}" style="text-align: center"> </p>
     <script>
       var panelLetter = ".panel-letter-";
       var key = "{{ $key }}";
       var panelLetterKey = document.querySelector(panelLetter + key);
       if (tileCounter < 1) {
-        panelLetterKey.innerHTML = "Panelists will be added shortly!";
+        panelLetterKey.innerHTML = "Panelist bios will be added shortly.";
       }
     </script>
   {{end}}
