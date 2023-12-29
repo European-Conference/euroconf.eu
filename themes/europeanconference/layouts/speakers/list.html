@@ -49,9 +49,11 @@
     <p id="panel-letter-{{ $key }}"> </p>
     <script>
       var panelLetter = ".panel-letter-";
-      var key = "{{ $key }}";
+      var key = "a";
       var panelLetterKey = document.querySelector(panelLetter + key);
-      panelLetterKey.innerHTML = "Speaker bios to be added shortly!";
+      if (2>1) {
+        panelLetterKey.innerHTML = "Speaker bios to be added shortly!";
+      }
     </script>
   {{end}}
 </div>
