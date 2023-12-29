@@ -46,12 +46,14 @@
         {{end}}
       {{end}}
     </div>
-    <p class="to-be-added"> </p>
+    <p id="panel-letter-{{ $key }}"> </p>
     <script>
+      var panelLetter = ".panel-letter-"
+      var key = {{ $key }}
       if (2 > 1) {
-        document.querySelector(" .to-be-added").innerHTML = "Speaker bios to be added shortly!"
+        document.querySelector(panelLetter + key).innerHTML = "Speaker bios to be added shortly!"
       } else {
-        document.querySelector(" .to-be-added").innerHTML = "Sail!"
+        document.querySelector(panelLetter + key).innerHTML = "Sail!"
       }
     </script>
   {{end}}
