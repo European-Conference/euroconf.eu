@@ -45,14 +45,13 @@
         {{end}}
       {{end}}
     </div>
-    <p class="panel-letter-{{ $key }}"> </p>
+    <p class="panel-letter-{{ $key }}" text-align="center"> </p>
     <script>
       var panelLetter = ".panel-letter-";
       var key = "{{ $key }}";
       var panelLetterKey = document.querySelector(panelLetter + key);
-      panelLetterKey.innerHTML = tileCounter;
       if (tileCounter < 1) {
-        panelLetterKey.innerHTML = "Speaker bios to be added shortly!";
+        panelLetterKey.innerHTML = "Panelists will be added shortly!";
       }
     </script>
   {{end}}
