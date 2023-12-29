@@ -3,6 +3,7 @@ name: Péter Szijjártó
 role: Minister of Foreign Affairs and Trade, Hungary
 keynote: false
 show: true
+panel: c
 ---
 
 Péter Szijjártó is a Hungarian politician who has been Minister of Foreign Affairs and Trade since 2014. He previously served as Deputy Minister of Foreign Affairs and Trade and Parliamentary State Secretary of the Ministry of Foreign Affairs and Trade. In June 2012, he was appointed to State Secretary for Foreign Affairs and External Economic Relations of the Prime Minister's Office.

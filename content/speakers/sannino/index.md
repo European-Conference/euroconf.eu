@@ -3,6 +3,7 @@ name: Stefano Sannino
 role: Secretary-General, European External Action Service
 keynote: false
 show: true
+panel: c
 ---
 
 Mr Stefano Sannino is the Secretary-General of the European External Action Service (EEAS) of the European Union since 1 January 2021. He held the post of the Deputy Secretary General for Economic and Global Issues at the EEAS from April 2020 to December 2021.

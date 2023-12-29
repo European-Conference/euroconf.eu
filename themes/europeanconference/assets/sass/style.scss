@@ -307,12 +307,12 @@ h2 {
 }
 
 h3 {
-  font-size: 140%;
+  font-size: 120%;
 }
 
 h4 {
   font-style: italic;
-  font-size: 120%;
+  font-size: 110%;
 }
 
 a {
@@ -348,6 +348,8 @@ form.remind-me fieldset {
 body > .pure-g {
   background: white;
 }
+
+/* Formatting speakers on speaker page */
 
 #profile {
   display: flex;
@@ -391,6 +393,16 @@ body > .pure-g {
   font-style: italic;
   color: #b7133e;
 }
+
+.speaker-title {
+  text-align: center;
+}
+
+.speaker-tiles {
+  justify-content: center;
+}
+
+/* Formatting table elements */
 
 table,
 th,
@@ -442,9 +454,7 @@ footer .student-orgs img {
   font-size: 60%;
 }
 
-/*
-schedule
-*/
+/* schedule */
 
 .day {
   margin: 10px 0;

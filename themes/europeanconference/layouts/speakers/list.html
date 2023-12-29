@@ -1,9 +1,59 @@
 {{ define "main" }} {{ .Content }}
 
-<div class="pure-g speakers">
-  {{ range sort (sort .Pages "Params.priority" "asc") "Params.keynote" "desc"}} 
-    {{ $image := index (.Resources.ByType "image") 0 }} 
-    {{ partial "person.html" .}} 
+<!-- Puts all keynote speakers at the top of the page. -->
+<div class="speakers">
+  <h3 class="speaker-title">Keynote Speakers</h3>
+  <div class="pure-g speaker-tiles">
+    {{ range .Pages }}
+        {{ if .Params.keynote }}
+          {{ $image := index (.Resources.ByType "image") 0 }} 
+          {{ partial "person.html" .}}
+        {{end}}
+    {{end}}
+  </div>
+
+  <!-- Variable "$panelDict" that defines the panels for the conference. Panels can be updated for future conferences. -->
+  <!-- Because dictionaries in Hugo only seem to hold strings, and not integers, the easiest thing to do is to list panels by letter, not number. If numbers are used, because Hugo seems to sort the keys by alphabetical order before iterating over them, the items will be sorted "1", "10", "11", ... "2", "3," ... You can number items "01", "02", "03", ..., but Hugo interprets all numbers that start with a 0 as octal (base 8) numbers, which leads to problems later on. Why, Hugo???!!! -->
+  {{ $panelDict := dict "a" "AI & (E)U: The Regulatory Road to the Future" 
+  "b" "What is the Future of Science and Innovation in Europe?" 
+  "c" "Europe's Position in a Multipower and Polarized World" 
+  "d" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad" 
+  "e" "Challenge and Opportunity: Building Momentum in Migration Policy" 
+  "f" "EU-US Relations: Building Collective Security in a Shifting World?" 
+  "g" "Is the European Social Model Future-Proof?" 
+  "h" "The European Dream: Pioneering Gender Equality and Minority Rights in Europe and Beyond" 
+  "i" "A Unique Perspective on European Culture" 
+  "j" "Europe’s Role in Global Climate Action: Leading or Lagging?" 
+  "k" "Ensuring European Competitiveness in the Green Deal Era" 
+  "l" "A Greener Way of Life in Europe: The Future of Mobility, Sustainable Food, and Greener Sources of Energy" 
+  "m" "2024 European Elections: A Pivotal Moment for the EU's Future" 
+  "n" "Challenges to European Democracies: Populism, Democratic Backsliding, and Excluding Nationalism" 
+  "o" "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy" }}
+
+  <!-- Iterates through  matches speakers to panels based on their panel parameter, defined in the individual speaker pages, and puts their picture and title under the correct panel. -->
+  {{ range $key, $value := $panelDict }}
+    <script> var tileCounter = 0 </script>
+    <h3 class="speaker-title">{{ $value }}</h3>
+    <div class="pure-g speaker-tiles">
+      {{ range $.Pages }}
+        {{ if eq $key .Params.panel }}
+          {{ $image := index (.Resources.ByType "image") 0 }} 
+          {{ partial "person.html" .}}
+          <script>
+            tileCounter++
+          </script>
+        {{end}}
+      {{end}}
+    </div>
+    <p class="panel-letter-{{ $key }}" style="text-align: center"> </p>
+    <script>
+      var panelLetter = ".panel-letter-";
+      var key = "{{ $key }}";
+      var panelLetterKey = document.querySelector(panelLetter + key);
+      if (tileCounter < 1) {
+        panelLetterKey.innerHTML = "Panelist bios will be added shortly.";
+      }
+    </script>
   {{end}}
 </div>
 {{end}}
