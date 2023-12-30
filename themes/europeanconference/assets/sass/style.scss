@@ -565,9 +565,20 @@ footer .student-orgs img {
   }
 }
 
-.frontline-europe {
-  font-size: 260%;
+.conference-title {
   font-weight: bold;
+  color: white;
+  background-image: url('https://euroconf.eu/themes/europeanconference/static/eu-flag-christian-lue-unsplash.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.conference-title h1 {
+  font-size: 400%;
+}
+
+.conference-title p {
+  font-size: 200%;
 }
 
 .speakers {
