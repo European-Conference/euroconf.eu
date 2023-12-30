@@ -40,21 +40,21 @@ From the **European Parliamentary elections** to **elections at the national lev
 
 ## Panels
 <div class = "panel-grid">
-  <div class = "panel-grid-item"><b>AI & (E)U:</b> The Regulatory Road to the Future</div>
-  <div class = "panel-grid-item">What is the Future of <b>Science and Innovation</b> in Europe?</div>
-  <div class = "panel-grid-item"><b>Europe's Position</b> in a Multipower and Polarized World</div>
-  <div class = "panel-grid-item"><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</div>
-  <div class = "panel-grid-item"><b>Challenge and Opportunity:</b> Building Momentum in Migration Policy</div>
-  <div class = "panel-grid-item"><b>EU-US Relations:</b> Building Collective Security in a Shifting World?</div>
-  <div class = "panel-grid-item">Is the <b>European Social Model</b> Future-Proof?</div>
-  <div class = "panel-grid-item"><b>The European Dream:</b> Pioneering Gender Equality and Minority Rights in Europe and Beyond</div>
-  <div class = "panel-grid-item">A Unique Perspective on <b>European Culture</b></div>
-  <div class = "panel-grid-item"><b>Europe’s Role in Global Climate Action:</b> Leading or Lagging?</div>
-  <div class = "panel-grid-item"><b>Ensuring European Competitiveness</b> in the Green Deal Era</div>
-  <div class = "panel-grid-item"><b>A Greener Way of Life in Europe:</b> The Future of Mobility, Sustainable Food, and Greener Sources of Energy</div>
-  <div class = "panel-grid-item"><b>2024 European Elections:</b> A Pivotal Moment for the EU's Future</div>
-  <div class = "panel-grid-item"><b>Challenges to European Democracies:</b> Populism, Democratic Backsliding, and Excluding Nationalism</div>
-  <div class = "panel-grid-item"><b>Integration in Times of Conflict:</b> Prospects and Challenges of Ukraine’s EU Candidacy</div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a">What is the Future of <b>Science and Innovation</b> in Europe?</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>Europe's Position</b> in a Multipower and Polarized World</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>Challenge and Opportunity:</b> Building Momentum in Migration Policy</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>EU-US Relations:</b> Building Collective Security in a Shifting World?</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a">Is the <b>European Social Model</b> Future-Proof?</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>The European Dream:</b> Pioneering Gender Equality and Minority Rights in Europe and Beyond</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a">A Unique Perspective on <b>European Culture</b></a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>Europe’s Role in Global Climate Action:</b> Leading or Lagging?</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>Ensuring European Competitiveness</b> in the Green Deal Era</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>A Greener Way of Life in Europe:</b> The Future of Mobility, Sustainable Food, and Greener Sources of Energy</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>2024 European Elections:</b> A Pivotal Moment for the EU's Future</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>Challenges to European Democracies:</b> Populism, Democratic Backsliding, and Excluding Nationalism</a></div>
+  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>Integration in Times of Conflict:</b> Prospects and Challenges of Ukraine’s EU Candidacy</a></div>
 </div>
 
 ## Questions and Answers
