@@ -552,10 +552,17 @@ schedule
 }
 
 .conference-title {
-  font-size: 400%;
   font-weight: bold;
   color: white;
-  background-color: #b7133e;
+  background-image: eu-flag-christian-lue-unsplash.jpg;
+}
+
+.conference-title h1 {
+  font-size: 400%;
+}
+
+.conference-title p {
+  font-size: 200%;
 }
 
 .speakers {
