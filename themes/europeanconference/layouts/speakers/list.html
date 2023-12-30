@@ -33,7 +33,7 @@
   <!-- Iterates through  matches speakers to panels based on their panel parameter, defined in the individual speaker pages, and puts their picture and title under the correct panel. -->
   {{ range $key, $value := $panelDict }}
     <script> var tileCounter = 0 </script>
-    <h3 class="speaker-title">{{ $value }}</h3>
+    <h3 class="speaker-title-{{ $key }}">{{ $value }}</h3>
     <div class="pure-g speaker-tiles">
       {{ range $.Pages }}
         {{ if eq $key .Params.panel }}
