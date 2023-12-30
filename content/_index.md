@@ -2,7 +2,10 @@
 title: "Home"
 ---
 
-## <span class='conference-title'>The European Dream</span><br>2024: A Continent at the Crossroads
+<div class="conference-title">
+  <h2>The European Dream</h2>
+  <h3>2024: A Continent at the Crossroads</h3>
+</div>
 
 Join us at **Harvard Kennedy School** in Cambridge, Massachusetts, on **February 9 and 10, 2024**, for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today. 
 
