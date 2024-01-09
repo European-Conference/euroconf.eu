@@ -17,7 +17,7 @@ title: "Home"
 </div>
 
 <div class="homepage-speakers-list">
-  <h2 class="speakers-list">Speakers</h2>
+  <h2 id="speakers-list">Speakers</h2>
   <ul>
   <li><b>Enrico Letta</b>, former Prime Minister of Italy; President of the Jacques Delors Institute</li>
   <li><b>Maroš Šefčovič</b>, current Executive Vice-President of the European Commission, in charge of the European Green Deal, Interinstitutional Relations and Foresight</li>
