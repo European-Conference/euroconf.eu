@@ -250,6 +250,10 @@ footer {
   font-weight: bold;
   font-size: 300%;
   margin-top: 175px;
+
+  @media (max-width: 800px) {
+    font-size: 100%;
+  }
 }
 
 .pure-button-primary {
