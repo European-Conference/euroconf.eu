@@ -218,12 +218,13 @@ footer {
   width: 100%;
 }
 
-.homepage-conference-blurb, .homepage-speakers-list, .panel-grid, .q-and-a-flex {
+.homepage-conference-blurb, .homepage-speakers-list, .homepage-panel-grid, .homepage-q-and-a {
   width: 85%;
+  text-align: center;
 }
 
 /* Formatting for the homepage title */
-.conference-title {
+.homepage-conference-title {
   font-weight: bold;
   color: white;
   height: 750px;
