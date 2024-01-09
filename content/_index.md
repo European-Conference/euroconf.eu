@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-<div class="conference-title">
+<div class="homepage-conference-title">
   <h1>The European Dream</h1>
   <h2>2024: A Continent at the Crossroads</h2>
   <div>
@@ -44,47 +44,51 @@ title: "Home"
   ...And more speakers to be added soon!
 </div>
 
-## Panels
-<div class = "panel-grid">
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-b">What is the Future of <b>Science and Innovation</b> in Europe?</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-c"><b>Europe's Position</b> in a Multipower and Polarized World</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-d"><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-e"><b>Challenge and Opportunity:</b> Building Momentum in Migration Policy</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-f"><b>EU-US Relations:</b> Building Collective Security in a Shifting World?</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-g">Is the <b>European Social Model</b> Future-Proof?</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-h"><b>The European Dream:</b> Pioneering Gender Equality and Minority Rights in Europe and Beyond</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-i">A Unique Perspective on <b>European Culture</b></a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-j"><b>Europe’s Role in Global Climate Action:</b> Leading or Lagging?</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-k"><b>Ensuring European Competitiveness</b> in the Green Deal Era</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-l"><b>A Greener Way of Life in Europe:</b> The Future of Mobility, Sustainable Food, and Greener Sources of Energy</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-m"><b>2024 European Elections:</b> A Pivotal Moment for the EU's Future</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-n"><b>Challenges to European Democracies:</b> Populism, Democratic Backsliding, and Excluding Nationalism</a></div>
-  <div class = "panel-grid-item"><a href="/speakers/#speaker-title-o"><b>Integration in Times of Conflict:</b> Prospects and Challenges of Ukraine’s EU Candidacy</a></div>
+<div class="homepage-panel-grid">
+  <h2>Panels</h2>
+  <div class = "panel-grid">
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-b">What is the Future of <b>Science and Innovation</b> in Europe?</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-c"><b>Europe's Position</b> in a Multipower and Polarized World</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-d"><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-e"><b>Challenge and Opportunity:</b> Building Momentum in Migration Policy</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-f"><b>EU-US Relations:</b> Building Collective Security in a Shifting World?</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-g">Is the <b>European Social Model</b> Future-Proof?</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-h"><b>The European Dream:</b> Pioneering Gender Equality and Minority Rights in Europe and Beyond</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-i">A Unique Perspective on <b>European Culture</b></a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-j"><b>Europe’s Role in Global Climate Action:</b> Leading or Lagging?</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-k"><b>Ensuring European Competitiveness</b> in the Green Deal Era</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-l"><b>A Greener Way of Life in Europe:</b> The Future of Mobility, Sustainable Food, and Greener Sources of Energy</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-m"><b>2024 European Elections:</b> A Pivotal Moment for the EU's Future</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-n"><b>Challenges to European Democracies:</b> Populism, Democratic Backsliding, and Excluding Nationalism</a></div>
+    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-o"><b>Integration in Times of Conflict:</b> Prospects and Challenges of Ukraine’s EU Candidacy</a></div>
+  </div>
 </div>
 
-## Questions and Answers
-<div class = "q-and-a-flex">
-  <div class = "q-and-a-flex-item">
-    <b>Why should you atttend the European Conference?</b>
-    <p>At the European Conference, you will have the exclusive opportunity to</p>
-    <ul>
-      <li><i>Network with Influential European and American Figures:</i> Connect with high-ranking officials, from government representatives to business leaders, who are shaping the future of Europe. This is your chance to engage with those who make impactful decisions.</li>
-      <li><i>Forge Relationships with Your Peers:</i> Meet like-minded students and future stakeholders who are passionate about European affairs. Share ideas, collaborate, and build relationships that can last a lifetime.</li>
-      <li><i>Discover the Diverse Facets of Europe:</i> Our carefully curated panels and discussions will delve into various aspects of Europe, from politics and economics to culture and innovation. You will gain valuable insights into this dynamic continent.</li>
-    </ul>
-  </div>
-
-  <div class = "q-and-a-flex-item">
-    <b>What can you expect at the European Conference?</b>
-    <ul>
-      <li><i>Engaging Panels:</i> The European Conference will feature expert panels on pressing European issues, providing deep insights and discussions led by prominent figures in the field.</li>
-      <li><i>Keynote Speakers:</i> Be inspired by thought-provoking keynote speakers who have made a significant impact on the   European stage.</li>
-      <li><i>Networking Opportunities:</i> The conference offers ample networking breaks and social events, ensuring you can connect with fellow attendees and our esteemed guests.</li>
-      <li><i>Interactive Workshops:</i> Participate in interactive workshops that will develop your skills and knowledge about Europe's role on the global stage.</li>
-      <li><i>Cultural Showcase:</i> Immerse yourself in European culture through exhibits, performances, and art installations.</li>
-      <li><i>Unforgettable Gala Evening:</i> Enjoy a spectacular gala evening, creating an intimate environment for insightful conversations and connections.</li>
-    </ul>
+<div class="homepage-q-and-a">
+  <h2>Questions and Answers</h2>
+  <div class = "q-and-a-flex">
+    <div class = "q-and-a-flex-item">
+      <b>Why should you atttend the European Conference?</b>
+      <p>At the European Conference, you will have the exclusive opportunity to</p>
+      <ul>
+        <li><i>Network with Influential European and American Figures:</i> Connect with high-ranking officials, from government representatives to business leaders, who are shaping the future of Europe. This is your chance to engage with those who make impactful decisions.</li>
+        <li><i>Forge Relationships with Your Peers:</i> Meet like-minded students and future stakeholders who are passionate about European affairs. Share ideas, collaborate, and build relationships that can last a lifetime.</li>
+        <li><i>Discover the Diverse Facets of Europe:</i> Our carefully curated panels and discussions will delve into various aspects of Europe, from politics and economics to culture and innovation. You will gain valuable insights into this dynamic continent.</li>
+      </ul>
+    </div>
+  
+    <div class = "q-and-a-flex-item">
+      <b>What can you expect at the European Conference?</b>
+      <ul>
+        <li><i>Engaging Panels:</i> The European Conference will feature expert panels on pressing European issues, providing deep insights and discussions led by prominent figures in the field.</li>
+        <li><i>Keynote Speakers:</i> Be inspired by thought-provoking keynote speakers who have made a significant impact on the   European stage.</li>
+        <li><i>Networking Opportunities:</i> The conference offers ample networking breaks and social events, ensuring you can connect with fellow attendees and our esteemed guests.</li>
+        <li><i>Interactive Workshops:</i> Participate in interactive workshops that will develop your skills and knowledge about Europe's role on the global stage.</li>
+        <li><i>Cultural Showcase:</i> Immerse yourself in European culture through exhibits, performances, and art installations.</li>
+        <li><i>Unforgettable Gala Evening:</i> Enjoy a spectacular gala evening, creating an intimate environment for insightful conversations and connections.</li>
+      </ul>
+    </div>
   </div>
 </div>
 
