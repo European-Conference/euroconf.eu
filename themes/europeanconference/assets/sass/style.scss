@@ -213,9 +213,43 @@ footer {
   }
 }
 
-/* Formatting for the homepage */
+/* Formatting for the overall homepage */
 .homepage {
   width: 100%
+}
+
+/* Formatting for the homepage title */
+.conference-title {
+  font-weight: bold;
+  color: white;
+  height: 750px;
+  width: 100%;
+  background-image: url('https://euroconf.eu/eu-flag-christian-lue-unsplash.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.conference-title h1 {
+  font-size: 400%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+
+.conference-title h2 {
+  font-size: 200%;
+  margin-top: 0px;
+}
+
+#tickets-btn {
+  font-weight: bold;
+  font-size: 3000%;
+  padding-left: 10px 30px;
+  margin-top: 150px
+}
+
+.pure-button-primary {
+  background-color: #b7133e !important;
 }
 
 /* Formatting for list of panels on homepage */
@@ -331,17 +365,6 @@ a {
   &:hover {
     text-decoration: underline;
   }
-}
-
-#tickets-btn {
-  font-weight: bold;
-  font-size: 3000%;
-  padding-left: 10px 30px;
-  margin-top: 150px
-}
-
-.pure-button-primary {
-  background-color: #b7133e !important;
 }
 
 form.remind-me fieldset {
@@ -553,8 +576,6 @@ footer .student-orgs img {
   max-width: 100%;
 }
 
-
-
 #content.a-house-made-of-splinters {
   text-align: center;
 }
@@ -568,27 +589,6 @@ footer .student-orgs img {
     width: auto;
     margin: 10px;
   }
-}
-
-.conference-title {
-  font-weight: bold;
-  color: white;
-  height: 750px;
-  width: 100%;
-  background-image: url('https://euroconf.eu/eu-flag-christian-lue-unsplash.jpg');
-  background-size: cover;
-  text-align: center;
-}
-
-.conference-title h1 {
-  font-size: 400%;
-  padding: 10px;
-  margin: 0px;
-}
-
-.conference-title h2 {
-  font-size: 200%;
-  margin-top: 0px;
 }
 
 .speakers {
