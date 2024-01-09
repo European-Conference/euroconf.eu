@@ -213,6 +213,11 @@ footer {
   }
 }
 
+/* Formatting for the homepage */
+.homepage {
+  width: 100%
+}
+
 /* Formatting for list of panels on homepage */
 .panel-grid {
   display: grid;
@@ -253,11 +258,6 @@ footer {
 .q-and-a-flex-item {
   padding: 15px;
   flex: 1;
-}
-
-/* Formatting for the homepage */
-.homepage {
-  width: 90%
 }
 
 /* Formatting for the speaker and organizer pages */
