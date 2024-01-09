@@ -10,20 +10,13 @@ title: "Home"
   </div>
 </div>
 
-Join us at **Harvard Kennedy School** in Cambridge, Massachusetts, on **February 9 and 10, 2024**, for a conference that brings together **political leaders, CEOs, world-class experts and practitioners** from across Europe to explore and discuss the challenges facing the continent today. 
-
-The year 2024 marks the **10th anniversary edition** of the Conference, which will aim to share perspectives around The European Dream. 2024: A Continent at the Crossroads. 2024 is indeed a pivotal moment for Europe and the transatlantic relationships. 
-
-From the **European Parliamentary elections** to **elections at the national level** (Austria, Finland, Belgium, Romania) and across the Atlantic, 2024 will be a key moment for democracy and define future European policies around **climate change**, **artificial intelligence**, and **migration**. The European response to the continued **war in Ukraine** and other major geopolitical challenges will be closely examined. Amid this foreign policy turmoil, the protection of a **European way of life** is at the heart of heated debates.
-
-<p></p>
-
-<p class="homepage-image">
-<img src="save-the-date-no-logo.png" alt="Grayscale map of Europe with Save the Date written across the image" width="800" class="map">
-</p>
+<div class="blurb">
+  </p>Join us at <b>Harvard Kennedy School</b> in Cambridge, Massachusetts, on <b>February 9 and 10, 2024</b>, for a conference that brings together <b>political leaders, CEOs, world-class experts and practitioners</b> from across Europe to explore and discuss the challenges facing the continent today.</p>
+  </p>The year 2024 marks the <b>10th anniversary edition</b> of the Conference, which will aim to share perspectives around The European Dream. 2024: A Continent at the Crossroads. 2024 is indeed a pivotal moment for Europe and the transatlantic relationships.</p>
+  </p>From the <b>European Parliamentary elections</b> to <b>elections at the national level</b> (Austria, Finland, Belgium, Romania) and across the Atlantic, 2024 will be a key moment for democracy and define future European policies around <b>climate change</b>, <b>artificial intelligence</b>, and <b>migration</b>. The European response to the continued <b>war in Ukraine** and other major geopolitical challenges will be closely examined. Amid this foreign policy turmoil, the protection of a <b>European way of life</b> is at the heart of heated debates.</p>
+</div>
 
 <h2 class="speakers-list">Speakers</h2>
-
 <ul>
 <li><b>Enrico Letta</b>, former Prime Minister of Italy; President of the Jacques Delors Institute</li>
 <li><b>Maroš Šefčovič</b>, current Executive Vice-President of the European Commission, in charge of the European Green Deal, Interinstitutional Relations and Foresight</li>
