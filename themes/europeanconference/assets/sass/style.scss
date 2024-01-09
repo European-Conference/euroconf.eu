@@ -215,7 +215,11 @@ footer {
 
 /* Formatting for the overall homepage */
 .homepage {
-  width: 100%
+  width: 100%;
+}
+
+.homepage-conference-blurb, .homepage-speakers-list, .panel-grid, .q-and-a-flex {
+  width: 85%;
 }
 
 /* Formatting for the homepage title */
