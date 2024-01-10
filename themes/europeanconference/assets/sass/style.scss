@@ -220,7 +220,8 @@ footer {
 
 .homepage-border {
   background-image: url('https://euroconf.eu/star-border.jpeg');
-  background-size: cover;
+  background-size: contain;
+  height: 100px;
 }
 
 .homepage-conference-blurb, .homepage-speakers-list, .homepage-panel-grid, .homepage-q-and-a {
