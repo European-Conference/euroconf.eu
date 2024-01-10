@@ -222,6 +222,12 @@ footer {
   width: 85%;
   margin: 0 auto;
 }
+
+.homepage-headers {
+  background-color: #b7133e;
+  color: white;
+  padding: 10px 0px;
+}
   
 /* Formatting for the homepage title */
 .homepage-conference-title {
@@ -230,6 +236,7 @@ footer {
   height: 750px;
   width: 100%;
   background-image: url('https://euroconf.eu/eu-flag-christian-lue-unsplash.jpg');
+  background-color: none;
   background-size: cover;
   text-align: center;
 }
@@ -244,6 +251,7 @@ footer {
 .homepage-conference-title h2 {
   font-size: 200%;
   margin-top: 0px;
+  background-color: none;
 }
 
 #tickets-btn {
