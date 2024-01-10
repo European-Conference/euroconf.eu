@@ -222,6 +222,11 @@ footer {
   width: 85%;
   margin: 0 auto;
 }
+
+.homepage-header {
+  background-color: b7133e;
+  color: white;
+}
   
 /* Formatting for the homepage title */
 .homepage-conference-title {
@@ -245,8 +250,7 @@ footer {
 .homepage-conference-title h2 {
   font-size: 200%;
   margin-top: 0px;
-  background-color: b7133e;
-  color: white;
+  background-color: none;
 }
 
 #tickets-btn {
