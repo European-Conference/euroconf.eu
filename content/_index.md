@@ -20,8 +20,8 @@ title: "Home"
 
 <div class="homepage-border"></div>
 
+<h2 id="speakers-list" class="homepage-headers">Speakers</h2>
 <div class="homepage-speakers-list">
-  <h2 id="speakers-list">Speakers</h2>
   <ul>
   <li><b>Enrico Letta</b>, former Prime Minister of Italy; President of the Jacques Delors Institute</li>
   <li><b>Maroš Šefčovič</b>, current Executive Vice-President of the European Commission, in charge of the European Green Deal, Interinstitutional Relations and Foresight</li>
@@ -50,8 +50,8 @@ title: "Home"
 
 <div class="homepage-border"></div>
 
+<h2 class="homepage-headers">Panels</h2>
 <div class="homepage-panel-grid">
-  <h2>Panels</h2>
   <div class = "panel-grid">
     <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
     <div class = "panel-grid-item"><a href="/speakers/#speaker-title-b">What is the Future of <b>Science and Innovation</b> in Europe?</a></div>
@@ -71,8 +71,8 @@ title: "Home"
   </div>
 </div>
 
+<h2 class="homepage-headers">Questions and Answers</h2>
 <div class="homepage-q-and-a">
-  <h2>Questions and Answers</h2>
   <div class = "q-and-a-flex">
     <div class = "q-and-a-flex-item">
       <b>Why should you atttend the European Conference?</b>
@@ -97,4 +97,4 @@ title: "Home"
   </div>
 </div>
 
-## We look forward to welcoming you in Cambridge!
+<h2 class="homepage-headers"> We look forward to welcoming you in Cambridge!</h2>
