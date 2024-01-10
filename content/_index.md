@@ -16,8 +16,8 @@ title: "Home"
   </p>From the <b>European Parliamentary elections</b> to <b>elections at the national level</b> (Austria, Finland, Belgium, Romania) and across the Atlantic, 2024 will be a key moment for democracy and define future European policies around <b>climate change</b>, <b>artificial intelligence</b>, and <b>migration</b>. The European response to the continued <b>war in Ukraine</b> and other major geopolitical challenges will be closely examined. Amid this foreign policy turmoil, the protection of a <b>European way of life</b> is at the heart of heated debates.</p>
 </div>
 
+<h2 id="speakers-list">Speakers</h2>
 <div class="homepage-speakers-list">
-  <h2 id="speakers-list">Speakers</h2>
   <ul>
   <li><b>Enrico Letta</b>, former Prime Minister of Italy; President of the Jacques Delors Institute</li>
   <li><b>Maroš Šefčovič</b>, current Executive Vice-President of the European Commission, in charge of the European Green Deal, Interinstitutional Relations and Foresight</li>
@@ -44,8 +44,8 @@ title: "Home"
   ...And more speakers to be added soon!
 </div>
 
+<h2>Panels</h2>
 <div class="homepage-panel-grid">
-  <h2>Panels</h2>
   <div class = "panel-grid">
     <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
     <div class = "panel-grid-item"><a href="/speakers/#speaker-title-b">What is the Future of <b>Science and Innovation</b> in Europe?</a></div>
@@ -65,8 +65,8 @@ title: "Home"
   </div>
 </div>
 
+<h2>Questions and Answers</h2>
 <div class="homepage-q-and-a">
-  <h2>Questions and Answers</h2>
   <div class = "q-and-a-flex">
     <div class = "q-and-a-flex-item">
       <b>Why should you atttend the European Conference?</b>
