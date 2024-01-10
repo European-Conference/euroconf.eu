@@ -16,7 +16,7 @@ title: "Home"
   </p>From the <b>European Parliamentary elections</b> to <b>elections at the national level</b> (Austria, Finland, Belgium, Romania) and across the Atlantic, 2024 will be a key moment for democracy and define future European policies around <b>climate change</b>, <b>artificial intelligence</b>, and <b>migration</b>. The European response to the continued <b>war in Ukraine</b> and other major geopolitical challenges will be closely examined. Amid this foreign policy turmoil, the protection of a <b>European way of life</b> is at the heart of heated debates.</p>
 </div>
 
-<h2 id="speakers-list">Speakers</h2>
+<h2 id="speakers-list" class="homepage-headers">Speakers</h2>
 <div class="homepage-speakers-list">
   <ul>
   <li><b>Enrico Letta</b>, former Prime Minister of Italy; President of the Jacques Delors Institute</li>
@@ -44,7 +44,7 @@ title: "Home"
   ...And more speakers to be added soon!
 </div>
 
-<h2>Panels</h2>
+<h2 class="homepage-headers">Panels</h2>
 <div class="homepage-panel-grid">
   <div class = "panel-grid">
     <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
@@ -65,7 +65,7 @@ title: "Home"
   </div>
 </div>
 
-<h2>Questions and Answers</h2>
+<h2 class="homepage-headers">Questions and Answers</h2>
 <div class="homepage-q-and-a">
   <div class = "q-and-a-flex">
     <div class = "q-and-a-flex-item">
@@ -91,4 +91,4 @@ title: "Home"
   </div>
 </div>
 
-## We look forward to welcoming you in Cambridge!
+<h2 class="homepage-headers"> We look forward to welcoming you in Cambridge!</h2>
