@@ -33,7 +33,7 @@ params:
             - type: "other"
               content: "Conference Events and Panels"
               location: "HKS"  
-        - time: "7:00pm - 10:00am"
+        - time: "7:00pm - 10:00pm"
           events:
             - type: "other"
               content: "Reception and Gala"
