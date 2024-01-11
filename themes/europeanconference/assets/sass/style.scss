@@ -505,11 +505,15 @@ footer .student-orgs img {
 
 .day {
   margin: 10px 0;
+  
   .day-info {
+    padding-bottom: 10px;
+      
     h3.name {
       text-align: left;
       font-size: 120%;
       display: inline-block;
+      margin-bottom: 0px;
     }
 
     .location {
@@ -520,8 +524,8 @@ footer .student-orgs img {
 
   .day-slots {
     .schedule-slot {
-      background: white;
       font-size: 110%;
+      align-items: baseline;
       border: 1px solid #333;
       &:not(:last-child) {
         border-bottom: none;
@@ -539,10 +543,13 @@ footer .student-orgs img {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        
         .schedule-event {
           padding: 20px 0;
           flex: 1;
           display: flex;
+          align-items: center;
+          
           .event-info {
             flex: 2;
             text-align: left;
@@ -564,13 +571,14 @@ footer .student-orgs img {
             text-align: center;
             align-items: center;
             padding-left: 10px;
-            display: flex;
           }
         }
       }
     }
   }
 }
+
+/* Supporters */
 
 .supporter-grid {
   display: grid;
