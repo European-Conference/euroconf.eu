@@ -6,25 +6,23 @@
   </div>
   <div class="day-slots">
     {{ range .day.slots}}
-
-    {{ $speaker_appears := false}}
-    {{ range .events }}
-    {{ if eq .moderator $.for_speaker }}
-    {{ $speaker_appears = true }}
-    {{ end }}
-    {{ range .speakers }}
-    {{ if eq . $.for_speaker }}
-    {{ $speaker_appears = true }}
-    {{ end }}
-    {{ end }}
-    {{ end }}
-    {{ if not $.for_speaker }}
-    {{ $speaker_appears = true }}
-    {{ end }}
-    {{ if $speaker_appears }}
-    {{ partial "schedule_slot" (dict "root" $.root "slot"
-    . "for_speaker" $.for_speaker) }}
-    {{end}}
+      {{ $speaker_appears := false}}
+      {{ range .events }}
+        {{ if eq .moderator $.for_speaker }}
+          {{ $speaker_appears = true }}
+        {{ end }}
+        {{ range .speakers }}
+          {{ if eq . $.for_speaker }}
+            {{ $speaker_appears = true }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if not $.for_speaker }}
+        {{ $speaker_appears = true }}
+      {{ end }}
+      {{ if $speaker_appears }}
+        {{ partial "schedule_slot" (dict "root" $.root "slot" . "for_speaker" $.for_speaker) }}
+      {{end}}
     {{end}}
   </div>
 </div>
