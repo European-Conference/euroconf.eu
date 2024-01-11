@@ -17,282 +17,28 @@ security:
     - '^babel$'
 params:
   schedule:
-    - name: "Thursday, March 23th, 2023"
-      location: "Harvard Law School (HLS)"
+    - name: "Friday, February 9, 2024"
+      location: "Harvard Kennedy School of Government (HKS)"
       slots:
-        - time: "6:00pm - 8pm"
+        - time: "12:00 – 6:30pm"
           events:
             - type: "other"
-              content: "Conference kick-off: projection of the movie <a href='/a-house-made-of-splinters'>“A House Made of Splinters”</a> (2023 oscar nominee for best documentary). Includes a Q&A with the film crew."
-              location: "Langdell 225N (HLS)"
-    - name: "Friday, March 24th, 2023"
-      location: "Harvard Law School (HLS) and Harvard Kennedy School of Government (HKS)"
+              content: "Conference Events and Panels"
+              location: "HKS"
+    - name: "Saturday, February 10, 2024"
+      location: "Harvard Kennedy School of Government (HKS) and Harvard Museum of Natural History"
       slots:
-        - time: "11:30am – 12:30pm"
+        - time: "9:00am - 6:00pm"
           events:
             - type: "other"
-              content: "Registration and Welcome Lunch"
-              location: "Austin Hall (HLS)"
-        - time: "12:30pm – 12:40pm"
-          events:
-            - type: "keynote"
-              content: "The Russo-Ukrainian-War and the Future of Europe"
-              location: "Austin 100 (HLS)"
-              speakers:
-                - "plokhii"
-        - time: "12:45pm – 1:45pm"
-          events:
-            - type: "panel"
-              content: "Democratic Backsliding in the EU and the US"
-              location: "Austin 100 (HLS)"
-              speakers:
-                - "letta"
-                - "klarman"
-                - "alemanno"
-              moderator: "Ofrit Liviatan"
-            - type: "panel"
-              content: "70 years later: the Court of Justice of the EU as Guardian of the Rule of Law"
-              location: "Austin 111 (HLS)"
-              speakers:
-                - "valasidis"
-                - "perju"
-                - "sharpston"
-              moderator: "William Phelan"
-        - time: "2pm – 3pm"
-          events:
-            - type: "panel"
-              content: "Negotiating Brexit: a Discussion with Michel Barnier"
-              location: "Austin 100 (HLS)"
-              speakers:
-                - "barnier"
-              moderator: "Hugh O'Doherty"
-            - type: "panel"
-              content: "Energy Security in Today’s World"
-              location: "Austin 111 (HLS)"
-              speakers:
-                - "sdoukou"
-                - "lassen"
-                - "kosciusko-morizet"
-                - "scharioth"
-              moderator: "lee"
-        - time: "3pm – 4pm"
+              content: "Conference Events and Panels"
+              location: "HKS"  
+        - time: "7:00pm - 10:00am"
           events:
             - type: "other"
-              content: "Transfer to HKS"
-         
-        - time: "4pm – 5pm"
-          events:
-            - type: "keynote"
-              content: "Europe’s Struggle for Relevance, Unity and Value: A Conversation with Roberta Metsola and Sviatlana Tsikhanouskaya"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "metsola"
-                - "tsikhanouskaya"
-              moderator: "Grzegorz Ekiert"
-                
-        - time: "5:15pm – 6:15pm"
-          events:
-            - type: "panel"
-              content: "Stronger Together: A Revitalized Transatlantic Relationship"
-              location: "W436 (HKS)"
-              speakers:
-                - "etienne"
-                - "braze"
-                - "wieslander"
-                - "debski"
-              moderator: "Stephen Walt"
-            - type: "panel"
-              content: "The State and Future of EU Enlargement : the Balkans as the New Frontier?"
-              location: "Starr Auditorium (HKS)"
-              speakers:
-                - "mathernova"
-                - "duric"
-                - "popov"
-                - "adam"
-              moderator: "papoulias"
-        - time: "6:45pm – 9pm"
-          events:
-            - type: "keynote"
-              content: "Reception"
+              content: "Reception and Gala"
               location: "Harvard Museum of Natural History"
-              moderator: "abazovic"
-              moderatorText: "Opening Address by the Prime Minister of Montenegro "
-    - name: "Saturday, March 25 2023"
-      location: "Harvard Kennedy School of Government"
-      slots:
-        - time: "8:00am - 8:30am"
-          events:
-            - type: "other"
-              content: "Breakfast"
-              location: "Wintergarden (HKS)"
-             
-        - time: "8:45am - 9:00am"
-          events:
-            - type: "keynote"
-              content: "Opening Address"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "lambrinidis"
-        - time: "9:00am - 9:45am"
-          events:
-            - type: "keynote"
-              content: "Live from Kyiv: a conversation with ex-Prime Minister of Ukraine Oleksiy Honcharuk"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "honcharuk"
-              moderator: "Andrew-Sebastien Aschehoug"
-              
-        - time: "10:00am - 11:00am"
-          events:
-            - type: "panel"
-              content: "One year of War in Ukraine and its impact on Europe (and beyond)"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "letta"
-                - "kyslytsya"
-                - "schwarzer"
-              moderator: "Nataliya Bugayova"
-              
-            - type: "panel"
-              content: "Regulating Big Tech: Challenges Ahead in the Implementation of the Digital Markets Act"
-              location: "Wexner W-436 (HKS)"
-              speakers:
-                - "zuber"
-                - "katona"
-                - "kimmelman"
-                - "oeyen"
-              moderator: "Gene Kimmelman"
-            - type: "panel"
-              content: "Rising Strong: Building Resilient Supply Chains in Europe"
-              location: "Starr Auditorium (HKS)"
-              speakers:
-                - "dagoumas"
-                - "lacoue"
-                - "dellis"
-              moderator: "Philippe Rival"
-        - time: "11:15am - 12:15pm"
-          events:
-            - type: "panel"
-              content: "The European Green Deal and the Inflation Reduction Act: How Europe and the United States are Tackling the Climate Crisis"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "etienne"
-                - "patel"
-                - "sivaram"
-              moderator: "wolfram"
-            - type: "panel"
-              content: "EU - Africa: Assessing the Relationship in the Context of War in Ukraine"
-              location: "Wexner W-436 (HKS)"
-              speakers:
-                - "chahed"
-                - "kadayifci-orellana"
-                - "mathernova"
-                - "houenou"
-              moderator: "Peace Uwase"
-              
-            - type: "panel"
-              content: "The role of Europe in the US-China rivalry"
-              location: "Starr Auditorium (HKS)"
-              speakers:
-                - "larres"
-                - "berzina-cerenkova"
-                - "schwarzer"
-                - "gong"
-              moderator: "Nargis Kassenova"
-        - time: "12:15pm - 1:00pm"
-          events:
-            - type: "other"
-              content: "Lunch"
-              location: "Wintergarden (HKS)"
-        - time: "1:00pm - 1:45pm"
-          events:
-            - type: "keynote"
-              content: "Women on the Frontlines: Defending Ukraine and its Freedom. A Discussion with Oleksandra Matviichuk (Center for Civil Liberties, Peace Nobel Prize Laureate 2022)"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "matviichuk"
-              moderator: "schwarzer"
-        - time: "2:00pm - 3:00pm"
-          events:
-            - type: "panel"
-              content: "The Future of the EU’s Political Union"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "verhofstadt"
-              moderator: "Tine Hertz"
-            - type: "panel"
-              content: "The World’s largest Construction Site: Rebuilding Post-war Ukraine"
-              location: "Starr Auditorium (HKS)"
-              speakers:
-                - "koszarny"
-                - "gaudin"
-                - "gazda"
-                - "mathernova"
-              moderator: "wynnyckyj"
-                
-        - time: "3:00pm - 3:30pm"
-          events:
-            - type: "other"
-              content: "Coffee Break"
-              location: "Wintergarden (HKS)"
-              
-        - time: "3:30pm - 4:30pm"
-          events:
-            - type: "panel"
-              content: "The Future of Investment in Europe"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "dias"
-                - "lucas"
-              moderator: "pons"
-              
-            - type: "panel"
-              content: "Addressing Europe’s Long-Term Migration Strategy"
-              location: "Starr Auditorium (HKS)"
-              speakers:
-                - "brkljac"
-                - "novosad"
-                - "murray"
-                - "kornezov"
-              moderator: "Meghan Garrity"
-              
-            - type: "panel"
-              content: "The Digital Services Act: Regulating Speech in Times of Disinformation and Platform Power"
-              location: "Wexner W-436 (HKS)"
-              speakers:
-                - "mchangama"
-                - "havlik"
-                - "shear"
-                - "wezenbeek"
-              moderator: "Jordi Calvet-Bademunt"
-              
-        - time: "4:45pm - 5:45pm"
-          events:
-            - type: "panel"
-              content: "Finding Europe: a continent’s renewed quest for identity and values"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "buldioski"
-                - "novosad"
-                - "prevedourou"
-                - "faber"
-              moderator: "Mathias Risse"
-            - type: "panel"
-              content: "The Final Frontier: Future of Space Policy in Europe and Beyond"
-              location: "Starr Auditorium (HKS)"
-              speakers:
-                - "oesterschlink"
-                - "espinasse"
-              moderator: "paravano"
-        - time: "6:00pm - 6:15pm"
-          events:
-            - type: "keynote"
-              content: "Closing Address"
-              location: "JFK Forum (HKS)"
-              speakers:
-                - "schwarzer"
-
-
+        
 menu:
   main:
     - name: Home
@@ -303,6 +49,10 @@ menu:
       url: /speakers
       pageRef: /Speakers
       weight: 20
+    - name: Schedule
+      url: /schedule
+      pageRef: /Schedule
+      weight: 30
     - name: About Us
       url: /about-us
       pageRef: /About Us
