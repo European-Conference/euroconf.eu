@@ -506,11 +506,15 @@ footer .student-orgs img {
 
 .day {
   margin: 10px 0;
+  
   .day-info {
+    padding-bottom: 10px;
+      
     h3.name {
       text-align: left;
       font-size: 120%;
       display: inline-block;
+      margin-bottom: 0px;
     }
 
     .location {
@@ -572,6 +576,8 @@ footer .student-orgs img {
     }
   }
 }
+
+/* Supporters */
 
 .supporter-grid {
   display: grid;
