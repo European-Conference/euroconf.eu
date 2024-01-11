@@ -525,8 +525,8 @@ footer .student-orgs img {
 
   .day-slots {
     .schedule-slot {
-      background: white;
       font-size: 110%;
+      align-items: baseline;
       border: 1px solid #333;
       &:not(:last-child) {
         border-bottom: none;
@@ -569,7 +569,6 @@ footer .student-orgs img {
             text-align: center;
             align-items: center;
             padding-left: 10px;
-            display: flex;
           }
         }
       }
