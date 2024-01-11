@@ -544,10 +544,13 @@ footer .student-orgs img {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        
         .schedule-event {
           padding: 20px 0;
           flex: 1;
           display: flex;
+          align-items: center;
+          
           .event-info {
             flex: 2;
             text-align: left;
