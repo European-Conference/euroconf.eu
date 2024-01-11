@@ -20,7 +20,7 @@ params:
     - name: "Friday, February 9, 2024"
       location: "Harvard Kennedy School of Government (HKS)"
       slots:
-        - time: "12:00 – 6:30pm"
+        - time: "12:00pm – 6:30pm"
           events:
             - type: "other"
               content: "Conference Events and Panels"
