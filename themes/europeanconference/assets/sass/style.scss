@@ -190,7 +190,7 @@ nav {
 }
 
 footer {
-  color: white;
+  color: black;
   padding: 20px;
   p {
     text-align: center;
@@ -203,7 +203,6 @@ footer {
     font-size: 80%;
     text-align: center;
     a {
-      color: white;
       padding: 0 10px;
       &:not(:last-child) {
         border-right: 1px solid white;
