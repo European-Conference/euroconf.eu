@@ -6,7 +6,7 @@ title: "Home"
   <h1>The European Dream</h1>
   <h2>2024: A Continent at the Crossroads</h2>
   <div>
-    <a id='tickets-btn' class="pure-button pure-button-primary"         href="https://secure.touchnet.net/C20832_ustores/web/store_main.jsp?STOREID=18&SINGLESTORE=true">Get your ticket now!</a>
+    <a id='tickets-btn' class="pure-button pure-button-primary" href="https://secure.touchnet.net/C20832_ustores/web/store_main.jsp?STOREID=18&SINGLESTORE=true">Get your ticket now!</a>
   </div>
 </div>
 
@@ -47,21 +47,21 @@ title: "Home"
 <h2 class="homepage-headers">Panels</h2>
 <div class="homepage-panel-grid">
   <div class = "panel-grid">
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-b">What is the Future of <b>Science and Innovation</b> in Europe?</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-c"><b>Europe's Position</b> in a Multipower and Polarized World</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-d"><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-e"><b>Challenge and Opportunity:</b> Building Momentum in Migration Policy</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-f"><b>EU-US Relations:</b> Building Collective Security in a Shifting World?</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-g">Is the <b>European Social Model</b> Future-Proof?</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-h"><b>The European Dream:</b> Pioneering Gender Equality and Minority Rights in Europe and Beyond</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-i">A Unique Perspective on <b>European Culture</b></a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-j"><b>Europe’s Role in Global Climate Action:</b> Leading or Lagging?</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-k"><b>Ensuring European Competitiveness</b> in the Green Deal Era</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-l"><b>A Greener Way of Life in Europe:</b> The Future of Mobility, Sustainable Food, and Greener Sources of Energy</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-m"><b>2024 European Elections:</b> A Pivotal Moment for the EU's Future</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-n"><b>Challenges to European Democracies:</b> Populism, Democratic Backsliding, and Excluding Nationalism</a></div>
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-o"><b>Integration in Times of Conflict:</b> Prospects and Challenges of Ukraine’s EU Candidacy</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-b">What is the Future of <b>Science and Innovation</b> in Europe?</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-c"><b>Europe's Position</b> in a Multipower and Polarized World</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-d"><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-e"><b>Challenge and Opportunity:</b> Building Momentum in Migration Policy</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-f"><b>EU-US Relations:</b> Building Collective Security in a Shifting World?</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-g">Is the <b>European Social Model</b> Future-Proof?</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-h"><b>The European Dream:</b> Pioneering Gender Equality and Minority Rights in Europe and Beyond</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-i">A Unique Perspective on <b>European Culture</b></a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-j"><b>Europe’s Role in Global Climate Action:</b> Leading or Lagging?</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-k"><b>Ensuring European Competitiveness</b> in the Green Deal Era</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-l"><b>A Greener Way of Life in Europe:</b> The Future of Mobility, Sustainable Food, and Greener Sources of Energy</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-m"><b>2024 European Elections:</b> A Pivotal Moment for the EU's Future</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-n"><b>Challenges to European Democracies:</b> Populism, Democratic Backsliding, and Excluding Nationalism</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-o"><b>Integration in Times of Conflict:</b> Prospects and Challenges of Ukraine’s EU Candidacy</a></div>
   </div>
 </div>
 
