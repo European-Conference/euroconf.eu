@@ -45,7 +45,7 @@ menu:
       url: /
       pageRef: /
       weight: 10
-    - name: Speakers
+    - name: Speakers + Panels
       url: /speakers
       pageRef: /Speakers
       weight: 20
