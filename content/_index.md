@@ -47,7 +47,7 @@ title: "Home"
 <h2 class="homepage-headers">Panels</h2>
 <div class="homepage-panel-grid">
   <div class = "panel-grid">
-    <div class = "panel-grid-item"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
+    <div class = "panel-grid-item pure-button pure-button-primary"><a href="/speakers/#speaker-title-a"><b>AI & (E)U:</b> The Regulatory Road to the Future</a></div>
     <div class = "panel-grid-item"><a href="/speakers/#speaker-title-b">What is the Future of <b>Science and Innovation</b> in Europe?</a></div>
     <div class = "panel-grid-item"><a href="/speakers/#speaker-title-c"><b>Europe's Position</b> in a Multipower and Polarized World</a></div>
     <div class = "panel-grid-item"><a href="/speakers/#speaker-title-d"><b>Path to Rebuilding:</b> Ensuring Ukraine's Security at Home and Abroad</a></div>
