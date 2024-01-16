@@ -35,7 +35,7 @@ title: "Home"
   <li><b>Bryant Trick</b>, current Assistant U.S. Trade Representative for Europe and the Middle East</li>
   <li><b>Meredith Whittaker</b>, current President of Signal (the not-for-profit secure messaging app); co-founder of the AI Now Institute</li>
   <li><b>Karen Donfried</b>, President Biden's former Assistant Secretary of State for European and Eurasian Affairs (2021-2023)</li>
-  <li><b>Arancha Gonzalez</b>, former Assistant Secretary-General of the United Nations; former Spanish Minister for Foreign Affairs, European Union and Cooperation; current Dean of Science Po SIPA</li>
+  <li><b>Arancha Gonzalez</b>, former Assistant Secretary-General of the United Nations; former Spanish Minister for Foreign Affairs, European Union and Cooperation; current Dean of Science Po PSIA</li>
   <li><b>Natalie Jaresko</b>, former Minister of Finance of Ukraine; currently Managing Director at EY-Parthenon</li>
   <li><b>Jo Johnson</b>, former Minister of State of the United Kingdom</li>
   <li><b>Selim Yenel</b>, former Ambassador of Turkey to the EU; former Undersecretary at the Ministry of EU Affairs of Turkey; current President of Global Relations Forum</li>
