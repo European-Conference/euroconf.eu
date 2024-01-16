@@ -577,6 +577,14 @@ footer .student-orgs img {
   }
 }
 
+.speakers {
+  justify-content: center !important;
+}
+
+#content.speakers {
+  width: 70%;
+}
+
 /* Supporters */
 
 .supporter-grid {
@@ -611,10 +619,6 @@ footer .student-orgs img {
     width: auto;
     margin: 10px;
   }
-}
-
-.speakers {
-  justify-content: center !important;
 }
 
 .attend {
