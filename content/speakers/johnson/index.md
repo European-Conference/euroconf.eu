@@ -1,6 +1,6 @@
 ---
 name: Jo Johnson
-role: Executive Chairman, FutureLearn &amp; Member of the House of Lords in the UK Parliament
+role: Executive Chairman, FutureLearn and Member of the House of Lords in the UK Parliament
 keynote: false
 show: true
 panel: ab
