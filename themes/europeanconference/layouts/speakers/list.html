@@ -14,21 +14,21 @@
 
   <!-- Variable "$panelDict" that defines the panels for the conference. Panels can be updated for future conferences. -->
   <!-- Because dictionaries in Hugo only seem to hold strings, and not integers, the easiest thing to do is to list panels by letter, not number. If numbers are used, because Hugo seems to sort the keys by alphabetical order before iterating over them, the items will be sorted "1", "10", "11", ... "2", "3," ... You can number items "01", "02", "03", ..., but Hugo interprets all numbers that start with a 0 as octal (base 8) numbers, which leads to problems later on. Why, Hugo???!!! -->
-  {{ $panelDict := dict "a" "AI & (E)U: The Regulatory Road to the Future" 
-  "b" "What is the Future of Science and Innovation in Europe?" 
-  "c" "Europe's Position in a Multipower and Polarized World" 
-  "d" "Path to Rebuilding: Ensuring Ukraine's Security at Home and Abroad" 
-  "e" "Challenge and Opportunity: Building Momentum in Migration Policy" 
-  "f" "EU-US Relations: Building Collective Security in a Shifting World?" 
-  "g" "Is the European Social Model Future-Proof?" 
-  "h" "The European Dream: Pioneering Gender Equality and Minority Rights in Europe and Beyond" 
-  "i" "A Unique Perspective on European Culture" 
-  "j" "Europe’s Role in Global Climate Action: Leading or Lagging?" 
-  "k" "Ensuring European Competitiveness in the Green Deal Era" 
-  "l" "A Greener Way of Life in Europe: The Future of Mobility, Sustainable Food, and Greener Sources of Energy" 
-  "m" "2024 European Elections: A Pivotal Moment for the EU's Future" 
-  "n" "Challenges to European Democracies: Populism, Democratic Backsliding, and Excluding Nationalism" 
-  "o" "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy" }}
+  {{ $panelDict := dict "aa" "AI & (E)U: The Regulatory Road to the Future" 
+  "ab" "Science and Innovation in Europe: How to Promote Breakthrough Discoveries"
+  "ac" "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
+  "ba" "Europe's Position in a Multipower and Polarized World" 
+  "bb" "War and Reconstruction: Crafting a Comprehensive Strategy for Ukraine's Prosperous Future"  
+  "bc" "EU-US Relations: Building Collective Security in a Shifting World" 
+  "bd" "The Role of the EU in the Israel-Hamas War: Building Bridges Towards Peace"
+  "be" "Challenge and Opportunity: Building Momentum in Migration Policy"
+  "ca" "Europe’s Role in Global Climate Action: Leading or Lagging?" 
+  "cb" "Greener, Stronger: Europe's Competitive Strategy in the Age of Sustainability and the Globalized Economy" 
+  "cc" "Empower Europe: The Road to Inclusive Energy Transition" 
+  "da" "2024, An Election Year: The European Elections and the New Challenges for European Leadership" 
+  "db" "Challenges to European Democracies: The Rise of Populism and Democratic Backsliding" 
+  "dc" "Building Global Coalitions on Feminism, LGBTQ Rights, and Minorities Representation"
+  "dd" "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy" }}
 
   <!-- Iterates through  matches speakers to panels based on their panel parameter, defined in the individual speaker pages, and puts their picture and title under the correct panel. -->
   {{ range $key, $value := $panelDict }}
