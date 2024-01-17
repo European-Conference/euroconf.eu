@@ -3,7 +3,7 @@ name: Dimitris Kairidis
 role: Minister of Migration and Asylum of Greece
 keynote: false
 show: true
-panel: e
+panel: be
 ---
 
 Dimitris Kairidis was sworn in as Minister of Migration and Asylum of Greece on June 27, 2023. He was first elected to the Hellenic Parliament with the New Democracy party on July 7, 2019, representing Athens-North. He was reelected on May 21 and June 25, 2023.
