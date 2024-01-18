@@ -1,6 +1,6 @@
 ---
 name: Baiba Braže
-role: Ambassador for Special Assignments at the Ministry of Foreign Affairs Latvia and Former Assistant Secretary General at NATO
+role: Ambassador for Special Assignments at the Ministry of Foreign Affairs Latvia and former Assistant Secretary General at NATO
 keynote: false
 show: true
 panel: bb
