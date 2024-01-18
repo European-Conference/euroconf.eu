@@ -3,6 +3,7 @@ name: Bryant Trick
 role: Assistant United States Trade Representative for Europe and the Middle East
 keynote: false
 show: true
+panel: cb
 ---
 
 Bryant Trick is the Assistant United States Trade Representative (AUSTR) for Europe and the Middle East. Prior to this assignment, Bryant served for 15 years at USTR as Deputy Assistant United States Trade Representative (DAUSTR), as DAUSTR for Korea in the Office of Japan, Korea, and APEC Affairs, and as DAUSTR for Market Access in the Office of Small Business, Market Access, and Industrial Competitiveness.
