@@ -2,8 +2,9 @@
   <div id="content">{{ .Content }}</div>
   <h2 id="speakers-list" class="homepage-headers">Speakers</h2>
     <div class="homepage-speakers-list">
+      <<{ Keynote Speakers }>>
       <ul>
-        {{ range $.speakers }}
+        {{ range .Pages.ByParam "panel" }}
           <li><b>{{.Params.Name}}</b>, {{.Params.Role}}</li>
         {{end}}
       </ul>
