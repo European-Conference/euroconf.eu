@@ -1,5 +1,5 @@
 ---
-name: José Luis Manfredi
+name: Juan Luis Manfredi
 role: Professor at the School of Foreign Service of Georgetown University
 keynote: false
 show: true
