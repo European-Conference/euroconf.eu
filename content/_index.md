@@ -18,28 +18,7 @@ title: "Home"
 
 <h2 id="speakers-list" class="homepage-headers">Speakers</h2>
 <div class="homepage-speakers-list">
-  <ul>
-  <li><b>Enrico Letta</b>, former Prime Minister of Italy; President of the Jacques Delors Institute</li>
-  <li><b>Maroš Šefčovič</b>, current Executive Vice-President of the European Commission, in charge of the European Green Deal, Interinstitutional Relations and Foresight</li>
-  <li><b>Elisa Ferreira</b>, current European Commissioner for Cohesion and Reforms</li>
-  <li><b>Paolo Gentiloni</b>, current EU Commissioner for the Economy</li>
-  <li><b>Wopke Hoekstra</b>, current European Commissioner for Climate Action</li>   
-  <li><b>Jelena Begovic</b>, current Minister of Science of Serbia</li>
-  <li><b>Sebastian Burduja</b>, current Minister of Energy of Romania</li>
-  <li><b>Laurence Boone</b>, current French Minister for European Affairs</li>
-  <li><b>Dimitris Kairidis</b>, Minister of Migration and Asylum of Greece</li>
-  <li><b>Péter Szijjártó</b>, current Foreign Minister of Hungary</li>
-  <li><b>Stefano Sannino</b>, current Secretary-General of the European External Action Service</li>
-  <li><b>Daniela Schwarzer</b>, Member of the Executive Board of the Bertelsmann Stiftung</li>
-  <li><b>Wojciech Wiewiorowski</b>, current European Data Protection Supervisor</li>
-  <li><b>Bryant Trick</b>, current Assistant U.S. Trade Representative for Europe and the Middle East</li>
-  <li><b>Meredith Whittaker</b>, current President of Signal (the not-for-profit secure messaging app); co-founder of the AI Now Institute</li>
-  <li><b>Karen Donfried</b>, President Biden's former Assistant Secretary of State for European and Eurasian Affairs (2021-2023)</li>
-  <li><b>Arancha Gonzalez</b>, former Assistant Secretary-General of the United Nations; former Spanish Minister for Foreign Affairs, European Union and Cooperation; current Dean of Science Po PSIA</li>
-  <li><b>Natalie Jaresko</b>, former Minister of Finance of Ukraine; currently Managing Director at EY-Parthenon</li>
-  <li><b>Jo Johnson</b>, former Minister of State of the United Kingdom</li>
-  <li><b>Selim Yenel</b>, former Ambassador of Turkey to the EU; former Undersecretary at the Ministry of EU Affairs of Turkey; current President of Global Relations Forum</li>
-  </ul>
+    {{< keynote_speakers >}}
   
   ...And more speakers to be added soon!
 </div>
