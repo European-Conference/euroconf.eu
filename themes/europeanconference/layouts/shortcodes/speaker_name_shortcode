@@ -1,5 +1,5 @@
 <ul>
-  {{ range $.Pages }}
+  {{ range $.speakers }}
     {{ partial "speaker_name.html" .}}
   {{end}}
 </ul>
