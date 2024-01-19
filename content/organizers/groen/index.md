@@ -1,6 +1,6 @@
 ---
 name: Caleb Groen
-role: Web Manager
+role: Coordination team - Website
 keynote: false
 show: true
 ---
