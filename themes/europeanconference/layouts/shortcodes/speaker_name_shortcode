@@ -1,0 +1,5 @@
+<ul>
+  {{ range $.Pages }}
+    {{ partial "speaker_name.html" .}}
+  {{end}}
+</ul>
