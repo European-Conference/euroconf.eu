@@ -48,7 +48,7 @@ title: "Home"
 <div class="homepage-panel-grid">
   <div class = "panel-grid">
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-aa"><b>AI & (E)U:</b> The Regulatory Road to the Future</a>
-    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-ab"><b>Science and Innovation</b> in Europe: How to Promote Breakthrough Discoveries</a>
+    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-ab">What is the Future of <b>Science and Innovation</b> in Europe?</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-ac">Navigating New Normals: Europe’s <b>Economic Resilience</b> in Times of Change</a>  
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-ba"><b>Europe's Position</b> in a Multipower and Polarized World</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-bb">War and Reconstruction: Crafting a Comprehensive Strategy for <b>Ukraine's Prosperous Future</b></a>
@@ -56,7 +56,7 @@ title: "Home"
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-bd">The Role of the EU in the <b>Israel-Hamas War:</b> Building Bridges Towards Peace</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-be">Challenge and Opportunity: Building Momentum in <b>Migration Policy</b></a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-ca">Europe’s Role in <b>Global Climate Action:</b> Leading or Lagging?</a>
-    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-cb"><b>Greener, Stronger:</b> Europe's Competitive Strategy in the Age of Sustainability and the Globalized Economy</a>
+    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-cb">Ensuring European <b>Competitiveness in the Green Deal Era</b></a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-cc">Empower Europe: The Road to <b>Inclusive Energy Transition</b></a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-da">2024, An Election Year: The <b>European Elections</b> and the New Challenges for European Leadership</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-db">Challenges to European Democracies: The Rise of <b>Populism and Democratic Backsliding</b></a>
