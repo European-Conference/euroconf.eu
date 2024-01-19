@@ -3,7 +3,7 @@
     {{partial "person.html" .}} 
   {{end}}
   <ul>
-    {{ range sort (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" false) "Params.panel" "asc")}} 
+    {{ range (sort (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" false) "Params.panel" "asc")}} 
       <li><b>{{.Params.Name}}</b>, {{.Params.Role}}</li>
     {{end}}
   </ul>
