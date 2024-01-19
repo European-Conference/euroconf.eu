@@ -19,6 +19,7 @@ title: "Home"
 <h2 id="speakers-list" class="homepage-headers">Speakers</h2>
 <div class="homepage-speakers-list">
     {{< keynote_speakers >}}
+    {{< speaker_name_shortcode >}}
   
   ...And more speakers to be added soon!
 </div>
