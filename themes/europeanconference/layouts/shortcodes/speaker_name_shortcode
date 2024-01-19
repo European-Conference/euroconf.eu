@@ -1,5 +1,0 @@
-<ul>
-  {{ range $.speakers }}
-    {{ partial "speaker_name.html" .}}
-  {{end}}
-</ul>
