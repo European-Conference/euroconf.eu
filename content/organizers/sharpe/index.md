@@ -1,6 +1,6 @@
 ---
 name: Ezra Sharpe
-role: Point of Contact – US-EU security panel
+role: Point of contact – US-EU security panel
 keynote: false
 show: true
 ---
