@@ -1,6 +1,6 @@
 ---
 name: Dita Charanzová
-role: Vice-President and member of the European Parliament, Renew political group
+role: Vice-President and member of the European Parliament, Renew Europe political group
 keynote: false
 show: true
 ---
