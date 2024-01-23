@@ -1,6 +1,6 @@
 ---
 name: Roberts Zīle
-role: Vice-President and member of the European Parliament, European Conservatives and Reformists (ECR) political group
+role: Vice-President and Member of the European Parliament, European Conservatives and Reformists (ECR) political group
 keynote: false
 show: true
 panel: da
