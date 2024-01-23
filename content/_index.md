@@ -32,7 +32,6 @@ title: "Home"
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-ba"><b>Europe's Position</b> in a Multipower and Polarized World</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-bb">War and Reconstruction: Crafting a Comprehensive Strategy for <b>Ukraine's Prosperous Future</b></a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-bc"><b>EU-US Relations:</b> Building Collective Security in a Shifting World</a>
-    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-bd">The Role of the EU in the <b>Israel-Hamas War:</b> Building Bridges Towards Peace</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-be">Challenge and Opportunity: Building Momentum in <b>Migration Policy</b></a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-ca">Europe’s Role in <b>Global Climate Action:</b> Leading or Lagging?</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-cb">Ensuring European <b>Competitiveness in the Green Deal Era</b></a>
