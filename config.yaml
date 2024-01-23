@@ -26,7 +26,7 @@ params:
               content: "Conference Events and Panels"
               location: "HKS"
     - name: "Saturday, February 10, 2024"
-      location: "Harvard Kennedy School of Government (HKS) and Harvard Museum of Natural History"
+      location: "Harvard Kennedy School of Government (HKS) and TBD"
       slots:
         - time: "9:00am - 6:00pm"
           events:
@@ -37,7 +37,7 @@ params:
           events:
             - type: "other"
               content: "Reception and Gala"
-              location: "Harvard Museum of Natural History"
+              location: "TBD"
         
 menu:
   main:
