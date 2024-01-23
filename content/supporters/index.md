@@ -8,7 +8,7 @@
 <image src="/davis-center-logo.png" alt="Logo for the Davis Center" class="supporter-grid-item">
 <image src="/huri-logo.png" alt="Logo for HURI" class="supporter-grid-item">
 <image src="/center-for-european-studies-logo-2.png" alt="Logo for Minda de Gunzberg Center for European Studies" class="supporter-grid-item">
-<image src="/ash-center-logo.png" alt="Logo for the Ash Center" class="supporter-grid-item">
+<image src="/ash-center-logo.jpeg" alt="Logo for the Ash Center" class="supporter-grid-item">
 <image src="/belfer-center-logo.png" alt="Logo for the Belfer Center" class="supporter-grid-item">
 <image src="/carr-center-logo.jpg" alt="Logo for the Carr Center" class="supporter-grid-item">
 <image src="/center-for-public-leadership-logo.png" alt="Logo for the Center for Public Leadership" class="supporter-grid-item">
