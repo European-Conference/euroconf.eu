@@ -35,18 +35,11 @@ params:
             - type: "panel"
               content: "Building Global Coalitions on Feminism, LGBTQ Rights, and Minorities Representation"
               location: "Bell Hall"
-              speakers:
-                - "klarman"
-                - "alemanno"
-              moderator: "Ofrit Liviatan"
+              code: dc
             - type: "panel"
-              content: "70 years later: the Court of Justice of the EU as Guardian of the Rule of Law"
-              location: "Austin 111 (HLS)"
-              speakers:
-                - "valasidis"
-                - "perju"
-                - "sharpston"
-              moderator: "William Phelan"
+              content: "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
+              location: "Nye Auditorium"
+              code: ac
         - time: "2pm – 3pm"
           events:
             - type: "panel"
