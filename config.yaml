@@ -20,11 +20,85 @@ params:
     - name: "Friday, February 9, 2024"
       location: "Harvard Kennedy School of Government (HKS)"
       slots:
-        - time: "12:00pm – 6:30pm"
+        - time: "11:15am – 12:00pm"
           events:
             - type: "other"
-              content: "Conference Events and Panels"
-              location: "HKS"
+              content: "Registration and Welcome Lunch"
+        - time: "12:00pm – 12:45pm"
+          events:
+            - type: "keynote"
+              location: "Nye Auditorium"
+              speakers:
+                - "gentiloni"
+        - time: "12:50pm – 1:50pm"
+          events:
+            - type: "panel"
+              content: "Building Global Coalitions on Feminism, LGBTQ Rights, and Minorities Representation"
+              location: "Bell Hall"
+              speakers:
+                - "klarman"
+                - "alemanno"
+              moderator: "Ofrit Liviatan"
+            - type: "panel"
+              content: "70 years later: the Court of Justice of the EU as Guardian of the Rule of Law"
+              location: "Austin 111 (HLS)"
+              speakers:
+                - "valasidis"
+                - "perju"
+                - "sharpston"
+              moderator: "William Phelan"
+        - time: "2pm – 3pm"
+          events:
+            - type: "panel"
+              content: "Negotiating Brexit: a Discussion with Michel Barnier"
+              location: "Austin 100 (HLS)"
+              speakers:
+                - "barnier"
+              moderator: "Hugh O'Doherty"
+            - type: "panel"
+              content: "Energy Security in Today’s World"
+              location: "Austin 111 (HLS)"
+              speakers:
+                - "sdoukou"
+                - "lassen"
+                - "kosciusko-morizet"
+                - "scharioth"
+              moderator: "lee"
+        - time: "3pm – 4pm"
+          events:
+            - type: "other"
+              content: "Transfer to HKS"
+         
+        - time: "4pm – 5pm"
+          events:
+            - type: "keynote"
+              content: "Europe’s Struggle for Relevance, Unity and Value: A Conversation with Roberta Metsola and Sviatlana Tsikhanouskaya"
+              location: "JFK Forum (HKS)"
+              speakers:
+                - "metsola"
+                - "tsikhanouskaya"
+              moderator: "Grzegorz Ekiert"
+                
+        - time: "5:15pm – 6:15pm"
+          events:
+            - type: "panel"
+              content: "Stronger Together: A Revitalized Transatlantic Relationship"
+              location: "W436 (HKS)"
+              speakers:
+                - "etienne"
+                - "braze"
+                - "wieslander"
+                - "debski"
+              moderator: "Stephen Walt"
+            - type: "panel"
+              content: "The State and Future of EU Enlargement : the Balkans as the New Frontier?"
+              location: "Starr Auditorium (HKS)"
+              speakers:
+                - "mathernova"
+                - "duric"
+                - "popov"
+                - "adam"
+              moderator: "papoulias"
     - name: "Saturday, February 10, 2024"
       location: "Harvard Kennedy School of Government (HKS) and TBD"
       slots:
