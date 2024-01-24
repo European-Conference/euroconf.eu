@@ -35,7 +35,7 @@
     {{end}}
   {{end}}
   {{ if $show_day }}
-    {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id) }}
+    {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan) }}
   {{end}}
 {{end}}
 {{end}}
