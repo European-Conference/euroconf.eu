@@ -8,8 +8,10 @@ title: "Home"
   <div>
     <a id='tickets-btn' class="pure-button pure-button-primary" href="https://secure.touchnet.net/C20832_ustores/web/store_main.jsp?STOREID=18&SINGLESTORE=true">Get your ticket now!</a>
   </div>
-  <div id='countdown'>
+  <p>
     Secure your ticket before prices increase on Friday, February 2, 2024!
+  <p>
+  <div id='countdown'>
   </div>
 </div>
 
