@@ -1,25 +1,57 @@
 /* General formatting */
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "europa", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
+body {
+  margin: 0px;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+h3 {
+  font-size: 120%;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 110%;
+}
+
+a {
+  color: #b7133e;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 ::selection {
   background: #f9c7d4; /* WebKit/Blink Browsers */
 }
 
-* {
-  box-sizing: border-box;
+.pure-button-primary {
+  background-color: #b7133e !important;
 }
 
 .center {
   justify-content: center;
   margin: 0 auto;
-}
-
-body {
-  margin: 0px;
 }
 
 /* Formatting for the header */
@@ -231,7 +263,7 @@ nav {
   padding: 10px 0px;
 }
   
-/* Formatting for the homepage title */
+/* Formatting for the homepage title and countdown timer */
 .homepage-conference-title {
   font-weight: bold;
   color: white;
@@ -259,15 +291,20 @@ nav {
 #tickets-btn {
   font-weight: bold;
   font-size: 300%;
-  margin-top: 175px;
+  margin: 150px 0 200px 0;
 
   @media (max-width: 800px) {
     font-size: 150%;
   }
 }
 
-.pure-button-primary {
-  background-color: #b7133e !important;
+#increase {
+  font-size: 150%;
+  margin: 5px;
+}
+
+#countdown {
+  font-size: 300%;
 }
 
 /* Formatting for list of panels on homepage */
@@ -358,34 +395,6 @@ nav {
   font-size: 60%;
 }
 
-h2,
-h3,
-h4 {
-  text-align: center;
-}
-
-h2 {
-  font-size: 200%;
-}
-
-h3 {
-  font-size: 120%;
-}
-
-h4 {
-  font-style: italic;
-  font-size: 110%;
-}
-
-a {
-  color: #b7133e;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
 form.remind-me fieldset {
   text-align: center;
 }
@@ -401,7 +410,6 @@ body > .pure-g {
 }
 
 /* Formatting speakers on speaker page */
-
 #profile {
   display: flex;
   align-items: center;
