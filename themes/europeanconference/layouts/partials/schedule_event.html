@@ -31,8 +31,7 @@
 {{ if $speaker_appears }}
   {{ $speakerLinks := slice }}
   {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
-  {{ $speakers := (where $pages "File.ContentBaseName") }}
-  {{ range $speakers }}
+  {{ range $pages }}
     {{ if eq $.pan .Params.panel }}
       {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
     {{end}} 
