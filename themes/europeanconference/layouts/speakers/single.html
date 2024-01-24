@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 <div id="profile">
   <div id="profile-header">
     <h2 id="profile-name">{{.Params.Name}}</h2>
@@ -16,27 +15,24 @@
 </div>
 
 <h2>Speaker Schedule</h2>
-{{$id := .File.ContentBaseName}}
-
+{{ $id := .File.ContentBaseName }}
+{{ $pan := Params.Panel }}
 {{ range .Site.Params.Schedule }}
-{{ $show_day := false }}
-{{ range .slots }}
-{{ range .events }}
-{{ if eq .moderator $id }}
-{{ $show_day = true }}
+  {{ $show_day := false }}
+  {{ range .slots }}
+    {{ range .events }}
+      {{ if eq .moderator $id }}
+        {{ $show_day = true }}
+      {{end}}
+      {{ range .code }}
+        {{ if eq . $pan }}
+          {{ $show_day = true }}
+        {{end}}
+      {{end}}
+    {{end}}
+  {{end}}
+  {{ if $show_day }}
+    {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id) }}
+  {{end}}
 {{end}}
-{{ range .speakers }}
-
-{{ if eq . $id }}
-{{ $show_day = true }}
 {{end}}
-
-{{end}}
-{{end}}
-{{end}}
-{{ if $show_day }}
-{{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id) }}
-{{end}}
-{{end}}
-
-{{ end }}
