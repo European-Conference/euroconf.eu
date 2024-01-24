@@ -26,9 +26,11 @@
     {{ range .events }}
       {{ if eq .moderator $id }}
         {{ $show_day = true }}
+        <p>{{ .moderator }}</p>
       {{end}}
       {{ if eq .code $pan }}
         {{ $show_day = true }}
+        <p>{{ .code }}</p>
       {{end}}
     {{end}}
   {{end}}
