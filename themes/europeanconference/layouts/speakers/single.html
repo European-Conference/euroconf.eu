@@ -19,7 +19,7 @@
 <h2>Speaker Schedule</h2>
 {{ $id := .File.ContentBaseName }}
 {{ $pan := .Params.Panel }}
-<p>{{ .code }} is {{ $pan }}</p>
+<p>{{ .Site.Params.Schedule.Slots.Events.Code }} is {{ $pan }}</p>
 {{ range .Site.Params.Schedule }}
   {{ $show_day := false }}
   {{ range .slots }}
