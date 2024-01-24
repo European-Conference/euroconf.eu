@@ -350,7 +350,7 @@ nav {
   flex: 1;
 }
 
-/* Formatting for the speaker and organizer pages */
+/* Formatting for the speaker pages */
 .person {
   float: left;
   background-size: cover;
@@ -460,6 +460,20 @@ body > .pure-g {
 
 .speaker-tiles {
   justify-content: center;
+}
+
+/* Formatting organizers on About Us page */
+
+.organizers {
+  text-align: center;
+  margin: 20px auto;
+  justify-content: center;
+
+  img.person-image {
+    height: 150px !important;
+    width: auto;
+    margin: 10px;
+  }
 }
 
 /* Formatting table elements */
@@ -622,17 +636,6 @@ footer .student-orgs img {
 
 #content.a-house-made-of-splinters {
   text-align: center;
-}
-
-.organizers {
-  text-align: center;
-  margin: 20px auto;
-
-  img.person-image {
-    height: 150px !important;
-    width: auto;
-    margin: 10px;
-  }
 }
 
 .attend {
