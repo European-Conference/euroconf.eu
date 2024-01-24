@@ -107,11 +107,13 @@ footer {
   }
 }
 
-/* Formatting for navigation */
+/* Formatting for navigation menu in header */
 .nav {
-  height: 100%;
   display: flex;
   align-items: center;
+  text-align: center;
+  height: 100%;
+  margin: 20px auto;
 }
 
 .nav > .nav-btn {
@@ -129,7 +131,8 @@ footer {
   text-decoration: none;
   color: #b7133e;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  padding: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
   &:hover {
     text-decoration: underline;
   }
@@ -195,24 +198,6 @@ footer {
     height: auto;
     overflow-y: auto;
   }
-}
-
-nav {
-  text-align: center;
-}
-
-nav a {
-  text-decoration: none;
-  color: #b7133e;
-  border-bottom: 1px solid #333;
-  padding: 10px 0;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-
-nav {
-  margin: 20px auto;
 }
 
 /* Formatting for the overall homepage */
