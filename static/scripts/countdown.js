@@ -16,10 +16,15 @@ var x = setInterval(function() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  var daysString = days.toString();
+  var hoursString = hours.toString();
+  var minutesString = minutes.toString();
+  var secondsString = seconds.toString();
+
     
   // Output the result in an element with id="countdown"
-  document.getElementById("countdown").innerHTML = days + ":" + hours + ":"
-  + minutes + ":" + seconds;
+  document.getElementById("countdown").innerHTML = daysString.padString(2, "0") + ":" + hoursString.padString(2, "0") + ":" + minutesString.padString(2, "0") + ":" + secondsString.padString(2, "0");
     
   // If the count down is over, write some text 
   if (distance < 0) {
