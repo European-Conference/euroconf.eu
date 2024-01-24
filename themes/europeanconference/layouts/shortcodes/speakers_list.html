@@ -1,5 +1,5 @@
+<h3>Keynote Speakers</h3>
 <div class="pure-g speakers">
-  <h3>Keynote Speakers</h3>
   {{ range (sort (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" true) "Params.priority" "asc")}} 
     {{partial "person.html" .}} 
   {{end}}
