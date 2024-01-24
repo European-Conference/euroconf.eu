@@ -3,15 +3,14 @@
   {{ if eq .event.moderator $.for_speaker }}
     {{ $speaker_appears = true }}
   {{ end }}
-  {{ range .event.speakers}}
-    {{ if eq . $.for_speaker }}
-      {{ $speaker_appears = true }}
-    {{ end }}
+  {{ if eq .event.code $.pan }}
+    {{ $speaker_appears = true }}
   {{ end }}
 {{ else }}
   {{ $speaker_appears = true }}
 {{ end }}
 
+{{/*
 {{ if $speaker_appears }}
   {{$speakerLinks := slice}}
   {{ range $i, $s := .event.speakers}}
@@ -27,36 +26,49 @@
       {{end}}
     {{end}}
   {{end}}
+*/}}
+
+{{ if $speaker_appears }}
+  {{ $speakerLinks := slice }}
+  {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
+  {{ $speakers := (where $pages "File.ContentBaseName") }}
+  {{ range $speakers }}
+    {{ if eq $.pan .Params.panel }}
+      {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
 
 <div class="schedule-event {{ .event.type }}">
   <div class="event-info">
     {{ if eq .event.type "keynote"}}
-    <span class="event-type-tag">Keynote Address</span><br />
+      <span class="event-type-tag">Keynote Address</span><br />
     {{end}}
     {{ if eq .event.type "panel"}}
-    <span class="event-type-tag">Panel</span><br />
+      <span class="event-type-tag">Panel</span><br />
     {{end}}
     <span class="event-title"> {{.event.content | safeHTML}} </span>
     <span class="event-speakers">
-      {{ range $i, $s := $speakerLinks}}{{if $i}},{{end}}
-      {{safeHTML $s}}
+      {{ range $i, $s := $speakerLinks}}
+        {{if $i}}
+          ,
+        {{end}}
+        {{safeHTML $s}}
       {{end}}
     </span>
     <span class="event-moderators">
       {{ if in .event.moderator " " }}
-      Moderated by {{.event.moderator | safeHTML}}
+        Moderated by {{.event.moderator | safeHTML}}
       {{ else }}
-      {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
-      {{ $moderators := (where $pages "File.ContentBaseName" .event.moderator) }}
-      {{ $moderator := index $moderators 0}}
-      {{ if $moderator }}
-      {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name}}
-      {{ $moderatorText := "Moderated by "}}
-      {{ if .event.moderatorText }}
-      {{ $moderatorText = .event.moderatorText }}
-      {{ end }}
-      {{$moderatorText}}{{ safeHTML $moderatorLink }}
-      {{ end }}
+        {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
+        {{ $moderators := (where $pages "File.ContentBaseName" .event.moderator) }}
+        {{ $moderator := index $moderators 0}}
+        {{ if $moderator }}
+          {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name}}
+          {{ $moderatorText := "Moderated by "}}
+          {{ if .event.moderatorText }}
+            {{ $moderatorText = .event.moderatorText }}
+          {{ end }}
+          {{$moderatorText}}
+          {{ safeHTML $moderatorLink }}
+        {{ end }}
       {{ end }}
     </span>
   </div>
