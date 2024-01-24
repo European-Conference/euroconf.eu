@@ -19,7 +19,6 @@
 <h2>Speaker Schedule</h2>
 {{ $id := .File.ContentBaseName }}
 {{ $pan := .Params.Panel }}
-<p>{{ $pan }}</p>
 {{ range .Site.Params.Schedule }}
   {{ $show_day := false }}
   {{ range .slots }}
@@ -30,7 +29,6 @@
       {{end}}
       {{ if eq .code $pan }}
         {{ $show_day = true }}
-        <p>{{ .code }}</p>
       {{end}}
     {{end}}
   {{end}}
