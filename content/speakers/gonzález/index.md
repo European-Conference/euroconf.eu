@@ -1,6 +1,6 @@
 ---
 name: Arancha González
-role: Dean of the Paris School of International Affairs at Sciences Po, former Spanish Minister of Foreign Affairs, European Union, and Cooperation
+role: Dean of the Paris School of International Affairs at Sciences Po and former Spanish Minister of Foreign Affairs, European Union, and Cooperation
 keynote: false
 show: true
 panel: cb
