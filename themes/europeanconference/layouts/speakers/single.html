@@ -24,10 +24,8 @@
       {{ if eq .moderator $id }}
         {{ $show_day = true }}
       {{end}}
-      {{ range .code }}
-        {{ if eq . $pan }}
-          {{ $show_day = true }}
-        {{end}}
+      {{ if eq .code $pan }}
+        {{ $show_day = true }}
       {{end}}
     {{end}}
   {{end}}
