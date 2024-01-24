@@ -3,12 +3,12 @@
   {{ range (sort (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" true) "Params.priority" "asc")}} 
     {{partial "person.html" .}} 
   {{end}}
-  <h3>Panelists</h3>
-    <ul>
-      {{ range (sort (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" false) "Params.panel" "asc")}} 
-        <li><b>{{.Params.Name}}</b>, {{.Params.Role}}</li>
-      {{end}}
-      <li><b>Jerôme Gautheret</b>, Chief Editor of <i>Le Monde</i></li>
-      <li><b>Roianne Nedd</b>, Global Director of Diversity, Equity, and Inclusion and member of the Executive Committee of Oliver Wyman Group</li>
-    </ul>
 </div>
+<h3>Panelists</h3>
+  <ul>
+    {{ range (sort (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" false) "Params.panel" "asc")}} 
+      <li><b>{{.Params.Name}}</b>, {{.Params.Role}}</li>
+    {{end}}
+    <li><b>Jerôme Gautheret</b>, Chief Editor of <i>Le Monde</i></li>
+    <li><b>Roianne Nedd</b>, Global Director of Diversity, Equity, and Inclusion and member of the Executive Committee of Oliver Wyman Group</li>
+  </ul>
