@@ -31,6 +31,6 @@
   <meta name="description" content="{{ $title }}" />
   <script defer data-domain="euroconf.eu" src="https://plausible.io/js/script.js"></script>
   {{ if .IsHome }}
-    <script defer data-domain="euroconf.eu" src="static/scripts/countdown.js"></script>
+    <script defer src="{{ "static/scripts/countdown.js" | absURL }}"></script>
   {{ end }}
 </head>
