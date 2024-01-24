@@ -35,6 +35,8 @@
   {{ range $speakers }}
     {{ if eq $.pan .Params.panel }}
       {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+    {{end}} 
+  {{end}} 
 
 <div class="schedule-event {{ .event.type }}">
   <div class="event-info">
