@@ -35,11 +35,11 @@ params:
             - type: "panel"
               content: "Building Global Coalitions on Feminism, LGBTQ Rights, and Minorities Representation"
               location: "Bell Hall"
-              code: dc
+              code: "dc"
             - type: "panel"
               content: "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
               location: "Nye Auditorium"
-              code: ac
+              code: "ac"
         - time: "2pm – 3pm"
           events:
             - type: "panel"
