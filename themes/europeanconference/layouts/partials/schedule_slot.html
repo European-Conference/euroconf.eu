@@ -1,7 +1,8 @@
 <div class="schedule-slot">
   <span class="time"> {{ .slot.time }} </span>
   <div class="schedule-events">
-    {{ range .slot.events }} {{ partial "schedule_event" (dict "root" $.root
-    "event" . "for_speaker" $.for_speaker) }} {{ end }}
+    {{ range .slot.events }}
+      {{ partial "schedule_event" (dict "root" $.root "event" . "for_speaker" $.for_speaker "pan" $.pan) }}
+    {{ end }}
   </div>
 </div>
