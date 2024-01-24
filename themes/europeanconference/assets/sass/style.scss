@@ -1,3 +1,4 @@
+/* General formatting */
 html {
   font-family: "europa", sans-serif;
   font-weight: 400;
@@ -8,11 +9,20 @@ html {
   background: #f9c7d4; /* WebKit/Blink Browsers */
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .center {
   justify-content: center;
   margin: 0 auto;
 }
 
+body {
+  margin: 0px;
+}
+
+/* Formatting for the header */
 $header-height: 160px;
 $responsive-medium: 900px;
 $responsive-small: 600px;
@@ -74,14 +84,30 @@ header {
   }
 }
 
-* {
-  box-sizing: border-box;
+/* Formatting for the footer */
+footer {
+  color: black;
+  padding: 20px;
+  p {
+    text-align: center;
+    font-size: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .footer-menu {
+    font-size: 80%;
+    text-align: center;
+    a {
+      padding: 0 10px;
+      &:not(:last-child) {
+        border-right: 1px solid white;
+      }
+    }
+  }
 }
 
-body {
-  margin: 0px;
-}
-
+/* Formatting for navigation */
 .nav {
   height: 100%;
   display: flex;
@@ -187,28 +213,6 @@ nav a:hover {
 
 nav {
   margin: 20px auto;
-}
-
-footer {
-  color: black;
-  padding: 20px;
-  p {
-    text-align: center;
-    font-size: 80%;
-    padding-top: 20px;
-    margin: 0 auto;
-  }
-
-  .footer-menu {
-    font-size: 80%;
-    text-align: center;
-    a {
-      padding: 0 10px;
-      &:not(:last-child) {
-        border-right: 1px solid white;
-      }
-    }
-  }
 }
 
 /* Formatting for the overall homepage */
