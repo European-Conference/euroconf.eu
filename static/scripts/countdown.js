@@ -1,4 +1,6 @@
 
+//This code is largely taken from the W3 Schools Countdown Timer example
+
 // Set the date we're counting down to
 var countDownDate = new Date("Feb 2, 2024 11:59:59").getTime();
 
@@ -22,9 +24,8 @@ var x = setInterval(function() {
   var minutesString = minutes.toString();
   var secondsString = seconds.toString();
 
-    
   // Output the result in an element with id="countdown"
-  document.getElementById("countdown").innerHTML = daysString.padString(2, "0") + ":" + hoursString.padString(2, "0") + ":" + minutesString.padString(2, "0") + ":" + secondsString.padString(2, "0");
+  document.getElementById("countdown").innerHTML = daysString.padStart(2, "0") + ":" + hoursString.padStart(2, "0") + ":" + minutesString.padStart(2, "0") + ":" + secondsString.padStart(2, "0");
     
   // If the count down is over, write some text 
   if (distance < 0) {
