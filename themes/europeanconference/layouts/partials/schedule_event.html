@@ -11,26 +11,4 @@
 {{ end }}
 
     
-    <span class="event-moderators">
-      {{ if in .event.moderator " " }}
-        Moderated by {{.event.moderator | safeHTML}}
-      {{ else }}
-        {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
-        {{ $moderators := (where $pages "File.ContentBaseName" .event.moderator) }}
-        {{ $moderator := index $moderators 0}}
-        {{ if $moderator }}
-          {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name}}
-          {{ $moderatorText := "Moderated by "}}
-          {{ if .event.moderatorText }}
-            {{ $moderatorText = .event.moderatorText }}
-          {{ end }}
-          {{$moderatorText}}
-          {{ safeHTML $moderatorLink }}
-        {{ end }}
-      {{ end }}
-    </span>
-  </div>
 
-  <div class="event-location"> {{ .event.location }} </div>
-</div>
-{{end}}
