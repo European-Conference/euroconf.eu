@@ -35,6 +35,7 @@ params:
             - type: "panel"
               content: "Building Global Coalitions on Feminism, LGBTQ Rights, and Minorities Representation"
               location: "Bell Hall"
+              moderator: marks
               code: "dc"
             - type: "panel"
               content: "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
@@ -49,6 +50,7 @@ params:
             - type: "panel"
               content: "EU-US Relations: Building Collective Security in a Shifting World"
               location: "Nye Auditorium"
+              moderator: "shapiro"
               code: "bc"
         - time: "3:15pm – 3:45pm"
           events:
@@ -72,6 +74,7 @@ params:
             - type: "panel"
               content: "Challenges to European Democracies: The Rise of Populism and Democratic Backsliding"
               location: "Starr Auditorium"
+              moderator: agathos
               code: "db"
     - name: "Saturday, February 10, 2024"
       location: "Harvard Kennedy School of Government (HKS) and TBD"
@@ -91,10 +94,12 @@ params:
             - type: "panel"
               content: "Challenge and Opportunity: Building Momentum in Migration Policy"
               location: "JFK Forum"
+              moderator: papoulias
               code: "be"
             - type: "panel"
               content: "Empower Europe: The Road to an Inclusive Energy Transition"
               location: "Starr Auditorium"
+              moderator: macomber
               code: "cc"
         - time: "11:00am – 11:30pm"
           events:
@@ -126,9 +131,11 @@ params:
               content: "War and Reconstruction: Crafting a Comprehensive Strategy for Ukraine's Prosperous Future"
               location: "JFK Forum"
               code: "bb"
+              moderator: "plokhy"
             - type: "panel"
-              content: "AI & (E)U: The Regulatory Road to the Future "
+              content: "AI & (E)U: The Regulatory Road to the Future"
               location: "Starr Auditorium"
+              moderator: "zanfir"
               code: "aa"
         - time: "4:15pm – 4:45pm"
           events:
