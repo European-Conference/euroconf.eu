@@ -56,7 +56,7 @@ params:
               location: "Nye Auditorium"
               speakers:
                 - "boone"
-        - time: "4pm – 5pm"
+        - time: "4:00pm – 5:00pm"
           events:
             - type: "panel"
               content: "Debate: Europe’s Position in a Multipower and Polarized World"
@@ -75,16 +75,79 @@ params:
     - name: "Saturday, February 10, 2024"
       location: "Harvard Kennedy School of Government (HKS) and TBD"
       slots:
-        - time: "9:00am - 9:45pm"
+        - time: "8:15am – 9:30am"
+          events:
+            - type: "other"
+              content: "Registration and Breakfast"
+        - time: "9:00am - 9:45am"
+          events:
+            - type: "keynote"
+              location: "JFK Forum"
+              speakers:
+                - "ferreira"
+        - time: "10:00am - 11:00am"
           events:
             - type: "panel"
               content: "Challenge and Opportunity: Building Momentum in Migration Policy"
               location: "JFK Forum"
               code: "be"
+            - type: "panel"
+              content: "Empower Europe: The Road to an Inclusive Energy Transition"
+              location: "Starr Auditorium"
+              code: "cc"
+        - time: "11:00am – 11:30pm"
+          events:
+            - type: "other"
+              content: "Coffee Break"
+        - time: "11:30am - 1:00pm"
+          events:
+            - type: "panel"
+              content: "2024, An Election Year: The European Elections and the New Challenges for European Leadership"
+              location: "JFK Forum"
+              code: "da"
+            - type: "panel"
+              content: "Ensuring European Competitiveness in the Green Deal Era"
+              location: "Starr Auditorium"
+              code: "cb"
+         - time: "1:00pm – 2:30pm"
+          events:
+            - type: "other"
+              content: "Lunch"
+        - time: "2:30pm - 3:00pm"
+          events:
+            - type: "keynote"
+              location: "JFK Forum"
+              speakers:
+                - "letta"
+        - time: "3:15pm - 4:15pm"
+          events:
+            - type: "panel"
+              content: "War and Reconstruction: Crafting a Comprehensive Strategy for Ukraine's Prosperous Future"
+              location: "JFK Forum"
+              code: "bb"
+            - type: "panel"
+              content: "AI & (E)U: The Regulatory Road to the Future "
+              location: "Starr Auditorium"
+              code: "aa"
+        - time: "4:15pm – 4:45pm"
+          events:
+            - type: "other"
+              content: "Coffee Break"
+        - time: "4:45pm - 5:30pm"
+          events:
+            - type: "keynote"
+              location: "JFK Forum"
+              speakers:
+                - "sefcovic"
+        - time: "5:30pm – 11:30pm"
+          events:
+            - type: "other"
+              content: "Thank You Note"
+              location: "JFK Forum"
         - time: "7:00pm - 10:00pm"
           events:
             - type: "other"
-              content: "Reception and Gala"
+              content: "Farewell Reception and Gala"
               location: "TBD"
         
 menu:
