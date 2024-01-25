@@ -10,17 +10,6 @@
   {{ $speaker_appears = true }}
 {{ end }}
 
-{{ if $speaker_appears }}
-  {{$speakerLinks := slice}}
-  {{ range $value = .event}}
-    {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
-    {{ $speakers := (where $pages "Params.panel" $value.code) }} 
-    {{ $speaker := index $speakers 0}} 
-    {{ if $speaker }}
-      {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" $speaker.RelPermalink $speaker.Params.name) }}
-    {{end}}
-  {{end}}
-
 <div class="schedule-event {{ .event.type }}">
   <div class="event-info">
     {{ if eq .event.type "keynote"}}
