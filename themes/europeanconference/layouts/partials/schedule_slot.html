@@ -11,5 +11,28 @@
       {{end}}
       {{ partial "schedule_event" (dict "root" $.root "event" . "for_speaker" $.for_speaker "speakerLinks" $.speakerLinks "pan" $.pan) }}
     {{ end }}
+
+
+  <div class="schedule-event {{ .event.type }}">
+    <div class="event-info">
+      {{ if eq .event.type "keynote"}}
+        <span class="event-type-tag">Keynote Address</span><br />
+      {{end}}
+      {{ if eq .event.type "panel"}}
+        <span class="event-type-tag">Panel</span><br />
+      {{end}}
+      {{ if eq .event.type "workshop"}}
+        <span class="event-type-tag">Workshop</span><br />
+      {{end}}
+      <span class="event-title"> {{.event.content | safeHTML}} </span>
+      
+      <span class="event-speakers">
+        {{ range $key, $value := $.speakerLinks}}
+          {{if $key}}
+            |
+          {{end}}
+          {{safeHTML $value}}
+        {{end}}
+      </span>
+    </div>
   </div>
-</div>
