@@ -20,7 +20,6 @@
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
       {{ $speakers := (where $pages "File.ContentBaseName" $s) }} 
       {{ $speaker := index $speakers 0}} 
-      {{$page := index $speakers 0}} 
       {{ if $speaker }}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" $speaker.RelPermalink $speaker.Params.name) }}
       {{end}}
