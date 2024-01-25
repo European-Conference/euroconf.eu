@@ -109,7 +109,7 @@ params:
               content: "Ensuring European Competitiveness in the Green Deal Era"
               location: "Starr Auditorium"
               code: "cb"
-         - time: "1:00pm – 2:30pm"
+        - time: "1:00pm – 2:30pm"
           events:
             - type: "other"
               content: "Lunch"
