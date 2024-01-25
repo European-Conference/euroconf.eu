@@ -2,7 +2,7 @@
 name: Emily Channell-Justice
 role: Director of the Temerty Contemporary Ukraine Program at the Ukrainian Research Institute, Harvard University
 keynote: false
-show: true
+show: false
 panel: bb
 ---
 
