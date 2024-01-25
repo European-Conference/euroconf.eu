@@ -43,7 +43,7 @@ params:
         - time: "2pm – 3pm"
           events:
             - type: "panel"
-              content: "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy "
+              content: "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy"
               location: "Bell Hall"
               code: "dd"
             - type: "panel"
@@ -61,6 +61,7 @@ params:
             - type: "panel"
               content: "Debate: Europe’s Position in a Multipower and Polarized World"
               location: "JFK Forum"
+              moderator: "donfried"
               code: "ba"
         - time: "5:30pm – 6:30pm"
           events:
