@@ -1,8 +1,15 @@
 <div class="schedule-slot">
   <span class="time"> {{ .slot.time }} </span>
   <div class="schedule-events">
+    {{$speakerLinks := slice}}
     {{ range .slot.events }}
-      {{ partial "schedule_event" (dict "root" $.root "event" . "for_speaker" $.for_speaker "pan" $.pan) }}
+      {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
+      {{ $speakers := (where $pages "Params.panel" .code) }} 
+      {{ $speaker := index $speakers 0}} 
+      {{ if $speaker }}
+        {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" $speaker.RelPermalink $speaker.Params.name) }}
+      {{end}}
+      {{ partial "schedule_event" (dict "root" $.root "event" . "for_speaker" $.for_speaker "speakerLinks" $.speakerLinks "pan" $.pan) }}
     {{ end }}
   </div>
 </div>
