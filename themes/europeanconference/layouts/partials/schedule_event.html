@@ -12,7 +12,7 @@
 
 {{ if $speaker_appears }}
   {{$speakerLinks := slice}}
-  {{ range $value = .events}}
+  {{ range $value = .event}}
     {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
     {{ $speakers := (where $pages "Params.panel" $value.code) }} 
     {{ $speaker := index $speakers 0}} 
