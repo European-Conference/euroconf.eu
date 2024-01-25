@@ -3,6 +3,7 @@ name: Enrico Letta
 role: President of the Jacques Delors Institute and former Prime Minister of Italy
 keynote: true
 show: true
+panel: none
 ---
 
 Enrico Letta is currently a member of the Italian Parliament and the President of the Jacques Delors Institute.
