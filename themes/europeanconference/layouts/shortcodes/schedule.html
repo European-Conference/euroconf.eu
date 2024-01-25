@@ -1,4 +1,3 @@
-{{ $pan := .Params.Panel }}
 {{ range .Site.Params.Schedule }} 
   {{ partial "schedule_day" (dict "root" $ "day" . "pan" $pan) }}
 {{end}}
