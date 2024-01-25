@@ -14,7 +14,7 @@
   {{$speakerLinks := slice}}
   {{ range $value := .event}}
     {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
-    {{ $speakers := (where $pages .Params.panel $value.code) }} 
+    {{ $speakers := (where $pages Page.Params.panel $value.code) }} 
     {{ $speaker := index $speakers 0}} 
     {{ if $speaker }}
       {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" $speaker.RelPermalink $speaker.Params.name) }}
