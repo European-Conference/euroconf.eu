@@ -45,7 +45,11 @@
     {{ if eq .event.type "panel"}}
       <span class="event-type-tag">Panel</span><br />
     {{end}}
+    {{ if eq .event.type "workshop"}}
+      <span class="event-type-tag">Workshop</span><br />
+    {{end}}
     <span class="event-title"> {{.event.content | safeHTML}} </span>
+    
     <span class="event-speakers">
       {{ range $i, $s := $speakerLinks}}
         {{if $i}}
@@ -54,6 +58,7 @@
         {{safeHTML $s}}
       {{end}}
     </span>
+    
     <span class="event-moderators">
       {{ if in .event.moderator " " }}
         Moderated by {{.event.moderator | safeHTML}}
