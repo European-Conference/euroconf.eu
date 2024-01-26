@@ -9,9 +9,8 @@
       {{ range $speakers}}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
       {{end}}
-      {{ range .speakers}}
-        {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
-      {{end}}
+      {{ $keynoteSpeakers := (where $pages "File.ContentBaseName" .speaker) }}
+      {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" $keynoteSpeakers.RelPermalink $keynoteSpeakers.Params.name) }}
 
       <div class="schedule-event {{ .type }}">
         <div class="event-info">
