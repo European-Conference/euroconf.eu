@@ -4,11 +4,9 @@
     {{ range .slot.events }}
       {{$speakerLinks := slice}}
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
-      {{ $speakers := (where $pages "Params.panel" .code) }} 
+      {{ $speakers := (where $pages "Params.panel" .code "Params.moderator" != "true") }} 
         {{ range $speakers}}
-          {{ if not (eq .Params.moderator "true") }}
-            {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
-          {{end}}
+          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
         {{end}}
     
       <div class="schedule-event {{ .type }}">
