@@ -5,7 +5,7 @@
       {{$speakerLinks := slice}}
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
       {{ $bridge := (where $pages "Params.panel" .code) }}
-      {{ $speakers := (where $pages "Params.moderator" "!=" "true") }}
+      {{ $speakers := (where $bridge "Params.moderator" "!=" "true") }}
         {{ range $speakers}}
           {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
         {{end}}
