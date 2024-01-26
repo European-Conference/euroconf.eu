@@ -4,7 +4,7 @@
     {{ range .slot.events }}
       {{$speakerLinks := slice}}
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
-      {{ $speakers := (where $pages "Params.panel" .code "and" "Params.moderator" "!=" "true") }} 
+      {{ $speakers := (where and ($pages "Params.panel" .code) ("Params.moderator" "!=" "true")) }} 
         {{ range $speakers}}
           {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
         {{end}}
