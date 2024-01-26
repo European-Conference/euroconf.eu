@@ -13,6 +13,7 @@
       {{ range $keynoteSpeakers}}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
       {{end}}
+    
       <div class="schedule-event {{ .type }}">
         <div class="event-info">
           {{ if eq .type "keynote"}}
@@ -55,6 +56,7 @@
             {{ end }}
           </span>
         </div>
+        
         <div class="event-location"> 
           {{ .location }} 
         </div>
