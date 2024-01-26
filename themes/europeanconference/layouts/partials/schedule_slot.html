@@ -13,19 +13,17 @@
     
       <div class="schedule-event {{ .type }}">
         <div class="event-info">
-          {{ $varA := .type }}
-          {{ $varA }}
-          {{ if eq .slot.events.type "keynote"}}
+          {{ if eq .type "keynote"}}
             <span class="event-type-tag">Keynote Address</span><br />
           {{end}}
-          {{ if eq .slot.events.type "panel"}}
+          {{ if eq .type "panel"}}
             <span class="event-type-tag">Panel</span><br />
           {{end}}
-          {{ if eq .slot.events.type "workshop"}}
+          {{ if eq .type "workshop"}}
             <span class="event-type-tag">Workshop</span><br />
           {{end}}
           <span class="event-title"> 
-            {{.slot.events.content | safeHTML}} 
+            {{.content | safeHTML}} 
           </span>
           <span class="event-speakers">
             {{ range $key, $value := $.speakerLinks}}
@@ -38,16 +36,16 @@
           
           <span class="event-moderators">
             {{ if in .slot.event.moderator " " }}
-              Moderated by {{.slot.events.moderator | safeHTML}}
+              Moderated by {{.moderator | safeHTML}}
             {{ else }}
               {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
-              {{ $moderators := (where $pages "File.ContentBaseName" .slot.events.moderator) }}
+              {{ $moderators := (where $pages "File.ContentBaseName" .moderator) }}
               {{ $moderator := index $moderators 0}}
               {{ if $moderator }}
                 {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name}}
                 {{ $moderatorText := "Moderated by "}}
-                {{ if .slot.events.moderatorText }}
-                  {{ $moderatorText = .slot.events.moderatorText }}
+                {{ if .moderatorText }}
+                  {{ $moderatorText = .moderatorText }}
                 {{ end }}
                 {{$moderatorText}}
                 {{ safeHTML $moderatorLink }}
@@ -56,7 +54,7 @@
           </span>
         </div>
         <div class="event-location"> 
-          {{ .slot.events.location }} 
+          {{ .location }} 
         </div>
       </div>
     {{end}}
