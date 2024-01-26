@@ -2,7 +2,6 @@
 name: Elaine Papoulias
 role: Executive Director, Minda de Gunzburg Center for European Studies, Harvard University
 keynote: false
-moderator: true
 show: true
 panel: be
 ---

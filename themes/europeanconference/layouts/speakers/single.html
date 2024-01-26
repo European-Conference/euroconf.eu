@@ -1,14 +1,13 @@
 {{ define "main" }}
+
 <div id="profile">
   <div id="profile-header">
     <h2 id="profile-name">{{.Params.Name}}</h2>
     {{ if .Params.Keynote }}
-      <p class="profile-keynote">Keynote Speaker</span>
-    {{ end }}
+    <p class="profile-keynote">Keynote Speaker</span>
+     {{ end }}
     {{ $image := index (.Resources.ByType "image") 0 }}
-    <div id="profile-picture"> 
-      <img src="{{$image.RelPermalink}}" /> 
-    </div>
+    <div id="profile-picture"> <img src="{{$image.RelPermalink}}" /> </div>
     <h3>{{ .Params.Role }}</h3>
   </div>
   <div id="profile-bio">
@@ -17,23 +16,27 @@
 </div>
 
 <h2>Speaker Schedule</h2>
-{{ $id := .File.ContentBaseName }}
-{{ $pan := .Params.Panel }}
+{{$id := .File.ContentBaseName}}
+
 {{ range .Site.Params.Schedule }}
-  {{ $show_day := false }}
-  {{ range .slots }}
-    {{ range .events }}
-      {{ if eq .moderator $id }}
-        {{ $show_day = true }}
-        <p>{{ .moderator }}</p>
-      {{end}}
-      {{ if eq .code $pan }}
-        {{ $show_day = true }}
-      {{end}}
-    {{end}}
-  {{end}}
-  {{ if $show_day }}
-    {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan) }}
-  {{end}}
+{{ $show_day := false }}
+{{ range .slots }}
+{{ range .events }}
+{{ if eq .moderator $id }}
+{{ $show_day = true }}
+{{end}}
+{{ range .speakers }}
+
+{{ if eq . $id }}
+{{ $show_day = true }}
+{{end}}
+
 {{end}}
 {{end}}
+{{end}}
+{{ if $show_day }}
+{{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id) }}
+{{end}}
+{{end}}
+
+{{ end }}
