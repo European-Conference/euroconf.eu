@@ -293,7 +293,7 @@ nav {
   font-size: 300%;
   margin: 100px 0 250px 0;
 
-  @media (max-width: 800px) {
+  @media (max-width: $responsive-small) {
     font-size: 150%;
     margin: 150px 0;
   }
