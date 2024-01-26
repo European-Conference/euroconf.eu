@@ -13,6 +13,8 @@
     
       <div class="schedule-event {{ .event.type }}">
         <div class="event-info">
+          {{ $varA := .slot.events.type }}
+          {{ $varA }}
           {{ if eq .slot.events.type "keynote"}}
             <span class="event-type-tag">Keynote Address</span><br />
           {{end}}
