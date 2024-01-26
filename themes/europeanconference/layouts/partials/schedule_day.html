@@ -8,7 +8,7 @@
     {{ range .day.slots}}
       {{ $speaker_appears := false}}
       {{ range .events }}
-        {{ if eq .moderator $.for_speaker }}
+        {{ if eq .speaker $.for_speaker }}
           {{ $speaker_appears = true }}
         {{ end }}
         {{ if eq .code $.pan }}
