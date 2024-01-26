@@ -11,9 +11,9 @@
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" $speaker.RelPermalink $speaker.Params.name) }}
       {{end}}
     
-      <div class="schedule-event {{ .slot.events.type }}">
+      <div class="schedule-event {{ .type }}">
         <div class="event-info">
-          {{ $varA := .slot.events.type }}
+          {{ $varA := .type }}
           {{ $varA }}
           {{ if eq .slot.events.type "keynote"}}
             <span class="event-type-tag">Keynote Address</span><br />
