@@ -24,7 +24,6 @@
             {{.content | safeHTML}} 
           </span>
           <span class="event-speakers">
-            {{ $speakerLinks }}
             {{ range $key, $value := $speakerLinks}}
               {{if $key}}
                 |
