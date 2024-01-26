@@ -2,7 +2,6 @@
 name: Dr. Karen Donfried
 role: Senior Fellow at the Belfer Center for Science and International Affairs at the Harvard Kennedy School
 keynote: false
-moderator: true
 show: true
 panel: ba
 ---

@@ -11,15 +11,17 @@
         {{ if eq .moderator $.for_speaker }}
           {{ $speaker_appears = true }}
         {{ end }}
-        {{ if eq .code $.pan }}
-          {{ $speaker_appears = true }}
+        {{ range .speakers }}
+          {{ if eq . $.for_speaker }}
+            {{ $speaker_appears = true }}
+          {{ end }}
         {{ end }}
       {{ end }}
       {{ if not $.for_speaker }}
         {{ $speaker_appears = true }}
       {{ end }}
       {{ if $speaker_appears }}
-        {{ partial "schedule_slot" (dict "root" $.root "slot" . "for_speaker" $.for_speaker "pan" $.pan) }}
+        {{ partial "schedule_slot" (dict "root" $.root "slot" . "for_speaker" $.for_speaker) }}
       {{end}}
     {{end}}
   </div>
