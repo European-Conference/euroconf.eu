@@ -1,8 +1,8 @@
 <div class="day">
   <div class="day-info">
-    <h3 class="name">{{.Site.Params.Schedule.name}}</h3>
+    <h3 class="name">{{.day.name}}</h3>
     at the
-    <span class="location">{{day.location}}</span>
+    <span class="location">{{.day.location}}</span>
   </div>
   <div class="day-slots">
     {{ range $.day.slots}}
