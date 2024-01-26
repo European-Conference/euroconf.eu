@@ -35,7 +35,7 @@ params:
             - type: "panel"
               content: "Building Global Coalitions on Feminism, LGBTQ Rights, and Minorities Representation"
               location: "Bell Hall"
-              moderator: "marks"
+              moderator: marks
               code: "dc"
             - type: "panel"
               content: "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
@@ -50,7 +50,7 @@ params:
             - type: "panel"
               content: "EU-US Relations: Building Collective Security in a Shifting World"
               location: "Nye Auditorium"
-              moderator: "shapiro"
+              moderator: shapiro
               code: "bc"
             - type: "workshop"
               content: "Workshop with Students #1"
@@ -80,7 +80,7 @@ params:
             - type: "panel"
               content: "Challenges to European Democracies: The Rise of Populism and Democratic Backsliding"
               location: "Starr Auditorium"
-              moderator: "agathos"
+              moderator: agathos
               code: "db"
             - type: "workshop"
               content: "Workshop with Students #3: Climate Negotations"
@@ -108,7 +108,7 @@ params:
             - type: "panel"
               content: "Empower Europe: The Road to an Inclusive Energy Transition"
               location: "Starr Auditorium"
-              moderator: "macomber"
+              moderator: macomber
               code: "cc"
             - type: "workshop"
               content: "Workshop with Students #4"
@@ -146,7 +146,7 @@ params:
               content: "War and Reconstruction: Crafting a Comprehensive Strategy for Ukraine's Prosperous Future"
               location: "JFK Forum"
               code: "bb"
-              moderator: "plokhy"
+              moderator: plokhy
             - type: "panel"
               content: "AI & (E)U: The Regulatory Road to the Future"
               location: "Starr Auditorium"
