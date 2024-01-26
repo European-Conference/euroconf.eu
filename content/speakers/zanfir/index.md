@@ -2,6 +2,7 @@
 name: Gabriela Zanfir-Fortuna
 role: Vice President for Global Privacy at Future of Privacy Forum
 keynote: false
+moderator: true
 show: true
 panel: aa
 ---
