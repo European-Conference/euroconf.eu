@@ -6,7 +6,7 @@
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
       {{ $speakers := (where $pages "Params.panel" .code) }} 
         {{ range $speakers}}
-          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" RelPermalink Params.name) }}
+          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
         {{end}}
     
       <div class="schedule-event {{ .type }}">
