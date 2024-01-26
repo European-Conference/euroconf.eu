@@ -1,9 +1,3 @@
-<div class="day">
-  <div class="day-info">
-    <h3 class="name">{{.day.Name}}</h3>
-    at the
-    <span class="location">{{.day.location}}</span>
-  </div>
   <div class="day-slots">
     {{ range .day.slots}}
       {{ $speaker_appears := false}}
@@ -22,5 +16,11 @@
         {{ partial "schedule_slot" (dict "root" $.root "slot" . "for_speaker" $.for_speaker "pan" $.pan) }}
       {{end}}
     {{end}}
+  </div>
+<div class="day">
+  <div class="day-info">
+    <h3 class="name">{{.day.name}}</h3>
+    at the
+    <span class="location">{{.day.location}}</span>
   </div>
 </div>
