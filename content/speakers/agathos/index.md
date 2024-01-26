@@ -2,6 +2,7 @@
 name: Kelly Agathos
 role: Founder and Host of The Schuman Show
 keynote: false
+moderator: true
 show: true
 panel: db
 ---
