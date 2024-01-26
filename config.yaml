@@ -35,7 +35,7 @@ params:
             - type: "panel"
               content: "Building Global Coalitions on Feminism, LGBTQ Rights, and Minorities Representation"
               location: "Bell Hall"
-              moderator: marks
+              moderator: "marks"
               code: "dc"
             - type: "panel"
               content: "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
@@ -52,12 +52,18 @@ params:
               location: "Nye Auditorium"
               moderator: "shapiro"
               code: "bc"
+            - type: "workshop"
+              content: "Workshop with Students #1"
+              location: "TBD"
         - time: "3:15pm – 3:45pm"
           events:
             - type: "keynote"
               location: "Nye Auditorium"
               speakers:
                 - "boone"
+            - type: "workshop"
+              content: "Workshop with Students #2"
+              location: "TBD"
         - time: "4:00pm – 5:00pm"
           events:
             - type: "panel"
@@ -74,8 +80,11 @@ params:
             - type: "panel"
               content: "Challenges to European Democracies: The Rise of Populism and Democratic Backsliding"
               location: "Starr Auditorium"
-              moderator: agathos
+              moderator: "agathos"
               code: "db"
+            - type: "workshop"
+              content: "Workshop with Students #3: Climate Negotations"
+              location: "TBD"
     - name: "Saturday, February 10, 2024"
       location: "Harvard Kennedy School of Government (HKS) and TBD"
       slots:
@@ -94,13 +103,16 @@ params:
             - type: "panel"
               content: "Challenge and Opportunity: Building Momentum in Migration Policy"
               location: "JFK Forum"
-              moderator: papoulias
+              moderator: "papoulias"
               code: "be"
             - type: "panel"
               content: "Empower Europe: The Road to an Inclusive Energy Transition"
               location: "Starr Auditorium"
-              moderator: macomber
+              moderator: "macomber"
               code: "cc"
+            - type: "workshop"
+              content: "Workshop with Students #4"
+              location: "TBD"
         - time: "11:00am – 11:30pm"
           events:
             - type: "other"
@@ -115,6 +127,9 @@ params:
               content: "Ensuring European Competitiveness in the Green Deal Era"
               location: "Starr Auditorium"
               code: "cb"
+            - type: "workshop"
+              content: "Workshop with Students #5"
+              location: "TBD"
         - time: "1:00pm – 2:30pm"
           events:
             - type: "other"
@@ -137,6 +152,9 @@ params:
               location: "Starr Auditorium"
               moderator: "zanfir"
               code: "aa"
+            - type: "workshop"
+              content: "Workshop with Students #6"
+              location: "TBD"
         - time: "4:15pm – 4:45pm"
           events:
             - type: "other"
