@@ -13,13 +13,13 @@
     
       <div class="schedule-event {{ .event.type }}">
         <div class="event-info">
-          {{ if eq .slot.event.type "keynote"}}
+          {{ if eq .slot.events.type "keynote"}}
             <span class="event-type-tag">Keynote Address</span><br />
           {{end}}
-          {{ if eq .slot.event.type "panel"}}
+          {{ if eq .slot.events.type "panel"}}
             <span class="event-type-tag">Panel</span><br />
           {{end}}
-          {{ if eq .slot.event.type "workshop"}}
+          {{ if eq .slot.events.type "workshop"}}
             <span class="event-type-tag">Workshop</span><br />
           {{end}}
           <span class="event-title"> 
