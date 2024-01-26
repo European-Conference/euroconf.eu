@@ -20,9 +20,11 @@
 {{ $id := .File.ContentBaseName }}
 {{ $pan := .Params.Panel }}
 {{ $pan_two := .Params.Panel_two }}
-{{ if isset $pan_two }}
-  {{ partial "schedule_day" (dict "root" $ "var" . "day" .Site.Params.Schedule "for_speaker" $id "pan_two" $pan_two) }}
+{{ with .Site.Params.Schedule }}
+  {{ if not ($pan_two isset nil) }}
+    {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan_two" $pan_two) }}
+  {{ end }}
+  {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan) }}
 {{ end }}
-{{ partial "schedule_day" (dict "root" $ "var" . "day" .Site.Params.Schedule "for_speaker" $id "pan" $pan) }}
 
 {{end}}
