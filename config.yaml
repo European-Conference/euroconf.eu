@@ -53,15 +53,19 @@ menu:
       url: /schedule
       pageRef: /Schedule
       weight: 30
+    - name: Info
+      url: /info
+      pageRef: /info
+      weight: 40
     - name: About Us
       url: /about-us
       pageRef: /About Us
-      weight: 40
+      weight: 50
     - name: 2023 Conference
       params:
         rel: external
       url: https://y23.euroconf.eu/
-      weight: 50
+      weight: 60
   footer:
     - name: Contact
       url: /contact
