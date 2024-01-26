@@ -3,12 +3,20 @@
   <div class="schedule-events">
     {{ range .slot.events }}
       {{$speakerLinks := slice}}
+    
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
       {{ $bridge := (where $pages "Params.panel" .code) }}
       {{ $speakers := (where $bridge "Params.moderator" "!=" "true") }}
       {{ range $speakers}}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
       {{end}}
+    
+      {{ $bridge_two := (where $pages "Params.panel_two" .code) }}
+      {{ $speakers_two := (where $bridge_two "Params.moderator" "!=" "true") }}
+      {{ range $speakers_two}}
+        {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+      {{end}}
+    
       {{ $keynoteSpeakers := (where $pages "File.ContentBaseName" .speaker) }}
       {{ range $keynoteSpeakers}}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
