@@ -1,15 +1,13 @@
 <div class="schedule-slot">
   <span class="time"> {{ .slot.time }} </span>
   <div class="schedule-events">
-    {{$speakerLinks := slice}}
     {{ range .slot.events }}
+      {{$speakerLinks := slice}}
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
       {{ $speakers := (where $pages "Params.panel" .code) }} 
-      {{ $speaker := index $speakers 0}}
-      {{ $speaker }}
-      {{ if $speaker }}
-        {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" $speaker.RelPermalink $speaker.Params.name) }}
-      {{end}}
+        {{ range $speakers}}
+          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" RelPermalink Params.name) }}
+        {{end}}
     
       <div class="schedule-event {{ .type }}">
         <div class="event-info">
