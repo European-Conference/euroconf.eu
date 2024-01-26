@@ -1,5 +1,11 @@
+<div class="day">
+  <div class="day-info">
+    <h3 class="name">{{.Site.Params.Schedule.name}}</h3>
+    at the
+    <span class="location">{{.Site.Params.Schedule.location}}</span>
+  </div>
   <div class="day-slots">
-    {{ range .day.slots}}
+    {{ range .Site.Params.Schedule.slots}}
       {{ $speaker_appears := false}}
       {{ range .events }}
         {{ if eq .speaker $.for_speaker }}
@@ -16,11 +22,5 @@
         {{ partial "schedule_slot" (dict "root" $.root "slot" . "for_speaker" $.for_speaker "pan" $.pan) }}
       {{end}}
     {{end}}
-  </div>
-<div class="day">
-  <div class="day-info">
-    <h3 class="name">{{.day.name}}</h3>
-    at the
-    <span class="location">{{.day.location}}</span>
   </div>
 </div>
