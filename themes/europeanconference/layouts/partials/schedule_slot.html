@@ -6,10 +6,13 @@
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
       {{ $bridge := (where $pages "Params.panel" .code) }}
       {{ $speakers := (where $bridge "Params.moderator" "!=" "true") }}
-        {{ range $speakers}}
-          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
-        {{end}}
-    
+      {{ range $speakers}}
+        {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+      {{end}}
+      {{ range .speakers}}
+        {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+      {{end}}
+
       <div class="schedule-event {{ .type }}">
         <div class="event-info">
           {{ if eq .type "keynote"}}
