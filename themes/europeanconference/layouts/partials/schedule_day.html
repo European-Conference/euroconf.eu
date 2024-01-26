@@ -5,7 +5,7 @@
     <span class="location">{{.day.location}}</span>
   </div>
   <div class="day-slots">
-    {{ range $.day.slots}}
+    {{ range .day.slots}}
       {{ $speaker_appears := false}}
       {{ range .events }}
         {{ if eq .speaker $.for_speaker }}
