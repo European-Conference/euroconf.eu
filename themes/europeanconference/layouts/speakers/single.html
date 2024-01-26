@@ -22,7 +22,7 @@
 {{ partial "schedule_day" (dict "root" $ "day" .Site.Params.Schedule "for_speaker" $id "pan" $pan) }}
 
 {{ $pan_two := .Params.Panel_two }}
-{{ if $pan_two }}
-  {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan) }}
+{{ if $pan_two "!=" nil }}
+  {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan_two" $pan_two) }}
 {{end}}
 {{end}}
