@@ -23,7 +23,7 @@
             <span class="event-type-tag">Workshop</span><br />
           {{end}}
           <span class="event-title"> 
-            {{.slot.event.content | safeHTML}} 
+            {{.slot.events.content | safeHTML}} 
           </span>
           <span class="event-speakers">
             {{ range $key, $value := $.speakerLinks}}
@@ -36,16 +36,16 @@
           
           <span class="event-moderators">
             {{ if in .slot.event.moderator " " }}
-              Moderated by {{.slot.event.moderator | safeHTML}}
+              Moderated by {{.slot.events.moderator | safeHTML}}
             {{ else }}
               {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
-              {{ $moderators := (where $pages "File.ContentBaseName" .slot.event.moderator) }}
+              {{ $moderators := (where $pages "File.ContentBaseName" .slot.events.moderator) }}
               {{ $moderator := index $moderators 0}}
               {{ if $moderator }}
                 {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name}}
                 {{ $moderatorText := "Moderated by "}}
-                {{ if .slot.event.moderatorText }}
-                  {{ $moderatorText = .slot.event.moderatorText }}
+                {{ if .slot.events.moderatorText }}
+                  {{ $moderatorText = .slot.events.moderatorText }}
                 {{ end }}
                 {{$moderatorText}}
                 {{ safeHTML $moderatorLink }}
@@ -54,7 +54,7 @@
           </span>
         </div>
         <div class="event-location"> 
-          {{ .slot.event.location }} 
+          {{ .slot.events.location }} 
         </div>
       </div>
     {{end}}
