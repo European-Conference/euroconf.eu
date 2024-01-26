@@ -28,8 +28,7 @@ params:
           events:
             - type: "keynote"
               location: "Nye Auditorium"
-              speakers:
-                - "gentiloni"
+              speaker: "gentiloni"
         - time: "12:50pm – 1:50pm"
           events:
             - type: "panel"
@@ -59,8 +58,7 @@ params:
           events:
             - type: "keynote"
               location: "Nye Auditorium"
-              speakers:
-                - "boone"
+              speaker: "boone"
             - type: "workshop"
               content: "Workshop with Students #2"
               location: "TBD"
@@ -96,8 +94,7 @@ params:
           events:
             - type: "keynote"
               location: "JFK Forum"
-              speakers:
-                - "ferreira"
+              speaker: "ferreira"
         - time: "10:00am - 11:00am"
           events:
             - type: "panel"
@@ -138,8 +135,7 @@ params:
           events:
             - type: "keynote"
               location: "JFK Forum"
-              speakers:
-                - "letta"
+              speaker: "letta"
         - time: "3:15pm - 4:15pm"
           events:
             - type: "panel"
@@ -163,8 +159,7 @@ params:
           events:
             - type: "keynote"
               location: "JFK Forum"
-              speakers:
-                - "sefcovic"
+              speaker: "sefcovic"
         - time: "5:30pm – 11:30pm"
           events:
             - type: "other"
