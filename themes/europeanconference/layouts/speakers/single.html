@@ -21,7 +21,6 @@
 {{ $pan := .Params.Panel }}
 {{ $pan_two := .Params.Panel_two }}
 
-
 {{ range .Site.Params.Schedule }}
   {{ $show_day := false }}
   {{ range .slots }}
@@ -37,14 +36,7 @@
 {{end}}
 
 {{ range .Site.Params.Schedule }}
-  {{ $show_day := false }}
-  {{ range .slots }}
-    {{ range .events }}
-      {{ if eq .code $pan }}
-        {{ $show_day = true }}
-      {{end}}
-    {{end}}
-  {{end}}
+  {{ $show_day := true }}
   {{ if $show_day }}
     {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan) }}
   {{end}}
