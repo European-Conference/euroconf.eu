@@ -3,7 +3,7 @@ name: Dr. Karen Donfried
 role: Senior Fellow at the Belfer Center for Science and International Affairs at the Harvard Kennedy School
 keynote: false
 show: true
-panel: bc
+panel: ba
 ---
 
 Prior to her current role as Senior Fellow at the Belfer Center for Science and International Affairs at the Harvard Kennedy School, Dr. Karen Donfried served as Assistant Secretary of State for European and Eurasian Affairs. In that role, she was Secretary of State Blinken’s top adviser on Europe and Eurasia, crafted U.S. policy on the region, negotiated with key foreign officials, testified before Congress, engaged with media, represented the State Department in interagency meetings and at public events, and led the largest regional bureau at State with 12,000 employees covering 50 countries during Russia's war against Ukraine.
