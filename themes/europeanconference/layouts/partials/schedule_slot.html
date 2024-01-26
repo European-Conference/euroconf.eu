@@ -10,8 +10,9 @@
       {{ range $speakers}}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
       {{end}}
-    
-      {{ $bridge_two := (where $pages "Params.panel_two" .code) }}
+
+      {{ $pages_two := (where $pages "Params.panel_two" "!=" nil) }} 
+      {{ $bridge_two := (where $pages_two "Params.panel_two" .code) }}
       {{ $speakers_two := (where $bridge_two "Params.moderator" "!=" "true") }}
       {{ range $speakers_two}}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
