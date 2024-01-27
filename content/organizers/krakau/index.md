@@ -1,6 +1,6 @@
 ---
 name: Niklas Alexander Krakau
-role: Coordination Team
+role: Conference Collaborator
 keynote: false
 show: true
 ---
