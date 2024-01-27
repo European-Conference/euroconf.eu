@@ -2,6 +2,7 @@
 name: Lúcio Vinhas de Souza
 role: Fellow at the Weatherhead Center for International Affairs at Harvard University
 keynote: false
+moderator: true
 show: true
 panel: cb
 ---
