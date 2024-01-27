@@ -54,11 +54,11 @@ a {
   margin: 0 auto;
 }
 
-/* Formatting for the header */
 $header-height: 160px;
 $responsive-medium: 900px;
 $responsive-small: 600px;
 
+/* Formatting for the header */
 header {
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)),
     url("/cambridge.jpeg");
@@ -295,7 +295,7 @@ nav {
 
   @media (max-width: $responsive-small) {
     font-size: 150%;
-    margin: 150px 0;
+    margin: 100px 0 100px 0;
   }
 }
 
