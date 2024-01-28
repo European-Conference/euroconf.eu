@@ -1,7 +1,7 @@
 ---
 name: Paolo Gentiloni
 role: European Commissioner for Economy
-keynote: true
+keynote: a
 show: true
 panel: none
 ---

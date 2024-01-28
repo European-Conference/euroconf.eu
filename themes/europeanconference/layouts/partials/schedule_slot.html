@@ -6,21 +6,35 @@
     
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
       {{ $bridge := (where $pages "Params.panel" .code) }}
-      {{ $speakers := (where $bridge "Params.moderator" "!=" "true") }}
+      {{ $speakers := (where $bridge "Params.moderator" "!=" true) }}
       {{ range $speakers}}
-        {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+        {{ if eq .Params.show true }}
+          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+        {{ else }}
+          {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
+        {{end}}
       {{end}}
 
-      {{ $pages_two := (where $pages "Params.panel_two" "!=" nil) }} 
-      {{ $bridge_two := (where $pages_two "Params.panel_two" .code) }}
-      {{ $speakers_two := (where $bridge_two "Params.moderator" "!=" "true") }}
-      {{ range $speakers_two}}
-        {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+      {{ $pagesTwo := (where $pages "Params.panelTwo" "!=" nil) }} 
+      {{ $bridgeTwo := (where $pagesTwo "Params.panelTwo" .code) }}
+      {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" true) }}
+      {{ range $speakersTwo}}
+        {{ if eq .Params.show true }}
+          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+        {{ else }}
+          {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
+        {{end}}
       {{end}}
-    
-      {{ $keynoteSpeakers := (where $pages "File.ContentBaseName" .speaker) }}
-      {{ range $keynoteSpeakers}}
-        {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+
+      {{ $pagesKeynote := (where $pages "Params.keynote" "!=" nil) }} 
+      {{ $bridgeKeynote := (where $pages "Params.keynote" .keynote) }}
+      {{ $speakersKeynote := (where $bridgeKeynote "Params.moderator" "!=" true) }}
+      {{ range $speakersKeynote}}
+        {{ if eq .Params.show true }}
+          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+        {{ else }}
+          {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
+        {{end}}
       {{end}}
     
       <div class="schedule-event {{ .type }}">

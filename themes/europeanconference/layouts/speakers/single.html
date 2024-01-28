@@ -17,20 +17,40 @@
 </div>
 
 <h2>Speaker Schedule</h2>
-{{ $id := .File.ContentBaseName }}
 {{ $pan := .Params.Panel }}
-{{ $pan_two := .Params.Panel_two }}
+{{ $panTwo := .Params.Panel_two }}
+{{ $keynote := .Params.Keynote }}
 
-{{ with $pan_two }}
+{{ if not (isset $panTwo nil) }}
   {{ range $.Site.Params.Schedule }}
-    {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan_two) }}
+    {{ $showDayTwo := false }}
+    {{ range .slots }}
+      {{ range .events }}
+        {{ if eq .code $panTwo }}
+          {{ $showDayTwo = true }}
+        {{end}}
+      {{end}}
+    {{end}}
+    {{ if $showDayTwo }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $panTwo) }}
+    {{end}}
   {{end}}
 {{end}}
 
 {{ range .Site.Params.Schedule }}
-  {{ $show_day := true }}
-  {{ if $show_day }}
-    {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan) }}
+  {{ $showDay := false }}
+  {{ range .slots }}
+    {{ range .events }}
+      {{ if eq .code $pan }}
+        {{ $showDay = true }}
+      {{end}}
+      {{ if eq .keynote $keynote }}
+        {{ $showDay = true }}
+      {{end}}
+    {{end}}
+  {{end}}
+  {{ if $showDay }}
+    {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $pan) }}
   {{end}}
 {{end}}
 

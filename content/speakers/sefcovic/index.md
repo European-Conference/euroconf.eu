@@ -1,7 +1,7 @@
 ---
 name: Maroš Šefčovič
 role: Executive Vice President of the European Commission, in charge of the European Green Deal, Interinstitutional Relations, and Foresight
-keynote: true
+keynote: e
 show: true
 panel: none
 ---

@@ -1,7 +1,7 @@
 ---
 name: Laurence Boone
 role: French Minister of State for Europe
-keynote: true
+keynote: b
 show: true
 panel: none
 ---

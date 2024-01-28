@@ -8,18 +8,18 @@
     {{ range .day.slots}}
       {{ $speaker_appears := false}}
       {{ range .events }}
-        {{ if eq .speaker $.for_speaker }}
+        {{ if eq .keynote $.key }}
           {{ $speaker_appears = true }}
         {{ end }}
         {{ if eq .code $.pan }}
           {{ $speaker_appears = true }}
         {{ end }}
       {{ end }}
-      {{ if not $.for_speaker }}
+      {{ if not $.pan }}
         {{ $speaker_appears = true }}
       {{ end }}
       {{ if $speaker_appears }}
-        {{ partial "schedule_slot" (dict "root" $.root "slot" . "for_speaker" $.for_speaker "pan" $.pan) }}
+        {{ partial "schedule_slot" (dict "root" $.root "slot" . "keynote" $.keynote "pan" $.pan) }}
       {{end}}
     {{end}}
   </div>

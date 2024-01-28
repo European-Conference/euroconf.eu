@@ -1,7 +1,7 @@
 ---
 name: Elisa Ferreira
 role: European Commissioner for Cohesion and Reforms
-keynote: true
+keynote: c
 show: true
 panel: none
 ---
