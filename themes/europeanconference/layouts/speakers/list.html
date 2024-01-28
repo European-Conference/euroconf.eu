@@ -34,7 +34,7 @@
     <h3 id="speaker-title-{{ $key }}">{{ $value }}</h3>
     <div class="pure-g speaker-tiles">
       {{ range $.Pages }}
-        {{ if or (eq $key .Params.panel) (eq $key .Params.panel_two) }}
+        {{ if and (or (eq $key .Params.panel) (eq $key .Params.panel_two)) (eq .Params.show true) }}
           {{ $image := index (.Resources.ByType "image") 0 }} 
           {{ partial "person.html" .}}
           <script>
