@@ -22,15 +22,16 @@
 {{ $keynote := .Params.Keynote }}
 
 {{ range $.Site.Params.Schedule }}
- {{ $showDayTwo := false }}
+  {{ $showDayTwo := false }}
   {{ range .slots }}
     {{ range .events }}
-      {{ if eq .code $panTwo }}
+      {{ if and ($panTwo "!=" nil) (eq .code $panTwo) }}
         {{ $showDayTwo = true }}
       {{end}}
     {{end}}
-  {{ if $showDayTwo }}
-    {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $panTwo) }}
+    {{ if $showDayTwo }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $panTwo) }}
+    {{end}}
   {{end}}
 {{end}}
 
