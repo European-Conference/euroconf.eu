@@ -21,8 +21,7 @@
 {{ $panTwo := .Params.Panel_two }}
 {{ $keynote := .Params.Keynote }}
 
-{{ if not (isset $panTwo nil) }}
-  <p> Cloud Cuckoo Landers </p>
+{{ if (isset $panTwo nil) }}
   {{ range $.Site.Params.Schedule }}
     {{ $showDayTwo := false }}
     {{ range .slots }}
