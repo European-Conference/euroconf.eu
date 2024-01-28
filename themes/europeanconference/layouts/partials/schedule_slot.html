@@ -15,7 +15,7 @@
         {{end}}
       {{end}}
 
-      {{ $pagesTwo := (where $pages "Params.panelTwo" "!=" nil) }} 
+      {{ $pagesTwo := (where $pages "Params.panelTwo" nil) }} 
       {{ $pagesTwo }}
       {{ $bridgeTwo := (where $pagesTwo "Params.panelTwo" .code) }}
       {{ $bridgeTwo }}
