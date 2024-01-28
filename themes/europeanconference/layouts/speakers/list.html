@@ -5,10 +5,10 @@
   <h3 class="speaker-title">Keynote Speakers</h3>
   <div class="pure-g speaker-tiles">
     {{ range .Pages }}
-        {{ if .Params.keynote }}
-          {{ $image := index (.Resources.ByType "image") 0 }} 
-          {{ partial "person.html" .}}
-        {{end}}
+      {{ if .Params.keynote }}
+        {{ $image := index (.Resources.ByType "image") 0 }} 
+        {{ partial "person.html" .}}
+      {{end}}
     {{end}}
   </div>
 
