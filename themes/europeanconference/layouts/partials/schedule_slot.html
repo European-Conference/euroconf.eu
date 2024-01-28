@@ -16,8 +16,11 @@
       {{end}}
 
       {{ $pagesTwo := (where $pages "Params.panelTwo" "!=" nil) }} 
+      {{ $pagesTwo }}
       {{ $bridgeTwo := (where $pagesTwo "Params.panelTwo" .code) }}
+      {{ $bridgeTwo }}
       {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" true) }}
+      {{ $speakersTwo }}
       {{ range $speakersTwo}}
         {{ if eq .Params.show true }}
           {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
