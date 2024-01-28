@@ -11,17 +11,17 @@
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
       {{end}}
 
-      {{ $pages_two := (where $pages "Params.panel_two" "!=" nil) }} 
-      {{ $bridge_two := (where $pages_two "Params.panel_two" .code) }}
-      {{ $speakers_two := (where $bridge_two "Params.moderator" "!=" "true") }}
-      {{ range $speakers_two}}
+      {{ $pagesTwo := (where $pages "Params.panelTwo" "!=" nil) }} 
+      {{ $bridgeTwo := (where $pagesTwo "Params.panelTwo" .code) }}
+      {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" "true") }}
+      {{ range $speakersTwo}}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
       {{end}}
 
-      {{ $pages_keynote := (where $pages "Params.keynote" "!=" nil) }} 
-      {{ $bridge_keynote := (where $pages "Params.keynote" .keynote) }}
-      {{ $speakers_keynote := (where $bridge_keynote "Params.moderator" "!=" "true") }}
-      {{ range $keynoteSpeakers}}
+      {{ $pagesKeynote := (where $pages "Params.keynote" "!=" nil) }} 
+      {{ $bridgeKeynote := (where $pages "Params.keynote" .keynote) }}
+      {{ $speakersKeynote := (where $bridgeKeynote "Params.moderator" "!=" "true") }}
+      {{ range $speakersKeynote}}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
       {{end}}
     
