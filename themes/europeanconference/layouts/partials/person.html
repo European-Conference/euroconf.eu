@@ -11,7 +11,10 @@
   <div class="person-description">
     <span class="person-name">{{.Params.Name}}</span>
     {{ if .Params.Keynote }}
-    <span class="person-keynote">Keynote Speaker</span>
+      <span class="person-keynote">Keynote Speaker</span>
+    {{ end }}
+    {{ if .Params.Moderator }}
+      <span class="person-keynote">Moderator</span>
     {{ end }}
     <p class="person-bio">{{.Params.Role}}</p>
   </div>
