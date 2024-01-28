@@ -25,7 +25,7 @@
   {{ $showDayTwo := false }}
   {{ range .slots }}
     {{ range .events }}
-      {{ if $panTwo "!=" nil }}
+      {{ if not (isset $panTwo nil) }}
         {{ $showDayTwo = true }}
       {{end}}
     {{end}}
