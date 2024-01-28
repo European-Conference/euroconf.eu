@@ -1,6 +1,5 @@
-<!--
 <!-- schedule_event.html is the final part of creating the schedule. This part of the code adds the panel title and speakers.-->
-<div class="schedule-event {{ .type }}">
+<!--<div class="schedule-event {{ .type }}">
   <div class="event-info">
     {{ if eq .type "keynote"}}
       <span class="event-type-tag">Keynote Address</span><br />
@@ -22,10 +21,10 @@
         {{end}}
         {{safeHTML $value}}
       {{end}}
-    </span>
+    </span>-->
 
 <!-- This part of the code adds the moderators.-->
-    <span class="event-moderators">
+<!--    <span class="event-moderators">
       {{ if in .event.moderator " " }}
         Moderated by {{.moderator | safeHTML}}
       {{ else }}
@@ -43,8 +42,8 @@
         {{ end }}
       {{ end }}
     </span>
-  </div>
--->
+  </div>-->
+
 <!-- This part of the code adds the location (obviously).-->
   <div class="event-location"> 
     {{ .location }} 
