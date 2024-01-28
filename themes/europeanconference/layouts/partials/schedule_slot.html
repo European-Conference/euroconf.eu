@@ -52,7 +52,7 @@
             {{.content | safeHTML}} 
           </span>
           <span class="event-speakers">
-            {{ range $key, $value := $speakerLinks}}
+            {{ range $key, $value := sort $speakerLinks }}
               {{if $key}}
                 |
               {{end}}
