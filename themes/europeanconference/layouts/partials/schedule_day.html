@@ -1,3 +1,4 @@
+// schedule_day.html creates the header part of schedule ("Date" at "Location").
 <div class="day">
   <div class="day-info">
     <h3 class="name">{{.day.name}}</h3>
@@ -5,6 +6,7 @@
     <span class="location">{{.day.location}}</span>
   </div>
   <div class="day-slots">
+    // Ranges over the slots and events in config.yaml. When schedule_day.html is called by a speaker profile page, this part of the code evaluates whether the speaker is associated with any of the panels by matching the speaker's panel parameter to the panel codes in config.yaml. 
     {{ range .day.slots}}
       {{ $speaker_appears := false}}
       {{ range .events }}
@@ -15,10 +17,13 @@
           {{ $speaker_appears = true }}
         {{ end }}
       {{ end }}
+      // When schedule_day.html is called by the schedule shortcode, there will be no panel associated with the shortcode, but we still want the $speaker_appears condtion to be met.
       {{ if not $.pan }}
         {{ $speaker_appears = true }}
       {{ end }}
+      // If the 
       {{ if $speaker_appears }}
+        // Summons the partial schedule_slot.html to handle the next part of creating the schedule
         {{ partial "schedule_slot" (dict "root" $.root "slot" . "keynote" $.keynote "pan" $.pan) }}
       {{end}}
     {{end}}
