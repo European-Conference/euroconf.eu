@@ -6,7 +6,7 @@
     
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
       {{ $bridge := (where $pages "Params.panel" .code) }}
-      {{ $speakers := (where $bridge "Params.moderator" "!=" "true") }}
+      {{ $speakers := (where $bridge "Params.moderator" "!=" true) }}
       {{ range $speakers}}
         {{ if eq .Params.show true }}
           {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
@@ -17,7 +17,7 @@
 
       {{ $pagesTwo := (where $pages "Params.panelTwo" "!=" nil) }} 
       {{ $bridgeTwo := (where $pagesTwo "Params.panelTwo" .code) }}
-      {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" "true") }}
+      {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" true) }}
       {{ range $speakersTwo}}
         {{ if eq .Params.show true }}
           {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
@@ -28,7 +28,7 @@
 
       {{ $pagesKeynote := (where $pages "Params.keynote" "!=" nil) }} 
       {{ $bridgeKeynote := (where $pages "Params.keynote" .keynote) }}
-      {{ $speakersKeynote := (where $bridgeKeynote "Params.moderator" "!=" "true") }}
+      {{ $speakersKeynote := (where $bridgeKeynote "Params.moderator" "!=" true) }}
       {{ range $speakersKeynote}}
         {{ if eq .Params.show true }}
           {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
