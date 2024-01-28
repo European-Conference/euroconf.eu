@@ -21,7 +21,7 @@
 {{ $panTwo := .Params.Panel_two }}
 {{ $keynote := .Params.Keynote }}
 
-{{ if not (isset $panTwo nil) }}
+{{ with .Params.Panel_two }}
   {{ range $.Site.Params.Schedule }}
     {{ $showDayTwo := false }}
     {{ range .slots }}
