@@ -57,7 +57,7 @@
             {{.content | safeHTML}} 
           </span>
           <span class="event-speakers">
-            {{ range $key, $value := sort $.speakerLinks }}
+            {{ range $key, $value := sort $speakerLinks }}
               <!-- Creates a "|" between speakers. This code is not activated during the first loop because the array $.speakerLinks is zero-indexed, meaning the first value of $key is 0.-->
             {{if $key}}
                 |
