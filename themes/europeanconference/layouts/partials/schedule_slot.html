@@ -42,7 +42,7 @@
       {{end}}
 
 <!-- schedule_event.html is the final part of creating the schedule. This part of the code adds the panel title and speakers.-->
-      <div class="schedule-event {{ .type }}">
+      <div class="schedule-event {{ .type }}" id="schedule-panel-{{ .code }}">
         <div class="event-info">
           {{ if eq .type "keynote"}}
             <span class="event-type-tag">Keynote Address</span><br />
