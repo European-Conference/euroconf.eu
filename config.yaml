@@ -161,7 +161,8 @@ params:
             - type: "keynote"
               location: "JFK Forum"
               keynote: e
-        - time: "5:30pm – 11:30pm"
+              speaker: "sefcovic"
+        - time: "5:30pm – 5:45pm"
           events:
             - type: "other"
               content: "Thank You Note"
