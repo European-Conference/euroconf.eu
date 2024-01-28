@@ -15,9 +15,9 @@
         {{end}}
       {{end}}
 
-      {{ $pagesTwo := (where $pages "Params.panelTwo" nil) }} 
+      {{ $pagesTwo := (where $pages "Params.panel_two" "!=" nil) }} 
       {{ $pagesTwo }}
-      {{ $bridgeTwo := (where $pagesTwo "Params.panelTwo" .code) }}
+      {{ $bridgeTwo := (where $pagesTwo "Params.panel_two" .code) }}
       {{ $bridgeTwo }}
       {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" true) }}
       {{ $speakersTwo }}
