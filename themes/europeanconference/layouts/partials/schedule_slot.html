@@ -18,7 +18,7 @@
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
       {{end}}
     
-      {{ $keynoteSpeakers := (where $pages "File.ContentBaseName" .speaker) }}
+      {{ $keynoteSpeakers := (where $.key .keynote) }}
       {{ range $keynoteSpeakers}}
         {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
       {{end}}
