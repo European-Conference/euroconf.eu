@@ -22,6 +22,7 @@
 {{ $keynote := .Params.Keynote }}
 
 {{ if (isset .Params.Panel_two nil) }}
+  <p> Hello World </p>
   {{ range $.Site.Params.Schedule }}
     {{ $showDayTwo := false }}
     {{ range .slots }}
