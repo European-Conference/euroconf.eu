@@ -26,7 +26,7 @@
     {{ $showDayTwo := false }}
     {{ range .slots }}
       {{ range .events }}
-        {{ if eq .code $panTwo) }}
+        {{ if eq .code $panTwo }}
           {{ $showDayTwo = true }}
         {{end}}
       {{end}}
