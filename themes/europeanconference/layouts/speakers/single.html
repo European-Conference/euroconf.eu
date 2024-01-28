@@ -17,14 +17,13 @@
 </div>
 
 <h2>Speaker Schedule</h2>
-{{ $id := .File.ContentBaseName }}
 {{ $pan := .Params.Panel }}
 {{ $pan_two := .Params.Panel_two }}
 {{ $keynote := .Params.Keynote }}
 
 {{ with $pan_two }}
   {{ range $.Site.Params.Schedule }}
-    {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan_two) }}
+    {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $pan_two) }}
   {{end}}
 {{end}}
 
