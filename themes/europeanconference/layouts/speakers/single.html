@@ -39,6 +39,7 @@
   {{end}}
   {{ if eq $keynote true }}
     {{ $show_day = true }}
+  {{end}}
   {{ if $show_day }}
     {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan) }}
   {{end}}
