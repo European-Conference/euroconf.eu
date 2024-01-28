@@ -1,14 +1,1 @@
-{{ $speaker_appears := false}}
-{{ if $.for_speaker }}
-  {{ if eq .event.moderator $.for_speaker }}
-    {{ $speaker_appears = true }}
-  {{ end }}
-  {{ if eq .event.code $.pan }}
-    {{ $speaker_appears = true }}
-  {{ end }}
-{{ else }}
-  {{ $speaker_appears = true }}
-{{ end }}
-
-    
 

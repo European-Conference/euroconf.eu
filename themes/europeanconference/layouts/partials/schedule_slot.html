@@ -1,9 +1,11 @@
+<!-- schedule_slot.html is summoned by schedule_day.html. This part of the code adds the time for each slot in the schedule. It then loops through the events under each slot in config.yaml to create a list of speakers ($speakerLinks) for each panel. Once all the speakers for a panel are gathered, the code then calls the final partial schedule_slot.html.--> 
 <div class="schedule-slot">
   <span class="time"> {{ .slot.time }} </span>
   <div class="schedule-events">
     {{ range .slot.events }}
       {{$speakerLinks := slice}}
-    
+
+<!-- This section looks for speakers whose first panel parameter (Params.panel) matches a given panel code (.code) in config.yaml -->
       {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
       {{ $bridge := (where $pages "Params.panel" .code) }}
       {{ $speakers := (where $bridge "Params.moderator" "!=" true) }}
@@ -15,6 +17,7 @@
         {{end}}
       {{end}}
 
+<!-- This section looks for speakers whose second panel parameter (Params.panel_two) matches a given panel code (.code) in config.yaml -->
       {{ $pagesTwo := (where $pages "Params.panel_two" "!=" nil) }} 
       {{ $bridgeTwo := (where $pagesTwo "Params.panel_two" .code) }}
       {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" true) }}
@@ -26,6 +29,7 @@
         {{end}}
       {{end}}
 
+<!-- This section looks for keynote speakers whose keynote parameter (Params.keynote) matches a given keynote code (.keynote) in config.yaml -->
       {{ $pagesKeynote := (where $pages "Params.keynote" "!=" nil) }} 
       {{ $bridgeKeynote := (where $pages "Params.keynote" .keynote) }}
       {{ $speakersKeynote := (where $bridgeKeynote "Params.moderator" "!=" true) }}
@@ -36,7 +40,8 @@
           {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
         {{end}}
       {{end}}
-    
+
+<!-- schedule_event.html is the final part of creating the schedule. This part of the code adds the panel title and speakers.-->
       <div class="schedule-event {{ .type }}">
         <div class="event-info">
           {{ if eq .type "keynote"}}
@@ -53,15 +58,17 @@
           </span>
           <span class="event-speakers">
             {{ range $key, $value := sort $speakerLinks }}
-              {{if $key}}
+              <!-- Creates a "|" between speakers. This code is not activated during the first loop because the array $.speakerLinks is zero-indexed, meaning the first value of $key is 0.-->
+            {{if $key}}
                 |
               {{end}}
               {{safeHTML $value}}
             {{end}}
           </span>
-          
+      
+<!-- This part of the code adds the moderators.-->
           <span class="event-moderators">
-            {{ if in .slot.event.moderator " " }}
+            {{ if in .event.moderator " " }}
               Moderated by {{.moderator | safeHTML}}
             {{ else }}
               {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
@@ -79,7 +86,8 @@
             {{ end }}
           </span>
         </div>
-        
+      
+<!-- This part of the code adds the location (obviously).-->
         <div class="event-location"> 
           {{ .location }} 
         </div>
