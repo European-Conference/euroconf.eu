@@ -22,7 +22,6 @@
 {{ $keynote := .Params.Keynote }}
 
 {{ with .Params.Panel_two }}
-  <p> Hello World </p>
   {{ range $.Site.Params.Schedule }}
     {{ $showDayTwo := false }}
     {{ range .slots }}
