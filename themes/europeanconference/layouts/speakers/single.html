@@ -20,6 +20,7 @@
 {{ $id := .File.ContentBaseName }}
 {{ $pan := .Params.Panel }}
 {{ $pan_two := .Params.Panel_two }}
+{{ $keynote := .Params.Keynote }}
 
 {{ with $pan_two }}
   {{ range $.Site.Params.Schedule }}
@@ -36,6 +37,8 @@
       {{end}}
     {{end}}
   {{end}}
+  {{ if $keynote }}
+    {{ $show_day = true }}
   {{ if $show_day }}
     {{ partial "schedule_day" (dict "root" $ "day" . "for_speaker" $id "pan" $pan) }}
   {{end}}
