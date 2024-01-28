@@ -649,6 +649,7 @@ footer .student-orgs img {
   font-size: 180%;
 }
 
+/* Schedule tags */
 .event-type-tag {
   display: inline-block;
   color: white;
@@ -665,6 +666,10 @@ footer .student-orgs img {
 
 .keynote .event-type-tag {
   background: #b7133e;
+}
+
+.workshop .event-type-tag {
+  background: #3eb713;
 }
 
 .light-header {
