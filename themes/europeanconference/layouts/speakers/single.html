@@ -21,12 +21,14 @@
 {{ $panTwo := .Params.Panel_two }}
 {{ $keynote := .Params.Keynote }}
 
-{{ range $.Site.Params.Schedule }}
-  {{ $showDayTwo := false }}
-  {{ range .slots }}
-    {{ range .events }}
-      {{ if and (not (isset $panTwo nil)) (eq .code $panTwo) }}
-        {{ $showDayTwo = true }}
+{{ if not (isset $panTwo nil) }}
+  {{ range $.Site.Params.Schedule }}
+    {{ $showDayTwo := false }}
+    {{ range .slots }}
+      {{ range .events }}
+        {{ if eq .code $panTwo) }}
+          {{ $showDayTwo = true }}
+        {{end}}
       {{end}}
     {{end}}
     {{ if $showDayTwo }}
