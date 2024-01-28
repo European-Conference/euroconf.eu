@@ -7,11 +7,7 @@
 <h3>Panelists</h3>
   <ul>
     {{ range (sort (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" false) "Params.panel" "asc")}} 
-      {{ if .Params.Show }}
-        <li><b><a href="/speakers/{{.File.ContentBaseName}}">{{.Params.Name}}</a></b>, {{.Params.Role}}</li>
-      {{ else }}
-        <li><b>{{.Params.Name}}</b>, {{.Params.Role}}</li>
-      {{end}}
+      <li><b>{{.Params.Name}}</b>, {{.Params.Role}}</li>
     {{end}}
     <li><b>Jerôme Gautheret</b>, Chief Editor of <i>Le Monde</i></li>
   </ul>
