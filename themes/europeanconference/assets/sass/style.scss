@@ -291,9 +291,9 @@ nav {
 #tickets-btn {
   font-weight: bold;
   font-size: 300%;
-  margin: 100px 0 250px 0;
+  margin: 100px 0 275px 0;
 
-  @media (max-width: $responsive-small) {
+  @media (max-width: $responsive-medium) {
     font-size: 150%;
     margin: 100px 0 100px 0;
   }
