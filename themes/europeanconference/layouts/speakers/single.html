@@ -18,29 +18,34 @@
 
 <h2>Speaker Schedule</h2>
 {{ $pan := .Params.Panel }}
-{{ $pan_two := .Params.Panel_two }}
+{{ $panTwo := .Params.Panel_two }}
 {{ $keynote := .Params.Keynote }}
 
-{{ with $pan_two }}
-  {{ range $.Site.Params.Schedule }}
-    {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $pan_two) }}
+{{ range $.Site.Params.Schedule }}
+ {{ $showDayTwo := false }}
+  {{ range .slots }}
+    {{ range .events }}
+      {{ if eq .code $panTwo }}
+        {{ $showDayTwo = true }}
+      {{end}}
+  {{ if $showDayTwo }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $panTwo) }}
   {{end}}
 {{end}}
 
 {{ range .Site.Params.Schedule }}
-  {{ $show_day := false }}
+  {{ $showDay := false }}
   {{ range .slots }}
     {{ range .events }}
       {{ if eq .code $pan }}
-        {{ $show_day = true }}
+        {{ $showDay = true }}
       {{end}}
       {{ if eq .keynote $keynote }}
-        {{ $show_day = true }}
+        {{ $showDay = true }}
       {{end}}
     {{end}}
   {{end}}
-  
-  {{ if $show_day }}
+  {{ if $showDay }}
     {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $pan) }}
   {{end}}
 {{end}}
