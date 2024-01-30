@@ -171,7 +171,7 @@ params:
           events:
             - type: "other"
               content: "Farewell Reception and Gala"
-              location: "TBD"
+              location: "Harvard Faculty Club"
         
 menu:
   main:
