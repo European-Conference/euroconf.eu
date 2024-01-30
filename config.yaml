@@ -52,7 +52,7 @@ params:
               moderator: shapiro
               code: "bc"
             - type: "workshop"
-              content: "Workshop with Students #1"
+              content: "Workshop with Students #1: A discussion with Péter Szijjártó"
               location: "TBD"
         - time: "3:15pm – 3:45pm"
           events:
@@ -108,7 +108,7 @@ params:
               moderator: macomber
               code: "cc"
             - type: "workshop"
-              content: "Workshop with Students #4"
+              content: "Workshop with Students #4: A discussion with Radosław Sikorski"
               location: "TBD"
         - time: "11:00am – 11:30pm"
           events:
