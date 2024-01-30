@@ -52,7 +52,7 @@ params:
               moderator: shapiro
               code: "cc"
             - type: "workshop"
-              content: "Workshop with Students #1: A Discussion with Péter Szijjártó"
+              content: "Workshop with Students: A Discussion with Péter Szijjártó"
               location: "TBD"
         - time: "3:15pm – 3:45pm"
           events:
@@ -60,7 +60,7 @@ params:
               location: "Nye Auditorium"
               keynote: b
             - type: "workshop"
-              content: "Workshop with Students #2"
+              content: "Workshop with Students"
               location: "TBD"
         - time: "4:00pm – 5:00pm"
           events:
@@ -81,10 +81,10 @@ params:
               moderator: agathos
               code: "ac"
             - type: "workshop"
-              content: "Workshop with Students #3: Climate Negotations"
+              content: "Workshop with Students: Climate Negotations"
               location: "TBD"
             - type: "workshop"
-              content: "Workshop with Students #4: A Discussion with Radosław Sikorski"
+              content: "Workshop with Students: A Discussion with Radosław Sikorski"
               location: "TBD"
     - name: "Saturday, February 10, 2024"
       location: "Harvard Kennedy School of Government (HKS) and TBD"
@@ -110,6 +110,9 @@ params:
               location: "Starr Auditorium"
               moderator: macomber
               code: "bc"
+            - type: "workshop"
+              content: "Workshop with Students"
+              location: "TBD"
         - time: "11:00am – 11:30pm"
           events:
             - type: "other"
@@ -126,7 +129,7 @@ params:
               code: "cb"
               moderator: vinhas-de-souza
             - type: "workshop"
-              content: "Workshop with Students #5"
+              content: "Workshop with Students"
               location: "TBD"
         - time: "1:00pm – 2:30pm"
           events:
@@ -150,7 +153,7 @@ params:
               moderator: "zanfir"
               code: "aa"
             - type: "workshop"
-              content: "Workshop with Students #6"
+              content: "Workshop with Students"
               location: "TBD"
         - time: "4:15pm – 4:45pm"
           events:
