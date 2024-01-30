@@ -6,7 +6,7 @@ The European Conference will take place at the Harvard Kennedy School on Friday,
 
 Lunch will be provided both days. Coffee and snacks will be provided during breaks.
 
-Please enter through the main entrance, as shown in the image below. Attendees will register at a registration table near the entrance. Attendees do not need to bring a physical or digital ticket with them, but they should bring a photo ID so their name can be verified against our list of those who have purchased a ticket. <div class='hks-map'>![image](hks-map.png)</div>
+Please enter through the main entrance, as shown in the image below. Attendees will register at a registration table near the entrance. Attendees do not need to bring a physical or digital ticket with them, but they should bring a photo ID so their name can be verified against our list of those who have purchased a ticket. The registration table will be open all day both days to accomodate those who arrive later. <div class='hks-map'>![image](hks-map.png)</div>
 
 ### Farewell Gala
 
