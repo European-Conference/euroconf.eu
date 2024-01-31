@@ -50,7 +50,7 @@ params:
             - type: "panel"
               content: "Empower Europe: The Road to an Inclusive Energy Transition"
               location: "Nye Auditorium"
-              moderator: "shapiro"
+              moderator: macomber
               code: "cc"
             - type: "workshop"
               content: "Workshop with Students: A Discussion with Péter Szijjártó"
@@ -108,7 +108,7 @@ params:
             - type: "panel"
               content: "EU-US Relations: Building Collective Security in a Shifting World"
               location: "Starr Auditorium"
-              moderator: macomber
+              moderator: "shapiro"
               code: "bc"
             - type: "workshop"
               content: "Workshop with Students"
