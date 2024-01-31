@@ -52,7 +52,7 @@ title: "Home"
 <div class="homepage-q-and-a">
   <div class = "q-and-a-flex">
     <div class = "q-and-a-flex-item">
-      <b>Why should you atttend the European Conference?</b>
+      <b>Why should you attend the European Conference?</b>
       <p>At the European Conference, you will have the exclusive opportunity to</p>
       <ul>
         <li><i>Network with Influential European and American Figures:</i> Connect with high-ranking officials, from government representatives to business leaders, who are shaping the future of Europe. This is your chance to engage with those who make impactful decisions.</li>
