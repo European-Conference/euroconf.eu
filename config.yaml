@@ -39,6 +39,7 @@ params:
             - type: "panel"
               content: "Challenges to European Democracies: The Rise of Populism and Democratic Backsliding"
               location: "Nye Auditorium"
+              moderator: "agathos"
               code: "db"
         - time: "2pm – 3pm"
           events:
@@ -49,7 +50,7 @@ params:
             - type: "panel"
               content: "Empower Europe: The Road to an Inclusive Energy Transition"
               location: "Nye Auditorium"
-              moderator: shapiro
+              moderator: "shapiro"
               code: "cc"
             - type: "workshop"
               content: "Workshop with Students: A Discussion with Péter Szijjártó"
@@ -78,7 +79,6 @@ params:
             - type: "panel"
               content: "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
               location: "Starr Auditorium"
-              moderator: agathos
               code: "ac"
             - type: "workshop"
               content: "Workshop with Students: Climate Negotations"
