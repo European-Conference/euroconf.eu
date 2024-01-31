@@ -1,4 +1,4 @@
-<!-- schedule_slot.html is summoned by schedule_day.html. This part of the code adds the time for each slot in the schedule. It then loops through the events under each slot in config.yaml to create a list of speakers ($speakerLinks) for each panel. Once all the speakers for a panel are gathered, the code then calls the final partial schedule_slot.html.--> 
+<!-- schedule_slot.html is summoned by schedule_day.html. This part of the code first adds the time for each slot in the schedule. It then loops through the events under each slot in config.yaml to create a list of speakers ($speakerLinks) for each panel. It then adds the event title, speakers, and moderators. --> 
 <div class="schedule-slot">
   <span class="time"> {{ .slot.time }} </span>
   <div class="schedule-events">
@@ -41,7 +41,7 @@
         {{end}}
       {{end}}
 
-<!-- schedule_event.html is the final part of creating the schedule. This part of the code adds the panel title and speakers.-->
+<!-- This part of the code adds the panel title and speakers.-->
       <div class="schedule-event {{ .type }}" id="schedule-panel-{{ .code }}">
         <div class="event-info">
           {{ if eq .type "keynote"}}
