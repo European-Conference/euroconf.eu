@@ -86,6 +86,10 @@ params:
             - type: "workshop"
               content: "Workshop with Students: A Discussion with Radosław Sikorski"
               location: "TBD"
+          - time: 7:00pm – 10:00pm"
+            events:
+              - type: "other"
+                content: "Exclusive Authorities Welcome Reception" 
     - name: "Saturday, February 10, 2024"
       location: "Harvard Kennedy School of Government (HKS) and TBD"
       slots:
