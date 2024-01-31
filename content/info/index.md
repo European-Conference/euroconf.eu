@@ -8,6 +8,9 @@ Lunch will be provided both days. Coffee and snacks will be provided during brea
 
 Please enter through the main entrance, as shown in the image below. Attendees will register at a registration table near the entrance. Attendees do not need to bring a physical or digital ticket with them, but they should bring a photo ID so their name can be verified against our list of those who have purchased a ticket. The registration table will be open all day both days to accomodate those who arrive later. <div class='hks-map'>![image](hks-map.png)</div>
 
+### Workshops
+Multiple workshops will be offered at the conference. Workshops are events in which attendees will be able to interact with a speaker in a smaller setting of 20-25 people. Given the limited space available, conference attendees must sign up for these workshops in advance. An email sent will be sent to all registrants on February 2, 2024, with instructions on how to sign up for workshops.
+
 ### Farewell Gala
 
 The farewell gala and reception will take place at the Harvard Faculty Club beginning at 8:00pm on Saturday, February 10. The address is 20 Quincy St, Cambridge, MA 02138 ([Google Maps link](https://www.google.com/maps/place/Harvard+Faculty+Club/@42.3732533,-71.1167595,17z/data=!3m1!4b1!4m6!3m5!1s0x89e377a7db192837:0xa7254ff63e9ae82e!8m2!3d42.3732494!4d-71.1141792!16s%2Fg%2F11bws8cjzj?entry=ttu)). All attendees must have purchased both a conference and a reception ticket. All attendees must be at least 21 years old, as drinks will be offered. As with the conference, attendees do not need to bring a physical or digital ticket with them, but they should bring a photo ID so their name can be verified against our list of those who have purchased a ticket. The dress code is business casual. 
