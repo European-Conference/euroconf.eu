@@ -3,95 +3,97 @@
   <span class="time"> {{ .slot.time }} </span>
   <div class="schedule-events">
     {{ range .slot.events }}
-      {{$speakerLinks := slice}}
-
-<!-- This section looks for speakers whose first panel parameter (Params.panel) matches a given panel code (.code) in config.yaml -->
-      {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
-      {{ $bridge := (where $pages "Params.panel" .code) }}
-      {{ $speakers := (where $bridge "Params.moderator" "!=" true) }}
-      {{ range $speakers}}
-        {{ if eq .Params.show true }}
-          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
-        {{ else }}
-          {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
-        {{end}}
-      {{end}}
-
-<!-- This section looks for speakers whose second panel parameter (Params.panel_two) matches a given panel code (.code) in config.yaml -->
-      {{ $pagesTwo := (where $pages "Params.panel_two" "!=" nil) }} 
-      {{ $bridgeTwo := (where $pagesTwo "Params.panel_two" .code) }}
-      {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" true) }}
-      {{ range $speakersTwo}}
-        {{ if eq .Params.show true }}
-          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
-        {{ else }}
-          {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
-        {{end}}
-      {{end}}
-
-<!-- This section looks for keynote speakers whose keynote parameter (Params.keynote) matches a given keynote code (.keynote) in config.yaml -->
-      {{ $pagesKeynote := (where $pages "Params.keynote" "!=" nil) }} 
-      {{ $bridgeKeynote := (where $pages "Params.keynote" .keynote) }}
-      {{ $speakersKeynote := (where $bridgeKeynote "Params.moderator" "!=" true) }}
-      {{ range $speakersKeynote}}
-        {{ if eq .Params.show true }}
-          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
-        {{ else }}
-          {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
-        {{end}}
-      {{end}}
-
-<!-- This part of the code adds the panel title and speakers.-->
-      <div class="schedule-event {{ .type }}" id="schedule-panel-{{ .code }}">
-        <div class="event-info">
-          {{ if eq .type "keynote"}}
-            <span class="event-type-tag">Keynote Address</span><br />
+      {{ if ne .type "workshop" }}
+        {{$speakerLinks := slice}}
+  
+  <!-- This section looks for speakers whose first panel parameter (Params.panel) matches a given panel code (.code) in config.yaml -->
+        {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
+        {{ $bridge := (where $pages "Params.panel" .code) }}
+        {{ $speakers := (where $bridge "Params.moderator" "!=" true) }}
+        {{ range $speakers}}
+          {{ if eq .Params.show true }}
+            {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+          {{ else }}
+            {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
           {{end}}
-          {{ if eq .type "panel"}}
-            <span class="event-type-tag">Panel</span><br />
+        {{end}}
+  
+  <!-- This section looks for speakers whose second panel parameter (Params.panel_two) matches a given panel code (.code) in config.yaml -->
+        {{ $pagesTwo := (where $pages "Params.panel_two" "!=" nil) }} 
+        {{ $bridgeTwo := (where $pagesTwo "Params.panel_two" .code) }}
+        {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" true) }}
+        {{ range $speakersTwo}}
+          {{ if eq .Params.show true }}
+            {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+          {{ else }}
+            {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
           {{end}}
-          {{ if eq .type "workshop"}}
-            <span class="event-type-tag">Workshop</span><br />
+        {{end}}
+  
+  <!-- This section looks for keynote speakers whose keynote parameter (Params.keynote) matches a given keynote code (.keynote) in config.yaml -->
+        {{ $pagesKeynote := (where $pages "Params.keynote" "!=" nil) }} 
+        {{ $bridgeKeynote := (where $pages "Params.keynote" .keynote) }}
+        {{ $speakersKeynote := (where $bridgeKeynote "Params.moderator" "!=" true) }}
+        {{ range $speakersKeynote}}
+          {{ if eq .Params.show true }}
+            {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+          {{ else }}
+            {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
           {{end}}
-          <span class="event-title"> 
-            {{.content | safeHTML}} 
-          </span>
-          <span class="event-speakers">
-            {{ range $key, $value := sort $speakerLinks }}
-              <!-- Creates a "|" between speakers. This code is not activated during the first loop because the array $.speakerLinks is zero-indexed, meaning the first value of $key is 0.-->
-            {{if $key}}
-                |
-              {{end}}
-              {{safeHTML $value}}
+        {{end}}
+  
+  <!-- This part of the code adds the panel title and speakers.-->
+        <div class="schedule-event {{ .type }}" id="schedule-panel-{{ .code }}">
+          <div class="event-info">
+            {{ if eq .type "keynote"}}
+              <span class="event-type-tag">Keynote Address</span><br />
             {{end}}
-          </span>
-      
-<!-- This part of the code adds the moderators.-->
-          <span class="event-moderators">
-            {{ if in .event.moderator " " }}
-              Moderated by {{.moderator | safeHTML}}
-            {{ else }}
-              {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
-              {{ $moderators := (where $pages "File.ContentBaseName" .moderator) }}
-              {{ $moderator := index $moderators 0}}
-              {{ if $moderator }}
-                {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name}}
-                {{ $moderatorText := "Moderated by "}}
-                {{ if .moderatorText }}
-                  {{ $moderatorText = .moderatorText }}
+            {{ if eq .type "panel"}}
+              <span class="event-type-tag">Panel</span><br />
+            {{end}}
+            {{ if eq .type "workshop"}}
+              <span class="event-type-tag">Workshop</span><br />
+            {{end}}
+            <span class="event-title"> 
+              {{.content | safeHTML}} 
+            </span>
+            <span class="event-speakers">
+              {{ range $key, $value := sort $speakerLinks }}
+                <!-- Creates a "|" between speakers. This code is not activated during the first loop because the array $.speakerLinks is zero-indexed, meaning the first value of $key is 0.-->
+              {{if $key}}
+                  |
+                {{end}}
+                {{safeHTML $value}}
+              {{end}}
+            </span>
+        
+  <!-- This part of the code adds the moderators.-->
+            <span class="event-moderators">
+              {{ if in .event.moderator " " }}
+                Moderated by {{.moderator | safeHTML}}
+              {{ else }}
+                {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }}
+                {{ $moderators := (where $pages "File.ContentBaseName" .moderator) }}
+                {{ $moderator := index $moderators 0}}
+                {{ if $moderator }}
+                  {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name}}
+                  {{ $moderatorText := "Moderated by "}}
+                  {{ if .moderatorText }}
+                    {{ $moderatorText = .moderatorText }}
+                  {{ end }}
+                  {{$moderatorText}}
+                  {{ safeHTML $moderatorLink }}
                 {{ end }}
-                {{$moderatorText}}
-                {{ safeHTML $moderatorLink }}
               {{ end }}
-            {{ end }}
-          </span>
+            </span>
+          </div>
+        
+  <!-- This part of the code adds the location (obviously).-->
+          <div class="event-location"> 
+            {{ .location }} 
+          </div>
         </div>
-      
-<!-- This part of the code adds the location (obviously).-->
-        <div class="event-location"> 
-          {{ .location }} 
-        </div>
-      </div>
+      {{end}}
     {{end}}
   </div>
 </div>
