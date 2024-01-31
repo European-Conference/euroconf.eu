@@ -1,6 +1,6 @@
 ---
 name: Estelle Martin
-role: Conference Collaborator
+role: Conference collaborator
 keynote: false
 show: true
 ---
