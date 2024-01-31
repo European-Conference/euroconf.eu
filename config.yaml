@@ -86,7 +86,7 @@ params:
             - type: "workshop"
               content: "Workshop with Students: A Discussion with Radosław Sikorski"
               location: "TBD"
-        - time: 7:00pm – 10:00pm"
+        - time: "7:00pm – 10:00pm"
           events:
             - type: "other"
               content: "Exclusive Authorities Welcome Reception" 
