@@ -30,6 +30,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "LAST MINUTE TICKETS AVAILABLE";
+    document.getElementById("increase").innerHTML = ""
+    document.getElementById("countdown").innerHTML = "Last-minute tickets still available!";
   }
 }, 1000);
