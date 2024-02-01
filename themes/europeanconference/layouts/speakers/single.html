@@ -54,7 +54,7 @@
     {{end}}
   {{end}}
   {{ if $showDay }}
-    {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $pan) }}
+    {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $pan "fileName" $fileName) }}
   {{end}}
 {{end}}
 
