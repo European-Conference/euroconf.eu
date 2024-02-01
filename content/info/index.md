@@ -12,7 +12,7 @@ On Saturday, please enter through the **main entrance**, as shown in the image b
 #### Registration and Food
 Attendees do not need to bring a physical or digital ticket with them, but they should bring a **photo ID** both days so their name can be verified against our list of those who have purchased a ticket. The registration table will be open all day both days to accomodate those who arrive later. Conference badges will be provided to all attendees.
 
-Lunch will be provided both days. Coffee and snacks will be provided during breaks.
+**Lunch** will be provided both days. Coffee and snacks will be provided during breaks.
 
 #### Workshops
 Multiple workshops will be offered at the conference. Workshops are events in which attendees will be able to interact with a speaker in a smaller setting of 20-25 people. Given the limited space available, conference attendees must sign up for these workshops in advance. An email sent will be sent to all registrants on **February 2, 2024**, with instructions on how to sign up for workshops.
