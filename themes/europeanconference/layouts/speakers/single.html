@@ -20,6 +20,7 @@
 {{ $pan := .Params.Panel }}
 {{ $panTwo := .Params.Panel_two }}
 {{ $keynote := .Params.Keynote }}
+{{ $fileName := .File.ContentBaseName }}
 
 {{ with .Params.Panel_two }}
   {{ range $.Site.Params.Schedule }}
@@ -47,7 +48,7 @@
       {{ if eq .keynote $keynote }}
         {{ $showDay = true }}
       {{end}}
-      {{ if and (eq .type "keynote") (eq .moderator "$.File.ContentBaseName") }}
+      {{ if and (eq .type "keynote") (eq .moderator $fileName) }}
         {{ $showDay = true }}
       {{end}}
     {{end}}
