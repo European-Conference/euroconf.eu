@@ -33,7 +33,7 @@ params:
           events:
             - type: "panel"
               content: "Building Global Coalitions on Feminism, LGBTQ Rights, and Minorities Representation"
-              location: "Bell Hall"
+              location: "Allison Auditorium"
               moderator: marks
               code: "dc"
             - type: "panel"
@@ -45,7 +45,7 @@ params:
           events:
             - type: "panel"
               content: "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy"
-              location: "Bell Hall"
+              location: "Allison Auditorium"
               code: "dd"
             - type: "panel"
               content: "Empower Europe: The Road to an Inclusive Energy Transition"
