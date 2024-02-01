@@ -47,6 +47,9 @@
       {{ if eq .keynote $keynote }}
         {{ $showDay = true }}
       {{end}}
+      {{ if and (eq .type "keynote") (eq .moderator "File.ContentBaseName") }}
+        {{ $showDay = true }}
+      {{end}}
     {{end}}
   {{end}}
   {{ if $showDay }}
