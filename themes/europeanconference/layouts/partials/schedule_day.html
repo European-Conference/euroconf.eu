@@ -16,6 +16,9 @@
         {{ if eq .code $.pan }}
           {{ $speaker_appears = true }}
         {{ end }}
+        {{ if eq .moderator $.fileName }}
+          {{ $speaker_appears = true }}
+        {{ end }}
       {{ end }}
       <!-- When schedule_day.html is called by the schedule shortcode, there will be no panel associated with the shortcode, but we still want the $speaker_appears condtion to be met.-->
       {{ if not $.pan }}
