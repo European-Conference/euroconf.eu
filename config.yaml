@@ -144,6 +144,7 @@ params:
             - type: "keynote"
               location: "JFK Forum"
               keynote: d
+              moderator: "schwarzer"
         - time: "3:15pm - 4:15pm"
           events:
             - type: "panel"
