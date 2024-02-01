@@ -2,7 +2,9 @@
 name: John D. Macomber
 role: Senior Lecturer of Business Administration at Harvard Business School
 keynote: false
+moderator: true
 show: true
+panel: cc
 
 ---
 
