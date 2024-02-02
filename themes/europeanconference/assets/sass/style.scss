@@ -306,6 +306,10 @@ nav {
 
 #countdown {
   font-size: 300%;
+
+  @media (max-width: 600px) {
+    font-size: 150%
+  }
 }
 
 /* Formatting for list of panels on homepage */
