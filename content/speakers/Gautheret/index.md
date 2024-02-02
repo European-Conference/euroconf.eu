@@ -1,6 +1,6 @@
 ---
 name: Jérôme Gautheret
-role: Editor-in-chief, _Le Monde_
+role: Editor-in-chief, Le Monde
 keynote: false
 show: true
 panel: db
