@@ -3,6 +3,7 @@ name: Alejandro Martin Rodriguez
 role: Point of contact - Social rights panel
 keynote: false
 show: true
+priority: 140
 
 ---
 
