@@ -2,7 +2,7 @@
 name: Radosław Sikorski
 role: Minister of Foreign Affairs of Poland
 keynote: false
-show: true
+show: false
 panel: ba
 ---
 
