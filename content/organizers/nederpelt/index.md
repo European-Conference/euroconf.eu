@@ -1,6 +1,6 @@
 ---
 name: Charlie Nederpelt
-role: Conference Collaborator
+role: Conference collaborator
 keynote: false
 show: true
 priority: 160
