@@ -17,8 +17,6 @@
             {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
           {{end}}
         {{end}}
-
-        {{ $speakerLinks }}
   
   <!-- This section looks for speakers whose second panel parameter (Params.panel_two) matches a given panel code (.code) in config.yaml -->
         {{ $pagesTwo := (where $pages "Params.panel_two" "!=" nil) }} 
