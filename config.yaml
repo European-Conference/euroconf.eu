@@ -45,6 +45,7 @@ params:
             - type: "panel"
               content: "Integration in Times of Conflict: Prospects and Challenges of Ukraine’s EU Candidacy"
               location: "Allison Auditorium"
+              moderator: "bergmann"
               code: "dd"
             - type: "panel"
               content: "Challenges to European Democracies: The Rise of Populism and Democratic Backsliding"
