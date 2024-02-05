@@ -40,7 +40,7 @@ title: "Home"
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-bb">War and Reconstruction: Crafting a Comprehensive Strategy for <b>Ukraine's Prosperous Future</b></a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-bc"><b>EU-US Relations:</b> Building Collective Security in a Shifting World</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-be">Challenge and Opportunity: Building Momentum in <b>Migration Policy</b></a>
-    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-ca">Europe’s Role in <b>Global Climate Action:</b> Leading or Lagging?</a>
+    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-ca">Workshop: Negotiating <b>Climate Agreements</b></a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-cb">Ensuring European <b>Competitiveness in the Green Deal Era</b></a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-cc">Empower Europe: The Road to <b>Inclusive Energy Transition</b></a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-da">2024, An Election Year: The <b>European Elections</b> and the New Challenges for European Leadership</a>
