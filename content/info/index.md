@@ -15,7 +15,7 @@ Attendees do not need to bring a physical or digital ticket with them, but they 
 **Lunch** will be provided both days. Coffee and snacks will be provided during breaks.
 
 #### Workshops
-Multiple workshops will be offered at the conference. Workshops are events in which attendees will be able to interact with a speaker in a smaller setting of 20-25 people. Given the limited space available, conference attendees must sign up for these workshops in advance. An email sent will be sent to all registrants on **February 2, 2024**, with instructions on how to sign up for workshops.
+Multiple workshops will be offered at the conference. Workshops are events in which attendees will be able to interact with a speaker in a smaller setting of 20-25 people. Given the limited space available, conference attendees must sign up for these workshops in advance. An email sent will be sent to all registrants on **February 7, 2024**, with a link to sign up for workshops.
 
 ### Farewell Gala
 
