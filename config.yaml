@@ -35,10 +35,11 @@ params:
               content: "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
               location: "Starr Auditorium"
               code: "ac"
+              moderator: "ivashina"
             - type: "panel"
               content: "Empower Europe: The Road to an Inclusive Energy Transition"
               location: "Nye Auditorium"
-              moderator: macomber
+              moderator: "macomber"
               code: "cc"
         - time: "1:40pm – 2:40pm"
           events:
