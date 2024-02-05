@@ -5,6 +5,9 @@ title: "Home"
 <div class="homepage-conference-title">
   <h1>The European Dream</h1>
   <h2>2024: A Continent at the Crossroads</h2>
+  <div id='student-run'>
+    <i>A student-led conference at the Harvard Kennedy School</i>
+  </div>
   <div>
     <a id='tickets-btn' class="pure-button pure-button-primary" href="https://secure.touchnet.net/C20832_ustores/web/store_main.jsp?STOREID=18&SINGLESTORE=true">Get your ticket now!</a>
   </div>
