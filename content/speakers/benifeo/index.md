@@ -1,6 +1,6 @@
 ---
 name: Brando Benifei
-role: Member of European Parliament
+role: Member of the European Parliament, Progressive Alliance of Socialists and Democrats political group
 keynote: false
 show: true
 panel: da
