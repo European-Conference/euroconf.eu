@@ -1,5 +1,5 @@
 ---
-name: Brando Benifeo
+name: Brando Benifei
 role: Member of European Parliament
 keynote: false
 show: true
