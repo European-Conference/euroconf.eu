@@ -1,5 +1,5 @@
 ---
-name: Bojan Marichic
+name: Bojan Marichikj
 role: First Deputy Prime Minister of the Republic of North Macedonia, in charge of European Affairs.
 keynote: false
 show: true
