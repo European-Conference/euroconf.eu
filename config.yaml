@@ -78,6 +78,7 @@ params:
               content: "What is the Future of Science and Innovation in Europe?"
               location: "JFK Jr. Forum"
               code: "ab"
+              moderator: "chalupowski"
             - type: "panel"
               content: "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
               location: "Starr Auditorium"
