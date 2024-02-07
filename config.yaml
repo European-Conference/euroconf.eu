@@ -68,7 +68,7 @@ params:
         - time: "4:00pm – 5:00pm"
           events:
             - type: "panel"
-              content: "Debate: Europe’s Position in a Multipower and Polarized World"
+              content: "Europe’s Position in a Multipower and Polarized World"
               location: "JFK Jr. Forum"
               moderator: "donfried"
               code: "ba"
