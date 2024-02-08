@@ -54,6 +54,7 @@ params:
             - type: "panel"
               content: "Building Global Coalitions on Feminism, LGBTQ Rights, and Minorities Representation"
               location: "Allison Auditorium"
+              moderator: "ayee"
               code: "dc"
             - type: "workshop"
               content: "Workshop: A Discussion with Péter Szijjártó"
