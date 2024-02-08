@@ -26,8 +26,6 @@ title: "Home"
 <h2 id="speakers-list" class="homepage-headers">Speakers</h2>
 <div class="homepage-speakers-list">
   {{< speakers_list >}}
-  
-  ...And more speakers to be added soon!
 </div>
 
 <h2 class="homepage-headers">Panels</h2>
