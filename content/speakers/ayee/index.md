@@ -2,6 +2,7 @@
 name: Dr. Gloria Ayee
 role: Lecturer at Harvard University and a Senior Research Fellow with the Institutional Antiracism and Accountability (IARA) 
 keynote: false
+moderator: true
 show: true
 panel: dc
 ---
