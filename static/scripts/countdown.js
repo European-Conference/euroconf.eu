@@ -31,6 +31,6 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("increase").innerHTML = ""
-    document.getElementById("countdown").innerHTML = "Last-minute tickets still available!";
+    document.getElementById("countdown").innerHTML = "";
   }
 }, 1000);
