@@ -27,6 +27,7 @@ params:
         - time: "12:00pm – 12:45pm"
           events:
             - type: "keynote"
+              content: "A Pivotal Year: What’s at Stake in 2024 for Europe, America, and the World"
               location: "Nye Auditorium"
               keynote: a
         - time: "1:00pm – 2:00pm"
@@ -163,6 +164,7 @@ params:
         - time: "4:45pm - 5:30pm"
           events:
             - type: "keynote"
+              content: "European Green Dream Meeting Reality"
               location: "JFK Jr. Forum"
               keynote: e
               speaker: "sefcovic"
