@@ -9,7 +9,7 @@ title: "Home"
     <i>A student-led conference at Harvard Kennedy School</i>
   </div>
   <div>
-    <a id='tickets-btn' class="pure-button pure-button-primary"> All tickets sold out </a>
+    <p id='tickets-btn' class="pure-button pure-button-primary"> All tickets sold out </p>
   </div>
   <p id='increase'
   </p>
