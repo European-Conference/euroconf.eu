@@ -133,11 +133,11 @@ params:
             - type: "workshop"
               content: "Workshop: A Discussion with Dimitris Kairidis"
               location: "Littauer Deland"
-        - time: "1:00pm – 2:30pm"
+        - time: "1:00pm – 2:15pm"
           events:
             - type: "other"
               content: "Lunch"
-        - time: "2:30pm - 3:00pm"
+        - time: "2:15pm - 3:00pm"
           events:
             - type: "keynote"
               location: "JFK Jr. Forum"
