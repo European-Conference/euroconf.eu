@@ -4,6 +4,7 @@ role: Ambassador for Special Assignments at the Ministry of Foreign Affairs Latv
 keynote: false
 show: true
 panel: bb
+panel_two: dc
 ---
 
 Ambassador Baiba Braže currently serves as Ambassador for Special Assignments at the Ministry of Foreign Affairs of Latvia. Ambassador Braže was appointed Assistant Secretary General for Public Diplomacy at NATO from May 2020 until June 2023. The Public Diplomacy Division (PDD) works to raise the Alliance’s profile with audiences world-wide and to build support for Alliance operations and policies.
