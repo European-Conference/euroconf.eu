@@ -99,6 +99,7 @@ params:
         - time: "9:00am - 9:45am"
           events:
             - type: "keynote"
+              content: "Cohesion: A Pre-Condition for Unity"
               location: "JFK Jr. Forum"
               keynote: c
         - time: "10:00am - 11:00am"
