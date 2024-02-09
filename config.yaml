@@ -165,7 +165,7 @@ params:
         - time: "4:45pm - 5:30pm"
           events:
             - type: "keynote"
-              content: "European Green Dream Meeting Reality"
+              content: "The European Green Deal: Time for a New Deal?"
               location: "JFK Jr. Forum"
               keynote: e
               speaker: "sefcovic"
