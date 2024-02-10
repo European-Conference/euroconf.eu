@@ -14,6 +14,9 @@ Attendees do not need to bring a physical or digital ticket with them, but they 
 
 **Lunch** will be provided both days. Coffee and snacks will be provided during breaks.
 
+#### Marshall Plan Exhibition
+The Marshall Plan, started in 1948, was designed with several goals in mind: to relieve food shortages in Europe, to rebuild the European industry, to curb communism on the continent, and to bring unity to the continent. In 1950 a contest was announced to find a fitting image to strengthen (Western) European collaboration and shared identiy. Out of 10,000 designs, a jury selected the 25 posters you can see exhibited in the Winter Garden. These posters feature themes relating to diversity and unision, and to the challenges European countries faced together. Do they inspire as they did back then? See for yourself!
+
 #### Workshops
 Multiple workshops will be offered at the conference. Workshops are events in which attendees will be able to interact with a speaker in a smaller setting of 20-25 people. Given the limited space available, conference attendees must sign up for these workshops in advance. An email sent will be sent to all registrants on **February 7, 2024**, with a link to sign up for workshops.
 
