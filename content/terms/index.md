@@ -2,9 +2,9 @@
 
 Terms & Conditions
 
-Updated at 2023-02-08
+Updated on 2024-02-12
 
-General Terms
+**General Terms**
 
 By accessing and placing an order with European Conference Website, you confirm that you are in agreement with and bound by the terms of service contained in the Terms & Conditions outlined below. These terms apply to the entire website and any email or other type of communication between you and European Conference Website.
 
@@ -12,15 +12,15 @@ Under no circumstances shall European Conference Website team be liable for any 
 
 European Conference Website will not be responsible for any outcome that may occur during the course of usage of our resources. We reserve the rights to change prices and revise the resources usage policy in any moment.
 
-License
+**License**
 
 European Conference Website grants you a revocable, non-exclusive, non-transferable, limited license to download, install and use the website strictly in accordance with the terms of this Agreement.
 
-These Terms & Conditions are a contract between you and European Conference Website (referred to in these Terms & Conditions as "European Conference Website", "us", "we" or "our"), the provider of the European Conference Website website and the services accessible from the European Conference Website website (which are collectively referred to in these Terms & Conditions as the "European Conference Website Service").
+These Terms & Conditions are a contract between you and European Conference Website (referred to in these Terms & Conditions as "European Conference Website", "us", "we", or "our"), the provider of the European Conference Website website and the services accessible from the European Conference Website website (which are collectively referred to in these Terms & Conditions as the "European Conference Website Service").
 
 You are agreeing to be bound by these Terms & Conditions. If you do not agree to these Terms & Conditions, please do not use the European Conference Website Service. In these Terms & Conditions, "you" refers both to you as an individual and to the entity you represent. If you violate any of these Terms & Conditions, we reserve the right to cancel your account or block access to your account without notice.
 
-Meanings
+**Meanings**
 
 For this Terms & Conditions:
 
@@ -33,50 +33,54 @@ For this Terms & Conditions:
 - Website: European Conference Website."’s" site, which can be accessed via this URL: https://euroconf.eu
 - You: a person or entity that is registered with European Conference Website to use the Services.
 
-Restrictions
+**Restrictions**
 
 You agree not to, and you will not permit others to:
 
 - License, sell, rent, lease, assign, distribute, transmit, host, outsource, disclose or otherwise commercially exploit the website or make the platform available to any third party.
 - Remove, alter or obscure any proprietary notice (including any notice of copyright or trademark) of European Conference Website or its affiliates, partners, suppliers or the licensors of the website.
 
-Return and Refund Policy
+**Speaker Views**
+
+European Conference Website does not bear responsibility for the opinions expressed by the panelists and speakers invited to the conference, nor does it endorse or oppose them. One of the primary objectives of the conference is to foster dialogue among different viewpoints, promote freedom of speech, and facilitate learning from diverse perspectives.
+
+**Return and Refund Policy**
 
 Thanks for shopping at European Conference Website. We appreciate the fact that you like to buy the stuff we build. We also want to make sure you have a rewarding experience while you’re exploring, evaluating, and purchasing our products.
 
-As with any shopping experience, there are terms and conditions that apply to transactions at European Conference Website. We’ll be as brief as our attorneys will allow. The main thing to remember is that by placing an order or making a purchase at European Conference Website, you agree to the terms along with European Conference Website."’s" Privacy Policy.
+As with any shopping experience, there are terms and conditions that apply to transactions at European Conference Website. We’ll be as brief as our attorneys will allow. The main thing to remember is that by placing an order or making a purchase at European Conference Website, you agree to the terms along with European Conference Website’s Privacy Policy.
 
-If, for any reason, You are not completely satisfied with any good or service that we provide, don't hesitate to contact us and we will discuss any of the issues you are going through with our product.
+If, for any reason, you are not completely satisfied with any good or service that we provide, don't hesitate to contact us and we will discuss any of the issues you are going through with our product.
 
-Your Suggestions
+**Your Suggestions**
 
 Any feedback, comments, ideas, improvements or suggestions (collectively, "Suggestions") provided by you to European Conference Website with respect to the website shall remain the sole and exclusive property of European Conference Website.
 
 European Conference Website shall be free to use, copy, modify, publish, or redistribute the Suggestions for any purpose and in any way without any credit or any compensation to you.
 
-Your Consent
+**Your Consent**
 
 We've updated our Terms & Conditions to provide you with complete transparency into what is being set when you visit our site and how it's being used. By using our website, registering an account, or making a purchase, you hereby consent to our Terms & Conditions.
 
-Links to Other Websites
+**Links to Other Websites**
 
 This Terms & Conditions applies only to the Services. The Services may contain links to other websites not operated or controlled by European Conference Website. We are not responsible for the content, accuracy or opinions expressed in such websites, and such websites are not investigated, monitored or checked for accuracy or completeness by us. Please remember that when you use a link to go from the Services to another website, our Terms & Conditions are no longer in effect. Your browsing and interaction on any other website, including those that have a link on our platform, is subject to that website’s own rules and policies. Such third parties may use their own cookies or other methods to collect information about you.
 
-Cookies
+**Cookies**
 
 European Conference Website uses "Cookies" to identify the areas of our website that you have visited. A Cookie is a small piece of data stored on your computer or mobile device by your web browser. We use Cookies to enhance the performance and functionality of our website but are non-essential to their use. However, without these cookies, certain functionality like videos may become unavailable or you would be required to enter your login details every time you visit the website as we would not be able to remember that you had logged in previously. Most web browsers can be set to disable the use of Cookies. However, if you disable Cookies, you may not be able to access functionality on our website correctly or at all. We never place Personally Identifiable Information in Cookies.
 
-Changes To Our Terms & Conditions
+**Changes To Our Terms & Conditions**
 
 You acknowledge and agree that <?=European Conference Website;?> may stop (permanently or temporarily) providing the Service (or any features within the Service) to you or to users generally at <?=European Conference Website;?>’s sole discretion, without prior notice to you. You may stop using the Service at any time. You do not need to specifically inform <?=European Conference Website;?> when you stop using the Service. You acknowledge and agree that if <?=European Conference Website;?> disables access to your account, you may be prevented from accessing the Service, your account details or any files or other materials which is contained in your account.
 
 If we decide to change our Terms & Conditions, we will post those changes on this page, and/or update the Terms & Conditions modification date below.
 
-Modifications to Our website
+**Modifications to Our website**
 
-European Conference Website reserves the right to modify, suspend or discontinue, temporarily or permanently, the website or any service to which it connects, with or without notice and without liability to you.
+European Conference Website reserves the right to modify, suspend, or discontinue, temporarily or permanently, the website or any service to which it connects, with or without notice and without liability to you.
 
-Updates to Our website
+**Updates to Our website**
 
 European Conference Website may from time to time provide enhancements or improvements to the features/ functionality of the website, which may include patches, bug fixes, updates, upgrades and other modifications ("Updates").
 
@@ -84,7 +88,7 @@ Updates may modify or delete certain features and/or functionalities of the webs
 
 You further agree that all Updates will be (i) deemed to constitute an integral part of the website, and (ii) subject to the terms and conditions of this Agreement.
 
-Third-Party Services
+**Third-Party Services**
 
 We may display, include or make available third-party content (including data, information, applications and other products services) or provide links to third-party websites or services ("Third- Party Services").
 
@@ -92,7 +96,7 @@ You acknowledge and agree that European Conference Website shall not be responsi
 
 Third-Party Services and links thereto are provided solely as a convenience to you and you access and use them entirely at your own risk and subject to such third parties' terms and conditions.
 
-Term and Termination
+**Term and Termination**
 
 This Agreement shall remain in effect until terminated by you or European Conference Website.
 
@@ -103,15 +107,15 @@ This Agreement will terminate immediately, without prior notice from European Co
 Upon termination of this Agreement, you shall cease all use of the website and delete all copies of the website from your computer.
 Termination of this Agreement will not limit any of European Conference Website's rights or remedies at law or in equity in case of breach by you (during the term of this Agreement) of any of your obligations under the present Agreement.
 
-Copyright Infringement Notice
+**Copyright Infringement Notice**
 
 If you are a copyright owner or such owner’s agent and believe any material on our website constitutes an infringement on your copyright, please contact us setting forth the following information: (a) a physical or electronic signature of the copyright owner or a person authorized to act on his behalf; (b) identification of the material that is claimed to be infringing; (c) your contact information, including your address, telephone number, and an email; (d) a statement by you that you have a good faith belief that use of the material is not authorized by the copyright owners; and (e) the a statement that the information in the notification is accurate, and, under penalty of perjury you are authorized to act on behalf of the owner.
 
-Indemnification
+**Indemnification**
 
 You agree to indemnify and hold European Conference Website and its parents, subsidiaries, affiliates, officers, employees, agents, partners and licensors (if any) harmless from any claim or demand, including reasonable attorneys' fees, due to or arising out of your: (a) use of the website; (b) violation of this Agreement or any law or regulation; or (c) violation of any right of a third party.
 
-No Warranties
+**No Warranties**
 
 The website is provided to you "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, European Conference Website, on its own behalf and on behalf of its affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the website, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, European Conference Website provides no warranty or undertaking, and makes no representation of any kind that the website will meet your requirements, achieve any intended results, be compatible or work with any other software, , systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.
 
@@ -119,7 +123,7 @@ Without limiting the foregoing, neither European Conference Website nor any Euro
 
 Some jurisdictions do not allow the exclusion of or limitations on implied warranties or the limitations on the applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to you.
 
-Limitation of Liability
+**Limitation of Liability**
 
 Notwithstanding any damages that you might incur, the entire liability of European Conference Website and any of its suppliers under any provision of this Agreement and your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by you for the website.
 
@@ -127,29 +131,29 @@ To the maximum extent permitted by applicable law, in no event shall European Co
 
 Some states/jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you.
 
-Severability
+**Severability**
 
 If any provision of this Agreement is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.
 
 This Agreement, together with the Privacy Policy and any other legal notices published by European Conference Website on the Services, shall constitute the entire agreement between you and European Conference Website concerning the Services. If any provision of this Agreement is deemed invalid by a court of competent jurisdiction, the invalidity of such provision shall not affect the validity of the remaining provisions of this Agreement, which shall remain in full force and effect. No waiver of any term of this Agreement shall be deemed a further or continuing waiver of such term or any other term, and European Conference Website."’s" failure to assert any right or provision under this Agreement shall not constitute a waiver of such right or provision. YOU AND European Conference Website AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE SERVICES MUST COMMENCE WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.
 
-Waiver
+**Waiver**
 
 Except as provided herein, the failure to exercise a right or to require performance of an obligation under this Agreement shall not effect a party's ability to exercise such right or require such performance at any time thereafter nor shall be the waiver of a breach constitute waiver of any subsequent breach.
 
 No failure to exercise, and no delay in exercising, on the part of either party, any right or any power under this Agreement shall operate as a waiver of that right or power. Nor shall any single or partial exercise of any right or power under this Agreement preclude further exercise of that or any other right granted herein. In the event of a conflict between this Agreement and any applicable purchase or other terms, the terms of this Agreement shall govern.
 
-Amendments to this Agreement
+**Amendments to this Agreement**
 
 European Conference Website reserves the right, at its sole discretion, to modify or replace this Agreement at any time. If a revision is material we will provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
 By continuing to access or use our website after any revisions become effective, you agree to be bound by the revised terms. If you do not agree to the new terms, you are no longer authorized to use European Conference Website.
 
-Entire Agreement
+**Entire Agreement**
 
 The Agreement constitutes the entire agreement between you and European Conference Website regarding your use of the website and supersedes all prior and contemporaneous written or oral agreements between you and European Conference Website.
 You may be subject to additional terms and conditions that apply when you use or purchase other European Conference Website's services, which European Conference Website will provide to you at the time of such use or purchase.
 
-Updates to Our Terms
+**Updates to Our Terms**
 
 We may change our Service and policies, and we may need to make changes to these Terms so that they accurately reflect our Service and policies. Unless otherwise required by law, we will notify you (for example, through our Service) before we make changes to these Terms and give you an opportunity to review them before they go into effect. Then, if you continue to use the Service, you will be bound by the updated Terms. If you do not want to agree to these or any updated Terms, you can delete your account.
 
@@ -157,37 +161,37 @@ Intellectual Property
 
 The website and its entire contents, features and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection and arrangement thereof), are owned by European Conference Website, its licensors or other providers of such material and are protected by United States and international copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws. The material may not be copied, modified, reproduced, downloaded or distributed in any way, in whole or in part, without the express prior written permission of European Conference Website, unless and except as is expressly provided in these Terms & Conditions. Any unauthorized use of the material is prohibited.
 
-Agreement to Arbitrate
+**Agreement to Arbitrate**
 
-This section applies to any dispute EXCEPT IT DOESN’T INCLUDE A DISPUTE RELATING TO CLAIMS FOR INJUNCTIVE OR EQUITABLE RELIEF REGARDING THE ENFORCEMENT OR VALIDITY OF YOUR OR European Conference Website."’s" INTELLECTUAL PROPERTY RIGHTS. The term “dispute” means any dispute, action, or other controversy between you and European Conference Website concerning the Services or this agreement, whether in contract, warranty, tort, statute, regulation, ordinance, or any other legal or equitable basis. “Dispute” will be given the broadest possible meaning allowable under law.
+This section applies to any dispute EXCEPT IT DOESN’T INCLUDE A DISPUTE RELATING TO CLAIMS FOR INJUNCTIVE OR EQUITABLE RELIEF REGARDING THE ENFORCEMENT OR VALIDITY OF YOUR OR European Conference Website’s INTELLECTUAL PROPERTY RIGHTS. The term “dispute” means any dispute, action, or other controversy between you and European Conference Website concerning the Services or this agreement, whether in contract, warranty, tort, statute, regulation, ordinance, or any other legal or equitable basis. “Dispute” will be given the broadest possible meaning allowable under law.
 
-Notice of Dispute
+**Notice of Dispute**
 
 In the event of a dispute, you or European Conference Website must give the other a Notice of Dispute, which is a written statement that sets forth the name, address, and contact information of the party giving it, the facts giving rise to the dispute, and the relief requested. You must send any Notice of Dispute via email to: contact@euroconf.eu. European Conference Website will send any Notice of Dispute to you by mail to your address if we have it, or otherwise to your email address. You and European Conference Website will attempt to resolve any dispute through informal negotiation within sixty (60) days from the date the Notice of Dispute is sent. After sixty (60) days, you or European Conference Website may commence arbitration.
 
-Binding Arbitration
+**Binding Arbitration**
 
 If you and European Conference Website don’t resolve any dispute by informal negotiation, any other effort to resolve the dispute will be conducted exclusively by binding arbitration as described in this section. You are giving up the right to litigate (or participate in as a party or class member) all disputes in court before a judge or jury. The dispute shall be settled by binding arbitration in accordance with the commercial arbitration rules of the American Arbitration Association. Either party may seek any interim or preliminary injunctive relief from any court of competent jurisdiction, as necessary to protect the party’s rights or property pending the completion of arbitration. Any and all legal, accounting, and other costs, fees, and expenses incurred by the prevailing party shall be borne by the non-prevailing party.
 
-Submissions and Privacy
+**Submissions and Privacy**
 
 In the event that you submit or post any ideas, creative suggestions, designs, photographs, information, advertisements, data or proposals, including ideas for new or improved products, services, features, technologies or promotions, you expressly agree that such submissions will automatically be treated as non-confidential and non-proprietary and will become the sole property of European Conference Website without any compensation or credit to you whatsoever. European Conference Website and its affiliates shall have no obligations with respect to such submissions or posts and may use the ideas contained in such submissions or posts for any purposes in any medium in perpetuity, including, but not limited to, developing, manufacturing, and marketing products and services using such ideas.
 
-Promotions
+**Promotions**
 
 European Conference Website may, from time to time, include contests, promotions, sweepstakes, or other activities (“Promotions”) that require you to submit material or information concerning yourself. Please note that all Promotions may be governed by separate rules that may contain certain eligibility requirements, such as restrictions as to age and geographic location. You are responsible to read all Promotions rules to determine whether or not you are eligible to participate. If you enter any Promotion, you agree to abide by and to comply with all Promotions Rules.
 
 Additional terms and conditions may apply to purchases of goods or services on or through the Services, which terms and conditions are made a part of this Agreement by this reference.
 
-Typographical Errors
+**Typographical Errors**
 
 In the event a product and/or service is listed at an incorrect price or with incorrect information due to typographical error, we shall have the right to refuse or cancel any orders placed for the product and/or service listed at the incorrect price. We shall have the right to refuse or cancel any such order whether or not the order has been confirmed and your credit card charged. If your credit card has already been charged for the purchase and your order is canceled, we shall immediately issue a credit to your credit card account or other payment account in the amount of the charge.
 
-Miscellaneous
+**Miscellaneous**
 
 If for any reason a court of competent jurisdiction finds any provision or portion of these Terms & Conditions to be unenforceable, the remainder of these Terms & Conditions will continue in full force and effect. Any waiver of any provision of these Terms & Conditions will be effective only if in writing and signed by an authorized representative of European Conference Website. European Conference Website will be entitled to injunctive or other equitable relief (without the obligations of posting any bond or surety) in the event of any breach or anticipatory breach by you. European Conference Website operates and controls the European Conference Website Service from its offices in United States. The Service is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation. Accordingly, those persons who choose to access the European Conference Website Service from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable. These Terms & Conditions (which include and incorporate the European Conference Website Privacy Policy) contains the entire understanding, and supersedes all prior understandings, between you and European Conference Website concerning its subject matter, and cannot be changed or modified by you. The section headings used in this Agreement are for convenience only and will not be given any legal import.
 
-Disclaimer
+**Disclaimer**
 
 European Conference Website is not responsible for any content, code or any other imprecision.
 
@@ -197,8 +201,6 @@ In no event shall European Conference Website be liable for any special, direct,
 
 The European Conference Website Service and its contents are provided "as is" and "as available" without any warranty or representations of any kind, whether express or implied. European Conference Website is a distributor and not a publisher of the content supplied by third parties; as such, European Conference Website exercises no editorial control over such content and makes no warranty or representation as to the accuracy, reliability or currency of any information, content, service or merchandise provided through or accessible via the European Conference Website Service. Without limiting the foregoing, European Conference Website specifically disclaims all warranties and representations in any content transmitted on or in connection with the European Conference Website Service or on sites that may appear as links on the European Conference Website Service, or in the products provided as a part of, or otherwise in connection with, the European Conference Website Service, including without limitation any warranties of merchantability, fitness for a particular purpose or non-infringement of third party rights. No oral advice or written information given by European Conference Website or any of its affiliates, employees, officers, directors, agents, or the like will create a warranty. Price and availability information is subject to change without notice. Without limiting the foregoing, European Conference Website does not warrant that the European Conference Website Service will be uninterrupted, uncorrupted, timely, or error-free.
 
-Contact Us
+**Contact Us**
 
-Don't hesitate to contact us if you have any questions.
-
--Via Email: contact@euroconf.eu
+Don't hesitate to contact us if you have any questions at contact@euroconf.eu
