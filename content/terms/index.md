@@ -16,7 +16,7 @@ European Conference Website will not be responsible for any outcome that may occ
 
 European Conference Website grants you a revocable, non-exclusive, non-transferable, limited license to download, install and use the website strictly in accordance with the terms of this Agreement.
 
-These Terms & Conditions are a contract between you and European Conference Website (referred to in these Terms & Conditions as "European Conference Website", "us", "we", or "our"), the provider of the European Conference Website website and the services accessible from the European Conference Website website (which are collectively referred to in these Terms & Conditions as the "European Conference Website Service").
+These Terms & Conditions are a contract between you and European Conference Website (referred to in these Terms & Conditions as "European Conference Website," "us," "we," or "our"), the provider of the European Conference Website website and the services accessible from the European Conference Website website (which are collectively referred to in these Terms & Conditions as the "European Conference Website Service").
 
 You are agreeing to be bound by these Terms & Conditions. If you do not agree to these Terms & Conditions, please do not use the European Conference Website Service. In these Terms & Conditions, "you" refers both to you as an individual and to the entity you represent. If you violate any of these Terms & Conditions, we reserve the right to cancel your account or block access to your account without notice.
 
@@ -30,7 +30,7 @@ For this Terms & Conditions:
 - Device: any internet connected device such as a phone, tablet, computer or any other device that can be used to visit European Conference Website and use the services.
 - Service: refers to the service provided by European Conference Website as described in the relative terms (if available) and on this platform.
 - Third-party service: refers to advertisers, contest sponsors, promotional and marketing partners, and others who provide our content or whose products or services we think may interest you.
-- Website: European Conference Website."’s" site, which can be accessed via this URL: https://euroconf.eu
+- Website: European Conference Website’s site, which can be accessed via this URL: https://euroconf.eu
 - You: a person or entity that is registered with European Conference Website to use the Services.
 
 **Restrictions**
