@@ -200,7 +200,7 @@ menu:
       url: /sponsors
       weight: 15
 
-<!-- 
+{{/*
 - name: Home
   url: /
   pageRef: /
@@ -221,4 +221,4 @@ menu:
   url: /about-us
   pageRef: /About Us
   weight: 50
--->
+*/}}
