@@ -3,8 +3,8 @@ title: "Home"
 ---
 
 <div class="homepage-conference-title">
-  <h1>Save the Date: "European Conference 2025</h1>
-  <h2>January 31st - February 1st</h2>
+  <h1>European Conference 2025</h1>
+  <h2>January 31 - February 1</h2>
   <div id='student-run'>
     <i>A student-led conference at Harvard Kennedy School</i>
   </div>
