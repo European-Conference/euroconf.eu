@@ -179,3 +179,17 @@ params:
             - type: "other"
               content: "Farewell Reception and Gala"
               location: "Harvard Faculty Club"
+menu:
+  footer:
+    - name: Contact
+      url: /contact
+      weight: 10
+    - name: Privacy
+      url: /privacy
+      weight: 20
+    - name: Terms
+      url: /terms
+      weight: 30
+    - name: Sponsors
+      url: /sponsors
+      weight: 15
