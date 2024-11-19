@@ -181,7 +181,7 @@ params:
               location: "Harvard Faculty Club"
 menu:
   main:
-    - name: 2023 Conference
+    - name: Past Conferences
       params:
         rel: external
       url: https://y23.euroconf.eu/
