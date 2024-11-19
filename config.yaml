@@ -179,6 +179,7 @@ params:
             - type: "other"
               content: "Farewell Reception and Gala"
               location: "Harvard Faculty Club"
+menu:
   footer:
     - name: Contact
       url: /contact
