@@ -181,11 +181,16 @@ params:
               location: "Harvard Faculty Club"
 menu:
   main:
-    - name: Past Conferences
+    - name: 2024 Conference
+      params:
+        rel: external
+      url: https://y24.euroconf.eu/
+      weight: 60
+    - name: 2023 Conference
       params:
         rel: external
       url: https://y23.euroconf.eu/
-      weight: 60
+      weight: 65
   footer:
     - name: Contact
       url: /contact
