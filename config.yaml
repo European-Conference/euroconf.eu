@@ -180,6 +180,12 @@ params:
               content: "Farewell Reception and Gala"
               location: "Harvard Faculty Club"
 menu:
+  main:
+    - name: 2023 Conference
+      params:
+        rel: external
+      url: https://y23.euroconf.eu/
+      weight: 60
   footer:
     - name: Contact
       url: /contact
@@ -193,3 +199,26 @@ menu:
     - name: Sponsors
       url: /sponsors
       weight: 15
+
+<!-- 
+- name: Home
+  url: /
+  pageRef: /
+  weight: 10
+- name: Speakers + Panels
+  url: /speakers
+  pageRef: /Speakers
+  weight: 20
+- name: Schedule
+  url: /schedule
+  pageRef: /Schedule
+  weight: 30
+- name: Info
+  url: /info
+  pageRef: /info
+  weight: 40
+- name: About Us
+  url: /about-us
+  pageRef: /About Us
+  weight: 50
+-->
