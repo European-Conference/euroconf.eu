@@ -24,8 +24,9 @@
 
     {{ range .Site.Menus.main }}
 
-    <a href="{{ .URL }}"
-    class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}"
+    <a href="{{ .URL }}" 
+    class="{{ if eq .Site.Menus.main "Past Conferences" }}dropdown{{end}}"
+    class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{end}}"
     >{{ .Name }}</a>
     {{end}}
   </div>
