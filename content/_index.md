@@ -12,4 +12,5 @@ title: "Home"
   </p>
   <div id='countdown'>
   </div>
+  <h3>Photo by Azzedine Rouichi on Unsplash</h3>
 </div>
