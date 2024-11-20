@@ -14,8 +14,7 @@ body {
 }
 
 h2,
-h3,
-h4 {
+ {
   text-align: center;
 }
 
@@ -23,13 +22,18 @@ h2 {
   font-size: 200%;
 }
 
+h3,
+h4 {
+  text-align: right;
+}
+
 h3 {
-  font-size: 120%;
+  font-size: 80%;
 }
 
 h4 {
   font-style: italic;
-  font-size: 110%;
+  font-size: 70%;
 }
 
 a {
