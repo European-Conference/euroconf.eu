@@ -13,5 +13,7 @@ title: "Home"
   </p>
   <div id='countdown'>
   </div>
-  <i class="title-caption">Photo by Azzedine Rouichi on Unsplash</i>
+  <div class="title-caption">
+    <i>Photo by Azzedine Rouichi on Unsplash</i>
+  </div>
 </div>
