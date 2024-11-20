@@ -13,8 +13,7 @@ body {
   margin: 0px;
 }
 
-h2,
- {
+h2, h3, h4 {
   text-align: center;
 }
 
@@ -22,18 +21,13 @@ h2 {
   font-size: 200%;
 }
 
-h3,
-h4 {
-  text-align: right;
-}
-
 h3 {
-  font-size: 80%;
+  font-size: 120%;
 }
 
 h4 {
   font-style: italic;
-  font-size: 70%;
+  font-size: 110%;
 }
 
 a {
@@ -280,17 +274,23 @@ nav {
 }
 
 .homepage-conference-title h1 {
-  font-size: 400%;
+  font-size: 500%;
   padding-top: 280px;
   padding-bottom: 10px;
   margin: 0px;
 }
 
 .homepage-conference-title h2 {
-  font-size: 200%;
+  font-size: 300%;
   margin-top: 0px;
   background-color: none;
 }
+
+.homepage-conference-title h4 {
+  font-size: 80%;
+  margin: 280px 20px 20px;
+  font-style: italic;
+  text-align: right;
 
 #tickets-btn {
   font-weight: bold;
