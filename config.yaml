@@ -201,6 +201,6 @@ menu:
     - name: Terms
       url: /terms
       weight: 30
-    - name: Sponsors
-      url: /sponsors
+    - name: Supporters
+      url: /supporters
       weight: 15
