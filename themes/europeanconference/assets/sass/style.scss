@@ -4,7 +4,7 @@
 }
 
 html {
-  font-family: "europa", sans-serif;
+  font-family: "Plus Jakarta Sans", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -160,7 +160,7 @@ footer {
   display: inline-block;
   text-decoration: none;
   color: #b7133e;
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-weight: bold;
   padding: 10px;
   &:hover {
     text-decoration: underline;
