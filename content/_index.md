@@ -9,6 +9,9 @@ title: "Home"
   <div id='student-run'>
     <i>A student-led conference at Harvard Kennedy School</i>
   </div>
+  <div>
+    <p id='tickets-btn' class="pure-button pure-button-primary"> Get tickets now! </p>
+  </div>
   <p id='increase'
   </p>
   <div id='countdown'>
