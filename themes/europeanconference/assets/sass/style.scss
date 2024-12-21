@@ -282,8 +282,13 @@ nav {
   padding-bottom: 10px;
   margin: 0px;
 
+  @media (max-width: 1500px) {
+    font-size: 700%;
+    margin: 25px 0;
+  }
+
   @media (max-width: 800px) {
-    font-size: 300%;
+    font-size: 600%;
     margin: 25px 0;
   }
 
@@ -297,6 +302,11 @@ nav {
   font-size: 400%;
   margin: 0px;
   background-color: none;
+
+  @media (max-width: 1500px) {
+    font-size: 350%;
+    margin: 50px 0;
+  }
 
   @media (max-width: 800px) {
     font-size: 300%;
@@ -312,9 +322,9 @@ nav {
 .homepage-conference-title h3 {
   font-size: 250%;
 
-  @media (max-width: 800px) {
-  font-size: 250%;
-  margin: 50px 0;
+  @media (max-width: 1500px) {
+    font-size: 250%;
+    margin: 50px 0;
   }
 
   @media (max-width: $responsive-medium) {
