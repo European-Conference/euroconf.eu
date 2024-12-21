@@ -281,16 +281,31 @@ nav {
   padding-top: 100px;
   padding-bottom: 10px;
   margin: 0px;
+
+  @media (max-width: $responsive-medium) {
+    font-size: 300%;
+    margin: 100px 0 100px 0;
+  }
 }
 
 .homepage-conference-title h2 {
   font-size: 400%;
   margin: 0px;
   background-color: none;
+
+  @media (max-width: $responsive-medium) {
+    font-size: 150%;
+    margin: 100px 0 100px 0;
+  }
 }
 
 .homepage-conference-title h3 {
   font-size: 250%;
+
+  @media (max-width: $responsive-medium) {
+  font-size: 150%;
+  margin: 100px 0 100px 0;
+  }
 }
 
 .title-caption {
