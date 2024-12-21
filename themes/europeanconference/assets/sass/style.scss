@@ -282,12 +282,12 @@ nav {
   padding-bottom: 10px;
   margin: 0px;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     font-size: 700%;
     margin: 25px 0;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     font-size: 600%;
     margin: 25px 0;
   }
@@ -303,12 +303,12 @@ nav {
   margin: 0px;
   background-color: none;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     font-size: 350%;
     margin: 50px 0;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     font-size: 300%;
     margin: 50px 0;
   }
@@ -322,8 +322,13 @@ nav {
 .homepage-conference-title h3 {
   font-size: 250%;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 1300px) {
     font-size: 250%;
+    margin: 50px 0;
+  }
+
+  @media (max-width: 1000px) {
+    font-size: 0%;
     margin: 50px 0;
   }
 
@@ -346,7 +351,12 @@ nav {
 
   @media (max-width: $responsive-medium) {
     font-size: 150%;
-    margin: 100px 0 100px 0;
+    margin: 100px 0;
+  }
+
+  @media (max-width: $responsive-small) {
+    font-size: 150%;
+    margin: 50px 0;
   }
 }
 
