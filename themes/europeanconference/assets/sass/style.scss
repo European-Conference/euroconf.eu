@@ -278,63 +278,47 @@ nav {
 
 .homepage-conference-title h1 {
   font-size: 800%;
-  padding-top: 100px;
-  padding-bottom: 10px;
+  padding: 100px 10px 10px 10px;
   margin: 0px;
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1350px) {
     font-size: 700%;
-    margin: 25px 0;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1250px) {
     font-size: 600%;
-    margin: 25px 0;
   }
 
   @media (max-width: $responsive-medium) {
     font-size: 500%;
-    margin: 50px 0;
   }
 }
 
 .homepage-conference-title h2 {
   font-size: 400%;
+  padding: 10px;
   margin: 0px;
   background-color: none;
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1350px) {
     font-size: 350%;
-    margin: 50px 0;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1250px) {
     font-size: 300%;
-    margin: 50px 0;
   }
 
   @media (max-width: $responsive-medium) {
-    font-size: 300%;
-    margin: 25px 0;
+    font-size: 250%;
   }
 }
 
 .homepage-conference-title h3 {
   font-size: 250%;
-
-  @media (max-width: 1300px) {
-    font-size: 250%;
-    margin: 50px 0;
-  }
-
-  @media (max-width: 1000px) {
-    font-size: 0%;
-    margin: 50px 0;
-  }
+  padding: 10px;
 
   @media (max-width: $responsive-medium) {
-  font-size: 250%;
-  margin: 25px 0;
+  font-size: 200%;
   }
 }
 
