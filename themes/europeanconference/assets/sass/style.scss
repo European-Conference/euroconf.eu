@@ -289,6 +289,10 @@ nav {
     font-size: 600%;
   }
 
+   @media (max-width: 1050px) {
+    font-size: 550%;
+  }
+
   @media (max-width: $responsive-medium) {
     font-size: 500%;
   }
@@ -315,7 +319,6 @@ nav {
 
 .homepage-conference-title h3 {
   font-size: 250%;
-  padding: 10px;
 
   @media (max-width: $responsive-medium) {
   font-size: 200%;
