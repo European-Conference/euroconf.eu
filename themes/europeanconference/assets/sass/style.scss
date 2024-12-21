@@ -282,8 +282,13 @@ nav {
   padding-bottom: 10px;
   margin: 0px;
 
+  @media (max-width: 800px) {
+    font-size: 300%;
+    margin: 25px 0;
+  }
+
   @media (max-width: $responsive-medium) {
-    font-size: 400%;
+    font-size: 500%;
     margin: 50px 0;
   }
 }
@@ -293,18 +298,28 @@ nav {
   margin: 0px;
   background-color: none;
 
-  @media (max-width: $responsive-medium) {
-    font-size: 200%;
+  @media (max-width: 800px) {
+    font-size: 300%;
     margin: 50px 0;
+  }
+
+  @media (max-width: $responsive-medium) {
+    font-size: 300%;
+    margin: 25px 0;
   }
 }
 
 .homepage-conference-title h3 {
   font-size: 250%;
 
-  @media (max-width: $responsive-medium) {
-  font-size: 150%;
+  @media (max-width: 800px) {
+  font-size: 250%;
   margin: 50px 0;
+  }
+
+  @media (max-width: $responsive-medium) {
+  font-size: 250%;
+  margin: 25px 0;
   }
 }
 
