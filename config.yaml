@@ -181,6 +181,30 @@ params:
               location: "Harvard Faculty Club"
 menu:
   main:
+    - name: Home
+      url: /
+      pageRef: /
+      weight: 10
+    - name: Speakers + Panels
+      url: /speakers
+      pageRef: /Speakers
+      weight: 20
+    - name: Schedule
+      url: /schedule
+      pageRef: /Schedule
+      weight: 30
+    - name: Gala
+      url: /gala
+      pageRef: /Gala
+      weight: 35
+#    - name: Info
+#      url: /info
+#      pageRef: /info
+#      weight: 40
+#    - name: About Us
+#      url: /about-us
+#      pageRef: /About Us
+#      weight: 50
     - name: 2024 Conference
       params:
         rel: external
@@ -195,12 +219,12 @@ menu:
     - name: Contact
       url: /contact
       weight: 10
+    - name: Supporters
+      url: /supporters
+      weight: 15
     - name: Privacy
       url: /privacy
       weight: 20
     - name: Terms
       url: /terms
       weight: 30
-    - name: Supporters
-      url: /supporters
-      weight: 15
