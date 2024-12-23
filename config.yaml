@@ -205,17 +205,17 @@ menu:
 #      url: /about-us
 #      pageRef: /About Us
 #      weight: 50
-     - name: Past Conferences
-       weight: 60
-       children: 
-       - name: 2024 Conference
-         rel: external
-         url: https://y24.euroconf.eu/
-         weight: 10
-       - name: 2023 Conference
-         rel: external
-         url: https://y23.euroconf.eu/
-         weight: 20
+    - name: Past Conferences
+      weight: 60
+      children: 
+    - name: 2024 Conference
+      rel: external
+      url: https://y24.euroconf.eu/
+      weight: 10
+    - name: 2023 Conference
+      rel: external
+      url: https://y23.euroconf.eu/
+      weight: 20
   footer:
     - name: Contact
       url: /contact
