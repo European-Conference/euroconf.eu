@@ -139,7 +139,7 @@ footer {
   }
 }
 
-/* Formatting for navigation */
+/* Formatting for the header menu */
 .nav {
   height: 100%;
   display: flex;
@@ -231,6 +231,7 @@ footer {
 
 nav {
   text-align: center;
+  margin: 20px auto;
 }
 
 nav a {
@@ -239,12 +240,30 @@ nav a {
   border-bottom: 1px solid #333;
   padding: 10px 0;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
 
-nav {
-  margin: 20px auto;
+/* Formatting for the dropdown menu in the header */
+nav ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+nav a:hover ul {
+  display: block;
+}
+
+nav ul li a {
+  padding: 5px;
+  display: block;
 }
 
 /* Formatting for the overall homepage */
