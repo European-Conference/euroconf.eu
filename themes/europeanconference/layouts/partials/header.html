@@ -17,21 +17,22 @@
       {{ $currentPage := . }}
   
       {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}">
-        {{ .Name }}
-        </a>
-      
-        {{ if .HasChildren }}
-          <ul>
-            {{ range .Children }}
-              <li>
-                <a href="{{ .URL }}">{{ .Name }}</a>
-              </li>
-            {{end}}
-          </ul>
-        {{end}}
-      
+        <li>
+          <a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}">
+          {{ .Name }}
+          </a>
+          {{ if .HasChildren }}
+            <ul>
+              {{ range .Children }}
+                <li>
+                  <a href="{{ .URL }}">{{ .Name }}</a>
+                </li>
+              {{end}}
+            </ul>
+          {{end}}
+        </li>
       {{end}}
+      
     </div>
   </div>
 
