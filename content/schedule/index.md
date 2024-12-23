@@ -3,4 +3,4 @@ title: "Schedule"
 ---
 
 ## Schedule
-{{< schedule >}}
+The schedule will be updated shortly.
