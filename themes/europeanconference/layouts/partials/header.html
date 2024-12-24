@@ -13,21 +13,29 @@
       </label>
     </div>
       
-    <div class="nav-links">
+    <nav class="nav-links">
       {{ $currentPage := . }}
-  
-      {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}">
-        {{ .Name }}
-        </a>
-        {{ if .HasChildren }}
-          {{ range .Children }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
-          {{end}}
+
+      <ul>
+        {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}">
+            {{ .Name }}
+            </a>
+            <ul>
+              {{ if .HasChildren }}
+                {{ range .Children }}
+                  <li>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
+                  </li>
+                {{end}}
+              {{end}}
+            </ul>
+          </li>
         {{end}}
-      {{end}}
-      
-    </div>
+      </ul>
+    </nav>
+    
   </div>
 
 </header>
