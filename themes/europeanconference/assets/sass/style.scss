@@ -215,7 +215,12 @@ nav ul li ul li a {
 }
 
 /* Formatting for header menu on mobile devices and small browser windows */
-@media (max-width: $responsive-small) {
+@media (max-width: 1050px) {
+  .nav > .nav-links > ul > li> a {
+  font-size: 100%;
+  }
+
+@media (max-width: 785px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -305,7 +310,7 @@ nav ul li ul li a {
     font-size: 600%;
   }
 
-   @media (max-width: 1050px) {
+  @media (max-width: 1050px) {
     font-size: 550%;
   }
 
