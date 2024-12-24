@@ -207,15 +207,16 @@ menu:
 #      weight: 50
     - name: Past Conferences
       weight: 60
-      children: 
-        - name: 2024 Conference
-          rel: external
-          url: https://y24.euroconf.eu/
-          weight: 10
-        - name: 2023 Conference
-          rel: external
-          url: https://y23.euroconf.eu/
-          weight: 20
+    - name: 2024 Conference
+      parent: Past Conferences
+      rel: external
+      url: https://y24.euroconf.eu/
+      weight: 10
+    - name: 2023 Conference
+      parent: Past Conferences
+      rel: external
+      url: https://y23.euroconf.eu/
+      weight: 20
   footer:
     - name: Contact
       url: /contact
