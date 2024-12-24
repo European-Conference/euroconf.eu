@@ -346,16 +346,28 @@ nav ul li ul li a {
   margin: 20px;
   text-align: right;
 
-  @media (max-width: 1250px) {
+  @media (max-width: 1350px) {
     margin: 40px 20px;
+  }
+  
+  @media (max-width: 1250px) {
+    margin: 70px 20px;
   }
 
   @media (max-width: 1050px) {
-    margin: 70px 20px;
+    margin: 80px 20px;
   }
 
   @media (max-width: $responsive-medium) {
     margin: 70px 20px;
+  }
+
+  @media (max-width: 785) {
+    margin: 20px 20px;
+  }
+  
+  @media (max-width: $responsive-small) {
+    margin: 40px 20px;
   }
 }
   
@@ -369,7 +381,7 @@ nav ul li ul li a {
     margin: 100px 0;
   }
 
-  @media (max-width: 780px) {
+  @media (max-width: 785px) {
     font-size: 200%;
     margin: 50px 0;
   }
@@ -378,6 +390,7 @@ nav ul li ul li a {
     font-size: 150%;
     margin: 50px 0;
   }
+
 }
 
 #increase {
