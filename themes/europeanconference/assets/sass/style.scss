@@ -139,7 +139,7 @@ footer {
   }
 }
 
-/* Formatting for navigation */
+/* Formatting for the header menu */
 .nav {
   height: 100%;
   display: flex;
@@ -155,7 +155,7 @@ footer {
   float: right;
 }
 
-.nav > .nav-links > a {
+.nav > .nav-links > ul > li> a {
   font-size: 140%;
   display: inline-block;
   text-decoration: none;
@@ -181,6 +181,40 @@ footer {
   display: none;
 }
 
+/* Formatting for the dropdown menu in the header */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  position: relative;
+  margin-right: 20px;
+}
+
+nav ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+nav ul li:hover ul.dropdown {
+  display: block;
+}
+
+nav ul li ul li a {
+  padding: 5px;
+  display: block;
+}
+
+/* Formatting for header menu on mobile devices and small browser windows */
 @media (max-width: $responsive-small) {
   .nav > .nav-btn {
     display: inline-block;
@@ -227,24 +261,6 @@ footer {
     height: auto;
     overflow-y: auto;
   }
-}
-
-nav {
-  text-align: center;
-}
-
-nav a {
-  text-decoration: none;
-  color: #b7133e;
-  border-bottom: 1px solid #333;
-  padding: 10px 0;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-
-nav {
-  margin: 20px auto;
 }
 
 /* Formatting for the overall homepage */

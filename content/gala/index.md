@@ -1,4 +1,8 @@
-**Gala**
+---
+title: "Speakers"
+---
+
+## Gala
 
 The Conference will culminate in an elegant Closing Gala hosted at the prestigious Harvard Art Museum. This event is open to all conference attendees, including speakers, dignitaries, and guests, offering a memorable conclusion to the weekend's discussions and connections.
 
