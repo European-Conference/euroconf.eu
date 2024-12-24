@@ -22,11 +22,11 @@
             <a href="{{ .URL }}" class="{{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}">
             {{ .Name }}
             </a>
-            <ul>
+            <ul class="{{ if .HasChildren }}dropdown{{ end }}">
               {{ if .HasChildren }}
                 {{ range .Children }}
                   <li>
-                    <a class="dropdown" href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}">{{ .Name }}</a>
                   </li>
                 {{end}}
               {{end}}
