@@ -329,10 +329,6 @@ nav ul li ul li a {
   }
 
   @media (max-width: 1050px) {
-    font-size: 265%;
-  }
-
-  @media (max-width: $responsive-medium) {
     font-size: 250%;
   }
 }
@@ -354,7 +350,7 @@ nav ul li ul li a {
     margin: 40px 20px;
   }
 
-   @media (max-width: 1050px) {
+  @media (max-width: 1050px) {
     margin: 70px 20px;
   }
 
