@@ -155,7 +155,7 @@ footer {
   float: right;
 }
 
-.nav > .nav-links > a {
+.nav > .nav-links > ul > li> a {
   font-size: 140%;
   display: inline-block;
   text-decoration: none;
@@ -207,12 +207,6 @@ nav ul li ul {
 
 nav ul li:hover ul {
   display: block;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: black;
-  padding: 5px 10px;
 }
 
 nav ul li ul li a {
