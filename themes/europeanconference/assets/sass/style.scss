@@ -181,6 +181,28 @@ footer {
   display: none;
 }
 
+/* Formatting for the dropdown menu in the header */
+.nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.nav li:hover ul {
+  display: block;
+}
+
+.nav li ul li a {
+  padding: 5px;
+  display: block;
+}
+
+/* Formatting for header menu on mobile devices and small browser windows */
 @media (max-width: $responsive-small) {
   .nav > .nav-btn {
     display: inline-block;
@@ -227,43 +249,6 @@ footer {
     height: auto;
     overflow-y: auto;
   }
-}
-
-nav {
-  text-align: center;
-  margin: 20px auto;
-}
-
-nav a {
-  text-decoration: none;
-  color: #b7133e;
-  border-bottom: 1px solid #333;
-  padding: 10px 0;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Formatting for the dropdown menu in the header */
-nav li ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: white;
-  list-style: none;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-nav li:hover ul {
-  display: block;
-}
-
-nav li ul li a {
-  padding: 5px;
-  display: block;
 }
 
 /* Formatting for the overall homepage */
