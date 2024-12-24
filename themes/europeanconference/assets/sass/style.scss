@@ -215,7 +215,13 @@ nav ul li ul li a {
 }
 
 /* Formatting for header menu on mobile devices and small browser windows */
-@media (max-width: $responsive-small) {
+@media (max-width: 1050px) {
+  .nav > .nav-links > ul > li> a {
+  font-size: 100%;
+  }
+}
+
+@media (max-width: 785px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -297,7 +303,7 @@ nav ul li ul li a {
   padding: 100px 10px 10px 10px;
   margin: 0px;
 
-  @media (max-width: 1350px) {
+  @media (max-width: 1370px) {
     font-size: 700%;
   }
 
@@ -305,7 +311,7 @@ nav ul li ul li a {
     font-size: 600%;
   }
 
-   @media (max-width: 1050px) {
+  @media (max-width: 1050px) {
     font-size: 550%;
   }
 
@@ -320,7 +326,7 @@ nav ul li ul li a {
   margin: 0px;
   background-color: none;
 
-  @media (max-width: 1350px) {
+  @media (max-width: 1370px) {
     font-size: 350%;
   }
 
@@ -328,7 +334,7 @@ nav ul li ul li a {
     font-size: 300%;
   }
 
-  @media (max-width: $responsive-medium) {
+  @media (max-width: 1050px) {
     font-size: 250%;
   }
 }
@@ -345,6 +351,34 @@ nav ul li ul li a {
   font-size: 80%;
   margin: 20px;
   text-align: right;
+
+  @media (max-width: 1350px) {
+    margin: 40px 20px;
+  }
+  
+  @media (max-width: 1250px) {
+    margin: 70px 20px;
+  }
+
+  @media (max-width: 1050px) {
+    margin: 80px 20px;
+  }
+
+  @media (max-width: $responsive-medium) {
+    margin: 70px 20px;
+  }
+
+  @media (max-width: 880px) {
+    margin: 20px;
+  }
+
+  @media (max-width: 785) {
+    margin: 20px 20px;
+  }
+  
+  @media (max-width: $responsive-small) {
+    margin: 40px 20px;
+  }
 }
   
 #tickets-btn {
@@ -357,7 +391,7 @@ nav ul li ul li a {
     margin: 100px 0;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 785px) {
     font-size: 200%;
     margin: 50px 0;
   }
@@ -366,6 +400,7 @@ nav ul li ul li a {
     font-size: 150%;
     margin: 50px 0;
   }
+
 }
 
 #increase {
