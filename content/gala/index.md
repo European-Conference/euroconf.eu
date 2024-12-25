@@ -10,8 +10,8 @@ title: "Speakers"
 
 **Location**: Harvard Art Museum, 32 Quincy Street, Cambridge, Massachusetts
 
-<div class='gala-1'>![image](gala_2025_pic_1.png)</div>
-<div class='gala-2'>![image](gala_2025_pic_2.jpg)</div>
+![image](gala_2025_pic_1.png)
+![image](gala_2025_pic_2.jpg)
 
 The Conference will culminate in an elegant Closing Gala hosted at the prestigious Harvard Art Museum. This event is open to all conference attendees, including speakers, dignitaries, and guests, offering a memorable conclusion to the weekend's discussions and connections.
 
