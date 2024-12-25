@@ -315,10 +315,10 @@ menu:
       url: /organizers
       pageRef: organizers
       weight: 40
-    - name: 2024 Conference
+    - name: 2025 Conference
       params:
         rel: external
-      url: https://y24.euroconf.eu/
+      url: https://euroconf.eu/
       weight: 50
   footer:
     - name: Contact
