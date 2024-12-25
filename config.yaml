@@ -202,10 +202,10 @@ menu:
       url: /about-us
       pageRef: /About Us
       weight: 50
-    - name: 2023 Conference
+    - name: 2025 Conference
       params:
         rel: external
-      url: https://y23.euroconf.eu/
+      url: https://euroconf.eu/
       weight: 60
   footer:
     - name: Contact
