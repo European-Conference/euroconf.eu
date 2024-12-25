@@ -10,10 +10,10 @@ title: "Speakers"
 
 **Location**: Harvard Art Museum, 32 Quincy Street, Cambridge, Massachusetts
 
-<div class="gala-1">
+<div class="gala-image">
   <img src="gala_2025_pic_1.png" alt="Art museum interior">
 </div>
-<div class="gala-2">
+<div class="gala-image">
   <img src="gala_2025_pic_2.jpg" alt="Art museum exterior">
 </div>
 
