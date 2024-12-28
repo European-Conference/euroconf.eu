@@ -14,16 +14,16 @@
 
   <!-- Variable "$panelDict" that defines the panels for the conference. Panels can be updated for future conferences. -->
   <!-- Because dictionaries in Hugo only seem to hold strings, and not integers, the easiest thing to do is to list panels by letter, not number. If numbers are used, because Hugo seems to sort the keys by alphabetical order before iterating over them, the items will be sorted "1", "10", "11", ... "2", "3," ... You can number items "01", "02", "03", ..., but Hugo interprets all numbers that start with a 0 as octal (base 8) numbers, which leads to problems later on. Why, Hugo???!!! -->
-  {{ $panelDict := dict "a" "AI & (E)U: The Regulatory Road to the Future"
-  "b" "Navigating New Normals: Europe’s Economic Resilience in Times of Change"
-  "c" "Europe's Position in a Multipower and Polarized World" 
-  "d" "War and Reconstruction: Crafting a Comprehensive Strategy for Ukraine's Prosperous Future"  
-  "e" "EU-US Relations: Building Collective Security in a Shifting World" 
-  "f" "Challenge and Opportunity: Building Momentum in Migration Policy"
-  "g" "Workshop: Negotiating Climate Agreements"
-  "h" "Ensuring European Competitiveness in the Green Deal Era" 
-  "i" "Empower Europe: The Road to Inclusive Energy Transition" 
-  "j" "2024, An Election Year: The European Elections and the New Challenges for European Leadership" }}
+  {{ $panelDict := dict "a" "Boosting Europe’s Economy Strategies for Competitiveness"
+  "b" "Being European: Life, Art, and Global Footprint"
+  "c" "Europe’s Role in Middle East Peace: Challenges, Opportunities, and a Path Forward" 
+  "d" "The Union under Strain: Navigating Populism and Democratic Challenges in the EU"  
+  "e" "Migration: Shaping Elections and Societies" 
+  "f" "Europe’s Energy Trifecta: Independence, Affordability, and Sustainability"
+  "g" "Europe’s Global Diplomacy: Strategies for Connection, Influence, and Equity"
+  "h" "Fortifying Europe’s Frontlines: Ukraine, NATO’s New Era, and the Path to a Unified Defense" 
+  "i" "Pretense or Promise? Europe’s Climate Ambition under Scrutiny" 
+  "j" "Brain Drain and Emerging Tech: Strategies to Fortify the Science and Innovation Ecosystem in Europe" }}
 
   <!-- Iterates through  matches speakers to panels based on their panel parameter, defined in the individual speaker pages, and puts their picture and title under the correct panel. -->
   {{ range $key, $value := $panelDict }}
