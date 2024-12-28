@@ -25,7 +25,7 @@
   "i" "Pretense or Promise? Europe’s Climate Ambition under Scrutiny" 
   "j" "Brain Drain and Emerging Tech: Strategies to Fortify the Science and Innovation Ecosystem in Europe" }}
 
-  <!-- Iterates through  matches speakers to panels based on their panel parameter, defined in the individual speaker pages, and puts their picture and title under the correct panel. -->
+  <!-- Iterates through $panelDict, matching speakers to panels based on their panel parameter, defined in the individual speaker pages, and putting their picture and title under the correct panel. -->
   {{ range $key, $value := $panelDict }}
     <script> var tileCounter = 0 </script>
     <h3 id="speaker-title-{{ $key }}"><a href=/schedule/#schedule-panel-{{ $key }}>{{ $value }}</a></h3>
