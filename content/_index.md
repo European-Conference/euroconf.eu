@@ -21,11 +21,10 @@ title: "Home"
   </div>
 </div>
 
-<!--
 <div class="homepage-conference-blurb">
-  </p>Join us for this <b>student-run event</b> at <b>Harvard Kennedy School</b> in Cambridge, Massachusetts, on <b>February 9 and 10, 2024</b>, for a conference that brings together <b>political leaders, CEOs, world-class experts and practitioners</b> from across Europe to explore and discuss the challenges facing the continent today.</p>
-  </p>The year 2024 marks the <b>10th anniversary edition</b> of the Conference, which will aim to share perspectives around The European Dream. 2024: A Continent at the Crossroads. 2024 is indeed a pivotal moment for Europe and the transatlantic relationships.</p>
-  </p>From the <b>European Parliamentary elections</b> to <b>elections at the national level</b> (Austria, Finland, Belgium, Romania) and across the Atlantic, 2024 will be a key moment for democracy and define future European policies around <b>climate change</b>, <b>artificial intelligence</b>, and <b>migration</b>. The European response to the continued <b>war in Ukraine</b> and other major geopolitical challenges will be closely examined. Amid this foreign policy turmoil, the protection of a <b>European way of life</b> is at the heart of heated debates.</p>
+<p>The 2025 edition marks the 11th consecutive year of the conference. Throughout these years, we are proud to have hosted distinguished global leaders, including Nobel Laureate Oleksandra Matviichuk, President of the European Parliament Roberta Metsola, Spanish Foreign Minister Arancha González, Hungarian Foreign Minister Péter Szijjártó, and others. The 2024 edition notably featured Executive Vice-President of the European Commission Maroš Šefčovič, Commissioner Paolo Gentiloni, and Commissioner Elisa Ferreira, as well as former Prime Minister of Italy Enrico Letta.</p>
+<p>Under the theme <i>Leader or Dreamer? Europe’s Role in a Fragmented World Order</i>, the 2025 edition will bring together over 750 academics, students, and future leaders from around the world. Across 10 panels, 4 keynote speeches and several working groups, the European Conference will address pivotal topics shaping Europe's future, such as defense, energy security, economic resilience, and transatlantic relations.</p>
+
 </div>
 
 <h2 id="speakers-list" class="homepage-headers">Speakers</h2>
@@ -49,6 +48,7 @@ title: "Home"
   </div>
 </div>
 
+<!--
 <h2 class="homepage-headers">Questions and Answers</h2>
 <div class="homepage-q-and-a">
   <div class = "q-and-a-flex">
