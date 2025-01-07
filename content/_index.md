@@ -27,12 +27,10 @@ title: "Home"
 
 </div>
 
-<!--
 <h2 id="speakers-list" class="homepage-headers">Speakers</h2>
 <div class="homepage-speakers-list">
   {{< speakers_list >}}
 </div>
--->
 
 <h2 class="homepage-headers">Panels</h2>
 <div class="homepage-panel-grid">
