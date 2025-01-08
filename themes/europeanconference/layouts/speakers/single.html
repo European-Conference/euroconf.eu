@@ -39,7 +39,7 @@
 {{end}}
 
 {{ with .Params.Panel }}
-  {{ range .Site.Params.Schedule }}
+  {{ range $.Site.Params.Schedule }}
     {{ $showDay := false }}
     {{ range .slots }}
       {{ range .events }}
