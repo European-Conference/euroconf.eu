@@ -3,6 +3,7 @@ name: Amaryllis Verhoeven
 role: Director General for Industry, Markets and Entrepreneurship, European Commission
 keynote: false
 moderator: false
+panel: d
 show: true
 ---
 
