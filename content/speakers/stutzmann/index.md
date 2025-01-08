@@ -3,6 +3,7 @@ name: Alexandre Stutzmann
 role: EU Representative to West Bank and Gaza Strip, UNRWA
 keynote: false
 moderator: false
+panel: c
 show: true
 ---
 
