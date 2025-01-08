@@ -8,7 +8,8 @@
   
   <!-- This section looks for speakers whose first panel parameter (Params.panel) matches a given panel code (.code) in config.yaml -->
         {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
-        {{ $bridge := (where $pages "Params.panel" .code) }}
+        {{ $pagesOne := (where $pages "Params.panel" "!=" nil) }}
+        {{ $bridge := (where $pagesOne "Params.panel" .code) }}
         {{ $speakers := (where $bridge "Params.moderator" "!=" true) }}
         {{ range $speakers}}
           {{ if eq .Params.show true }}
