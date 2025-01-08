@@ -3,6 +3,7 @@ name: Ditte Juul Jørgensen
 role: Director General for Energy, European Commission
 keynote: false
 moderator: false
+panel: f
 show: true
 ---
 
