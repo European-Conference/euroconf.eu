@@ -3,6 +3,7 @@ name: David M. Herszenhorn
 role: Journalist, _The Washington Post_
 keynote: false
 moderator: true
+panel: d
 show: true
 ---
 
