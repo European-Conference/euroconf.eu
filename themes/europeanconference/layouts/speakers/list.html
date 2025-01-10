@@ -8,8 +8,8 @@
     {{ range .Pages }}
       {{ if .Params.keynote }}
         {{ $image := index (.Resources.ByType "image") 0 }} 
-        {{$keynoteLabel := true}}
-        {{ partial "person.html" .}}
+        {{ $keynoteLabel := true }}
+        {{ partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel) }}
       {{end}}
     {{end}}
   </div>
