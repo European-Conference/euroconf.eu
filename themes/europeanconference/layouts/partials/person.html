@@ -1,6 +1,8 @@
 <!--This partial creates the page where you see a speaker or organizer's picture next to their bio.-->
 
-{{ $image := index (.Resources.ByType "image") 0 }}
+{{ $page := .page }}
+{{ $keynoteLabel := .keynoteLabel }} 
+{{ $image := index ($page.Resources.ByType "image") 0 }}
 
 {{$pure := "pure-u-1-1 pure-u-md-1-3"}}
 
@@ -9,15 +11,15 @@
 {{ end }}
 
 <a href="{{.RelPermalink}}" class="person {{$pure}}">
-  <img class="person-image" src="{{$image.RelPermalink}}" alt="{{.Params.Name}}" />
+  <img class="person-image" src="{{$image.RelPermalink}}" alt="{{$page.Params.Name}}" />
   <div class="person-description">
-    <span class="person-name">{{.Params.Name}}</span>
-    {{ if .Params.Keynote }}
+    <span class="person-name">{{$page.Params.Name}}</span>
+    {{ if and $page.Params.Keynote $keynoteLabel }}
       <span class="person-keynote">Keynote Speaker</span>
     {{ end }}
-    {{ if .Params.Moderator }}
+    {{ if $page.Params.Moderator }}
       <span class="person-keynote">Moderator</span>
     {{ end }}
-    <p class="person-bio">{{.Params.Role}}</p>
+    <p class="person-bio">{{$page.Params.Role}}</p>
   </div>
 </a>

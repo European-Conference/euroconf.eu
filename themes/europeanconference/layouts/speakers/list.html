@@ -7,8 +7,8 @@
   <div class="pure-g speaker-tiles">
     {{ range .Pages }}
       {{ if .Params.keynote }}
-        {{ $image := index (.Resources.ByType "image") 0 }} 
-        {{ partial "person.html" .}}
+        {{ $keynoteLabel := true }}
+        {{ partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel) }}
       {{end}}
     {{end}}
   </div>
@@ -33,8 +33,8 @@
     <div class="pure-g speaker-tiles">
       {{ range $.Pages }}
         {{ if and (or (eq $key .Params.panel) (eq $key .Params.panel_two)) (eq .Params.show true) }}
-          {{ $image := index (.Resources.ByType "image") 0 }} 
-          {{ partial "person.html" .}}
+          {{ $keynoteLabel := false }}
+          {{ partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel)}}
           <script>
             tileCounter++
           </script>
