@@ -9,7 +9,7 @@
       {{ if .Params.keynote }}
         {{ $image := index (.Resources.ByType "image") 0 }} 
         {{ $keynoteLabel := true }}
-        {{ partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel) }}
+        {{ partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel "image" $image) }}
       {{end}}
     {{end}}
   </div>
