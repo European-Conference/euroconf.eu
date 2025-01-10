@@ -5,8 +5,9 @@
   <a href="https://ces.fas.harvard.edu" target="_blank"><image src="/center-for-european-studies-logo-2.png" alt="Logo for Minda de Gunzberg Center for European Studies" class="supporter-grid-item"></a>
   <a href="https://www.hks.harvard.edu/centers/cpl" target="_blank"><image src="/center-for-public-leadership-logo.png" alt="Logo for the Center for Public Leadership" class="supporter-grid-item"></a>
   <a href="https://daviscenter.fas.harvard.edu" target="_blank"><image src="/davis-center-logo.png" alt="Logo for the Davis Center" class="supporter-grid-item"></a>
-  <a href="https://rcc.harvard.edu" target="_blank"><image src="/real-complutense.png" alt="Logo for Real Colegio Complutense" class="supporter-grid-item"></a>
   <a href="https://www.hks.harvard.edu/centers/mrcbg" target="_blank"><image src="/mossavar-rahmani-center-logo.jpg" alt="Logo for the Mossavar Rahmani Center" class="supporter-grid-item"></a>
+  <a href="https://rcc.harvard.edu" target="_blank"><image src="/real-complutense.png" alt="Logo for Real Colegio Complutense" class="supporter-grid-item"></a>
+  <a href="https://salatainstitute.harvard.edu" target="_blank"><image src="/salata-logo.png" alt="Logo for Salata Institute" class="supporter-grid-item"></a>
   <a href="https://wbi.be target="_blank"><image src="/wallonie.png" alt="Logo for Wallonie-Bruxelles Center" class="supporter-grid-item"></a>
 <!---
   <a href="https://carrcenter.hks.harvard.edu" target="_blank"><image src="/carr-center-logo.jpg" alt="Logo for the Carr Center" class="supporter-grid-item"></a>
