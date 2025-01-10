@@ -3,7 +3,7 @@
 <div class="pure-g speakers">
   {{ range (sort (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" "ne" "false") "Params.priority" "asc")}}
     {{$keynoteLabel := true}}
-    {{partial "person.html" .}} 
+    {{partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel)}} 
   {{end}}
 </div>
 <h3>Panelists</h3>
