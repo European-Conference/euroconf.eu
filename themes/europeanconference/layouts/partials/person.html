@@ -12,7 +12,7 @@
   <img class="person-image" src="{{$image.RelPermalink}}" alt="{{.Params.Name}}" />
   <div class="person-description">
     <span class="person-name">{{.Params.Name}}</span>
-    {{ if .Params.Keynote }}
+    {{ if and (.Params.Keynote $keynoteLabel}}) }}
       <span class="person-keynote">Keynote Speaker</span>
     {{ end }}
     {{ if .Params.Moderator }}
