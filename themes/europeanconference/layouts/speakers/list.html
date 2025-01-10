@@ -8,6 +8,7 @@
     {{ range .Pages }}
       {{ if .Params.keynote }}
         {{ $image := index (.Resources.ByType "image") 0 }} 
+        {{$keynoteLabel := true}}
         {{ partial "person.html" .}}
       {{end}}
     {{end}}
@@ -34,7 +35,7 @@
       {{ range $.Pages }}
         {{ if and (or (eq $key .Params.panel) (eq $key .Params.panel_two)) (eq .Params.show true) }}
           {{ $image := index (.Resources.ByType "image") 0 }}
-          {{ $keynoteLabel := true }}
+          {{ $keynoteLabel := false }}
           {{ partial "person.html" .}}
           <script>
             tileCounter++
