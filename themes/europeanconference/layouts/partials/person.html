@@ -2,7 +2,7 @@
 
 {{ $page := .page }}
 {{ $keynoteLabel := .keynoteLabel }} 
-{{ $image := index (.page.Resources.ByType "image") 0 }}
+{{ $image := index ($page.Resources.ByType "image") 0 }}
 
 {{$pure := "pure-u-1-1 pure-u-md-1-3"}}
 
