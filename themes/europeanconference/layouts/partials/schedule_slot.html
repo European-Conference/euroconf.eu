@@ -10,7 +10,8 @@
         {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
         {{ $pagesOne := (where $pages "Params.panel" "!=" nil) }}
         {{ $bridge := (where $pagesOne "Params.panel" .code) }}
-        {{ $speakers := (where $bridge "Params.moderator" "!=" true) }}
+        {{ $display := (where $bridge "Params.display" "!=" false) }}
+        {{ $speakers := (where $display "Params.moderator" "!=" true) }}
         {{ range $speakers}}
           {{ if eq .Params.show true }}
             {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
@@ -22,7 +23,8 @@
   <!-- This section looks for speakers whose second panel parameter (Params.panel_two) matches a given panel code (.code) in config.yaml -->
         {{ $pagesTwo := (where $pages "Params.panel_two" "!=" nil) }} 
         {{ $bridgeTwo := (where $pagesTwo "Params.panel_two" .code) }}
-        {{ $speakersTwo := (where $bridgeTwo "Params.moderator" "!=" true) }}
+        {{ $displayTwo := (where $bridgeTwo "Params.display" "!=" false) }}
+        {{ $speakersTwo := (where $displayTwo "Params.moderator" "!=" true) }}
         {{ range $speakersTwo}}
           {{ if eq .Params.show true }}
             {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
@@ -34,7 +36,8 @@
   <!-- This section looks for keynote speakers whose keynote parameter (Params.keynote) matches a given keynote code (.keynote) in config.yaml -->
         {{ $pagesKeynote := (where $pages "Params.keynote" "!=" nil) }} 
         {{ $bridgeKeynote := (where $pages "Params.keynote" .keynote) }}
-        {{ $speakersKeynote := (where $bridgeKeynote "Params.moderator" "!=" true) }}
+        {{ $displayKeynote := (where $bridgeKeynote "Params.display" "!=" false) }}
+        {{ $speakersKeynote := (where $displayKeynote "Params.moderator" "!=" true) }}
         {{ range $speakersKeynote}}
           {{ if eq .Params.show true }}
             {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
@@ -77,8 +80,8 @@
                 {{ $moderators := (where $pages "File.ContentBaseName" .moderator) }}
                 {{ $moderator := index $moderators 0}}
                 {{ if $moderator }}
-                  {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name}}
-                  {{ $moderatorText := "Moderated by "}}
+                  {{ $moderatorLink := printf "<a href='%s'>%s</a>" $moderator.RelPermalink $moderator.Params.name }}
+                  {{ $moderatorText := "Moderated by " }}
                   {{ if .moderatorText }}
                     {{ $moderatorText = .moderatorText }}
                   {{ end }}
@@ -86,6 +89,18 @@
                   {{ safeHTML $moderatorLink }}
                 {{ end }}
               {{ end }}
+              
+              {{ $pagesMod := (where $pages "Params.panel" "!=" nil) }}
+              {{ $bridgeMod := (where $pagesMod "Params.panel" .code) }}
+              {{ $displayMod := (where $bridgeMod "Params.display" "!=" false) }}
+              {{ $moderators := (where $displayMod "Params.moderator" true) }}
+              {{ range $moderators}}
+                {{ if eq .Params.show true }}
+                  {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+                {{ else }}
+                  {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
+                {{end}}
+              {{end}}
             </span>
           </div>
         
