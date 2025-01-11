@@ -10,7 +10,8 @@
         {{ $pages := (where $.root.Site.RegularPages "Section" "speakers") }} 
         {{ $pagesOne := (where $pages "Params.panel" "!=" nil) }}
         {{ $bridge := (where $pagesOne "Params.panel" .code) }}
-        {{ $speakers := (where $bridge "Params.moderator" "!=" true) }}
+        {{ $display := (where $bridge "Params.display" "!=" false) }}
+        {{ $speakers := (where $display "Params.moderator" "!=" true) }}
         {{ range $speakers}}
           {{ if eq .Params.show true }}
             {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
