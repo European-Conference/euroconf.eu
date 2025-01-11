@@ -93,7 +93,7 @@
               {{ $pagesMod := (where $pages "Params.panel" "!=" nil) }}
               {{ $bridgeMod := (where $pagesMod "Params.panel" .code) }}
               {{ $displayMod := (where $bridgeMod "Params.display" "!=" false) }}
-              {{ $moderators := (where $displayMod "Params.moderator") }}
+              {{ $moderators := (where $displayMod "Params.moderator "==" true) }}
               {{ range $moderators}}
                 {{ if eq .Params.show true }}
                   {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
