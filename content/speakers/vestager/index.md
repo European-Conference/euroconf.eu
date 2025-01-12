@@ -1,6 +1,6 @@
 ---
 name: Margrethe Vestager
-role: former EU Executive Vice President and Commissioner
+role: Former EU Executive Vice President and Commissioner
 keynote: false
 panel: a
 show: false
