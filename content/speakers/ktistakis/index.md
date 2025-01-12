@@ -1,6 +1,6 @@
 ---
 name: Ioannis Ktistakis
-role: Judge at the European Court of Human Rights
+role: Judge of the European Court of Human Rights and President of Third Section
 keynote: false
 moderator: false
 panel: e
