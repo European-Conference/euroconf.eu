@@ -2,7 +2,7 @@
 name: Costantinos Kombos
 role: Minister of Foreign Affairs, Cyprus
 keynote: false
-panel: a
+panel: c
 show: false
 display: true
 ---
