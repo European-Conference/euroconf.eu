@@ -71,7 +71,10 @@
               {{end}}
             </span>
         
-  <!-- This part of the code adds the moderators.-->
+  <!-- This part of the code adds the moderators. The first code block (commented out) added moderators listed in config.yaml. However, this required putting the moderator for each panel in the config file.
+  Because the speaker's panel and moderator status are already listed in the speaker pages, the second code block was created to only use information from the speaker pages.
+  However, the first (now unused) code block is retained in case there are any issues with the second code block. You can always add moderators to the config file if there are issues with just using the speaker pages.
+          
             <span class="event-moderators">
               {{ if in .event.moderator " " }}
                 Moderated by {{.moderator | safeHTML}}
@@ -89,6 +92,7 @@
                   {{ safeHTML $moderatorLink }}
                 {{ end }}
               {{ end }}
+    -->
               
               {{ $pagesMod := (where $pages "Params.panel" "!=" nil) }}
               {{ $bridgeMod := (where $pagesMod "Params.panel" .code) }}
@@ -96,9 +100,9 @@
               {{ $moderators := (where $displayMod "Params.moderator" true) }}
               {{ range $moderators}}
                 {{ if eq .Params.show true }}
-                  {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+                  <p class='event-speakers'>Moderated by {{ printf "<a href='%s'>%s</a>" .RelPermalink .Params.name | safeHTML }}</p>
                 {{ else }}
-                  {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
+                  <p class='event-speakers'>Moderated by {{ printf "%s" .Params.name | safeHTML }}</p>
                 {{end}}
               {{end}}
             </span>
