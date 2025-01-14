@@ -1,5 +1,5 @@
 ---
-name: Ellie Ellie Gerenmayeh
+name: Ellie Gerenmayeh
 role: Deputy Director of MENA Program, European Council on Foreign Relations
 keynote: false
 panel: c
