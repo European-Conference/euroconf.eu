@@ -10,7 +10,7 @@
 {{ $pure = "pure-u-1-1 pure-u-md-1-4"}}
 {{ end }}
 
-<a href="{{.RelPermalink}}" class="person {{$pure}}">
+<a href="{{$page.RelPermalink}}" class="person {{$pure}}">
   <img class="person-image" src="{{$image.RelPermalink}}" alt="{{$page.Params.Name}}" />
   <div class="person-description">
     <span class="person-name">{{$page.Params.Name}}</span>
