@@ -4,5 +4,5 @@ role: Leading Quantum Physicist and Professor, University of Cologne and Univers
 keynote: false
 panel: j
 show: false
-display: true
+display: false
 ---
