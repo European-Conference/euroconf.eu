@@ -2,7 +2,7 @@
 name: Ilva Tare
 role: Senior Fellow at the Atlantic Council’s Europe Center
 keynote: false
-panel: f
+panel: g
 show: true
 display: true
 ---
