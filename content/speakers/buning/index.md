@@ -4,7 +4,7 @@ role: Romanian Minister of Energy
 keynote: false
 panel: f
 show: false
-display: false
+display: true
 ---
 
 Madeleine de Cock Buning is part-time Professor Digital Politics, Economy and Societies at the School of Transnational Governance (STG) since June 2018. In this role she is chair of the advisory board of the European Digital Media Observatory (EDMO), an STG-led project about online disinformation funded by the European Commission. Madeleine is furthermore appointed professor at the Faculty of Law, Economy and Governance (UU) with a chair in Copyright Law and Media and Communication Law and Vice President Public Policy EMEA at Netflix.
