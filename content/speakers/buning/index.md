@@ -1,9 +1,9 @@
 ---
 name: Madeleine de Cock Buning
-role: Romanian Minister of Energy
+role: Part-time Professor Digital Politics, Economy and Societies at the School of Transnational Governance (STG)
 keynote: false
-panel: f
-show: false
+panel: b
+show: true
 display: true
 ---
 
