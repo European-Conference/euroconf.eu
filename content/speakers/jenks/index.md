@@ -2,6 +2,7 @@
 name: Carrie Jenks
 role: Executive Director of the Environmental & Energy Law Program, Harvard Law School
 keynote: false
+moderator: true
 panel: i
 show: true
 display: true
