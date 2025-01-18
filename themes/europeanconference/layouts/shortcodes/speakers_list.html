@@ -1,5 +1,5 @@
 <!--This file creates the layout on the homepage displaying the keynote speakers (along with their pictures) and panelists-->
-<h3>Keynote Speakers</h3>
+<h3>Flagship Session Speakers</h3>
 <div class="pure-g speakers">
   {{ range (sort (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" "ne" "false") "Params.priority" "asc")}}
     {{$keynoteLabel := true}}
