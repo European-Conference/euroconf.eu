@@ -1,7 +1,7 @@
 ---
 name: Mateusz Morawiecki
 role: Former Prime Minister of Poland
-keynote: f
+keynote: d
 show: true
 panel: h
 ---
