@@ -2,7 +2,7 @@
 name: Kristina Hammer
 role: President, Salzburg Festival
 keynote: false
-panel: b
+panel: l
 show: true
 display: true
 ---
