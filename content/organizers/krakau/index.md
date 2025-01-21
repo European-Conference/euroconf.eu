@@ -1,9 +1,13 @@
 ---
-name: Niklas Alexander Krakau
+name: Nicolas Barral
 role: Conference collaborator
 keynote: false
 show: true
 priority: 160
 ---
 
-Niklas Alexander Krakau is an MPA student at the Harvard Kennedy School. Prior to Harvard, he worked as Senior Consultant for McKinsey &amp; Company advising private, social sector, and government organizations focusing on the topics of digitization, economic development, and renewable energy. At Harvard, he concentrates on impact investing topics. He previously worked in private equity (Waterland Private Equity), tech (Google), and international development (KfW - the German Development Bank). He received a B.Sc. in International Business Administration from WHU – Otto Beisheim School of Management and an M.Sc. in Development Studies from the London School of Economics and Political Science.
+Nicolas is currently pursuing a Mid-Career Master in Public Administration (MPA) at Harvard with a focus on International Affairs, Energy policy & Entrepreneurship.
+Before that, Nico was a Senior Principal at ghSMART, a leadership advisory firm, which he joined after spending close to six years at BCG, most recently as a Principal. At BCG, he led Strategy, Digital, Operations and Large Scale Transformation projects predominantly in the Energy and Public sectors.
+Nico started his career at Schlumberger working as a Mechanical Engineer & Team Leader. He led the development of marine seismic equipment with offshore experience in the North Sea and West Africa. At Schlumberger, Nico co-authored two patents on innovative seismic technologies.
+While pursuing his MBA at Columbia Business School in New York, Nico co-founded Qopius, a tech startup in the retail space, which was sold to Trax in 2020.
+On the personal side, Nico was born and raised in Paris, but is also Brazilian through his mother. He spent the last five years in London where he lived with his wife, who hails from Spain, and their two young children.
