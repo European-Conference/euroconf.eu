@@ -2,7 +2,7 @@
 name: Riad Meddeb
 role: Director of the UNDP Sustainable Energy Hub
 keynote: false
-moderator: true
+moderator: false
 panel: f
 show: true
 display: true
