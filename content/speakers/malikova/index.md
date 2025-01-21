@@ -2,6 +2,7 @@
 name: Helena Malikova
 role: EU Civil Servant with Directorate General for Competition
 keynote: false
+moderator: true
 panel: a
 show: true
 display: true
