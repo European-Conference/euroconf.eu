@@ -1,7 +1,7 @@
 ---
 name: Mirjana Spoljaric Egger
 role: President of the International Committee of the Red Cross
-keynote: g
+keynote: a
 show: true
 ---
 
