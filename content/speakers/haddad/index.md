@@ -1,8 +1,8 @@
 ---
 name: Benjamin Haddad
 role: Minister Delegate for Europe
-keynote: false
-show: false
+keynote: true
+show: true
 display: true
 ---
 
