@@ -57,6 +57,9 @@
           {{ if eq .type "workshop"}}
             <span class="event-type-tag">Workshop</span><br />
           {{end}}
+          {{ if eq .type "fireside}}
+            <span class="event-type-tag">Fireside Chat</span><br />
+          {{end}}
           <span class="event-title"> 
             {{.content | safeHTML}} 
           </span>
