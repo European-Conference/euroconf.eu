@@ -61,7 +61,7 @@ params:
             - type: "keynote"
               content: "Flagship Session"
               location: "JFK Jr. Forum"
-              keynote: "b"
+              keynote: c
             - type: "fireside"
               content: "Fireside Chat (max 30 guests)"
               location: "Wexner 330"
@@ -83,7 +83,7 @@ params:
             - type: "keynote"
               content: "Flagship Session"
               location: "JFK Jr. Forum"
-              keynote: c
+              keynote: d
             - type: "panel"
               content: "Brain Drain and Emerging Tech"
               location: "Starr Auditorium"
