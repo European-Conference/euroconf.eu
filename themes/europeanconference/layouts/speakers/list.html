@@ -16,7 +16,7 @@
   <!-- Variable "$panelDict" that defines the panels for the conference. Panels can be updated for future conferences. -->
   <!-- Because dictionaries in Hugo only seem to hold strings, and not integers, the easiest thing to do is to list panels by letter, not number. If numbers are used, because Hugo seems to sort the keys by alphabetical order before iterating over them, the items will be sorted "1", "10", "11", ... "2", "3," ... You can number items "01", "02", "03", ..., but Hugo interprets all numbers that start with a 0 as octal (base 8) numbers, which leads to problems later on. Why, Hugo???!!! -->
   {{ $panelDict := dict "a" "Boosting Europe’s Economy Strategies for Competitiveness"
-  "b" "Being European: Life, Art, and Global Footprint"
+  "b" "A European Brand: Architecture, Hospitality, and Entertainment"
   "c" "Europe’s Role in Middle East Peace: Challenges, Opportunities, and a Path Forward" 
   "d" "The Union under Strain: Navigating Populism and Democratic Challenges in the EU"  
   "e" "Migration: Shaping Elections and Societies" 
@@ -24,7 +24,9 @@
   "g" "Europe’s Global Diplomacy: Strategies for Connection, Influence, and Equity"
   "h" "Fortifying Europe’s Frontlines: Ukraine, NATO’s New Era, and the Path to a Unified Defense" 
   "i" "Pretense or Promise? Europe’s Climate Ambition under Scrutiny" 
-  "j" "Brain Drain and Emerging Tech: Strategies to Fortify the Science and Innovation Ecosystem in Europe" }}
+  "j" "Brain Drain and Emerging Tech: Strategies to Fortify the Science and Innovation Ecosystem in Europe" 
+  "k" "Can Europe Lead the Fight for Human Rights in a Changing World?"
+  "l" "The Power of Art in Uncertain Times" }}
 
   <!-- Iterates through $panelDict, matching speakers to panels based on their panel parameter, defined in the individual speaker pages, and putting their picture and title under the correct panel. -->
   {{ range $key, $value := $panelDict }}
