@@ -36,7 +36,7 @@ title: "Home"
 <div class="homepage-panel-grid">
   <div class = "panel-grid">
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-a"><b>Boosting Europe’s Economy</b>: Strategies for Competitiveness</a>
-    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-b"><b>Being European</b>: Life, Art, and Global Footprint</a>
+    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-b"><b>A European Brand</b>: Architecture, Hospitality, and Entertainment</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-c"><b>Europe’s Role in Middle East Peace</b>: Challenges, Opportunities, and a Path Forward</a>  
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-d"><b>The Union under Strain</b>: Navigating Populism and Democratic Challenges in the EU</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-e"><b>Migration</b>: Shaping Elections and Societies</a>
@@ -45,6 +45,8 @@ title: "Home"
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-h"><b>Fortifying Europe’s Frontlines</b>: Ukraine, NATO’s New Era, and the Path to a Unified Defense</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-i"><b>Pretense or Promise?</b> Europe’s Climate Ambition under Scrutiny</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-j"><b>Brain Drain and Emerging Tech</b>: Strategies to Fortify the Science and Innovation Ecosystem in Europe</a>
+    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-k">Can Europe Lead the Fight for <b>Human Rights</b> in a Changing World?</a>
+    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-l"><b>The Power of Art</b> in Uncertain Times</a>
   </div>
 </div>
 
