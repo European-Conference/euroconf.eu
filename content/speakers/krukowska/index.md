@@ -2,6 +2,7 @@
 name: Ewa Krukowska
 role: Senior Energy Correspondent, Bloomberg
 keynote: false
+moderator: true
 panel: f
 show: true
 display: true
