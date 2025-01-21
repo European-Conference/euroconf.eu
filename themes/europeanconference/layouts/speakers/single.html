@@ -38,18 +38,28 @@
   {{end}}
 {{end}}
 
+{{ with .Params.Keynote }}
+  {{ range $.Site.Params.Schedule }}
+    {{ $showDay := false }}
+    {{ range .slots }}
+      {{ range .events }}
+        {{ if eq .keynote $keynote }}
+          {{ $showDay = true }}
+        {{end}}
+      {{end}}
+    {{end}}
+    {{ if $showDay }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $pan "fileName" $fileName) }}
+    {{end}}
+  {{end}}
+{{end}}
+
 {{ with .Params.Panel }}
   {{ range $.Site.Params.Schedule }}
     {{ $showDay := false }}
     {{ range .slots }}
       {{ range .events }}
         {{ if eq .code $pan }}
-          {{ $showDay = true }}
-        {{end}}
-        {{ if eq .keynote $keynote }}
-          {{ $showDay = true }}
-        {{end}}
-        {{ if and (eq .type "keynote") (eq .moderator $fileName) }}
           {{ $showDay = true }}
         {{end}}
       {{end}}
