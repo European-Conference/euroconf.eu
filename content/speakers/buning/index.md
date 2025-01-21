@@ -2,7 +2,7 @@
 name: Madeleine de Cock Buning
 role: Part-time Professor Digital Politics, Economy and Societies at the School of Transnational Governance (STG)
 keynote: false
-panel: b
+panel: l
 show: true
 display: true
 ---
