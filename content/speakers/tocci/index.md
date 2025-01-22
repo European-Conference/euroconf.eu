@@ -3,6 +3,7 @@ name: Nathalie Tocci
 role: Political Scientist and Director, Instituto Affari Internazionali
 keynote: false
 panel: c
+panel_two: l
 show: true
 display: true
 ---
