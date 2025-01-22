@@ -1,6 +1,6 @@
 ---
 name: Wojciech Sadurski
-role: Challis Professor of Jurisprudence at the University of Sydney
+role: Laurance S. Rockefeller Visiting Professor for Distinguished Teaching, Princeton University
 keynote: false
 panel: k
 show: true
