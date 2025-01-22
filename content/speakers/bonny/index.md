@@ -2,7 +2,7 @@
 name: Rémy Bonny
 role: Executive Director, Forbidden Colors
 keynote: false
-panel: l
+panel: k
 show: true
 display: true
 ---
