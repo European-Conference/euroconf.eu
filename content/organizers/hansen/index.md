@@ -1,5 +1,5 @@
 ---
-name: Francesca Picucci
+name: Emil Sondaj Hansen
 role: Panel coordinator, climate panel
 keynote: false
 show: true
