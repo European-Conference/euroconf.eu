@@ -1,9 +1,9 @@
 ---
 name: Florian Dirmayer
-role: Point of contact - Migration panel
+role: Content chair
 keynote: false
 show: true
-priority: 80
+priority: 2
 ---
 
-Florian is an MPP candidate and Fulbright student at Harvard Kennedy School. Previously, he served as a Schuman Trainee at the Committee on Foreign Affairs of the European Parliament, where he worked on the EU’s foreign policy instruments NDICI-Global Europe and Ukraine Facility. Florian spearheaded the internal initiative to streamline and enhance the Parliament’s influence on the EU’s foreign policy. Florian’s experience extends to the nonprofit sector, where he was a Public Affairs Impact Fellow at the Salzburg Global Seminar. At the Labor Mobility and Social Inclusion Department in the International Organization for Migration’s regional office in Cairo, he focused on skills mobility partnerships between North African, European, and Gulf countries. Prior to his position in Egypt, he interned at the Austrian Embassy in Washington, DC. Florian is an advocate for migration and refugee rights and was active in the NGOs Volkshilfe and Caritas, serving refugee populations at reception centers and integration programs. His academic and professional work is centered on reforming global governance structures to foster just and inclusive foreign policy. He holds a Bachelor’s degree in philosophy, politics, and economics at Stockholm University and Paris Lodron University of Salzburg.
+Florian, an Austrian Fulbright Scholar and Public Policy candidate at Harvard Kennedy School, specializes in the interconnection of international affairs and migration. As a Research Assistant at the Belfer Center for Science and International Affairs and the Weatherhead Center for International Affairs, he focuses on European foreign policy, multilateralism, and global migration governance. Currently, he is collaborating with the European Stability Initiative on bilateral migration agreements, drawing lessons from the US-Latin American context for EU countries. Florian’s policy work is informed by experience across four continents, most recently for the USAID Juntos Aprendemos project in Colombia. He has also served as a Schuman Trainee at the European Parliament’s Committee on Foreign Affairs and held roles at the International Organization for Migration’s MENA office in Cairo and the Austrian Embassy in Washington, DC.
