@@ -1,6 +1,6 @@
 ---
 name: Tanja Miščević
-role: Serbian Minister of European Integration
+role: Minister of European Integration, Serbia
 keynote: false
 panel: g
 show: true
