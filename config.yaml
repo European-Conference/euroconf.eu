@@ -85,11 +85,11 @@ params:
               location: "JFK Jr. Forum"
               keynote: d
             - type: "panel"
-              content: "Brain Drain and Emerging Tech"
+              content: "Boosting Europe's Economy"
               location: "Starr Auditorium"
               code: "j"
             - type: "workshop"
-              content: "A Career in the European External Action Service"
+              content: "A Career in the European Parliament and External Action Service"
               location: "Wexner 434"
         - time: "10:00am – 10:15am"
           events:
@@ -117,7 +117,7 @@ params:
         - time: "12:00pm - 1:15pm"
           events:
             - type: "panel"
-              content: "Boosting Europe's Economy"
+              content: "Europe's Role in Global Diplomacy"
               location: "JFK Jr. Forum"
               code: "a"
             - type: "panel"
@@ -159,7 +159,7 @@ params:
               location: "JFK Jr. Forum"
               code: "e"
             - type: "panel"
-              content: "Europe's Role in Global Diplomacy"
+              content: "Brain Drain and Emerging Tech"
               location: "Starr Auditorium"
               code: "g"
             - type: "panel"
