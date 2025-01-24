@@ -3,8 +3,8 @@ name: Costantinos Kombos
 role: Minister of Foreign Affairs, Cyprus
 keynote: false
 panel: c
-show: true
-display: true
+show: false
+display: false
 ---
 
 Dr. Constantinos Kombos was born in 1976 in Lemesos. He has studied Law and holds a postgraduate degree in EU Law (LLM University of Cambridge) as well as a PhD in European Constitutional Law (PhD University of Hull). He was elected at the Department of Law of the University of Cyprus in 2006, of which he is a founding member. He has served as chairman of the Law Department and as member of the Senate. He has published 6 books and numerous articles and chapters in scientific magazines and collective volumes. Part of his work has been translated and published in 6 languages. He has also participated and delivered speeches in numerous international conferences.
