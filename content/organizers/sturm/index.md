@@ -2,7 +2,7 @@
 name: Daniel Sturm
 role: Conference collaborator
 keynote: false
-show: true
+show: false
 priority: 160
 ---
 
