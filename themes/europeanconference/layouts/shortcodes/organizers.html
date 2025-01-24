@@ -1,5 +1,5 @@
 <div class="pure-g organizers">
-  {{ range (sort (where .Site.RegularPages "Section" "organizers") "Params.priority" "asc") }}
+  {{ range (sort (where (where (.Site.RegularPages "Section" "organizers") "Params.show" true) "Params.priority" "asc") }}
     {{ $keynoteLabel := false }}
     {{ partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel) }} 
   {{end}}
