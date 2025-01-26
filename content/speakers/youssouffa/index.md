@@ -1,5 +1,5 @@
 ---
-name: Estelle Youssaffa
+name: Estelle Youssouffa
 role: Member of Parliament of the French National Assembly
 keynote: false
 panel: e
