@@ -1,6 +1,6 @@
 ---
 name: Benjamin Haddad
-role: Minister Delegate for Europe
+role: Minister Delegate of France for Europe
 keynote: c
 show: true
 display: true
