@@ -2,7 +2,7 @@
 name: Chad Smith
 role: President and Chief Executive Officer of the Boston Symphony Orchestra
 keynote: false
-panel: i
+panel: l
 show: true
 display: true
 ---
