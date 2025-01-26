@@ -1,6 +1,6 @@
 ---
-name: Mohammed Chahim
-role: Member of the European Parliament for GroenLinks-PvdA
+name: Chad Smith
+role: President and Chief Executive Officer of the Boston Symphony Orchestra
 keynote: false
 panel: i
 show: true
