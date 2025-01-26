@@ -14,10 +14,10 @@
   <img class="person-image" src="{{$image.RelPermalink}}" alt="{{$page.Params.Name}}" />
   <div class="person-description">
     <span class="person-name">{{$page.Params.Name}}</span>
-    {{ if and $page.Params.Keynote $keynoteLabel (ne $page.Params.Name "Wojciech Sadurski") }}
+    {{ if and $page.Params.Keynote $keynoteLabel (ne $page.Params.Name "Wojciech Sadurski") (ne $page.Params.Name "Mateusz Morawiecki") }}
       <span class="person-keynote">Flagship Session Speaker</span>
     {{ end }}
-    {{ if and $page.Params.Keynote $keynoteLabel (eq $page.Params.Name "Wojciech Sadurski") }}
+    {{ if or (eq $page.Params.Name "Wojciech Sadurski") (eq $page.Params.Name "Mateusz Morawiecki")}}
       <span class="person-keynote">Flagship Session with a response by Prof. Wojciech Sadurski</span>
     {{ end }}
     {{ if $page.Params.Moderator }}
