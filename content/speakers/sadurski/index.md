@@ -1,7 +1,7 @@
 ---
 name: Wojciech Sadurski
 role: Laurance S. Rockefeller Visiting Professor for Distinguished Teaching, Princeton University
-keynote: false
+keynote: d
 panel: k
 show: true
 display: true
