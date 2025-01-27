@@ -4,8 +4,8 @@ role: Director of the UNDP Sustainable Energy Hub
 keynote: false
 moderator: false
 panel: f
-show: true
-display: true
+show: false
+display: false
 ---
 
 
