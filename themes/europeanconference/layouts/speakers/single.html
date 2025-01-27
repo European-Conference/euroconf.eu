@@ -20,6 +20,7 @@
 {{ $pan := .Params.Panel }}
 {{ $panTwo := .Params.Panel_two }}
 {{ $keynote := .Params.Keynote }}
+{{ $workshop := .Params.Workshop }}
 {{ $fileName := .File.ContentBaseName }}
 
 {{ with .Params.Panel_two }}
@@ -33,7 +34,7 @@
       {{end}}
     {{end}}
     {{ if $showDayTwo }}
-      {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $panTwo "fileName" $fileName) }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "pan" $panTwo "fileName" $fileName) }}
     {{end}}
   {{end}}
 {{end}}
@@ -56,6 +57,22 @@
     {{end}}
     {{ if $showDay }}
       {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $pan "fileName" $fileName) }}
+    {{end}}
+  {{end}}
+{{end}}
+
+{{ with .Params.Workshop }}
+  {{ range $.Site.Params.Schedule }}
+    {{ $showWork := false }}
+    {{ range .slots }}
+      {{ range .events }}
+        {{ if eq .workshop $workshop }}
+          {{ $showWork = true }}
+        {{end}}
+      {{end}}
+    {{end}}
+    {{ if $showWork }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "work" $workshop "fileName" $fileName) }}
     {{end}}
   {{end}}
 {{end}}
