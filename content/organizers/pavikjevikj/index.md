@@ -1,9 +1,9 @@
 ---
 name: Luka Pavikjevikj
-role: Conference collaborator
+role: Panel coordinator, migration panel
 keynote: false
 show: true
-priority: 160
+priority: 15
 ---
 
-Luka is pursuing a BA in History and in Government at Harvard College, specializing in constitutional history and political theory. He has conducted research on education policy and on authoritarianism for two Harvard professors
+Luka is pursuing a BA in History and in Government at Harvard College, specializing in constitutional history and political theory. He sits on the History Department’s Leadership Council, the Student Advisory Board of the Intellectual Vitality Initiative, and works as a research assistant for Professor Gary Gerstle’s project on authoritarianism at the Harvard-Radcliffe Institute. His foreign policy interests include realism, constructivism, Europe and the Indo-Pacific. 
