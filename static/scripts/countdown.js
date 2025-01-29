@@ -2,7 +2,7 @@
 //This code is largely taken from the W3 Schools Countdown Timer example
 
 // Set the date we're counting down to. This date uses a 24-hour clock and is in EST. 
-var countDownDate = new Date("Feb 2, 2024 11:59:59").getTime();
+var countDownDate = new Date("Jan 31, 2025 14:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
