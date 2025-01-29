@@ -1,6 +1,6 @@
 ---
 name: Jean Michel Dalle
-role: Professor, Oxford University and Managing Director, Agoranov
+role: Professor, Sorbonne University, and Managing Director, Agoranov
 keynote: false
 panel: j
 show: true
