@@ -27,7 +27,7 @@ title: "Home"
 </div>
 
 <h2 id="speakers-list" class="homepage-headers" >Welcome to the 2025 European Conference!</h2>
-<p class="homepage-video">A welcome message from United Nations High Commissioner for Human Rights Volker Türk</p>
+<p class="homepage-video-blurb">A welcome message from United Nations High Commissioner for Human Rights Volker Türk</p>
 <video class="homepage-video" controls width="600">
   <source src="https://euroconf.eu/volker-turk-video.mp4" type="video/mp4">
 </video>
