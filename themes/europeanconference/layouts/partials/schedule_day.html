@@ -20,11 +20,14 @@
            {{ $speaker_appears = true }}
         {{ end }}
       {{ end }}
-      <!-- When schedule_day.html is called by the schedule shortcode, there will be no panel associated with the shortcode, but we still want the $speaker_appears condtion to be met.-->
+      <!-- When schedule_day.html is called by the schedule shortcode, there will be no panel, keynote, or workshop associated with the shortcode, but we still want the $speaker_appears condtion to be met.-->
+      {{ if and (not $.pan) (not $.keynote) (not $.workshop) }}
+        {{ $speaker_appears = true }}
+      {{ end }}
       <!-- If any of the conditions are met...-->
       {{ if $speaker_appears }}
         <!-- The partial schedule_slot.html is summoned to handle the next part of creating the schedule-->
-        {{ partial "schedule_slot" (dict "root" $.root "slot" . "keynote" $.keynote "pan" $.pan) }}
+        {{ partial "schedule_slot" (dict "root" $.root "slot" .) }}
       {{end}}
     {{end}}
   </div>
