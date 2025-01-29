@@ -16,9 +16,6 @@
         {{ if eq .code $.pan }}
           {{ $speaker_appears = true }}
         {{ end }}
-        {{ if eq .workshop $.work }}
-          {{ $speaker_appears = true }}
-        {{ end }}
         {{ if eq .moderator $.fileName }}
           {{ $speaker_appears = true }}
         {{ end }}
