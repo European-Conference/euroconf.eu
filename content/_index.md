@@ -15,6 +15,7 @@ title: "Home"
   <p id='increase'
   </p>
   <div id='countdown'>
+    <script src="/static/scripts/countdown.js"></script>
   </div>
   <div class="title-caption">
     <i>Photo by Azzedine Rouichi on Unsplash</i>
