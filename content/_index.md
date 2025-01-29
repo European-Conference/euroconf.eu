@@ -55,6 +55,8 @@ title: "Home"
   </div>
 </div>
 
+<h2 class="homepage-headers"> We look forward to seeing you in Cambridge soon!</h2>
+
 <!--
 <h2 class="homepage-headers">Questions and Answers</h2>
 <div class="homepage-q-and-a">
@@ -81,6 +83,4 @@ title: "Home"
     </div>
   </div>
 </div>
-
-<h2 class="homepage-headers"> We look forward to welcoming you in Cambridge!</h2>
 -->
