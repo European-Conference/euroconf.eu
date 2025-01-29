@@ -274,16 +274,21 @@ nav ul li ul li a {
   width: 100%;
 }
 
-.homepage-conference-blurb, .homepage-speakers-list, .homepage-panel-grid, .homepage-q-and-a {
-  width: 85%;
-  margin: 0 auto;
-}
-
 .homepage-headers {
   background-color: #b7133e;
   color: white;
   padding: 10px 0px;
 }
+
+.homepage-conference-blurb, .homepage-speakers-list, .homepage-panel-grid, .homepage-q-and-a {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.homepage-video {
+  text-align: center;
+}
+
   
 /* Formatting for the homepage title and countdown timer */
 .homepage-conference-title {
