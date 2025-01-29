@@ -10,9 +10,15 @@
     {{ range .day.slots}}
       {{ $speaker_appears := false}}
       {{ range .events }}
-         {{ if eq .code $.pan }}
+        {{ if and .code (eq .code $.pan) }}
+            {{ $speaker_appears = true }}
+        {{ end }}
+        {{ if and .keynote (eq .keynote $.keynote) }}
+            {{ $speaker_appears = true }}
+        {{ end }}
+        {{ if and .workshop (eq .workshop $.workshop) }}
            {{ $speaker_appears = true }}
-         {{ end }}
+        {{ end }}
       {{ end }}
       <!-- When schedule_day.html is called by the schedule shortcode, there will be no panel associated with the shortcode, but we still want the $speaker_appears condtion to be met.-->
       <!-- If any of the conditions are met...-->
