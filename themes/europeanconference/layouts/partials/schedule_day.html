@@ -13,6 +13,9 @@
         {{ if and .code (eq .code $.pan) }}
             {{ $speaker_appears = true }}
         {{ end }}
+        {{ if and .code (eq .code $.panTwo) }}
+            {{ $speaker_appears = true }}
+        {{ end }}
         {{ if and .keynote (eq .keynote $.keynote) }}
             {{ $speaker_appears = true }}
         {{ end }}

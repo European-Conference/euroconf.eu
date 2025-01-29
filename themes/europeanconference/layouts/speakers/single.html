@@ -1,4 +1,6 @@
 {{ define "main" }}
+
+<!--This section of the code adds the image of the speaker with the name on top and title on bottom-->
 <div id="profile">
   <div id="profile-header">
     <h2 id="profile-name">{{.Params.Name}}</h2>
@@ -11,11 +13,14 @@
     </div>
     <h3>{{ .Params.Role }}</h3>
   </div>
+
+<!--This section of the code adds the speaker biography-->
   <div id="profile-bio">
     <p>{{ .Content }}</p>
   </div>
 </div>
 
+<!--This section of the code adds the speaker's schedule on the bottom-->
 <h2>Speaker Schedule</h2>
 {{ $pan := .Params.Panel }}
 {{ $panTwo := .Params.Panel_two }}
@@ -23,67 +28,18 @@
 {{ $workshop := .Params.Workshop }}
 {{ $fileName := .File.ContentBaseName }}
 
-{{ with .Params.Panel_two }}
-  {{ range $.Site.Params.Schedule }}
-    {{ $showDayTwo := false }}
-    {{ range .slots }}
-      {{ range .events }}
-        {{ if eq .code $panTwo }}
-          {{ $showDayTwo = true }}
-        {{end}}
+<!--This section of the code calls the function to add the speaker's schedule at the bottom.-->
+{{ range $.Site.Params.Schedule }}
+  {{ $showDay := false }}
+  {{ range .slots }}
+    {{ range .events }}
+      {{ if or (and .code (eq .code $pan)) (and .code (eq .code $panTwo)) (and .keynote (eq .keynote $keynote)) (and .workshop (eq .workshop $workshop)) }}
+        {{ $showDay = true }}
       {{end}}
-    {{end}}
-    {{ if $showDayTwo }}
-      {{ partial "schedule_day" (dict "root" $ "day" . "pan" $panTwo "fileName" $fileName) }}
     {{end}}
   {{end}}
-{{end}}
-
-{{ with .Params.Panel }}
-  {{ range $.Site.Params.Schedule }}
-    {{ $showDay := false }}
-    {{ range .slots }}
-      {{ range .events }}
-        {{ if eq .code $pan }}
-          {{ $showDay = true }}
-        {{end}}
-      {{end}}
-    {{end}}
-    {{ if $showDay }}
-      {{ partial "schedule_day" (dict "root" $ "day" . "pan" $pan "fileName" $fileName) }}
-    {{end}}
-  {{end}}
-{{end}}
-
-{{ with .Params.Keynote }}
-  {{ range $.Site.Params.Schedule }}
-    {{ $showDay := false }}
-    {{ range .slots }}
-      {{ range .events }}
-        {{ if eq .keynote $keynote }}
-          {{ $showDay = true }}
-        {{end}}
-      {{end}}
-    {{end}}
-    {{ if $showDay }}
-      {{ partial "schedule_day" (dict "root" $ "day" . "keynote" $keynote "fileName" $fileName) }}
-    {{end}}
-  {{end}}
-{{end}}
-
-{{ with .Params.Workshop }}
-  {{ range $.Site.Params.Schedule }}
-    {{ $showWork := false }}
-    {{ range .slots }}
-      {{ range .events }}
-        {{ if eq .workshop $workshop }}
-          {{ $showWork = true }}
-        {{end}}
-      {{end}}
-    {{end}}
-    {{ if $showWork }}
-      {{ partial "schedule_day" (dict "root" $ "day" . "workshop" $workshop "fileName" $fileName) }}
-    {{end}}
+  {{ if $showDay }}
+    {{ partial "schedule_day" (dict "root" $ "day" . "pan" $pan "panTwo" $panTwo "keynote" $keynote "workshop" $workshop "fileName" $fileName) }}
   {{end}}
 {{end}}
 
