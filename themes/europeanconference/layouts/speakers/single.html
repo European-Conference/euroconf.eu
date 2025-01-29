@@ -47,16 +47,26 @@
         {{ if eq .code $pan }}
           {{ $showDay = true }}
         {{end}}
+      {{end}}
+    {{end}}
+    {{ if $showDay }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "pan" $pan "fileName" $fileName) }}
+    {{end}}
+  {{end}}
+{{end}}
+
+{{ with .Params.Keynote }}
+  {{ range $.Site.Params.Schedule }}
+    {{ $showDay := false }}
+    {{ range .slots }}
+      {{ range .events }}
         {{ if eq .keynote $keynote }}
-          {{ $showDay = true }}
-        {{end}}
-        {{ if and (eq .type "keynote") (eq .moderator $fileName) }}
           {{ $showDay = true }}
         {{end}}
       {{end}}
     {{end}}
     {{ if $showDay }}
-      {{ partial "schedule_day" (dict "root" $ "day" . "keynote" $keynote "pan" $pan "fileName" $fileName) }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "keynote" $keynote "fileName" $fileName) }}
     {{end}}
   {{end}}
 {{end}}
