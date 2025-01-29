@@ -6,4 +6,4 @@ show: true
 panel: a
 ---
 
-Pierre Wunsch is the Governor of the National Bank of Belgium and a member of key financial institutions, including the ECB's Governing Council and the Bank for International Settlements. He served as Director of the Strategic Finance Cell at Belgium's Ministry of Finance and played a critical role during the 2008 financial crisis.
+(Guillaume) Pierre Wunsch is Governor at the National Bank of Belgium, member of the ECB’s Governing and General Council, member of the European Systemic Risk Board, member of the Board of Directors of the Bank for International Settlements, IMF Governor, Chairman of the Resolution College, member of the High Council for Finance, member of the Board of Directors of the National Accounts Institute. He is also Chair of the Board of Governors of the King Baudouin Foundation. He was Director of the Strategic Finance Cell at the Ministry of Finance during the financial crisis of 2008. He holds a PhD in Economics (UCL) and a Master’s degree in Public and International Affairs (Princeton)
