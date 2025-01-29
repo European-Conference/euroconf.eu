@@ -285,10 +285,15 @@ nav ul li ul li a {
   margin: 0 auto;
 }
 
-.homepage-video {
+.homepage-video-blurb {
   text-align: center;
 }
 
+.homepage-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
   
 /* Formatting for the homepage title and countdown timer */
 .homepage-conference-title {
