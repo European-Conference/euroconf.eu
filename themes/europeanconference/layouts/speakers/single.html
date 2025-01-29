@@ -56,7 +56,7 @@
       {{end}}
     {{end}}
     {{ if $showDay }}
-      {{ partial "schedule_day" (dict "root" $ "day" . "key" $keynote "pan" $pan "fileName" $fileName) }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "keynote" $keynote "pan" $pan "fileName" $fileName) }}
     {{end}}
   {{end}}
 {{end}}
@@ -72,7 +72,7 @@
       {{end}}
     {{end}}
     {{ if $showWork }}
-      {{ partial "schedule_day" (dict "root" $ "day" . "work" $workshop "fileName" $fileName) }}
+      {{ partial "schedule_day" (dict "root" $ "day" . "workshop" $workshop "fileName" $fileName) }}
     {{end}}
   {{end}}
 {{end}}
