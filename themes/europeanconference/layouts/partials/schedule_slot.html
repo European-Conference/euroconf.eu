@@ -34,10 +34,23 @@
 
   <!-- This section looks for keynote speakers whose keynote parameter (Params.keynote) matches a given keynote code (.keynote) in config.yaml -->
       {{ $pagesKeynote := (where $pages "Params.keynote" "!=" nil) }} 
-      {{ $bridgeKeynote := (where $pages "Params.keynote" .keynote) }}
+      {{ $bridgeKeynote := (where $pagesKeynote "Params.keynote" .keynote) }}
       {{ $displayKeynote := (where $bridgeKeynote "Params.display" "!=" false) }}
       {{ $speakersKeynote := (where $displayKeynote "Params.moderator" "!=" true) }}
       {{ range $speakersKeynote}}
+        {{ if eq .Params.show true }}
+          {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
+        {{ else }}
+          {{ $speakerLinks = $speakerLinks | append (printf "%s" .Params.name) }}
+        {{end}}
+      {{end}}
+
+    <!-- This section looks for speakers whose workshop parameter (Params.workshop) matches a given workshop code (.workshop) in config.yaml -->
+      {{ $pagesWorkshop := (where $pages "Params.workshop" "!=" nil) }} 
+      {{ $bridgeWorkshop := (where $pagesWorkshop "Params.workshop" .workshop) }}
+      {{ $displayWorkshop := (where $bridgeWorkshop "Params.display" "!=" false) }}
+      {{ $speakersWorkshop := (where $displayWorkshop "Params.moderator" "!=" true) }}
+      {{ range $speakersWorkshop}}
         {{ if eq .Params.show true }}
           {{ $speakerLinks = $speakerLinks | append (printf "<a href='%s'>%s</a>" .RelPermalink .Params.name) }}
         {{ else }}
