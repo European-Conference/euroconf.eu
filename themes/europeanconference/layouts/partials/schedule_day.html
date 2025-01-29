@@ -10,9 +10,6 @@
     {{ range .day.slots}}
       {{ $speaker_appears := false}}
       {{ range .events }}
-        {{ if eq .keynote $.key }}
-          {{ $speaker_appears = true }}
-        {{ end }}
         {{ if eq .code $.pan }}
           {{ $speaker_appears = true }}
         {{ end }}
