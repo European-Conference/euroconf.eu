@@ -26,9 +26,9 @@ title: "Home"
 <p>Under the theme <i>Leader or Dreamer? Europe’s Role in a Fragmented World Order</i>, the 2025 edition will bring together over 750 academics, students, and future leaders from around the world. Across 10 panels, 4 keynote speeches and several working groups, the European Conference will address pivotal topics shaping Europe's future, such as defense, energy security, economic resilience, and transatlantic relations.</p>
 </div>
 
-<h2 id="speakers-list" class="homepage-headers">Welcome to the 2025 European Conference!</h2>
-<p>A welcome message from United Nations High Commissioner for Human Rights Volker Türk</p>
-<video controls width="600">
+<h2 id="speakers-list" class="homepage-headers" >Welcome to the 2025 European Conference!</h2>
+<p class="homepage-conference-blurb">A welcome message from United Nations High Commissioner for Human Rights Volker Türk</p>
+<video class="homepage-video" controls width="600">
   <source src="https://euroconf.eu/volker-turk-video.mp4" type="video/mp4">
 </video>
 
