@@ -29,7 +29,7 @@ params:
           events:
             - type: "other"
               content: "Welcome Coffee"
-              location: "Wexner Commons"
+              location: "Nye Hallway"
         - time: "2:30pm – 3:30pm"
           events:
             - type: "keynote"
@@ -40,7 +40,7 @@ params:
           events:
             - type: "other"
               content: "Break"
-              location: "Wexner Commons"
+              location: "Nye Hallway"
         - time: "4:00pm – 5:15pm"
           events:
             - type: "keynote"
@@ -55,7 +55,7 @@ params:
           events:
             - type: "other"
               content: "Break"
-              location: "Wexner Commons"
+              location: "JFK Jr. Forum"
         - time: "5:45pm – 6:30pm"
           events:
             - type: "keynote"
@@ -64,11 +64,11 @@ params:
               keynote: c
             - type: "fireside"
               content: "Fireside Chat with Mirjana Spoljaric (max 30 guests)"
-              location: "Wexner 330"
+              location: "Registration Required"
               fireside: a
             - type: "fireside"
               content: "Fireside Chat with Alexander de Croo (max 30 guests, starts at 5:15 pm)"
-              location: "Wexner 434"
+              location: "Registration Required"
               fireside: b
     - name: "Saturday, February 1, 2025"
       location: "Harvard Kennedy School of Government (HKS)"
@@ -90,7 +90,7 @@ params:
               code: "a"
             - type: "fireside"
               content: "Fireside Chat with Madeleine de Cock Buning (max 30 guests)"
-              location: "Wexner 434"
+              location: "Registration Required"
               fireside: "c"
         - time: "10:00am – 10:15am"
           events:
@@ -119,11 +119,11 @@ params:
           events:
             - type: "panel"
               content: "Europe's Role in Global Diplomacy: Connecting the Balkans and Beyond"
-              location: "JFK Jr. Forum"
+              location: "Starr Auditorium"
               code: "g"
             - type: "panel"
               content: "Pretense or Promise? Europe's Climate Ambition"
-              location: "Starr Auditorium"
+              location: "JFK Jr. Forum"
               code: "i"
             - type: "panel"
               content: "A European Brand: Architecture, Hospitality, and Entertainment"
@@ -163,7 +163,7 @@ params:
               location: "Starr Auditorium"
               code: "j"
             - type: "panel"
-              content: "The Fight for Human Rights"
+              content: "Can Europe Lead the Fight for Human Rights in a Changing World?"
               location: "Wexner 330"
               code: "k"
         - time: "5:15pm – 5:25pm"
