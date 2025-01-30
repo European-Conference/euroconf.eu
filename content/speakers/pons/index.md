@@ -1,7 +1,7 @@
 ---
 name: Vincent Pons
 role: Byron Wien Professor of Business Administration at Harvard Business School
-keynote: c
+keynote: false
 moderator: true
 show: true
 display: true
