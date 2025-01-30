@@ -6,7 +6,7 @@
 <!-- <p style="text-align: center">Keynote speakers to be added shortly</p> -->
   <div class="pure-g speaker-tiles">
     {{ range .Pages }}
-      {{ if .Params.keynote }}
+      {{ if and .Params.keynote (ne .Params.moderator true}}
         {{ $keynoteLabel := true }}
         {{ partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel) }}
       {{end}}
