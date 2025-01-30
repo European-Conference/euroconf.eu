@@ -3,8 +3,8 @@ name: Tanja Miščević
 role: Minister of European Integration, Serbia
 keynote: false
 panel: g
-show: true
-display: true
+show: false
+display: false
 ---
 
 Born in 1966 in Zemun, where she completed her primary and secondary school education, Tanja Miščević is a full professor at the Faculty of Political Sciences of the University of Belgrade at the Department of International and European Studies. She graduated from the Department of International Relations at the Faculty of Political Sciences in Belgrade in 1989, received her master's degree in 1997, and obtained her PhD in political science in 2002 at the same faculty.
