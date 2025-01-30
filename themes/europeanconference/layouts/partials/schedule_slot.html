@@ -86,9 +86,10 @@
             {{end}}
           </span>
         
-  <!-- This part of the code adds the moderators. The first code block (commented out) added moderators listed in config.yaml. However, this required putting the moderator for each panel in the config file.
+  <!-- This part of the code adds the moderators. The first code block added moderators listed in config.yaml. However, this required putting the moderator for each panel in the config file.
   Because the speaker's panel and moderator status are already listed in the speaker pages, the second code block was created to only use information from the speaker pages.
-  However, the first (now unused) code block is retained in case there are any issues with the second code block. You can always add moderators to the config file if there are issues with just using the speaker pages.
+  However, the first code block is retained to handle cases where the second code block is inadequate, such as if someone is both a moderator and a speaker. You can always add moderators to the config file if there are issues with just using the speaker pages.
+  -->
           
           <span class="event-moderators">
             {{ if in .event.moderator " " }}
@@ -107,7 +108,6 @@
                 {{ safeHTML $moderatorLink }}
               {{ end }}
             {{ end }}
-    -->
               
             {{ $pagesMod := (where $pages "Params.panel" "!=" nil) }}
             {{ $bridgeMod := (where $pagesMod "Params.panel" .code) }}
