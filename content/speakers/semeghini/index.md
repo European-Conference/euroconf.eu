@@ -2,6 +2,7 @@
 name: Giulia Semeghini
 role: Assistant Professor of Applied Physics, Harvard University
 keynote: false
+moderator: true
 panel: j
 show: true
 display: true
