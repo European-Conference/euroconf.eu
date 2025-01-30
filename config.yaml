@@ -145,7 +145,7 @@ params:
               location: "Starr Auditorium"
               code: "f"
             - type: "workshop"
-              content: "A Career in the European Parliament and External Action Service"
+              content: "A Career in the European Parliament and European External Action Service"
               workshop: "a"
         - time: "3:30pm – 4:00pm"
           events:
