@@ -1,9 +1,9 @@
 ---
 name: Nicolas Barral
-role: Conference collaborator
+role: Panel coordinator, Populism panel
 keynote: false
 show: true
-priority: 160
+priority: 15
 ---
 
 Nicolas is currently pursuing a Mid-Career Master in Public Administration (MPA) at Harvard with a focus on International Affairs, Energy policy & Entrepreneurship.
