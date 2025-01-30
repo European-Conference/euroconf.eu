@@ -1,6 +1,6 @@
 ---
 name: Luka Pavikjevikj
-role: Panel coordinator, migration panel
+role: Panel coordinator, Migration panel
 keynote: false
 show: true
 priority: 15
