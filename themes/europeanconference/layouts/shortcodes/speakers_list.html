@@ -8,7 +8,11 @@
 </div>
 <h3>Panelists</h3>
   <ul>
-    {{ range (sort (where (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" false) "Params.display" "ne" false) "Params.panel" "asc")}} 
+    {{ $pages := (where .Site.RegularPages "Section" "speakers") }} 
+    {{ $noKeynote := where $pages "Params.keynote" "==" false | where "Params.moderator" "==" true }}
+    {{ $speakers := (where $noKeynote "Params.display" "ne" false) }}
+    
+    {{ range (sort $speakers "Params.panel" "asc")}} 
       {{ if .Params.Show }}
         <li><b><a href="/speakers/{{.File.ContentBaseName}}">{{.Params.Name}}</a></b>, {{.Params.Role}}</li>
       {{ else }}
