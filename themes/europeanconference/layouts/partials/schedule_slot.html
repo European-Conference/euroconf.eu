@@ -115,9 +115,9 @@
             {{ $moderators := (where $displayMod "Params.moderator" true) }}
             {{ range $moderators}}
               {{ if eq .Params.show true }}
-                <p class='event-speakers'>Moderated by {{ printf "<a href='%s'>%s</a>" .RelPermalink .Params.name | safeHTML }}</p>
+                <p>Moderated by {{ printf "<a href='%s'>%s</a>" .RelPermalink .Params.name | safeHTML }}</p>
               {{ else }}
-                <p class='event-speakers'>Moderated by {{ printf "%s" .Params.name | safeHTML }}</p>
+                <p>Moderated by {{ printf "%s" .Params.name | safeHTML }}</p>
               {{end}}
             {{end}}
           </span>
