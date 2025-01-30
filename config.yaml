@@ -47,6 +47,7 @@ params:
               content: "Flagship Session with Alexander de Croo"
               location: "JFK Jr. Forum"
               keynote: b
+              moderator: "colbert"
             - type: "panel"
               content: "The Power of Art in Uncertain Times"
               location: "Nye Auditorium"
@@ -62,6 +63,7 @@ params:
               content: "Flagship Session with Benjamin Haddad"
               location: "JFK Jr. Forum"
               keynote: c
+              moderator: "pons"
             - type: "fireside"
               content: "Fireside Chat with Mirjana Spoljaric (max 30 guests)"
               location: "Registration Required"
@@ -84,6 +86,7 @@ params:
               content: "Flagship Session with Mateusz Morawiecki, with a response by Prof. Wojciech Sadurski"
               location: "JFK Jr. Forum"
               keynote: d
+              moderator: "risse"
             - type: "panel"
               content: "Boosting Europe's Economy"
               location: "Starr Auditorium"
