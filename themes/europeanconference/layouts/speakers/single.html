@@ -4,7 +4,7 @@
 <div id="profile">
   <div id="profile-header">
     <h2 id="profile-name">{{.Params.Name}}</h2>
-    {{ if .Params.Keynote }}
+    {{ if and .Params.Keynote (ne .Params.Moderator true) }}
       <p class="profile-keynote">Flagship Session Speaker</span>
     {{ end }}
     {{ $image := index (.Resources.ByType "image") 0 }}
