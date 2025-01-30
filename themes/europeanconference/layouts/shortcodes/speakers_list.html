@@ -9,7 +9,7 @@
 <h3>Panelists</h3>
   <ul>
     {{ $pages := (where .Site.RegularPages "Section" "speakers") }} 
-    {{ $noKeynote := where $pages "Params.keynote" "==" false | where "Params.moderator" "==" true }}
+    {{ $noKeynote := where $pages "Params.keynote" false | where "Params.moderator" true }}
     {{ $speakers := (where $noKeynote "Params.display" "ne" false) }}
     
     {{ range (sort $speakers "Params.panel" "asc")}} 
