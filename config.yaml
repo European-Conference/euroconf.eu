@@ -52,12 +52,12 @@ params:
               content: "The Power of Art in Uncertain Times"
               location: "Nye Auditorium"
               code: "l"
-        - time: "5:15pm – 5:45pm"
+        - time: "5:15pm – 5:30pm"
           events:
             - type: "other"
               content: "Break"
               location: "JFK Jr. Forum"
-        - time: "5:45pm – 6:30pm"
+        - time: "5:30pm – 6:30pm"
           events:
             - type: "keynote"
               content: "Flagship Session with Benjamin Haddad"
