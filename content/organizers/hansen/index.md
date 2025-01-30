@@ -1,6 +1,6 @@
 ---
 name: Emil Sondaj Hansen
-role: Panel coordinator, climate panel
+role: Panel coordinator, Climate panel
 keynote: false
 show: true
 priority: 15
