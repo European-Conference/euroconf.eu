@@ -86,6 +86,7 @@ params:
               content: "Flagship Session with Mateusz Morawiecki, with a response by Prof. Wojciech Sadurski"
               location: "JFK Jr. Forum"
               keynote: d
+              moderator: "risse"
             - type: "panel"
               content: "Boosting Europe's Economy"
               location: "Starr Auditorium"
