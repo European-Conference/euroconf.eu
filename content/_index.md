@@ -46,7 +46,7 @@ title: "Home"
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-d"><b>The Union under Strain</b>: Navigating Populism and Democratic Challenges in the EU</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-e"><b>Migration</b>: Shaping Elections and Societies</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-f"><b>Europe’s Energy Trifecta</b>: Independence, Affordability, and Sustainability</a>
-    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-g"><b>Europe’s Global Diplomacy</b>: Strategies for Connection, Influence, and Equity</a>
+    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-g"><b>Europe’s Global Diplomacy</b>: Connecting the Balkans and Beyond</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-h"><b>Fortifying Europe’s Frontlines</b>: Ukraine, NATO’s New Era, and the Path to a Unified Defense</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-i"><b>Pretense or Promise?</b> Europe’s Climate Ambition under Scrutiny</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-j"><b>Brain Drain and Emerging Tech</b>: Strategies to Fortify the Science and Innovation Ecosystem in Europe</a>
