@@ -2,7 +2,7 @@
 name: Mathias Risse
 role: Director of the Carr Center for Human Rights Policy, Harvard Kennedy School
 panel: k
-keynote: false
+keynote: d
 moderator: true
 show: true
 display: true
