@@ -118,7 +118,7 @@ params:
         - time: "12:00pm - 1:15pm"
           events:
             - type: "panel"
-              content: "Europe's Role in Global Diplomacy"
+              content: "Europe's Role in Global Diplomacy: Connecting the Balkans and Beyond"
               location: "JFK Jr. Forum"
               code: "g"
             - type: "panel"
