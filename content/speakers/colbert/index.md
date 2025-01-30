@@ -1,7 +1,7 @@
 ---
 name: Natalie Colbert
 role: Executive Director of the Belfer Center
-keynote: false
+keynote: b
 moderator: true
 show: false
 display: false
