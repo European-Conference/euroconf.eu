@@ -54,8 +54,15 @@
             tileCounter++
           </script>
         {{end}}
-      {{end}}
+      {{end}}      
     </div>
+
+    {{ if eq $key "k" }}
+      <video class="homepage-video" controls width="600">
+        <source src="https://euroconf.eu/volker-turk-video.mp4" type="video/mp4">
+      </video>
+    {{end}}
+    
     <p class="panel-letter-{{ $key }}" style="text-align: center"> </p>
     <script>
       var panelLetter = ".panel-letter-";
