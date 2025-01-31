@@ -1,7 +1,6 @@
 <!--This partial creates the page where you see a speaker or organizer's picture next to their bio.-->
 
 {{ $page := .page }}
-{{ $keynoteLabel := .keynoteLabel }} 
 {{ $image := index ($page.Resources.ByType "image") 0 }}
 
 {{$pure := "pure-u-1-1 pure-u-md-1-3"}}
@@ -14,9 +13,10 @@
   <img class="person-image" src="{{$image.RelPermalink}}" alt="{{$page.Params.Name}}" />
   <div class="person-description">
     <span class="person-name">{{$page.Params.Name}}</span>
-    {{ if and $page.Params.Keynote $keynoteLabel (ne $page.Params.Name "Wojciech Sadurski") (ne $page.Params.Name "Mateusz Morawiecki") }}
+    {{ if and $page.Params.Keynote (ne $page.Params.Name "Wojciech Sadurski") (ne $page.Params.Name "Mateusz Morawiecki") }}
       <span class="person-keynote">Flagship Session Speaker</span>
     {{ end }}
+<!--This was a special case where we had to create a unique label for two speakers.-->
     {{ if or (eq $page.Params.Name "Wojciech Sadurski") (eq $page.Params.Name "Mateusz Morawiecki")}}
       <span class="person-keynote">Flagship Session with a response by Prof. Wojciech Sadurski</span>
     {{ end }}
