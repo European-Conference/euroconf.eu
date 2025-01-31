@@ -397,6 +397,27 @@ nav ul li ul li a {
   margin: 100px 0 0 0;
 
   @media (max-width: $responsive-medium) {
+    font-size: 150%;
+    margin: 100px 0;
+  }
+
+  @media (max-width: 785px) {
+    font-size: 150%;
+    margin: 50px 0;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 100%;
+    margin: 50px 0;
+  }
+}
+
+#brochure-button {
+  font-weight: bold;
+  font-size: 200%;
+  margin: 10px 0 0 0;
+
+  @media (max-width: $responsive-medium) {
     font-size: 200%;
     margin: 100px 0;
   }
@@ -410,7 +431,6 @@ nav ul li ul li a {
     font-size: 150%;
     margin: 50px 0;
   }
-
 }
 
 #increase {
