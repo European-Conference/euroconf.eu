@@ -122,11 +122,11 @@ params:
           events:
             - type: "panel"
               content: "Europe's Role in Global Diplomacy: Connecting the Balkans and Beyond"
-              location: "Starr Auditorium"
+              location: "JFK Jr. Forum"
               code: "g"
             - type: "panel"
               content: "Pretense or Promise? Europe's Climate Ambition"
-              location: "JFK Jr. Forum"
+              location: "Starr Auditorium"
               code: "i"
             - type: "panel"
               content: "A European Brand: Architecture, Hospitality, and Entertainment"
