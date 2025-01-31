@@ -4,7 +4,8 @@ role: Minister for Foreign Affairs of Ukraine
 keynote: false
 moderator: false
 panel: h
-show: true
+show: false
+display: false
 ---
 
 _Participates online, tentative_
