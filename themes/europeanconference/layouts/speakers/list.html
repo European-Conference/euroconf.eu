@@ -36,10 +36,10 @@
    "g" "Europe’s Global Diplomacy: Connecting the Balkans and Beyond"
    "h" "Fortifying Europe’s Frontlines: Ukraine, NATO’s New Era, and the Path to a Unified Defense" 
    "i" "Pretense or Promise? Europe’s Climate Ambition under Scrutiny" 
-   "j" "Brain Drain and Emerging Tech: Strategies to Fortify the Science and Innovation Ecosystem in Europe" 
    "k" "Can Europe Lead the Fight for Human Rights in a Changing World?"
    "l" "The Power of Art in Uncertain Times" 
-   "m" "The Future of LGBTQI+ Rights in Europe: The Landmark Case Against Hungary’s Anti-LGBTQI+ Law at the ECJ"}}
+   "m" "The Future of LGBTQI+ Rights in Europe: The Landmark Case Against Hungary’s Anti-LGBTQI+ Law at the ECJ"
+   "n" "Brain Drain and Emerging Tech: Strategies to Fortify the Science and Innovation Ecosystem in Europe" }}
 
   <!-- Iterates through $panelDict, matching speakers to panels based on their panel parameter, defined in the individual speaker pages, and putting their picture and title under the correct panel. -->
   {{ range $key, $value := $panelDict }}
@@ -67,4 +67,8 @@
     </script>
   {{end}}
 </div>
+
+<video class="homepage-video" controls width="600">
+  <source src="https://euroconf.eu/volker-turk-video.mp4" type="video/mp4">
+</video>
 {{end}}
