@@ -13,6 +13,18 @@
     {{end}}
   </div>
 
+  <div class="speakers">
+  <h3 class="speaker-title">Workshop Speakers</h3>
+<!-- <p style="text-align: center">Keynote speakers to be added shortly</p> -->
+  <div class="pure-g speaker-tiles">
+    {{ range .Pages }}
+      {{ if .Params.workshop }}
+        {{ $keynoteLabel := true }}
+        {{ partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel) }}
+      {{end}}
+    {{end}}
+  </div>
+
   <!-- Variable "$panelDict" that defines the panels for the conference. Panels can be updated for future conferences. -->
   <!-- Because dictionaries in Hugo only seem to hold strings, and not integers, the easiest thing to do is to list panels by letter, not number. If numbers are used, because Hugo seems to sort the keys by alphabetical order before iterating over them, the items will be sorted "1", "10", "11", ... "2", "3," ... You can number items "01", "02", "03", ..., but Hugo interprets all numbers that start with a 0 as octal (base 8) numbers, which leads to problems later on. Why, Hugo???!!! -->
   {{ $panelDict := dict "a" "Boosting Europe’s Economy Strategies for Competitiveness"
