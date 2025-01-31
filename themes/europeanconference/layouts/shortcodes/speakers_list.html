@@ -14,8 +14,8 @@
     
     {{ $filteredPages := slice }} 
     {{ range $pages }}
-      {{ if not (and (eq .Params.keynote false) (eq .Params.moderator true)) }}
-          {{ $filteredPages = $filteredPages | append . }}
+      {{ if or (eq .Params.keynote false) (eq .Params.moderator true) }}
+        {{ $filteredPages = $filteredPages | append . }}
       {{ end }}
     {{ end }}
     
