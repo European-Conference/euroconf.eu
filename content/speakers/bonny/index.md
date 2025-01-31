@@ -4,6 +4,7 @@ role: Executive Director, Forbidden Colors
 keynote: false
 moderator: false
 panel: k
+panel_two: m
 show: true
 display: true
 ---
