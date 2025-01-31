@@ -13,7 +13,7 @@
     {{ $pages := (where .Site.RegularPages "Section" "speakers") }} 
     
     {{ $filteredPages := slice }} 
-    {{ range $filteredPages }}
+    {{ range $pages }}
       {{ if not (and (eq .Params.keynote false) (eq .Params.moderator true)) }}
           {{ $filteredPages = $filteredPages | append . }}
       {{ end }}
