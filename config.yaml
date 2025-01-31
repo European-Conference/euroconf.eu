@@ -110,9 +110,9 @@ params:
               content: "Europe's Role in Middle East Peace"
               location: "Starr Auditorium"
               code: "c"
-            - type: "workshop"
+            - type: "panel"
               content: "The Future of LGBTQI+ Rights in Europe"
-              workshop: "b"
+              code: "m"
         - time: "11:30am – 12:00pm"
           events:
             - type: "other"
