@@ -3,7 +3,7 @@ name: Ryan Meilak
 role: Counsellor, Head of Outreach and Congressional Liaison, European Parliament Liaison Office, Washington D.C.
 keynote: false
 workshop: a
-show: false
+show: true
 display: true
 ---
 
