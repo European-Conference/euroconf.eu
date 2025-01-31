@@ -6,9 +6,23 @@
     {{partial "person.html" (dict "page" . "keynoteLabel" $keynoteLabel)}} 
   {{end}}
 </div>
+
 <h3>Panelists</h3>
+<!--Filtering out pages where 1) the person is a keynote speaker or 2) the display parameter is false-->
   <ul>
-    {{ range (sort (where (where (where .Site.RegularPages "Section" "speakers") "Params.keynote" false) "Params.display" "ne" false) "Params.panel" "asc")}} 
+    {{ $pages := (where .Site.RegularPages "Section" "speakers") }} 
+    
+    {{ $filteredPages := slice }} 
+    {{ range $pages }}
+      {{ if not (and (eq .Params.keynote false) (eq .Params.moderator true)) }}
+          {{ $filteredPages = $filteredPages | append . }}
+      {{ end }}
+    {{ end }}
+    
+    {{ $speakers := where $filteredPages "Params.display" "ne" false }}
+
+<!--Ranging through and printing the speakers on the homepage-->
+    {{ range (sort $speakers "File.ContentBaseName" "asc")}} 
       {{ if .Params.Show }}
         <li><b><a href="/speakers/{{.File.ContentBaseName}}">{{.Params.Name}}</a></b>, {{.Params.Role}}</li>
       {{ else }}
