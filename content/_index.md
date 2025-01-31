@@ -52,7 +52,7 @@ title: "Home"
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-j"><b>Brain Drain and Emerging Tech</b>: Strategies to Fortify the Science and Innovation Ecosystem in Europe</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-k">Can Europe Lead the Fight for <b>Human Rights</b> in a Changing World?</a>
     <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-l"><b>The Power of Art</b> in Uncertain Times</a>
-    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-l"><b>The Future of LGBTQI+ Rights in Europe</b>: The Landmark Case Against Hungary’s Anti-LGBTQI+ Law at the ECJ</a>
+    <a class = "panel-grid-item pure-button pure-button-primary" href="/speakers/#speaker-title-m"><b>The Future of LGBTQI+ Rights in Europe</b>: The Landmark Case Against Hungary’s Anti-LGBTQI+ Law at the ECJ</a>
   </div>
 </div>
 
