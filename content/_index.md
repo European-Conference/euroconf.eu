@@ -21,6 +21,10 @@ title: "Home"
   </div>
 </div>
 
+<div>
+  <a id='tickets-btn' class="pure-button pure-button-primary" href="https://euroconf.eu/Brochure-2025.pdf">Download the 2025 conference brochure</a>
+</div>
+
 <div class="homepage-conference-blurb">
 <p>The 2025 edition marks the 11th consecutive year of the conference. Throughout these years, we are proud to have hosted distinguished global leaders, including Nobel Laureate Oleksandra Matviichuk, President of the European Parliament Roberta Metsola, Spanish Foreign Minister Arancha González, Hungarian Foreign Minister Péter Szijjártó, and others. The 2024 edition notably featured Executive Vice-President of the European Commission Maroš Šefčovič, Commissioner Paolo Gentiloni, and Commissioner Elisa Ferreira, as well as former Prime Minister of Italy Enrico Letta.</p>
 <p>Under the theme <i>Leader or Dreamer? Europe’s Role in a Fragmented World Order</i>, the 2025 edition will bring together over 750 academics, students, and future leaders from around the world. Across 10 panels, 4 keynote speeches and several working groups, the European Conference will address pivotal topics shaping Europe's future, such as defense, energy security, economic resilience, and transatlantic relations.</p>
