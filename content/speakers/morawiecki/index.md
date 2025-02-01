@@ -1,6 +1,6 @@
 ---
 name: Mateusz Morawiecki
-role: Former Prime Minister of Poland
+role: Former Prime Minister of Poland, President of the European Conservative and Reformist Party
 keynote: d
 panel: h
 show: true
