@@ -19,4 +19,4 @@ The Closing Gala offers an opportunity to celebrate the success of the conferenc
 
 Located at 32 Quincy Street in the heart of the Harvard campus, the Harvard Art Museums house one of the finest collections of art in the world, providing a perfect backdrop for this distinguished gathering. The gala promises to embody the spirit of innovation, excellence, and community that defines the conference. The galleries will be open for the first hour of the gala, between 20:00-21:00, offering attendees a chance to explore masterpieces by renowned artists such as Vincent van Gogh, Paul Cézanne, and Hiroshi Yoshida.
 
-Purchase a [gala ticket](https://secure.touchnet.net/C20832_ustores/web/store_main.jsp?STOREID=18&SINGLESTORE=true) to make sure you do not miss out on this memorable event!
+Gala tickets are now sold out, but we hope you will be able to join us for a gala event in a future year!
