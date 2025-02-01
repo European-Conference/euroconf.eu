@@ -112,6 +112,7 @@ params:
               code: "c"
             - type: "panel"
               content: "The Future of LGBTQI+ Rights in Europe"
+              location: "Wexner 434"
               code: "m"
         - time: "11:30am – 12:00pm"
           events:
