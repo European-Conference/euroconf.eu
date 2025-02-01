@@ -110,6 +110,7 @@ params:
               content: "Europe's Role in Middle East Peace"
               location: "Starr Auditorium"
               code: "c"
+              moderator: "geranmayeh"
             - type: "panel"
               content: "The Future of LGBTQI+ Rights in Europe"
               location: "Wexner 434"
