@@ -175,6 +175,7 @@ params:
           events:
             - type: "other"
               content: "Break"
+              location: "JFK Jr. Forum"
         - time: "5:25pm – 6:00pm"
           events:
             - type: "other"
