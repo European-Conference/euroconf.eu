@@ -209,10 +209,10 @@ menu:
 #      url: /info
 #      pageRef: /info
 #      weight: 40
-#   - name: About Us
-#     url: /about-us
-#     pageRef: /About Us
-#     weight: 50
+    - name: About Us
+      url: /about-us
+      pageRef: /About Us
+      weight: 50
     - name: Past Conferences
       weight: 60
     - name: 2024 Conference
