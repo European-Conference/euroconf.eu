@@ -213,6 +213,8 @@ menu:
       url: /about-us
       pageRef: /About Us
       weight: 50
+
+#Below is the dropdown menu for past conferences. The styling for the dropdown menu is in the style.scss page.
     - name: Past Conferences
       weight: 60
     - name: 2025 Conference
