@@ -298,7 +298,7 @@ nav ul li ul li a {
 /* Formatting for the homepage title and countdown timer */
 .homepage-conference-title {
   font-weight: bold;
-  color: white;
+  color: rgb(226, 178, 59);
   height: 750px;
   width: 100%;
   /* When using a background image, simply list the title of the image after "https://euroconf.eu/" as seen below */
@@ -310,7 +310,7 @@ nav ul li ul li a {
 
 .homepage-conference-title h1 {
   font-size: 800%;
-  padding: 50px 10px 10px 10px;
+  padding: 75px 10px 10px 10px;
   margin: 0px;
 
   @media (max-width: 1370px) {
@@ -359,7 +359,7 @@ nav ul li ul li a {
 
 .title-caption {
   font-size: 80%;
-  margin: 20px;
+  margin: 180px 0px 0px 50px;
   text-align: right;
 
   @media (max-width: 1350px) {
