@@ -79,7 +79,7 @@ title: "Home"
       <b>What can you expect at the European Conference?</b>
       <ul>
         <li><i>Engaging Panels:</i> The European Conference will feature expert panels on pressing European issues, providing deep insights and discussions led by prominent figures in the field.</li>
-        <li><i>Keynote Speakers:</i> Be inspired by thought-provoking keynote speakers who have made a significant impact on the   European stage.</li>
+        <li><i>Keynote Speakers:</i> Be inspired by thought-provoking keynote speakers who have made a significant impact on the European stage.</li>
         <li><i>Networking Opportunities:</i> The conference offers ample networking breaks and social events, ensuring you can connect with fellow attendees and our esteemed guests.</li>
         <li><i>Interactive Workshops:</i> Participate in interactive workshops that will develop your skills and knowledge about Europe's role on the global stage.</li>
         <li><i>Cultural Showcase:</i> Immerse yourself in European culture through exhibits, performances, and art installations.</li>
