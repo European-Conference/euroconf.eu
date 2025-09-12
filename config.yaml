@@ -215,16 +215,21 @@ menu:
       weight: 50
     - name: Past Conferences
       weight: 60
+    - name: 2025 Conference
+      parent: Past Conferences
+      rel: external
+      url: https://y25.euroconf.eu/
+      weight: 10
     - name: 2024 Conference
       parent: Past Conferences
       rel: external
       url: https://y24.euroconf.eu/
-      weight: 10
+      weight: 20
     - name: 2023 Conference
       parent: Past Conferences
       rel: external
       url: https://y23.euroconf.eu/
-      weight: 20
+      weight: 30
   footer:
     - name: Contact
       url: /contact
