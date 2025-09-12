@@ -3,24 +3,26 @@ title: "Home"
 ---
 
 <div class="homepage-conference-title">
-  <h1>Leader or Dreamer?</h1>
-  <h2>Europe’s Role in a Fragmented World Order</h2>
-  <h3>January 31 - February 1, 2025</h3>
+  <h1>European Conference 2026</h1>
+  <h3>February 6-7, 2026</h3>
   <div id='student-run'>
     <i>A student-led conference at Harvard Kennedy School</i>
   </div>
+<!--
   <div>
     <p id='tickets-btn' class="pure-button pure-button-primary"> Tickets sold out </p>
   </div>
+-->
   <p id='increase'
   </p>
   <div id='countdown'>
   </div>
   <div class="title-caption">
-    <i>Photo by Azzedine Rouichi on Unsplash</i>
+    <i>Photo by Markus Spiske on Unsplash</i>
   </div>
 </div>
 
+<!--
 <div>
   <a id='brochure-button' class="pure-button pure-button-primary" href="https://euroconf.eu/Brochure-2025.pdf">Download the 2025 conference brochure</a>
 </div>
@@ -62,7 +64,6 @@ title: "Home"
 
 <h2 class="homepage-headers"> We look forward to seeing you in Cambridge soon!</h2>
 
-<!--
 <h2 class="homepage-headers">Questions and Answers</h2>
 <div class="homepage-q-and-a">
   <div class = "q-and-a-flex">
